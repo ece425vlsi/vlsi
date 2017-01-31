@@ -1,0 +1,5 @@
+| sim circuit "nor2" from XCircuit v3.90 rev 60
+n B GND Y
+p B int4 Y
+p A Vdd int4
+n A GND Y

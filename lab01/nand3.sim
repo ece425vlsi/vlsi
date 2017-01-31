@@ -1,0 +1,7 @@
+| sim circuit "nand3" from XCircuit v3.90 rev 60
+p C Vdd Y
+p B Vdd Y
+p A Vdd Y
+n B int6 int7
+n C GND int6
+n A int7 Y

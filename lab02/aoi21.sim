@@ -1,0 +1,7 @@
+| sim circuit "aoi21" from XCircuit v3.90 rev 60
+n C GND Y
+n B GND int7
+p B int5 Y
+p A int5 Y
+p C Vdd int5
+n A int7 Y
