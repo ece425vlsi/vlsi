@@ -1,0 +1,86 @@
+magic
+tech scmos
+timestamp 1484433330
+<< metal2 >>
+rect 17 817 21 821
+rect 0 808 4 812
+rect 24 792 28 796
+rect 17 707 21 711
+rect 0 698 4 702
+rect 24 682 28 686
+rect 17 597 21 601
+rect 0 588 4 592
+rect 24 572 28 576
+rect 17 487 21 491
+rect 0 478 4 482
+rect 24 462 28 466
+rect 17 377 21 381
+rect 0 368 4 372
+rect 24 352 28 356
+rect 17 267 21 271
+rect 0 258 4 262
+rect 24 242 28 246
+rect 17 157 21 161
+rect 0 148 4 152
+rect 24 132 28 136
+rect 17 47 21 51
+rect 0 38 4 42
+rect 24 22 28 26
+use or2_1x  or2_1x_0
+timestamp 1484419682
+transform 1 0 0 0 1 770
+box -6 -4 34 96
+use or2_1x  or2_1x_1
+timestamp 1484419682
+transform 1 0 0 0 1 660
+box -6 -4 34 96
+use or2_1x  or2_1x_2
+timestamp 1484419682
+transform 1 0 0 0 1 550
+box -6 -4 34 96
+use or2_1x  or2_1x_3
+timestamp 1484419682
+transform 1 0 0 0 1 440
+box -6 -4 34 96
+use or2_1x  or2_1x_4
+timestamp 1484419682
+transform 1 0 0 0 1 330
+box -6 -4 34 96
+use or2_1x  or2_1x_5
+timestamp 1484419682
+transform 1 0 0 0 1 220
+box -6 -4 34 96
+use or2_1x  or2_1x_6
+timestamp 1484419682
+transform 1 0 0 0 1 110
+box -6 -4 34 96
+use or2_1x  or2_1x_7
+timestamp 1484419682
+transform 1 0 0 0 1 0
+box -6 -4 34 96
+<< labels >>
+rlabel metal2 24 22 28 26 1 b_0_
+rlabel metal2 17 47 21 51 1 a_0_
+rlabel metal2 0 38 4 42 1 y_0_
+rlabel metal2 24 132 28 136 1 b_1_
+rlabel metal2 0 148 4 152 1 y_1_
+rlabel metal2 17 157 21 161 1 a_1_
+rlabel metal2 24 242 28 246 1 b_2_
+rlabel metal2 0 258 4 262 1 y_2_
+rlabel metal2 17 267 21 271 1 a_2_
+rlabel metal2 24 352 28 356 1 b_3_
+rlabel metal2 0 368 4 372 1 y_3_
+rlabel metal2 17 377 21 381 1 a_3_
+rlabel metal2 24 462 28 466 1 b_4_
+rlabel metal2 0 478 4 482 1 y_4_
+rlabel metal2 17 487 21 491 1 a_4_
+rlabel metal2 24 572 28 576 1 b_5_
+rlabel metal2 0 588 4 592 1 y_5_
+rlabel metal2 17 597 21 601 1 a_5_
+rlabel metal2 24 682 28 686 1 b_6_
+rlabel metal2 0 698 4 702 1 y_6_
+rlabel metal2 17 707 21 711 1 a_6_
+rlabel metal2 24 792 28 796 1 b_7_
+rlabel metal2 0 808 4 812 1 y_7_
+rlabel metal2 17 817 21 821 1 a_7_
+<< end >>

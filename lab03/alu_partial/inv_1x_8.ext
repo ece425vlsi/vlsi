@@ -1,0 +1,14 @@
+timestamp 1484534894
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use inv_1x inv_1x_0 1 0 0 0 1 770
+use inv_1x inv_1x_1 1 0 0 0 1 660
+use inv_1x inv_1x_2 1 0 0 0 1 550
+use inv_1x inv_1x_3 1 0 0 0 1 440
+use inv_1x inv_1x_4 1 0 0 0 1 330
+use inv_1x inv_1x_5 1 0 0 0 1 220
+use inv_1x inv_1x_6 1 0 0 0 1 110
+use inv_1x inv_1x_7 1 0 0 0 1 0

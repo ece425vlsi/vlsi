@@ -1,0 +1,165 @@
+timestamp 1484534894
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use inv_1x_8 inv_1x_8_0 1 0 0 0 1 0
+use mux2_1x_8 mux2_1x_8_0 1 0 16 0 1 0
+node "m1_n2_n4#" 0 1843.2 -2 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_38#" 2 4513.2 0 38 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_39#" 0 1105.2 8 39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_86#" 0 1843.2 -2 86 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_106#" 0 1843.2 -2 106 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_148#" 2 4513.2 0 148 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_149#" 0 1105.2 8 149 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_196#" 0 1843.2 -2 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_216#" 0 1843.2 -2 216 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_258#" 2 4513.2 0 258 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_259#" 0 1105.2 8 259 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_306#" 0 1843.2 -2 306 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_326#" 0 1843.2 -2 326 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_368#" 2 4513.2 0 368 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_369#" 0 1105.2 8 369 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_416#" 0 1843.2 -2 416 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_436#" 0 1843.2 -2 436 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_478#" 2 4513.2 0 478 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_479#" 0 1105.2 8 479 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_526#" 0 1843.2 -2 526 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_546#" 0 1843.2 -2 546 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_588#" 2 4513.2 0 588 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_589#" 0 1105.2 8 589 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_636#" 0 1843.2 -2 636 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_656#" 0 1843.2 -2 656 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_698#" 2 4513.2 0 698 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_699#" 0 1105.2 8 699 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_746#" 0 1843.2 -2 746 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_n2_766#" 0 1843.2 -2 766 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+node "m1_0_808#" 2 4513.2 0 808 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 276 150 324 120
+node "m1_8_809#" 0 1105.2 8 809 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_n2_856#" 0 1843.2 -2 856 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 64 0 0 0 0
+cap "mux2_1x_8_0/mux2_dp_1x_7/s" "inv_1x_8_0/inv_1x_7/a" 78.3
+cap "inv_1x_8_0/inv_1x_7/y" "inv_1x_8_0/inv_1x_7/Vdd!" 43.2
+cap "inv_1x_8_0/inv_1x_7/y" "inv_1x_8_0/inv_1x_7/a" 25.92
+cap "inv_1x_8_0/inv_1x_7/a" "inv_1x_8_0/inv_1x_7/Vdd!" 427.5
+cap "mux2_1x_8_0/mux2_dp_1x_7/a_17_7#" "inv_1x_8_0/inv_1x_7/a" 54.18
+cap "mux2_1x_8_0/mux2_dp_1x_7/sb" "inv_1x_8_0/inv_1x_7/a" 81.54
+cap "inv_1x_8_0/inv_1x_6/y" "inv_1x_8_0/inv_1x_6/Vdd!" 43.2
+cap "mux2_1x_8_0/mux2_dp_1x_6/sb" "inv_1x_8_0/inv_1x_6/a" 81.54
+cap "inv_1x_8_0/inv_1x_6/a" "mux2_1x_8_0/mux2_dp_1x_6/a_17_7#" 54.18
+cap "inv_1x_8_0/inv_1x_6/y" "inv_1x_8_0/inv_1x_6/a" 25.92
+cap "inv_1x_8_0/inv_1x_6/a" "inv_1x_8_0/inv_1x_6/Vdd!" 427.5
+cap "mux2_1x_8_0/mux2_dp_1x_6/s" "inv_1x_8_0/inv_1x_6/a" 78.3
+cap "inv_1x_8_0/inv_1x_5/a" "mux2_1x_8_0/mux2_dp_1x_5/a_17_7#" 54.18
+cap "inv_1x_8_0/inv_1x_5/y" "inv_1x_8_0/inv_1x_5/a" 25.92
+cap "inv_1x_8_0/inv_1x_5/a" "mux2_1x_8_0/mux2_dp_1x_5/Vdd!" 427.5
+cap "inv_1x_8_0/inv_1x_5/a" "mux2_1x_8_0/mux2_dp_1x_5/s" 78.3
+cap "inv_1x_8_0/inv_1x_5/y" "mux2_1x_8_0/mux2_dp_1x_5/Vdd!" 43.2
+cap "inv_1x_8_0/inv_1x_5/a" "mux2_1x_8_0/mux2_dp_1x_5/sb" 81.54
+cap "inv_1x_8_0/inv_1x_4/y" "mux2_1x_8_0/mux2_dp_1x_4/Vdd!" 43.2
+cap "inv_1x_8_0/inv_1x_4/a" "mux2_1x_8_0/mux2_dp_1x_4/Vdd!" 226.8
+cap "m1_0_368#" "mux2_1x_8_0/mux2_dp_1x_4/a_17_7#" 8.1
+cap "m1_0_368#" "inv_1x_8_0/inv_1x_4/a" 9.72
+cap "mux2_1x_8_0/mux2_dp_1x_3/Vdd!" "mux2_1x_8_0/mux2_dp_1x_3/d0" 43.2
+cap "mux2_1x_8_0/mux2_dp_1x_3/Vdd!" "inv_1x_8_0/inv_1x_3/y" 43.2
+cap "m1_0_368#" "mux2_1x_8_0/mux2_dp_1x_4/s" 4.86
+cap "m1_0_368#" "mux2_1x_8_0/mux2_dp_1x_4/sb" 8.1
+cap "m1_0_368#" "inv_1x_8_0/inv_1x_4/Vdd!" 200.7
+cap "mux2_1x_8_0/mux2_dp_1x_3/s" "m1_0_368#" 73.44
+cap "mux2_1x_8_0/mux2_dp_1x_4/a_17_7#" "m1_0_368#" 46.08
+cap "mux2_1x_8_0/mux2_dp_1x_4/d0" "m1_0_368#" 9.72
+cap "m1_0_368#" "mux2_1x_8_0/mux2_dp_1x_3/sb" 73.44
+cap "mux2_1x_8_0/mux2_dp_1x_3/Vdd!" "inv_1x_8_0/inv_1x_3/a" 75.6
+cap "inv_1x_8_0/inv_1x_4/y" "m1_0_368#" 25.92
+cap "mux2_1x_8_0/mux2_dp_1x_3/a_17_7#" "mux2_1x_8_0/mux2_dp_1x_3/d0" 8.1
+cap "mux2_1x_8_0/mux2_dp_1x_3/s" "mux2_1x_8_0/mux2_dp_1x_3/d0" 78.3
+cap "mux2_1x_8_0/mux2_dp_1x_3/a_17_7#" "mux2_1x_8_0/mux2_dp_1x_3/d0" 46.08
+cap "mux2_1x_8_0/mux2_dp_1x_2/Vdd!" "inv_1x_8_0/inv_1x_2/a" 21.6
+cap "inv_1x_8_0/inv_1x_2/y" "mux2_1x_8_0/mux2_dp_1x_2/Vdd!" -2.84217e-14
+cap "mux2_1x_8_0/mux2_dp_1x_3/d0" "inv_1x_8_0/inv_1x_3/Vdd!" 308.7
+cap "mux2_1x_8_0/mux2_dp_1x_3/d0" "mux2_1x_8_0/mux2_dp_1x_2/sb" 81.54
+cap "mux2_1x_8_0/mux2_dp_1x_3/d0" "inv_1x_8_0/inv_1x_3/y" 25.92
+cap "mux2_1x_8_0/mux2_dp_1x_3/d0" "inv_1x_8_0/inv_1x_3/a" 9.72
+cap "inv_1x_8_0/inv_1x_2/a" "mux2_1x_8_0/mux2_dp_1x_2/sb" 81.54
+cap "mux2_1x_8_0/mux2_dp_1x_2/s" "inv_1x_8_0/inv_1x_2/a" 78.3
+cap "inv_1x_8_0/inv_1x_2/Vdd!" "inv_1x_8_0/inv_1x_2/a" 405.9
+cap "mux2_1x_8_0/mux2_dp_1x_2/a_17_7#" "inv_1x_8_0/inv_1x_2/a" 8.1
+cap "mux2_1x_8_0/mux2_dp_1x_2/a_17_7#" "inv_1x_8_0/inv_1x_2/a" 46.08
+cap "inv_1x_8_0/inv_1x_2/y" "inv_1x_8_0/inv_1x_2/a" 25.92
+cap "inv_1x_8_0/inv_1x_2/y" "inv_1x_8_0/inv_1x_2/Vdd!" 43.2
+cap "mux2_1x_8_0/mux2_dp_1x_1/sb" "inv_1x_8_0/inv_1x_1/a" 81.54
+cap "inv_1x_8_0/inv_1x_1/a" "mux2_1x_8_0/mux2_dp_1x_1/s" 78.3
+cap "inv_1x_8_0/inv_1x_1/Vdd!" "inv_1x_8_0/inv_1x_1/y" 43.2
+cap "inv_1x_8_0/inv_1x_1/y" "inv_1x_8_0/inv_1x_1/a" 25.92
+cap "mux2_1x_8_0/mux2_dp_1x_1/a_17_7#" "inv_1x_8_0/inv_1x_1/a" 54.18
+cap "inv_1x_8_0/inv_1x_1/Vdd!" "inv_1x_8_0/inv_1x_1/a" 427.5
+cap "inv_1x_8_0/inv_1x_0/y" "inv_1x_8_0/inv_1x_0/a" 25.92
+cap "inv_1x_8_0/inv_1x_0/Vdd!" "inv_1x_8_0/inv_1x_0/y" 43.2
+cap "inv_1x_8_0/inv_1x_0/a" "mux2_1x_8_0/mux2_dp_1x_0/s" 78.3
+cap "mux2_1x_8_0/mux2_dp_1x_0/sb" "inv_1x_8_0/inv_1x_0/a" 81.54
+cap "inv_1x_8_0/inv_1x_0/Vdd!" "inv_1x_8_0/inv_1x_0/a" 427.5
+cap "mux2_1x_8_0/mux2_dp_1x_0/a_17_7#" "inv_1x_8_0/inv_1x_0/a" 54.18
+merge "mux2_1x_8_0/mux2_dp_1x_5/Vdd!" "inv_1x_8_0/inv_1x_5/Vdd!" -2750.4 0 0 0 0 -160 -48 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_5/Vdd!" "m1_n2_306#"
+merge "mux2_1x_8_0/mux2_dp_1x_2/Vdd!" "inv_1x_8_0/inv_1x_2/Vdd!" -3614.4 0 0 0 0 -400 -108 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_2/Vdd!" "m1_n2_636#"
+merge "mux2_1x_8_0/mux2_dp_1x_3/Gnd!" "inv_1x_8_0/inv_1x_3/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_3/Gnd!" "m1_n2_436#"
+merge "mux2_1x_8_0/mux2_dp_1x_5/d0" "inv_1x_8_0/inv_1x_5/a" -457.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 152 -30 810 0
+merge "inv_1x_8_0/inv_1x_5/a" "m1_0_258#"
+merge "mux2_1x_8_0/mux2_dp_1x_6/d0" "inv_1x_8_0/inv_1x_6/a" -1429.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -28 -30 0 0
+merge "inv_1x_8_0/inv_1x_6/a" "m1_0_148#"
+merge "mux2_1x_8_0/mux2_dp_1x_7/Vdd!" "inv_1x_8_0/inv_1x_7/Vdd!" -3657.6 0 0 0 0 -448 -136 0 0 0 0 0 0 0 0 0 0 -144 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_7/Vdd!" "m1_n2_86#"
+merge "mux2_1x_8_0/mux2_dp_1x_0/d1" "inv_1x_8_0/inv_1x_0/y" -1105.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_0/y" "m1_8_809#"
+merge "mux2_1x_8_0/mux2_dp_1x_0/Gnd!" "inv_1x_8_0/inv_1x_0/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_0/Gnd!" "m1_n2_766#"
+merge "mux2_1x_8_0/mux2_dp_1x_5/d1" "inv_1x_8_0/inv_1x_5/y" -1105.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_5/y" "m1_8_259#"
+merge "mux2_1x_8_0/mux2_dp_1x_1/d0" "inv_1x_8_0/inv_1x_1/a" -1396.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 -20 -30 0 0
+merge "inv_1x_8_0/inv_1x_1/a" "m1_0_698#"
+merge "mux2_1x_8_0/mux2_dp_1x_4/Vdd!" "inv_1x_8_0/inv_1x_4/Vdd!" -3038.4 0 0 0 0 -240 -68 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_4/Vdd!" "m1_n2_416#"
+merge "mux2_1x_8_0/mux2_dp_1x_1/d1" "inv_1x_8_0/inv_1x_1/y" -1072.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_1/y" "m1_8_699#"
+merge "mux2_1x_8_0/mux2_dp_1x_1/Vdd!" "inv_1x_8_0/inv_1x_1/Vdd!" -3787.2 0 0 0 0 -448 -128 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_1/Vdd!" "m1_n2_746#"
+merge "mux2_1x_8_0/mux2_dp_1x_7/Gnd!" "inv_1x_8_0/inv_1x_7/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_7/Gnd!" "m1_n2_n4#"
+merge "mux2_1x_8_0/mux2_dp_1x_2/Gnd!" "inv_1x_8_0/inv_1x_2/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_2/Gnd!" "m1_n2_546#"
+merge "mux2_1x_8_0/mux2_dp_1x_4/d1" "inv_1x_8_0/inv_1x_4/y" -1105.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_4/y" "m1_8_369#"
+merge "mux2_1x_8_0/mux2_dp_1x_0/d0" "inv_1x_8_0/inv_1x_0/a" -1429.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -28 -30 0 0
+merge "inv_1x_8_0/inv_1x_0/a" "m1_0_808#"
+merge "mux2_1x_8_0/mux2_dp_1x_2/d0" "inv_1x_8_0/inv_1x_2/a" -1375.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 -30 0 0
+merge "inv_1x_8_0/inv_1x_2/a" "m1_0_588#"
+merge "mux2_1x_8_0/mux2_dp_1x_4/d0" "inv_1x_8_0/inv_1x_4/a" -3388.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -108 -74 -324 -120
+merge "inv_1x_8_0/inv_1x_4/a" "m1_0_368#"
+merge "mux2_1x_8_0/mux2_dp_1x_3/Vdd!" "inv_1x_8_0/inv_1x_3/Vdd!" -3326.4 0 0 0 0 -320 -88 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_3/Vdd!" "m1_n2_526#"
+merge "mux2_1x_8_0/mux2_dp_1x_0/Vdd!" "inv_1x_8_0/inv_1x_0/Vdd!" -3787.2 0 0 0 0 -448 -128 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_0/Vdd!" "m1_n2_856#"
+merge "mux2_1x_8_0/mux2_dp_1x_6/Gnd!" "inv_1x_8_0/inv_1x_6/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_6/Gnd!" "m1_n2_106#"
+merge "mux2_1x_8_0/mux2_dp_1x_1/Gnd!" "inv_1x_8_0/inv_1x_1/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_1/Gnd!" "m1_n2_656#"
+merge "mux2_1x_8_0/mux2_dp_1x_7/d1" "inv_1x_8_0/inv_1x_7/y" -1105.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_7/y" "m1_8_39#"
+merge "mux2_1x_8_0/mux2_dp_1x_3/d1" "inv_1x_8_0/inv_1x_3/y" -1056.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_3/y" "m1_8_479#"
+merge "mux2_1x_8_0/mux2_dp_1x_5/Gnd!" "inv_1x_8_0/inv_1x_5/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_5/Gnd!" "m1_n2_216#"
+merge "mux2_1x_8_0/mux2_dp_1x_6/d1" "inv_1x_8_0/inv_1x_6/y" -1105.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "inv_1x_8_0/inv_1x_6/y" "m1_8_149#"
+merge "mux2_1x_8_0/mux2_dp_1x_2/d1" "inv_1x_8_0/inv_1x_2/y" -1210.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -72 -47 0 0 0 0
+merge "inv_1x_8_0/inv_1x_2/y" "m1_8_589#"
+merge "mux2_1x_8_0/mux2_dp_1x_6/Vdd!" "inv_1x_8_0/inv_1x_6/Vdd!" -4284 0 0 0 0 -448 -128 0 0 0 0 0 0 0 0 0 0 -192 -104 0 0 0 0
+merge "inv_1x_8_0/inv_1x_6/Vdd!" "m1_n2_196#"
+merge "mux2_1x_8_0/mux2_dp_1x_7/d0" "inv_1x_8_0/inv_1x_7/a" -1429.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -28 -30 0 0
+merge "inv_1x_8_0/inv_1x_7/a" "m1_0_38#"
+merge "mux2_1x_8_0/mux2_dp_1x_4/Gnd!" "inv_1x_8_0/inv_1x_4/Gnd!" -2174.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 -80 0 0 0 0
+merge "inv_1x_8_0/inv_1x_4/Gnd!" "m1_n2_326#"
+merge "mux2_1x_8_0/mux2_dp_1x_3/d0" "inv_1x_8_0/inv_1x_3/a" -1429.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -28 -30 0 0
+merge "inv_1x_8_0/inv_1x_3/a" "m1_0_478#"

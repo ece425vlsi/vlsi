@@ -1,0 +1,27 @@
+magic
+tech scmos
+timestamp 1486494846
+<< metal1 >>
+rect 44 0 45 2
+<< m2contact >>
+rect 6 47 10 51
+rect 14 47 18 51
+rect 22 47 26 51
+rect 46 42 50 46
+<< metal2 >>
+rect 30 46 34 51
+rect 30 42 42 46
+use nand3_L  nand3_L_0
+timestamp 1486493318
+transform 1 0 6 0 1 4
+box -6 -4 34 96
+use inv_1x  inv_1x_0 /home/nessa
+timestamp 1484418501
+transform 1 0 38 0 1 4
+box -6 -4 18 96
+<< labels >>
+rlabel m2contact 8 49 8 49 1 A
+rlabel m2contact 16 49 16 49 1 B
+rlabel m2contact 24 49 24 49 1 C
+rlabel m2contact 48 44 48 44 1 Y
+<< end >>
