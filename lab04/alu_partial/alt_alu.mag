@@ -1,0 +1,160 @@
+magic
+tech scmos
+timestamp 1487104841
+<< metal2 >>
+rect 22 64 26 65
+rect 6 32 10 47
+rect 14 41 18 46
+rect 22 42 26 60
+rect 30 42 34 46
+rect 14 36 18 37
+rect 54 0 58 112
+rect 62 0 66 112
+rect 70 32 74 57
+rect 70 27 74 28
+rect 94 0 98 112
+rect 110 0 114 112
+rect 158 65 162 66
+rect 158 59 162 61
+rect 174 65 178 112
+rect 158 51 162 52
+rect 134 47 138 48
+rect 134 41 138 43
+rect 142 32 146 40
+rect 142 27 146 28
+rect 174 0 178 61
+rect 182 56 186 112
+rect 182 0 186 52
+rect 237 38 241 43
+rect 270 0 274 112
+rect 286 38 290 56
+rect 294 0 298 112
+rect 310 0 314 112
+rect 318 0 322 112
+rect 326 16 330 56
+<< m3contact >>
+rect 6 60 10 64
+rect 22 60 26 64
+rect 6 47 10 51
+rect 30 46 34 50
+rect 38 46 42 50
+rect 14 37 18 41
+rect 6 28 10 32
+rect 6 12 10 16
+rect 86 38 90 42
+rect 70 28 74 32
+rect 118 60 122 64
+rect 158 61 162 65
+rect 174 61 178 65
+rect 158 52 162 56
+rect 134 43 138 47
+rect 150 43 154 47
+rect 142 28 146 32
+rect 182 52 186 56
+rect 237 43 241 47
+rect 246 43 250 47
+rect 237 34 241 38
+rect 278 43 282 47
+rect 286 34 290 38
+rect 342 42 346 46
+rect 326 12 330 16
+<< metal3 >>
+rect 157 65 179 66
+rect 5 64 123 65
+rect 5 60 6 64
+rect 10 60 22 64
+rect 26 60 118 64
+rect 122 60 123 64
+rect 157 61 158 65
+rect 162 61 174 65
+rect 178 61 179 65
+rect 157 60 179 61
+rect 5 59 123 60
+rect 157 56 187 57
+rect 157 52 158 56
+rect 162 52 182 56
+rect 186 52 187 56
+rect 5 51 11 52
+rect 157 51 187 52
+rect 5 47 6 51
+rect 10 47 11 51
+rect 5 46 11 47
+rect 29 50 43 51
+rect 29 46 30 50
+rect 34 46 38 50
+rect 42 46 43 50
+rect 29 45 43 46
+rect 133 47 242 48
+rect 133 43 134 47
+rect 138 43 150 47
+rect 154 43 237 47
+rect 241 43 242 47
+rect 85 42 91 43
+rect 133 42 242 43
+rect 245 47 283 48
+rect 245 43 246 47
+rect 250 43 278 47
+rect 282 43 283 47
+rect 245 42 283 43
+rect 341 46 347 47
+rect 341 42 342 46
+rect 346 42 347 46
+rect 13 41 86 42
+rect 13 37 14 41
+rect 18 38 86 41
+rect 90 38 91 42
+rect 341 41 347 42
+rect 18 37 91 38
+rect 13 36 91 37
+rect 236 38 291 39
+rect 236 34 237 38
+rect 241 34 286 38
+rect 290 34 291 38
+rect 236 33 291 34
+rect 5 32 147 33
+rect 5 28 6 32
+rect 10 28 70 32
+rect 74 28 142 32
+rect 146 28 147 32
+rect 5 27 147 28
+rect 5 16 331 17
+rect 5 12 6 16
+rect 10 12 326 16
+rect 330 12 331 16
+rect 5 11 331 12
+use inv_1x  inv_1x_0
+timestamp 1484418501
+transform 1 0 6 0 1 4
+box -6 -4 18 96
+use inv_1x  inv_1x_1
+timestamp 1484418501
+transform 1 0 22 0 1 4
+box -6 -4 18 96
+use mux4_dp_1x  mux4_dp_1x_0
+timestamp 1484419186
+transform 1 0 38 0 1 4
+box -6 -4 106 96
+use fulladder  fulladder_0
+timestamp 1484419411
+transform 1 0 144 0 1 4
+box -8 -4 128 96
+use mux3_dp_1x  mux3_dp_1x_0
+timestamp 1484514831
+transform 1 0 270 0 1 4
+box -6 -4 82 96
+<< labels >>
+rlabel m3contact 8 62 8 62 1 B
+rlabel m3contact 8 49 8 49 1 A
+rlabel m3contact 344 44 344 44 1 Result
+rlabel m3contact 8 14 8 14 1 Less
+rlabel metal2 56 110 56 110 5 op6
+rlabel metal2 64 110 64 110 5 op5
+rlabel metal2 96 110 96 110 5 op4
+rlabel metal2 112 110 112 110 5 op3
+rlabel metal2 176 110 176 110 5 cout
+rlabel metal2 184 110 184 110 5 cin
+rlabel metal2 272 110 272 110 5 op0
+rlabel metal2 296 110 296 110 5 op0b
+rlabel metal2 312 110 312 110 5 op1
+rlabel metal2 320 110 320 110 5 op1b
+<< end >>

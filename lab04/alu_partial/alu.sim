@@ -1,0 +1,1230 @@
+| units: 30 tech: scmos format: MIT
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/a_6_74# mux4_1x_8_0/mux4_dp_1x_7/a_13_74# 2 9 299 74
+p mux4_1x_8_0/d0_0_ mux4_1x_8_0/mux4_dp_1x_7/a_13_74# Vdd! 2 9 304 74
+p or2_1x_8_0/y_0_ Vdd! mux4_1x_8_0/mux4_dp_1x_7/a_26_74# 2 9 312 74
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/a_26_74# mux4_1x_8_0/mux4_dp_1x_7/a_6_74# 2 9 317 74
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_7/a_6_74# mux4_1x_8_0/mux4_dp_1x_7/a_39_7# 2 9 325 74
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_7/a_39_7# mux4_1x_8_0/mux4_dp_1x_7/a_47_74# 2 9 333 74
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/a_47_74# mux4_1x_8_0/mux4_dp_1x_7/a_55_74# 2 9 341 74
+p adder_8_0/s_0_ mux4_1x_8_0/mux4_dp_1x_7/a_55_74# Vdd! 2 9 346 74
+p adder_8_0/s_7_ Vdd! mux4_1x_8_0/mux4_dp_1x_7/a_68_74# 2 9 354 74
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/a_68_74# mux4_1x_8_0/mux4_dp_1x_7/a_47_74# 2 9 359 74
+p mux4_1x_8_0/mux4_dp_1x_7/a_39_7# Vdd! result_0_ 2 10 381 73
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/a_6_7# mux4_1x_8_0/mux4_dp_1x_7/a_13_7# 2 6 299 7
+n mux4_1x_8_0/d0_0_ mux4_1x_8_0/mux4_dp_1x_7/a_13_7# Gnd! 2 6 304 7
+n or2_1x_8_0/y_0_ Gnd! mux4_1x_8_0/mux4_dp_1x_7/a_26_7# 2 6 312 7
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/a_26_7# mux4_1x_8_0/mux4_dp_1x_7/a_6_7# 2 6 317 7
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_7/a_6_7# mux4_1x_8_0/mux4_dp_1x_7/a_39_7# 2 6 325 7
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_7/a_39_7# mux4_1x_8_0/mux4_dp_1x_7/a_47_7# 2 6 333 7
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/a_47_7# mux4_1x_8_0/mux4_dp_1x_7/a_55_7# 2 6 341 7
+n adder_8_0/s_0_ mux4_1x_8_0/mux4_dp_1x_7/a_55_7# Gnd! 2 6 346 7
+n adder_8_0/s_7_ Gnd! mux4_1x_8_0/mux4_dp_1x_7/a_68_7# 2 6 354 7
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/a_68_7# mux4_1x_8_0/mux4_dp_1x_7/a_47_7# 2 6 359 7
+n mux4_1x_8_0/mux4_dp_1x_7/a_39_7# Gnd! result_0_ 2 7 381 7
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_6/a_6_74# mux4_1x_8_0/mux4_dp_1x_6/a_13_74# 2 9 299 184
+p and2_1x_8_0/and2_1x_0[6]/y mux4_1x_8_0/mux4_dp_1x_6/a_13_74# Vdd! 2 9 304 184
+p or2_1x_8_0/y_1_ Vdd! mux4_1x_8_0/mux4_dp_1x_6/a_26_74# 2 9 312 184
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_6/a_26_74# mux4_1x_8_0/mux4_dp_1x_6/a_6_74# 2 9 317 184
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_6/a_6_74# mux4_1x_8_0/mux4_dp_1x_6/a_39_7# 2 9 325 184
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_6/a_39_7# mux4_1x_8_0/mux4_dp_1x_6/a_47_74# 2 9 333 184
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_6/a_47_74# mux4_1x_8_0/mux4_dp_1x_6/a_55_74# 2 9 341 184
+p adder_8_0/s_1_ mux4_1x_8_0/mux4_dp_1x_6/a_55_74# Vdd! 2 9 346 184
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_6/a_68_74# 2 9 354 184
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_6/a_68_74# mux4_1x_8_0/mux4_dp_1x_6/a_47_74# 2 9 359 184
+p mux4_1x_8_0/mux4_dp_1x_6/a_39_7# Vdd! result_1_ 2 10 381 183
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_6/a_6_7# mux4_1x_8_0/mux4_dp_1x_6/a_13_7# 2 6 299 117
+n and2_1x_8_0/and2_1x_0[6]/y mux4_1x_8_0/mux4_dp_1x_6/a_13_7# Gnd! 2 6 304 117
+n or2_1x_8_0/y_1_ Gnd! mux4_1x_8_0/mux4_dp_1x_6/a_26_7# 2 6 312 117
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_6/a_26_7# mux4_1x_8_0/mux4_dp_1x_6/a_6_7# 2 6 317 117
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_6/a_6_7# mux4_1x_8_0/mux4_dp_1x_6/a_39_7# 2 6 325 117
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_6/a_39_7# mux4_1x_8_0/mux4_dp_1x_6/a_47_7# 2 6 333 117
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_6/a_47_7# mux4_1x_8_0/mux4_dp_1x_6/a_55_7# 2 6 341 117
+n adder_8_0/s_1_ mux4_1x_8_0/mux4_dp_1x_6/a_55_7# Gnd! 2 6 346 117
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_6/a_68_7# 2 6 354 117
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_6/a_68_7# mux4_1x_8_0/mux4_dp_1x_6/a_47_7# 2 6 359 117
+n mux4_1x_8_0/mux4_dp_1x_6/a_39_7# Gnd! result_1_ 2 7 381 117
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_5/a_6_74# mux4_1x_8_0/mux4_dp_1x_5/a_13_74# 2 9 299 294
+p and2_1x_8_0/and2_1x_0[5]/y mux4_1x_8_0/mux4_dp_1x_5/a_13_74# Vdd! 2 9 304 294
+p or2_1x_8_0/y_2_ Vdd! mux4_1x_8_0/mux4_dp_1x_5/a_26_74# 2 9 312 294
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_5/a_26_74# mux4_1x_8_0/mux4_dp_1x_5/a_6_74# 2 9 317 294
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_5/a_6_74# mux4_1x_8_0/mux4_dp_1x_5/a_39_7# 2 9 325 294
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_5/a_39_7# mux4_1x_8_0/mux4_dp_1x_5/a_47_74# 2 9 333 294
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_5/a_47_74# mux4_1x_8_0/mux4_dp_1x_5/a_55_74# 2 9 341 294
+p adder_8_0/s_2_ mux4_1x_8_0/mux4_dp_1x_5/a_55_74# Vdd! 2 9 346 294
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_5/a_68_74# 2 9 354 294
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_5/a_68_74# mux4_1x_8_0/mux4_dp_1x_5/a_47_74# 2 9 359 294
+p mux4_1x_8_0/mux4_dp_1x_5/a_39_7# Vdd! result_2_ 2 10 381 293
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_5/a_6_7# mux4_1x_8_0/mux4_dp_1x_5/a_13_7# 2 6 299 227
+n and2_1x_8_0/and2_1x_0[5]/y mux4_1x_8_0/mux4_dp_1x_5/a_13_7# Gnd! 2 6 304 227
+n or2_1x_8_0/y_2_ Gnd! mux4_1x_8_0/mux4_dp_1x_5/a_26_7# 2 6 312 227
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_5/a_26_7# mux4_1x_8_0/mux4_dp_1x_5/a_6_7# 2 6 317 227
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_5/a_6_7# mux4_1x_8_0/mux4_dp_1x_5/a_39_7# 2 6 325 227
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_5/a_39_7# mux4_1x_8_0/mux4_dp_1x_5/a_47_7# 2 6 333 227
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_5/a_47_7# mux4_1x_8_0/mux4_dp_1x_5/a_55_7# 2 6 341 227
+n adder_8_0/s_2_ mux4_1x_8_0/mux4_dp_1x_5/a_55_7# Gnd! 2 6 346 227
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_5/a_68_7# 2 6 354 227
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_5/a_68_7# mux4_1x_8_0/mux4_dp_1x_5/a_47_7# 2 6 359 227
+n mux4_1x_8_0/mux4_dp_1x_5/a_39_7# Gnd! result_2_ 2 7 381 227
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_4/a_6_74# mux4_1x_8_0/mux4_dp_1x_4/a_13_74# 2 9 299 404
+p and2_1x_8_0/and2_1x_0[4]/y mux4_1x_8_0/mux4_dp_1x_4/a_13_74# Vdd! 2 9 304 404
+p or2_1x_8_0/y_3_ Vdd! mux4_1x_8_0/mux4_dp_1x_4/a_26_74# 2 9 312 404
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_4/a_26_74# mux4_1x_8_0/mux4_dp_1x_4/a_6_74# 2 9 317 404
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_4/a_6_74# mux4_1x_8_0/mux4_dp_1x_4/a_39_7# 2 9 325 404
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_4/a_39_7# mux4_1x_8_0/mux4_dp_1x_4/a_47_74# 2 9 333 404
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_4/a_47_74# mux4_1x_8_0/mux4_dp_1x_4/a_55_74# 2 9 341 404
+p adder_8_0/s_3_ mux4_1x_8_0/mux4_dp_1x_4/a_55_74# Vdd! 2 9 346 404
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_4/a_68_74# 2 9 354 404
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_4/a_68_74# mux4_1x_8_0/mux4_dp_1x_4/a_47_74# 2 9 359 404
+p mux4_1x_8_0/mux4_dp_1x_4/a_39_7# Vdd! result_3_ 2 10 381 403
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_4/a_6_7# mux4_1x_8_0/mux4_dp_1x_4/a_13_7# 2 6 299 337
+n and2_1x_8_0/and2_1x_0[4]/y mux4_1x_8_0/mux4_dp_1x_4/a_13_7# Gnd! 2 6 304 337
+n or2_1x_8_0/y_3_ Gnd! mux4_1x_8_0/mux4_dp_1x_4/a_26_7# 2 6 312 337
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_4/a_26_7# mux4_1x_8_0/mux4_dp_1x_4/a_6_7# 2 6 317 337
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_4/a_6_7# mux4_1x_8_0/mux4_dp_1x_4/a_39_7# 2 6 325 337
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_4/a_39_7# mux4_1x_8_0/mux4_dp_1x_4/a_47_7# 2 6 333 337
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_4/a_47_7# mux4_1x_8_0/mux4_dp_1x_4/a_55_7# 2 6 341 337
+n adder_8_0/s_3_ mux4_1x_8_0/mux4_dp_1x_4/a_55_7# Gnd! 2 6 346 337
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_4/a_68_7# 2 6 354 337
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_4/a_68_7# mux4_1x_8_0/mux4_dp_1x_4/a_47_7# 2 6 359 337
+n mux4_1x_8_0/mux4_dp_1x_4/a_39_7# Gnd! result_3_ 2 7 381 337
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_3/a_6_74# mux4_1x_8_0/mux4_dp_1x_3/a_13_74# 2 9 299 514
+p and2_1x_8_0/and2_1x_0[3]/y mux4_1x_8_0/mux4_dp_1x_3/a_13_74# Vdd! 2 9 304 514
+p or2_1x_8_0/y_4_ Vdd! mux4_1x_8_0/mux4_dp_1x_3/a_26_74# 2 9 312 514
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_3/a_26_74# mux4_1x_8_0/mux4_dp_1x_3/a_6_74# 2 9 317 514
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_3/a_6_74# mux4_1x_8_0/mux4_dp_1x_3/a_39_7# 2 9 325 514
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_3/a_39_7# mux4_1x_8_0/mux4_dp_1x_3/a_47_74# 2 9 333 514
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_3/a_47_74# mux4_1x_8_0/mux4_dp_1x_3/a_55_74# 2 9 341 514
+p adder_8_0/s_4_ mux4_1x_8_0/mux4_dp_1x_3/a_55_74# Vdd! 2 9 346 514
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_3/a_68_74# 2 9 354 514
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_3/a_68_74# mux4_1x_8_0/mux4_dp_1x_3/a_47_74# 2 9 359 514
+p mux4_1x_8_0/mux4_dp_1x_3/a_39_7# Vdd! result_4_ 2 10 381 513
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_3/a_6_7# mux4_1x_8_0/mux4_dp_1x_3/a_13_7# 2 6 299 447
+n and2_1x_8_0/and2_1x_0[3]/y mux4_1x_8_0/mux4_dp_1x_3/a_13_7# Gnd! 2 6 304 447
+n or2_1x_8_0/y_4_ Gnd! mux4_1x_8_0/mux4_dp_1x_3/a_26_7# 2 6 312 447
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_3/a_26_7# mux4_1x_8_0/mux4_dp_1x_3/a_6_7# 2 6 317 447
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_3/a_6_7# mux4_1x_8_0/mux4_dp_1x_3/a_39_7# 2 6 325 447
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_3/a_39_7# mux4_1x_8_0/mux4_dp_1x_3/a_47_7# 2 6 333 447
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_3/a_47_7# mux4_1x_8_0/mux4_dp_1x_3/a_55_7# 2 6 341 447
+n adder_8_0/s_4_ mux4_1x_8_0/mux4_dp_1x_3/a_55_7# Gnd! 2 6 346 447
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_3/a_68_7# 2 6 354 447
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_3/a_68_7# mux4_1x_8_0/mux4_dp_1x_3/a_47_7# 2 6 359 447
+n mux4_1x_8_0/mux4_dp_1x_3/a_39_7# Gnd! result_4_ 2 7 381 447
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_2/a_6_74# mux4_1x_8_0/mux4_dp_1x_2/a_13_74# 2 9 299 624
+p and2_1x_8_0/and2_1x_0[2]/y mux4_1x_8_0/mux4_dp_1x_2/a_13_74# Vdd! 2 9 304 624
+p or2_1x_8_0/y_5_ Vdd! mux4_1x_8_0/mux4_dp_1x_2/a_26_74# 2 9 312 624
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_2/a_26_74# mux4_1x_8_0/mux4_dp_1x_2/a_6_74# 2 9 317 624
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_2/a_6_74# mux4_1x_8_0/mux4_dp_1x_2/a_39_7# 2 9 325 624
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_2/a_39_7# mux4_1x_8_0/mux4_dp_1x_2/a_47_74# 2 9 333 624
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_2/a_47_74# mux4_1x_8_0/mux4_dp_1x_2/a_55_74# 2 9 341 624
+p adder_8_0/s_5_ mux4_1x_8_0/mux4_dp_1x_2/a_55_74# Vdd! 2 9 346 624
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_2/a_68_74# 2 9 354 624
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_2/a_68_74# mux4_1x_8_0/mux4_dp_1x_2/a_47_74# 2 9 359 624
+p mux4_1x_8_0/mux4_dp_1x_2/a_39_7# Vdd! result_5_ 2 10 381 623
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_2/a_6_7# mux4_1x_8_0/mux4_dp_1x_2/a_13_7# 2 6 299 557
+n and2_1x_8_0/and2_1x_0[2]/y mux4_1x_8_0/mux4_dp_1x_2/a_13_7# Gnd! 2 6 304 557
+n or2_1x_8_0/y_5_ Gnd! mux4_1x_8_0/mux4_dp_1x_2/a_26_7# 2 6 312 557
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_2/a_26_7# mux4_1x_8_0/mux4_dp_1x_2/a_6_7# 2 6 317 557
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_2/a_6_7# mux4_1x_8_0/mux4_dp_1x_2/a_39_7# 2 6 325 557
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_2/a_39_7# mux4_1x_8_0/mux4_dp_1x_2/a_47_7# 2 6 333 557
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_2/a_47_7# mux4_1x_8_0/mux4_dp_1x_2/a_55_7# 2 6 341 557
+n adder_8_0/s_5_ mux4_1x_8_0/mux4_dp_1x_2/a_55_7# Gnd! 2 6 346 557
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_2/a_68_7# 2 6 354 557
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_2/a_68_7# mux4_1x_8_0/mux4_dp_1x_2/a_47_7# 2 6 359 557
+n mux4_1x_8_0/mux4_dp_1x_2/a_39_7# Gnd! result_5_ 2 7 381 557
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_1/a_6_74# mux4_1x_8_0/mux4_dp_1x_1/a_13_74# 2 9 299 734
+p and2_1x_8_0/and2_1x_0[1]/y mux4_1x_8_0/mux4_dp_1x_1/a_13_74# Vdd! 2 9 304 734
+p or2_1x_8_0/y_6_ Vdd! mux4_1x_8_0/mux4_dp_1x_1/a_26_74# 2 9 312 734
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_1/a_26_74# mux4_1x_8_0/mux4_dp_1x_1/a_6_74# 2 9 317 734
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_1/a_6_74# mux4_1x_8_0/mux4_dp_1x_1/a_39_7# 2 9 325 734
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_1/a_39_7# mux4_1x_8_0/mux4_dp_1x_1/a_47_74# 2 9 333 734
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_1/a_47_74# mux4_1x_8_0/mux4_dp_1x_1/a_55_74# 2 9 341 734
+p adder_8_0/s_6_ mux4_1x_8_0/mux4_dp_1x_1/a_55_74# Vdd! 2 9 346 734
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_1/a_68_74# 2 9 354 734
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_1/a_68_74# mux4_1x_8_0/mux4_dp_1x_1/a_47_74# 2 9 359 734
+p mux4_1x_8_0/mux4_dp_1x_1/a_39_7# Vdd! result_6_ 2 10 381 733
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_1/a_6_7# mux4_1x_8_0/mux4_dp_1x_1/a_13_7# 2 6 299 667
+n and2_1x_8_0/and2_1x_0[1]/y mux4_1x_8_0/mux4_dp_1x_1/a_13_7# Gnd! 2 6 304 667
+n or2_1x_8_0/y_6_ Gnd! mux4_1x_8_0/mux4_dp_1x_1/a_26_7# 2 6 312 667
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_1/a_26_7# mux4_1x_8_0/mux4_dp_1x_1/a_6_7# 2 6 317 667
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_1/a_6_7# mux4_1x_8_0/mux4_dp_1x_1/a_39_7# 2 6 325 667
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_1/a_39_7# mux4_1x_8_0/mux4_dp_1x_1/a_47_7# 2 6 333 667
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_1/a_47_7# mux4_1x_8_0/mux4_dp_1x_1/a_55_7# 2 6 341 667
+n adder_8_0/s_6_ mux4_1x_8_0/mux4_dp_1x_1/a_55_7# Gnd! 2 6 346 667
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_1/a_68_7# 2 6 354 667
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_1/a_68_7# mux4_1x_8_0/mux4_dp_1x_1/a_47_7# 2 6 359 667
+n mux4_1x_8_0/mux4_dp_1x_1/a_39_7# Gnd! result_6_ 2 7 381 667
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_0/a_6_74# mux4_1x_8_0/mux4_dp_1x_0/a_13_74# 2 9 299 844
+p and2_1x_8_0/and2_1x_0[0]/y mux4_1x_8_0/mux4_dp_1x_0/a_13_74# Vdd! 2 9 304 844
+p or2_1x_8_0/y_7_ Vdd! mux4_1x_8_0/mux4_dp_1x_0/a_26_74# 2 9 312 844
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_0/a_26_74# mux4_1x_8_0/mux4_dp_1x_0/a_6_74# 2 9 317 844
+p mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_0/a_6_74# mux4_1x_8_0/mux4_dp_1x_0/a_39_7# 2 9 325 844
+p mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_0/a_39_7# mux4_1x_8_0/mux4_dp_1x_0/a_47_74# 2 9 333 844
+p mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_0/a_47_74# mux4_1x_8_0/mux4_dp_1x_0/a_55_74# 2 9 341 844
+p adder_8_0/s_7_ mux4_1x_8_0/mux4_dp_1x_0/a_55_74# Vdd! 2 9 346 844
+p Gnd! Vdd! mux4_1x_8_0/mux4_dp_1x_0/a_68_74# 2 9 354 844
+p mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_0/a_68_74# mux4_1x_8_0/mux4_dp_1x_0/a_47_74# 2 9 359 844
+p mux4_1x_8_0/mux4_dp_1x_0/a_39_7# Vdd! result_7_ 2 10 381 843
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_0/a_6_7# mux4_1x_8_0/mux4_dp_1x_0/a_13_7# 2 6 299 777
+n and2_1x_8_0/and2_1x_0[0]/y mux4_1x_8_0/mux4_dp_1x_0/a_13_7# Gnd! 2 6 304 777
+n or2_1x_8_0/y_7_ Gnd! mux4_1x_8_0/mux4_dp_1x_0/a_26_7# 2 6 312 777
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_0/a_26_7# mux4_1x_8_0/mux4_dp_1x_0/a_6_7# 2 6 317 777
+n mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_0/a_6_7# mux4_1x_8_0/mux4_dp_1x_0/a_39_7# 2 6 325 777
+n mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_0/a_39_7# mux4_1x_8_0/mux4_dp_1x_0/a_47_7# 2 6 333 777
+n mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_0/a_47_7# mux4_1x_8_0/mux4_dp_1x_0/a_55_7# 2 6 341 777
+n adder_8_0/s_7_ mux4_1x_8_0/mux4_dp_1x_0/a_55_7# Gnd! 2 6 346 777
+n Gnd! Gnd! mux4_1x_8_0/mux4_dp_1x_0/a_68_7# 2 6 354 777
+n mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_0/a_68_7# mux4_1x_8_0/mux4_dp_1x_0/a_47_7# 2 6 359 777
+n mux4_1x_8_0/mux4_dp_1x_0/a_39_7# Gnd! result_7_ 2 7 381 777
+p alucontrol_1_ Vdd! mux4_1x_8_0/mux4_dp_1x_7/s1b 2 37 325 926
+p mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! mux4_1x_8_0/mux4_dp_1x_7/s1 2 37 341 926
+n alucontrol_1_ Gnd! mux4_1x_8_0/mux4_dp_1x_7/s1b 2 27 325 887
+n mux4_1x_8_0/mux4_dp_1x_7/s1b Gnd! mux4_1x_8_0/mux4_dp_1x_7/s1 2 27 341 887
+p alucontrol_0_ Vdd! mux4_1x_8_0/mux4_dp_1x_7/s0b 2 37 293 926
+p mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! mux4_1x_8_0/mux4_dp_1x_7/s0 2 37 309 926
+n alucontrol_0_ Gnd! mux4_1x_8_0/mux4_dp_1x_7/s0b 2 27 293 887
+n mux4_1x_8_0/mux4_dp_1x_7/s0b Gnd! mux4_1x_8_0/mux4_dp_1x_7/s0 2 27 309 887
+p a_0_ adder_8_0/fulladder_7/a_n2_65# Vdd! 2 16 165 65
+p adder_8_0/b_0_ Vdd! adder_8_0/fulladder_7/a_n2_65# 2 16 173 65
+p alucontrol_2_ adder_8_0/fulladder_7/a_n2_65# adder_8_0/fulladder_7/a_21_7# 2 16 181 65
+p adder_8_0/b_0_ adder_8_0/fulladder_7/a_21_7# adder_8_0/fulladder_7/a_29_65# 2 16 189 65
+p a_0_ adder_8_0/fulladder_7/a_29_65# Vdd! 2 16 197 65
+p a_0_ Vdd! adder_8_0/fulladder_7/a_45_65# 2 16 205 65
+p adder_8_0/b_0_ adder_8_0/fulladder_7/a_45_65# Vdd! 2 16 213 65
+p alucontrol_2_ Vdd! adder_8_0/fulladder_7/a_45_65# 2 16 221 65
+p adder_8_0/fulladder_7/a_21_7# adder_8_0/fulladder_7/a_45_65# adder_8_0/fulladder_7/a_69_7# 2 16 229 65
+p alucontrol_2_ adder_8_0/fulladder_7/a_69_7# adder_8_0/fulladder_7/a_77_65# 2 16 237 65
+p adder_8_0/b_0_ adder_8_0/fulladder_7/a_77_65# adder_8_0/fulladder_7/a_85_65# 2 16 245 65
+p a_0_ adder_8_0/fulladder_7/a_85_65# Vdd! 2 16 253 65
+p adder_8_0/fulladder_7/a_69_7# Vdd! adder_8_0/s_0_ 2 16 261 65
+p adder_8_0/fulladder_7/a_21_7# Vdd! adder_8_0/c_1_ 2 16 277 65
+n a_0_ adder_8_0/fulladder_7/a_n2_7# Gnd! 2 8 165 7
+n adder_8_0/b_0_ Gnd! adder_8_0/fulladder_7/a_n2_7# 2 8 173 7
+n alucontrol_2_ adder_8_0/fulladder_7/a_n2_7# adder_8_0/fulladder_7/a_21_7# 2 8 181 7
+n adder_8_0/b_0_ adder_8_0/fulladder_7/a_21_7# adder_8_0/fulladder_7/a_29_7# 2 8 189 7
+n a_0_ adder_8_0/fulladder_7/a_29_7# Gnd! 2 8 197 7
+n a_0_ Gnd! adder_8_0/fulladder_7/a_45_7# 2 8 205 7
+n adder_8_0/b_0_ adder_8_0/fulladder_7/a_45_7# Gnd! 2 8 213 7
+n alucontrol_2_ Gnd! adder_8_0/fulladder_7/a_45_7# 2 8 221 7
+n adder_8_0/fulladder_7/a_21_7# adder_8_0/fulladder_7/a_45_7# adder_8_0/fulladder_7/a_69_7# 2 8 229 7
+n alucontrol_2_ adder_8_0/fulladder_7/a_69_7# adder_8_0/fulladder_7/a_77_7# 2 8 237 7
+n adder_8_0/b_0_ adder_8_0/fulladder_7/a_77_7# adder_8_0/fulladder_7/a_85_7# 2 8 245 7
+n a_0_ adder_8_0/fulladder_7/a_85_7# Gnd! 2 8 253 7
+n adder_8_0/fulladder_7/a_69_7# Gnd! adder_8_0/s_0_ 2 8 261 7
+n adder_8_0/fulladder_7/a_21_7# Gnd! adder_8_0/c_1_ 2 8 277 7
+p a_1_ adder_8_0/fulladder_6/a_n2_65# Vdd! 2 16 165 175
+p adder_8_0/b_1_ Vdd! adder_8_0/fulladder_6/a_n2_65# 2 16 173 175
+p adder_8_0/c_1_ adder_8_0/fulladder_6/a_n2_65# adder_8_0/fulladder_6/a_21_7# 2 16 181 175
+p adder_8_0/b_1_ adder_8_0/fulladder_6/a_21_7# adder_8_0/fulladder_6/a_29_65# 2 16 189 175
+p a_1_ adder_8_0/fulladder_6/a_29_65# Vdd! 2 16 197 175
+p a_1_ Vdd! adder_8_0/fulladder_6/a_45_65# 2 16 205 175
+p adder_8_0/b_1_ adder_8_0/fulladder_6/a_45_65# Vdd! 2 16 213 175
+p adder_8_0/c_1_ Vdd! adder_8_0/fulladder_6/a_45_65# 2 16 221 175
+p adder_8_0/fulladder_6/a_21_7# adder_8_0/fulladder_6/a_45_65# adder_8_0/fulladder_6/a_69_7# 2 16 229 175
+p adder_8_0/c_1_ adder_8_0/fulladder_6/a_69_7# adder_8_0/fulladder_6/a_77_65# 2 16 237 175
+p adder_8_0/b_1_ adder_8_0/fulladder_6/a_77_65# adder_8_0/fulladder_6/a_85_65# 2 16 245 175
+p a_1_ adder_8_0/fulladder_6/a_85_65# Vdd! 2 16 253 175
+p adder_8_0/fulladder_6/a_69_7# Vdd! adder_8_0/s_1_ 2 16 261 175
+p adder_8_0/fulladder_6/a_21_7# Vdd! adder_8_0/c_2_ 2 16 277 175
+n a_1_ adder_8_0/fulladder_6/a_n2_7# Gnd! 2 8 165 117
+n adder_8_0/b_1_ Gnd! adder_8_0/fulladder_6/a_n2_7# 2 8 173 117
+n adder_8_0/c_1_ adder_8_0/fulladder_6/a_n2_7# adder_8_0/fulladder_6/a_21_7# 2 8 181 117
+n adder_8_0/b_1_ adder_8_0/fulladder_6/a_21_7# adder_8_0/fulladder_6/a_29_7# 2 8 189 117
+n a_1_ adder_8_0/fulladder_6/a_29_7# Gnd! 2 8 197 117
+n a_1_ Gnd! adder_8_0/fulladder_6/a_45_7# 2 8 205 117
+n adder_8_0/b_1_ adder_8_0/fulladder_6/a_45_7# Gnd! 2 8 213 117
+n adder_8_0/c_1_ Gnd! adder_8_0/fulladder_6/a_45_7# 2 8 221 117
+n adder_8_0/fulladder_6/a_21_7# adder_8_0/fulladder_6/a_45_7# adder_8_0/fulladder_6/a_69_7# 2 8 229 117
+n adder_8_0/c_1_ adder_8_0/fulladder_6/a_69_7# adder_8_0/fulladder_6/a_77_7# 2 8 237 117
+n adder_8_0/b_1_ adder_8_0/fulladder_6/a_77_7# adder_8_0/fulladder_6/a_85_7# 2 8 245 117
+n a_1_ adder_8_0/fulladder_6/a_85_7# Gnd! 2 8 253 117
+n adder_8_0/fulladder_6/a_69_7# Gnd! adder_8_0/s_1_ 2 8 261 117
+n adder_8_0/fulladder_6/a_21_7# Gnd! adder_8_0/c_2_ 2 8 277 117
+p a_2_ adder_8_0/fulladder_5/a_n2_65# Vdd! 2 16 165 285
+p adder_8_0/b_2_ Vdd! adder_8_0/fulladder_5/a_n2_65# 2 16 173 285
+p adder_8_0/c_2_ adder_8_0/fulladder_5/a_n2_65# adder_8_0/fulladder_5/a_21_7# 2 16 181 285
+p adder_8_0/b_2_ adder_8_0/fulladder_5/a_21_7# adder_8_0/fulladder_5/a_29_65# 2 16 189 285
+p a_2_ adder_8_0/fulladder_5/a_29_65# Vdd! 2 16 197 285
+p a_2_ Vdd! adder_8_0/fulladder_5/a_45_65# 2 16 205 285
+p adder_8_0/b_2_ adder_8_0/fulladder_5/a_45_65# Vdd! 2 16 213 285
+p adder_8_0/c_2_ Vdd! adder_8_0/fulladder_5/a_45_65# 2 16 221 285
+p adder_8_0/fulladder_5/a_21_7# adder_8_0/fulladder_5/a_45_65# adder_8_0/fulladder_5/a_69_7# 2 16 229 285
+p adder_8_0/c_2_ adder_8_0/fulladder_5/a_69_7# adder_8_0/fulladder_5/a_77_65# 2 16 237 285
+p adder_8_0/b_2_ adder_8_0/fulladder_5/a_77_65# adder_8_0/fulladder_5/a_85_65# 2 16 245 285
+p a_2_ adder_8_0/fulladder_5/a_85_65# Vdd! 2 16 253 285
+p adder_8_0/fulladder_5/a_69_7# Vdd! adder_8_0/s_2_ 2 16 261 285
+p adder_8_0/fulladder_5/a_21_7# Vdd! adder_8_0/c_3_ 2 16 277 285
+n a_2_ adder_8_0/fulladder_5/a_n2_7# Gnd! 2 8 165 227
+n adder_8_0/b_2_ Gnd! adder_8_0/fulladder_5/a_n2_7# 2 8 173 227
+n adder_8_0/c_2_ adder_8_0/fulladder_5/a_n2_7# adder_8_0/fulladder_5/a_21_7# 2 8 181 227
+n adder_8_0/b_2_ adder_8_0/fulladder_5/a_21_7# adder_8_0/fulladder_5/a_29_7# 2 8 189 227
+n a_2_ adder_8_0/fulladder_5/a_29_7# Gnd! 2 8 197 227
+n a_2_ Gnd! adder_8_0/fulladder_5/a_45_7# 2 8 205 227
+n adder_8_0/b_2_ adder_8_0/fulladder_5/a_45_7# Gnd! 2 8 213 227
+n adder_8_0/c_2_ Gnd! adder_8_0/fulladder_5/a_45_7# 2 8 221 227
+n adder_8_0/fulladder_5/a_21_7# adder_8_0/fulladder_5/a_45_7# adder_8_0/fulladder_5/a_69_7# 2 8 229 227
+n adder_8_0/c_2_ adder_8_0/fulladder_5/a_69_7# adder_8_0/fulladder_5/a_77_7# 2 8 237 227
+n adder_8_0/b_2_ adder_8_0/fulladder_5/a_77_7# adder_8_0/fulladder_5/a_85_7# 2 8 245 227
+n a_2_ adder_8_0/fulladder_5/a_85_7# Gnd! 2 8 253 227
+n adder_8_0/fulladder_5/a_69_7# Gnd! adder_8_0/s_2_ 2 8 261 227
+n adder_8_0/fulladder_5/a_21_7# Gnd! adder_8_0/c_3_ 2 8 277 227
+p a_3_ adder_8_0/fulladder_4/a_n2_65# Vdd! 2 16 165 395
+p adder_8_0/b_3_ Vdd! adder_8_0/fulladder_4/a_n2_65# 2 16 173 395
+p adder_8_0/c_3_ adder_8_0/fulladder_4/a_n2_65# adder_8_0/fulladder_4/a_21_7# 2 16 181 395
+p adder_8_0/b_3_ adder_8_0/fulladder_4/a_21_7# adder_8_0/fulladder_4/a_29_65# 2 16 189 395
+p a_3_ adder_8_0/fulladder_4/a_29_65# Vdd! 2 16 197 395
+p a_3_ Vdd! adder_8_0/fulladder_4/a_45_65# 2 16 205 395
+p adder_8_0/b_3_ adder_8_0/fulladder_4/a_45_65# Vdd! 2 16 213 395
+p adder_8_0/c_3_ Vdd! adder_8_0/fulladder_4/a_45_65# 2 16 221 395
+p adder_8_0/fulladder_4/a_21_7# adder_8_0/fulladder_4/a_45_65# adder_8_0/fulladder_4/a_69_7# 2 16 229 395
+p adder_8_0/c_3_ adder_8_0/fulladder_4/a_69_7# adder_8_0/fulladder_4/a_77_65# 2 16 237 395
+p adder_8_0/b_3_ adder_8_0/fulladder_4/a_77_65# adder_8_0/fulladder_4/a_85_65# 2 16 245 395
+p a_3_ adder_8_0/fulladder_4/a_85_65# Vdd! 2 16 253 395
+p adder_8_0/fulladder_4/a_69_7# Vdd! adder_8_0/s_3_ 2 16 261 395
+p adder_8_0/fulladder_4/a_21_7# Vdd! adder_8_0/c_4_ 2 16 277 395
+n a_3_ adder_8_0/fulladder_4/a_n2_7# Gnd! 2 8 165 337
+n adder_8_0/b_3_ Gnd! adder_8_0/fulladder_4/a_n2_7# 2 8 173 337
+n adder_8_0/c_3_ adder_8_0/fulladder_4/a_n2_7# adder_8_0/fulladder_4/a_21_7# 2 8 181 337
+n adder_8_0/b_3_ adder_8_0/fulladder_4/a_21_7# adder_8_0/fulladder_4/a_29_7# 2 8 189 337
+n a_3_ adder_8_0/fulladder_4/a_29_7# Gnd! 2 8 197 337
+n a_3_ Gnd! adder_8_0/fulladder_4/a_45_7# 2 8 205 337
+n adder_8_0/b_3_ adder_8_0/fulladder_4/a_45_7# Gnd! 2 8 213 337
+n adder_8_0/c_3_ Gnd! adder_8_0/fulladder_4/a_45_7# 2 8 221 337
+n adder_8_0/fulladder_4/a_21_7# adder_8_0/fulladder_4/a_45_7# adder_8_0/fulladder_4/a_69_7# 2 8 229 337
+n adder_8_0/c_3_ adder_8_0/fulladder_4/a_69_7# adder_8_0/fulladder_4/a_77_7# 2 8 237 337
+n adder_8_0/b_3_ adder_8_0/fulladder_4/a_77_7# adder_8_0/fulladder_4/a_85_7# 2 8 245 337
+n a_3_ adder_8_0/fulladder_4/a_85_7# Gnd! 2 8 253 337
+n adder_8_0/fulladder_4/a_69_7# Gnd! adder_8_0/s_3_ 2 8 261 337
+n adder_8_0/fulladder_4/a_21_7# Gnd! adder_8_0/c_4_ 2 8 277 337
+p a_4_ adder_8_0/fulladder_3/a_n2_65# Vdd! 2 16 165 505
+p adder_8_0/b_4_ Vdd! adder_8_0/fulladder_3/a_n2_65# 2 16 173 505
+p adder_8_0/c_4_ adder_8_0/fulladder_3/a_n2_65# adder_8_0/fulladder_3/a_21_7# 2 16 181 505
+p adder_8_0/b_4_ adder_8_0/fulladder_3/a_21_7# adder_8_0/fulladder_3/a_29_65# 2 16 189 505
+p a_4_ adder_8_0/fulladder_3/a_29_65# Vdd! 2 16 197 505
+p a_4_ Vdd! adder_8_0/fulladder_3/a_45_65# 2 16 205 505
+p adder_8_0/b_4_ adder_8_0/fulladder_3/a_45_65# Vdd! 2 16 213 505
+p adder_8_0/c_4_ Vdd! adder_8_0/fulladder_3/a_45_65# 2 16 221 505
+p adder_8_0/fulladder_3/a_21_7# adder_8_0/fulladder_3/a_45_65# adder_8_0/fulladder_3/a_69_7# 2 16 229 505
+p adder_8_0/c_4_ adder_8_0/fulladder_3/a_69_7# adder_8_0/fulladder_3/a_77_65# 2 16 237 505
+p adder_8_0/b_4_ adder_8_0/fulladder_3/a_77_65# adder_8_0/fulladder_3/a_85_65# 2 16 245 505
+p a_4_ adder_8_0/fulladder_3/a_85_65# Vdd! 2 16 253 505
+p adder_8_0/fulladder_3/a_69_7# Vdd! adder_8_0/s_4_ 2 16 261 505
+p adder_8_0/fulladder_3/a_21_7# Vdd! adder_8_0/c_5_ 2 16 277 505
+n a_4_ adder_8_0/fulladder_3/a_n2_7# Gnd! 2 8 165 447
+n adder_8_0/b_4_ Gnd! adder_8_0/fulladder_3/a_n2_7# 2 8 173 447
+n adder_8_0/c_4_ adder_8_0/fulladder_3/a_n2_7# adder_8_0/fulladder_3/a_21_7# 2 8 181 447
+n adder_8_0/b_4_ adder_8_0/fulladder_3/a_21_7# adder_8_0/fulladder_3/a_29_7# 2 8 189 447
+n a_4_ adder_8_0/fulladder_3/a_29_7# Gnd! 2 8 197 447
+n a_4_ Gnd! adder_8_0/fulladder_3/a_45_7# 2 8 205 447
+n adder_8_0/b_4_ adder_8_0/fulladder_3/a_45_7# Gnd! 2 8 213 447
+n adder_8_0/c_4_ Gnd! adder_8_0/fulladder_3/a_45_7# 2 8 221 447
+n adder_8_0/fulladder_3/a_21_7# adder_8_0/fulladder_3/a_45_7# adder_8_0/fulladder_3/a_69_7# 2 8 229 447
+n adder_8_0/c_4_ adder_8_0/fulladder_3/a_69_7# adder_8_0/fulladder_3/a_77_7# 2 8 237 447
+n adder_8_0/b_4_ adder_8_0/fulladder_3/a_77_7# adder_8_0/fulladder_3/a_85_7# 2 8 245 447
+n a_4_ adder_8_0/fulladder_3/a_85_7# Gnd! 2 8 253 447
+n adder_8_0/fulladder_3/a_69_7# Gnd! adder_8_0/s_4_ 2 8 261 447
+n adder_8_0/fulladder_3/a_21_7# Gnd! adder_8_0/c_5_ 2 8 277 447
+p a_5_ adder_8_0/fulladder_2/a_n2_65# Vdd! 2 16 165 615
+p adder_8_0/b_5_ Vdd! adder_8_0/fulladder_2/a_n2_65# 2 16 173 615
+p adder_8_0/c_5_ adder_8_0/fulladder_2/a_n2_65# adder_8_0/fulladder_2/a_21_7# 2 16 181 615
+p adder_8_0/b_5_ adder_8_0/fulladder_2/a_21_7# adder_8_0/fulladder_2/a_29_65# 2 16 189 615
+p a_5_ adder_8_0/fulladder_2/a_29_65# Vdd! 2 16 197 615
+p a_5_ Vdd! adder_8_0/fulladder_2/a_45_65# 2 16 205 615
+p adder_8_0/b_5_ adder_8_0/fulladder_2/a_45_65# Vdd! 2 16 213 615
+p adder_8_0/c_5_ Vdd! adder_8_0/fulladder_2/a_45_65# 2 16 221 615
+p adder_8_0/fulladder_2/a_21_7# adder_8_0/fulladder_2/a_45_65# adder_8_0/fulladder_2/a_69_7# 2 16 229 615
+p adder_8_0/c_5_ adder_8_0/fulladder_2/a_69_7# adder_8_0/fulladder_2/a_77_65# 2 16 237 615
+p adder_8_0/b_5_ adder_8_0/fulladder_2/a_77_65# adder_8_0/fulladder_2/a_85_65# 2 16 245 615
+p a_5_ adder_8_0/fulladder_2/a_85_65# Vdd! 2 16 253 615
+p adder_8_0/fulladder_2/a_69_7# Vdd! adder_8_0/s_5_ 2 16 261 615
+p adder_8_0/fulladder_2/a_21_7# Vdd! adder_8_0/c_6_ 2 16 277 615
+n a_5_ adder_8_0/fulladder_2/a_n2_7# Gnd! 2 8 165 557
+n adder_8_0/b_5_ Gnd! adder_8_0/fulladder_2/a_n2_7# 2 8 173 557
+n adder_8_0/c_5_ adder_8_0/fulladder_2/a_n2_7# adder_8_0/fulladder_2/a_21_7# 2 8 181 557
+n adder_8_0/b_5_ adder_8_0/fulladder_2/a_21_7# adder_8_0/fulladder_2/a_29_7# 2 8 189 557
+n a_5_ adder_8_0/fulladder_2/a_29_7# Gnd! 2 8 197 557
+n a_5_ Gnd! adder_8_0/fulladder_2/a_45_7# 2 8 205 557
+n adder_8_0/b_5_ adder_8_0/fulladder_2/a_45_7# Gnd! 2 8 213 557
+n adder_8_0/c_5_ Gnd! adder_8_0/fulladder_2/a_45_7# 2 8 221 557
+n adder_8_0/fulladder_2/a_21_7# adder_8_0/fulladder_2/a_45_7# adder_8_0/fulladder_2/a_69_7# 2 8 229 557
+n adder_8_0/c_5_ adder_8_0/fulladder_2/a_69_7# adder_8_0/fulladder_2/a_77_7# 2 8 237 557
+n adder_8_0/b_5_ adder_8_0/fulladder_2/a_77_7# adder_8_0/fulladder_2/a_85_7# 2 8 245 557
+n a_5_ adder_8_0/fulladder_2/a_85_7# Gnd! 2 8 253 557
+n adder_8_0/fulladder_2/a_69_7# Gnd! adder_8_0/s_5_ 2 8 261 557
+n adder_8_0/fulladder_2/a_21_7# Gnd! adder_8_0/c_6_ 2 8 277 557
+p a_6_ adder_8_0/fulladder_1/a_n2_65# Vdd! 2 16 165 725
+p adder_8_0/b_6_ Vdd! adder_8_0/fulladder_1/a_n2_65# 2 16 173 725
+p adder_8_0/c_6_ adder_8_0/fulladder_1/a_n2_65# adder_8_0/fulladder_1/a_21_7# 2 16 181 725
+p adder_8_0/b_6_ adder_8_0/fulladder_1/a_21_7# adder_8_0/fulladder_1/a_29_65# 2 16 189 725
+p a_6_ adder_8_0/fulladder_1/a_29_65# Vdd! 2 16 197 725
+p a_6_ Vdd! adder_8_0/fulladder_1/a_45_65# 2 16 205 725
+p adder_8_0/b_6_ adder_8_0/fulladder_1/a_45_65# Vdd! 2 16 213 725
+p adder_8_0/c_6_ Vdd! adder_8_0/fulladder_1/a_45_65# 2 16 221 725
+p adder_8_0/fulladder_1/a_21_7# adder_8_0/fulladder_1/a_45_65# adder_8_0/fulladder_1/a_69_7# 2 16 229 725
+p adder_8_0/c_6_ adder_8_0/fulladder_1/a_69_7# adder_8_0/fulladder_1/a_77_65# 2 16 237 725
+p adder_8_0/b_6_ adder_8_0/fulladder_1/a_77_65# adder_8_0/fulladder_1/a_85_65# 2 16 245 725
+p a_6_ adder_8_0/fulladder_1/a_85_65# Vdd! 2 16 253 725
+p adder_8_0/fulladder_1/a_69_7# Vdd! adder_8_0/s_6_ 2 16 261 725
+p adder_8_0/fulladder_1/a_21_7# Vdd! adder_8_0/c_7_ 2 16 277 725
+n a_6_ adder_8_0/fulladder_1/a_n2_7# Gnd! 2 8 165 667
+n adder_8_0/b_6_ Gnd! adder_8_0/fulladder_1/a_n2_7# 2 8 173 667
+n adder_8_0/c_6_ adder_8_0/fulladder_1/a_n2_7# adder_8_0/fulladder_1/a_21_7# 2 8 181 667
+n adder_8_0/b_6_ adder_8_0/fulladder_1/a_21_7# adder_8_0/fulladder_1/a_29_7# 2 8 189 667
+n a_6_ adder_8_0/fulladder_1/a_29_7# Gnd! 2 8 197 667
+n a_6_ Gnd! adder_8_0/fulladder_1/a_45_7# 2 8 205 667
+n adder_8_0/b_6_ adder_8_0/fulladder_1/a_45_7# Gnd! 2 8 213 667
+n adder_8_0/c_6_ Gnd! adder_8_0/fulladder_1/a_45_7# 2 8 221 667
+n adder_8_0/fulladder_1/a_21_7# adder_8_0/fulladder_1/a_45_7# adder_8_0/fulladder_1/a_69_7# 2 8 229 667
+n adder_8_0/c_6_ adder_8_0/fulladder_1/a_69_7# adder_8_0/fulladder_1/a_77_7# 2 8 237 667
+n adder_8_0/b_6_ adder_8_0/fulladder_1/a_77_7# adder_8_0/fulladder_1/a_85_7# 2 8 245 667
+n a_6_ adder_8_0/fulladder_1/a_85_7# Gnd! 2 8 253 667
+n adder_8_0/fulladder_1/a_69_7# Gnd! adder_8_0/s_6_ 2 8 261 667
+n adder_8_0/fulladder_1/a_21_7# Gnd! adder_8_0/c_7_ 2 8 277 667
+p a_7_ adder_8_0/fulladder_0/a_n2_65# Vdd! 2 16 165 835
+p adder_8_0/b_7_ Vdd! adder_8_0/fulladder_0/a_n2_65# 2 16 173 835
+p adder_8_0/c_7_ adder_8_0/fulladder_0/a_n2_65# adder_8_0/fulladder_0/a_21_7# 2 16 181 835
+p adder_8_0/b_7_ adder_8_0/fulladder_0/a_21_7# adder_8_0/fulladder_0/a_29_65# 2 16 189 835
+p a_7_ adder_8_0/fulladder_0/a_29_65# Vdd! 2 16 197 835
+p a_7_ Vdd! adder_8_0/fulladder_0/a_45_65# 2 16 205 835
+p adder_8_0/b_7_ adder_8_0/fulladder_0/a_45_65# Vdd! 2 16 213 835
+p adder_8_0/c_7_ Vdd! adder_8_0/fulladder_0/a_45_65# 2 16 221 835
+p adder_8_0/fulladder_0/a_21_7# adder_8_0/fulladder_0/a_45_65# adder_8_0/fulladder_0/a_69_7# 2 16 229 835
+p adder_8_0/c_7_ adder_8_0/fulladder_0/a_69_7# adder_8_0/fulladder_0/a_77_65# 2 16 237 835
+p adder_8_0/b_7_ adder_8_0/fulladder_0/a_77_65# adder_8_0/fulladder_0/a_85_65# 2 16 245 835
+p a_7_ adder_8_0/fulladder_0/a_85_65# Vdd! 2 16 253 835
+p adder_8_0/fulladder_0/a_69_7# Vdd! adder_8_0/s_7_ 2 16 261 835
+p adder_8_0/fulladder_0/a_21_7# Vdd! adder_8_0/cout 2 16 277 835
+n a_7_ adder_8_0/fulladder_0/a_n2_7# Gnd! 2 8 165 777
+n adder_8_0/b_7_ Gnd! adder_8_0/fulladder_0/a_n2_7# 2 8 173 777
+n adder_8_0/c_7_ adder_8_0/fulladder_0/a_n2_7# adder_8_0/fulladder_0/a_21_7# 2 8 181 777
+n adder_8_0/b_7_ adder_8_0/fulladder_0/a_21_7# adder_8_0/fulladder_0/a_29_7# 2 8 189 777
+n a_7_ adder_8_0/fulladder_0/a_29_7# Gnd! 2 8 197 777
+n a_7_ Gnd! adder_8_0/fulladder_0/a_45_7# 2 8 205 777
+n adder_8_0/b_7_ adder_8_0/fulladder_0/a_45_7# Gnd! 2 8 213 777
+n adder_8_0/c_7_ Gnd! adder_8_0/fulladder_0/a_45_7# 2 8 221 777
+n adder_8_0/fulladder_0/a_21_7# adder_8_0/fulladder_0/a_45_7# adder_8_0/fulladder_0/a_69_7# 2 8 229 777
+n adder_8_0/c_7_ adder_8_0/fulladder_0/a_69_7# adder_8_0/fulladder_0/a_77_7# 2 8 237 777
+n adder_8_0/b_7_ adder_8_0/fulladder_0/a_77_7# adder_8_0/fulladder_0/a_85_7# 2 8 245 777
+n a_7_ adder_8_0/fulladder_0/a_85_7# Gnd! 2 8 253 777
+n adder_8_0/fulladder_0/a_69_7# Gnd! adder_8_0/s_7_ 2 8 261 777
+n adder_8_0/fulladder_0/a_21_7# Gnd! adder_8_0/cout 2 8 277 777
+p or2_1x_8_0/or2_1x_7/a_5_5# or2_1x_8_0/y_0_ Vdd! 2 10 133 73
+p a_0_ Vdd! or2_1x_8_0/or2_1x_7/a_15_71# 2 12 141 71
+p b_0_ or2_1x_8_0/or2_1x_7/a_15_71# or2_1x_8_0/or2_1x_7/a_5_5# 2 12 146 71
+n or2_1x_8_0/or2_1x_7/a_5_5# or2_1x_8_0/y_0_ Gnd! 2 7 133 7
+n a_0_ Gnd! or2_1x_8_0/or2_1x_7/a_5_5# 2 6 141 7
+n b_0_ or2_1x_8_0/or2_1x_7/a_5_5# Gnd! 2 6 149 7
+p or2_1x_8_0/or2_1x_6/a_5_5# or2_1x_8_0/y_1_ Vdd! 2 10 133 183
+p a_1_ Vdd! or2_1x_8_0/or2_1x_6/a_15_71# 2 12 141 181
+p b_1_ or2_1x_8_0/or2_1x_6/a_15_71# or2_1x_8_0/or2_1x_6/a_5_5# 2 12 146 181
+n or2_1x_8_0/or2_1x_6/a_5_5# or2_1x_8_0/y_1_ Gnd! 2 7 133 117
+n a_1_ Gnd! or2_1x_8_0/or2_1x_6/a_5_5# 2 6 141 117
+n b_1_ or2_1x_8_0/or2_1x_6/a_5_5# Gnd! 2 6 149 117
+p or2_1x_8_0/or2_1x_5/a_5_5# or2_1x_8_0/y_2_ Vdd! 2 10 133 293
+p a_2_ Vdd! or2_1x_8_0/or2_1x_5/a_15_71# 2 12 141 291
+p b_2_ or2_1x_8_0/or2_1x_5/a_15_71# or2_1x_8_0/or2_1x_5/a_5_5# 2 12 146 291
+n or2_1x_8_0/or2_1x_5/a_5_5# or2_1x_8_0/y_2_ Gnd! 2 7 133 227
+n a_2_ Gnd! or2_1x_8_0/or2_1x_5/a_5_5# 2 6 141 227
+n b_2_ or2_1x_8_0/or2_1x_5/a_5_5# Gnd! 2 6 149 227
+p or2_1x_8_0/or2_1x_4/a_5_5# or2_1x_8_0/y_3_ Vdd! 2 10 133 403
+p a_3_ Vdd! or2_1x_8_0/or2_1x_4/a_15_71# 2 12 141 401
+p b_3_ or2_1x_8_0/or2_1x_4/a_15_71# or2_1x_8_0/or2_1x_4/a_5_5# 2 12 146 401
+n or2_1x_8_0/or2_1x_4/a_5_5# or2_1x_8_0/y_3_ Gnd! 2 7 133 337
+n a_3_ Gnd! or2_1x_8_0/or2_1x_4/a_5_5# 2 6 141 337
+n b_3_ or2_1x_8_0/or2_1x_4/a_5_5# Gnd! 2 6 149 337
+p or2_1x_8_0/or2_1x_3/a_5_5# or2_1x_8_0/y_4_ Vdd! 2 10 133 513
+p a_4_ Vdd! or2_1x_8_0/or2_1x_3/a_15_71# 2 12 141 511
+p b_4_ or2_1x_8_0/or2_1x_3/a_15_71# or2_1x_8_0/or2_1x_3/a_5_5# 2 12 146 511
+n or2_1x_8_0/or2_1x_3/a_5_5# or2_1x_8_0/y_4_ Gnd! 2 7 133 447
+n a_4_ Gnd! or2_1x_8_0/or2_1x_3/a_5_5# 2 6 141 447
+n b_4_ or2_1x_8_0/or2_1x_3/a_5_5# Gnd! 2 6 149 447
+p or2_1x_8_0/or2_1x_2/a_5_5# or2_1x_8_0/y_5_ Vdd! 2 10 133 623
+p a_5_ Vdd! or2_1x_8_0/or2_1x_2/a_15_71# 2 12 141 621
+p b_5_ or2_1x_8_0/or2_1x_2/a_15_71# or2_1x_8_0/or2_1x_2/a_5_5# 2 12 146 621
+n or2_1x_8_0/or2_1x_2/a_5_5# or2_1x_8_0/y_5_ Gnd! 2 7 133 557
+n a_5_ Gnd! or2_1x_8_0/or2_1x_2/a_5_5# 2 6 141 557
+n b_5_ or2_1x_8_0/or2_1x_2/a_5_5# Gnd! 2 6 149 557
+p or2_1x_8_0/or2_1x_1/a_5_5# or2_1x_8_0/y_6_ Vdd! 2 10 133 733
+p a_6_ Vdd! or2_1x_8_0/or2_1x_1/a_15_71# 2 12 141 731
+p b_6_ or2_1x_8_0/or2_1x_1/a_15_71# or2_1x_8_0/or2_1x_1/a_5_5# 2 12 146 731
+n or2_1x_8_0/or2_1x_1/a_5_5# or2_1x_8_0/y_6_ Gnd! 2 7 133 667
+n a_6_ Gnd! or2_1x_8_0/or2_1x_1/a_5_5# 2 6 141 667
+n b_6_ or2_1x_8_0/or2_1x_1/a_5_5# Gnd! 2 6 149 667
+p or2_1x_8_0/or2_1x_0/a_5_5# or2_1x_8_0/y_7_ Vdd! 2 10 133 843
+p a_7_ Vdd! or2_1x_8_0/or2_1x_0/a_15_71# 2 12 141 841
+p b_7_ or2_1x_8_0/or2_1x_0/a_15_71# or2_1x_8_0/or2_1x_0/a_5_5# 2 12 146 841
+n or2_1x_8_0/or2_1x_0/a_5_5# or2_1x_8_0/y_7_ Gnd! 2 7 133 777
+n a_7_ Gnd! or2_1x_8_0/or2_1x_0/a_5_5# 2 6 141 777
+n b_7_ or2_1x_8_0/or2_1x_0/a_5_5# Gnd! 2 6 149 777
+p and2_1x_8_0/and2_1x_0[0]/a_5_5# and2_1x_8_0/and2_1x_0[0]/y Vdd! 2 10 101 843
+p a_7_ Vdd! and2_1x_8_0/and2_1x_0[0]/a_5_5# 2 6 109 847
+p b_7_ and2_1x_8_0/and2_1x_0[0]/a_5_5# Vdd! 2 6 117 847
+n and2_1x_8_0/and2_1x_0[0]/a_5_5# and2_1x_8_0/and2_1x_0[0]/y Gnd! 2 7 101 777
+n a_7_ Gnd! and2_1x_8_0/and2_1x_0[0]/a_15_7# 2 6 109 777
+n b_7_ and2_1x_8_0/and2_1x_0[0]/a_15_7# and2_1x_8_0/and2_1x_0[0]/a_5_5# 2 6 114 777
+p and2_1x_8_0/and2_1x_0[1]/a_5_5# and2_1x_8_0/and2_1x_0[1]/y Vdd! 2 10 101 733
+p a_6_ Vdd! and2_1x_8_0/and2_1x_0[1]/a_5_5# 2 6 109 737
+p b_6_ and2_1x_8_0/and2_1x_0[1]/a_5_5# Vdd! 2 6 117 737
+n and2_1x_8_0/and2_1x_0[1]/a_5_5# and2_1x_8_0/and2_1x_0[1]/y Gnd! 2 7 101 667
+n a_6_ Gnd! and2_1x_8_0/and2_1x_0[1]/a_15_7# 2 6 109 667
+n b_6_ and2_1x_8_0/and2_1x_0[1]/a_15_7# and2_1x_8_0/and2_1x_0[1]/a_5_5# 2 6 114 667
+p and2_1x_8_0/and2_1x_0[2]/a_5_5# and2_1x_8_0/and2_1x_0[2]/y Vdd! 2 10 101 623
+p a_5_ Vdd! and2_1x_8_0/and2_1x_0[2]/a_5_5# 2 6 109 627
+p b_5_ and2_1x_8_0/and2_1x_0[2]/a_5_5# Vdd! 2 6 117 627
+n and2_1x_8_0/and2_1x_0[2]/a_5_5# and2_1x_8_0/and2_1x_0[2]/y Gnd! 2 7 101 557
+n a_5_ Gnd! and2_1x_8_0/and2_1x_0[2]/a_15_7# 2 6 109 557
+n b_5_ and2_1x_8_0/and2_1x_0[2]/a_15_7# and2_1x_8_0/and2_1x_0[2]/a_5_5# 2 6 114 557
+p and2_1x_8_0/and2_1x_0[3]/a_5_5# and2_1x_8_0/and2_1x_0[3]/y Vdd! 2 10 101 513
+p a_4_ Vdd! and2_1x_8_0/and2_1x_0[3]/a_5_5# 2 6 109 517
+p b_4_ and2_1x_8_0/and2_1x_0[3]/a_5_5# Vdd! 2 6 117 517
+n and2_1x_8_0/and2_1x_0[3]/a_5_5# and2_1x_8_0/and2_1x_0[3]/y Gnd! 2 7 101 447
+n a_4_ Gnd! and2_1x_8_0/and2_1x_0[3]/a_15_7# 2 6 109 447
+n b_4_ and2_1x_8_0/and2_1x_0[3]/a_15_7# and2_1x_8_0/and2_1x_0[3]/a_5_5# 2 6 114 447
+p and2_1x_8_0/and2_1x_0[4]/a_5_5# and2_1x_8_0/and2_1x_0[4]/y Vdd! 2 10 101 403
+p a_3_ Vdd! and2_1x_8_0/and2_1x_0[4]/a_5_5# 2 6 109 407
+p b_3_ and2_1x_8_0/and2_1x_0[4]/a_5_5# Vdd! 2 6 117 407
+n and2_1x_8_0/and2_1x_0[4]/a_5_5# and2_1x_8_0/and2_1x_0[4]/y Gnd! 2 7 101 337
+n a_3_ Gnd! and2_1x_8_0/and2_1x_0[4]/a_15_7# 2 6 109 337
+n b_3_ and2_1x_8_0/and2_1x_0[4]/a_15_7# and2_1x_8_0/and2_1x_0[4]/a_5_5# 2 6 114 337
+p and2_1x_8_0/and2_1x_0[5]/a_5_5# and2_1x_8_0/and2_1x_0[5]/y Vdd! 2 10 101 293
+p a_2_ Vdd! and2_1x_8_0/and2_1x_0[5]/a_5_5# 2 6 109 297
+p b_2_ and2_1x_8_0/and2_1x_0[5]/a_5_5# Vdd! 2 6 117 297
+n and2_1x_8_0/and2_1x_0[5]/a_5_5# and2_1x_8_0/and2_1x_0[5]/y Gnd! 2 7 101 227
+n a_2_ Gnd! and2_1x_8_0/and2_1x_0[5]/a_15_7# 2 6 109 227
+n b_2_ and2_1x_8_0/and2_1x_0[5]/a_15_7# and2_1x_8_0/and2_1x_0[5]/a_5_5# 2 6 114 227
+p and2_1x_8_0/and2_1x_0[6]/a_5_5# and2_1x_8_0/and2_1x_0[6]/y Vdd! 2 10 101 183
+p a_1_ Vdd! and2_1x_8_0/and2_1x_0[6]/a_5_5# 2 6 109 187
+p b_1_ and2_1x_8_0/and2_1x_0[6]/a_5_5# Vdd! 2 6 117 187
+n and2_1x_8_0/and2_1x_0[6]/a_5_5# and2_1x_8_0/and2_1x_0[6]/y Gnd! 2 7 101 117
+n a_1_ Gnd! and2_1x_8_0/and2_1x_0[6]/a_15_7# 2 6 109 117
+n b_1_ and2_1x_8_0/and2_1x_0[6]/a_15_7# and2_1x_8_0/and2_1x_0[6]/a_5_5# 2 6 114 117
+p and2_1x_8_0/and2_1x_0[7]/a_5_5# mux4_1x_8_0/d0_0_ Vdd! 2 10 101 73
+p a_0_ Vdd! and2_1x_8_0/and2_1x_0[7]/a_5_5# 2 6 109 77
+p b_0_ and2_1x_8_0/and2_1x_0[7]/a_5_5# Vdd! 2 6 117 77
+n and2_1x_8_0/and2_1x_0[7]/a_5_5# mux4_1x_8_0/d0_0_ Gnd! 2 7 101 7
+n a_0_ Gnd! and2_1x_8_0/and2_1x_0[7]/a_15_7# 2 6 109 7
+n b_0_ and2_1x_8_0/and2_1x_0[7]/a_15_7# and2_1x_8_0/and2_1x_0[7]/a_5_5# 2 6 114 7
+p condinv_0/inv_1x_8_0/inv_1x_7/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# 2 9 58 74
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 9 63 74
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 71 74
+p b_0_ condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# Vdd! 2 9 76 74
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Vdd! adder_8_0/b_0_ 2 10 84 73
+n condinv_0/inv_1x_8_0/inv_1x_7/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# 2 6 58 7
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 63 7
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# 2 6 71 7
+n b_0_ condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# Gnd! 2 6 76 7
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Gnd! adder_8_0/b_0_ 2 7 84 7
+p condinv_0/inv_1x_8_0/inv_1x_6/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# 2 9 58 184
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 9 63 184
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 71 184
+p b_1_ condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# Vdd! 2 9 76 184
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Vdd! adder_8_0/b_1_ 2 10 84 183
+n condinv_0/inv_1x_8_0/inv_1x_6/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# 2 6 58 117
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 63 117
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# 2 6 71 117
+n b_1_ condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# Gnd! 2 6 76 117
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Gnd! adder_8_0/b_1_ 2 7 84 117
+p condinv_0/inv_1x_8_0/inv_1x_5/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# 2 9 58 294
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 9 63 294
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 71 294
+p b_2_ condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# Vdd! 2 9 76 294
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Vdd! adder_8_0/b_2_ 2 10 84 293
+n condinv_0/inv_1x_8_0/inv_1x_5/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# 2 6 58 227
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 63 227
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# 2 6 71 227
+n b_2_ condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# Gnd! 2 6 76 227
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Gnd! adder_8_0/b_2_ 2 7 84 227
+p condinv_0/inv_1x_8_0/inv_1x_4/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# 2 9 58 404
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 9 63 404
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 71 404
+p b_3_ condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# Vdd! 2 9 76 404
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Vdd! adder_8_0/b_3_ 2 10 84 403
+n condinv_0/inv_1x_8_0/inv_1x_4/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# 2 6 58 337
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 63 337
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# 2 6 71 337
+n b_3_ condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# Gnd! 2 6 76 337
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Gnd! adder_8_0/b_3_ 2 7 84 337
+p condinv_0/inv_1x_8_0/inv_1x_3/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# 2 9 58 514
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 9 63 514
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 71 514
+p b_4_ condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# Vdd! 2 9 76 514
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Vdd! adder_8_0/b_4_ 2 10 84 513
+n condinv_0/inv_1x_8_0/inv_1x_3/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# 2 6 58 447
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 63 447
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# 2 6 71 447
+n b_4_ condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# Gnd! 2 6 76 447
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Gnd! adder_8_0/b_4_ 2 7 84 447
+p condinv_0/inv_1x_8_0/inv_1x_2/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# 2 9 58 624
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 9 63 624
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 71 624
+p b_5_ condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# Vdd! 2 9 76 624
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Vdd! adder_8_0/b_5_ 2 10 84 623
+n condinv_0/inv_1x_8_0/inv_1x_2/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# 2 6 58 557
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 63 557
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# 2 6 71 557
+n b_5_ condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# Gnd! 2 6 76 557
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Gnd! adder_8_0/b_5_ 2 7 84 557
+p condinv_0/inv_1x_8_0/inv_1x_1/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# 2 9 58 734
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 9 63 734
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 71 734
+p b_6_ condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# Vdd! 2 9 76 734
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Vdd! adder_8_0/b_6_ 2 10 84 733
+n condinv_0/inv_1x_8_0/inv_1x_1/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# 2 6 58 667
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 63 667
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# 2 6 71 667
+n b_6_ condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# Gnd! 2 6 76 667
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Gnd! adder_8_0/b_6_ 2 7 84 667
+p condinv_0/inv_1x_8_0/inv_1x_0/y Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# 2 9 58 844
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 9 63 844
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 71 844
+p b_7_ condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# Vdd! 2 9 76 844
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Vdd! adder_8_0/b_7_ 2 10 84 843
+n condinv_0/inv_1x_8_0/inv_1x_0/y Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# 2 6 58 777
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 63 777
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# 2 6 71 777
+n b_7_ condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# Gnd! 2 6 76 777
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Gnd! adder_8_0/b_7_ 2 7 84 777
+p alucontrol_2_ Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2 37 53 926
+p condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s 2 37 69 926
+n alucontrol_2_ Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2 27 53 887
+n condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s 2 27 69 887
+p b_0_ Vdd! condinv_0/inv_1x_8_0/inv_1x_7/y 2 10 37 73
+n b_0_ Gnd! condinv_0/inv_1x_8_0/inv_1x_7/y 2 7 37 7
+p b_1_ Vdd! condinv_0/inv_1x_8_0/inv_1x_6/y 2 10 37 183
+n b_1_ Gnd! condinv_0/inv_1x_8_0/inv_1x_6/y 2 7 37 117
+p b_2_ Vdd! condinv_0/inv_1x_8_0/inv_1x_5/y 2 10 37 293
+n b_2_ Gnd! condinv_0/inv_1x_8_0/inv_1x_5/y 2 7 37 227
+p b_3_ Vdd! condinv_0/inv_1x_8_0/inv_1x_4/y 2 10 37 403
+n b_3_ Gnd! condinv_0/inv_1x_8_0/inv_1x_4/y 2 7 37 337
+p b_4_ Vdd! condinv_0/inv_1x_8_0/inv_1x_3/y 2 10 37 513
+n b_4_ Gnd! condinv_0/inv_1x_8_0/inv_1x_3/y 2 7 37 447
+p b_5_ Vdd! condinv_0/inv_1x_8_0/inv_1x_2/y 2 10 37 623
+n b_5_ Gnd! condinv_0/inv_1x_8_0/inv_1x_2/y 2 7 37 557
+p b_6_ Vdd! condinv_0/inv_1x_8_0/inv_1x_1/y 2 10 37 733
+n b_6_ Gnd! condinv_0/inv_1x_8_0/inv_1x_1/y 2 7 37 667
+p b_7_ Vdd! condinv_0/inv_1x_8_0/inv_1x_0/y 2 10 37 843
+n b_7_ Gnd! condinv_0/inv_1x_8_0/inv_1x_0/y 2 7 37 777
+p result_0_ Vdd! yzdetect_8_0/nor2_1x_4/a_7_67# 2 16 5 67
+p result_1_ yzdetect_8_0/nor2_1x_4/a_7_67# yzdetect_8_0/nor2_1x_4/y 2 16 10 67
+n result_0_ Gnd! yzdetect_8_0/nor2_1x_4/y 2 8 5 7
+n result_1_ yzdetect_8_0/nor2_1x_4/y Gnd! 2 8 13 7
+p yzdetect_8_0/nor2_1x_4/y Vdd! yzdetect_8_0/nor2_1x_2/b 2 12 5 181
+p yzdetect_8_0/nor2_1x_3/y yzdetect_8_0/nor2_1x_2/b Vdd! 2 12 13 181
+n yzdetect_8_0/nor2_1x_4/y Gnd! yzdetect_8_0/nand2_1x_1/a_7_7# 2 12 5 117
+n yzdetect_8_0/nor2_1x_3/y yzdetect_8_0/nand2_1x_1/a_7_7# yzdetect_8_0/nor2_1x_2/b 2 12 10 117
+p result_2_ Vdd! yzdetect_8_0/nor2_1x_3/a_7_67# 2 16 5 287
+p result_3_ yzdetect_8_0/nor2_1x_3/a_7_67# yzdetect_8_0/nor2_1x_3/y 2 16 10 287
+n result_2_ Gnd! yzdetect_8_0/nor2_1x_3/y 2 8 5 227
+n result_3_ yzdetect_8_0/nor2_1x_3/y Gnd! 2 8 13 227
+p yzdetect_8_0/nor2_1x_2/a Vdd! yzdetect_8_0/nor2_1x_2/a_7_67# 2 16 5 397
+p yzdetect_8_0/nor2_1x_2/b yzdetect_8_0/nor2_1x_2/a_7_67# zero 2 16 10 397
+n yzdetect_8_0/nor2_1x_2/a Gnd! zero 2 8 5 337
+n yzdetect_8_0/nor2_1x_2/b zero Gnd! 2 8 13 337
+p result_5_ Vdd! yzdetect_8_0/nor2_1x_1/a_7_67# 2 16 5 507
+p result_4_ yzdetect_8_0/nor2_1x_1/a_7_67# yzdetect_8_0/nor2_1x_1/y 2 16 10 507
+n result_5_ Gnd! yzdetect_8_0/nor2_1x_1/y 2 8 5 447
+n result_4_ yzdetect_8_0/nor2_1x_1/y Gnd! 2 8 13 447
+p yzdetect_8_0/nor2_1x_0/y Vdd! yzdetect_8_0/nor2_1x_2/a 2 12 5 621
+p yzdetect_8_0/nor2_1x_1/y yzdetect_8_0/nor2_1x_2/a Vdd! 2 12 13 621
+n yzdetect_8_0/nor2_1x_0/y Gnd! yzdetect_8_0/nand2_1x_0/a_7_7# 2 12 5 557
+n yzdetect_8_0/nor2_1x_1/y yzdetect_8_0/nand2_1x_0/a_7_7# yzdetect_8_0/nor2_1x_2/a 2 12 10 557
+p result_6_ Vdd! yzdetect_8_0/nor2_1x_0/a_7_67# 2 16 5 727
+p result_7_ yzdetect_8_0/nor2_1x_0/a_7_67# yzdetect_8_0/nor2_1x_0/y 2 16 10 727
+n result_6_ Gnd! yzdetect_8_0/nor2_1x_0/y 2 8 5 667
+n result_7_ yzdetect_8_0/nor2_1x_0/y Gnd! 2 8 13 667
+C Vdd! condinv_0/inv_1x_8_0/inv_1x_5/y 3.3
+C b_0_ Vdd! 4.9
+C mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_7/s1 2.4
+C Vdd! and2_1x_8_0/and2_1x_0[6]/y 3.2
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s Vdd! 14.8
+C adder_8_0/c_5_ Vdd! 10.4
+C mux4_1x_8_0/mux4_dp_1x_7/s0 Gnd! 3.2
+C adder_8_0/b_6_ Vdd! 6.0
+C and2_1x_8_0/and2_1x_0[2]/a_5_5# Vdd! 3.0
+C Vdd! yzdetect_8_0/nor2_1x_3/y 3.3
+C or2_1x_8_0/or2_1x_0/a_5_5# Vdd! 2.8
+C Vdd! a_2_ 4.2
+C result_7_ Vdd! 3.2
+C Vdd! adder_8_0/s_4_ 2.9
+C adder_8_0/c_1_ Vdd! 10.4
+C mux4_1x_8_0/mux4_dp_1x_7/s0b Gnd! 2.6
+C mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_7/s0 2.6
+C Vdd! or2_1x_8_0/or2_1x_6/a_5_5# 2.8
+C and2_1x_8_0/and2_1x_0[4]/y Vdd! 3.2
+C a_6_ Vdd! 4.2
+C or2_1x_8_0/y_5_ Vdd! 2.7
+C adder_8_0/c_3_ Vdd! 10.4
+C Vdd! adder_8_0/b_1_ 6.0
+C Vdd! mux4_1x_8_0/mux4_dp_1x_7/s1 13.5
+C Vdd! and2_1x_8_0/and2_1x_0[0]/y 3.2
+C mux4_1x_8_0/mux4_dp_1x_7/s1b mux4_1x_8_0/mux4_dp_1x_7/s0b 2.1
+C Vdd! or2_1x_8_0/y_0_ 2.7
+C result_0_ Vdd! 3.1
+C a_0_ Vdd! 4.2
+C adder_8_0/c_7_ Vdd! 10.4
+C Vdd! adder_8_0/s_0_ 2.9
+C or2_1x_8_0/or2_1x_3/a_5_5# Vdd! 2.8
+C adder_8_0/b_7_ Vdd! 6.0
+C Vdd! b_3_ 4.9
+C mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.4
+C a_7_ adder_8_0/b_7_ 2.2
+C Vdd! adder_8_0/b_2_ 6.0
+C Vdd! a_3_ 4.2
+C Vdd! and2_1x_8_0/and2_1x_0[1]/y 3.2
+C Vdd! and2_1x_8_0/and2_1x_0[3]/y 3.2
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2.1
+C result_4_ Vdd! 2.5
+C or2_1x_8_0/y_3_ Vdd! 2.7
+C a_4_ Vdd! 4.2
+C Vdd! result_3_ 3.2
+C mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.4
+C and2_1x_8_0/and2_1x_0[0]/a_5_5# Vdd! 3.0
+C Vdd! and2_1x_8_0/and2_1x_0[5]/y 3.2
+C condinv_0/inv_1x_8_0/inv_1x_4/y Vdd! 3.3
+C Vdd! and2_1x_8_0/and2_1x_0[7]/a_5_5# 3.0
+C Vdd! adder_8_0/c_2_ 10.4
+C and2_1x_8_0/and2_1x_0[5]/a_5_5# Vdd! 3.0
+C a_1_ adder_8_0/b_1_ 2.2
+C adder_8_0/b_3_ Vdd! 6.0
+C or2_1x_8_0/y_2_ Vdd! 2.7
+C condinv_0/inv_1x_8_0/inv_1x_7/y Vdd! 3.3
+C result_5_ Vdd! 3.9
+C adder_8_0/b_4_ a_4_ 2.2
+C Vdd! condinv_0/inv_1x_8_0/inv_1x_1/y 3.3
+C a_0_ adder_8_0/b_0_ 2.2
+C and2_1x_8_0/and2_1x_0[3]/a_5_5# Vdd! 3.0
+C a_5_ Vdd! 4.2
+C alucontrol_2_ Gnd! 2.7
+C or2_1x_8_0/or2_1x_4/a_5_5# Vdd! 2.8
+C adder_8_0/b_6_ a_6_ 2.2
+C Vdd! or2_1x_8_0/y_4_ 2.7
+C adder_8_0/b_5_ a_5_ 2.2
+C Vdd! Gnd! 4.2
+C condinv_0/inv_1x_8_0/inv_1x_0/y Vdd! 3.3
+C condinv_0/inv_1x_8_0/inv_1x_6/y Vdd! 3.3
+C Vdd! b_5_ 4.9
+C mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
+C Vdd! condinv_0/inv_1x_8_0/inv_1x_3/y 3.3
+C b_6_ Vdd! 4.9
+C b_2_ Vdd! 4.9
+C a_2_ adder_8_0/b_2_ 2.2
+C and2_1x_8_0/and2_1x_0[2]/y Vdd! 3.2
+C adder_8_0/s_1_ Vdd! 2.9
+C Vdd! yzdetect_8_0/nor2_1x_2/a 3.5
+C and2_1x_8_0/and2_1x_0[1]/a_5_5# Vdd! 3.0
+C Vdd! adder_8_0/s_2_ 2.9
+C Vdd! adder_8_0/s_6_ 2.9
+C alucontrol_2_ Vdd! 9.1
+C or2_1x_8_0/or2_1x_1/a_5_5# Vdd! 2.8
+C Vdd! yzdetect_8_0/nor2_1x_0/y 2.7
+C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s1 2.6
+C Vdd! b_7_ 4.8
+C adder_8_0/s_7_ Gnd! 3.6
+C Vdd! condinv_0/inv_1x_8_0/inv_1x_2/y 3.3
+C yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
+C or2_1x_8_0/or2_1x_5/a_5_5# Vdd! 2.8
+C adder_8_0/c_6_ Vdd! 10.4
+C b_1_ Vdd! 4.9
+C a_7_ Vdd! 4.1
+C Vdd! and2_1x_8_0/and2_1x_0[4]/a_5_5# 3.0
+C adder_8_0/s_3_ Vdd! 2.9
+C Vdd! yzdetect_8_0/nor2_1x_2/b 3.2
+C Vdd! or2_1x_8_0/or2_1x_7/a_5_5# 2.8
+C Vdd! result_2_ 3.1
+C mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/s1 3.7
+C adder_8_0/b_5_ Vdd! 6.0
+C or2_1x_8_0/y_6_ Vdd! 2.7
+C adder_8_0/b_4_ Vdd! 6.0
+C Vdd! yzdetect_8_0/nor2_1x_4/y 2.5
+C Vdd! adder_8_0/c_4_ 10.4
+C or2_1x_8_0/y_7_ Vdd! 2.7
+C Vdd! b_4_ 4.9
+C adder_8_0/s_5_ Vdd! 2.9
+C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
+C adder_8_0/cout Vdd! 6.0
+C Vdd! or2_1x_8_0/y_1_ 2.7
+C result_6_ Vdd! 3.1
+C Vdd! result_1_ 3.2
+C adder_8_0/s_7_ Vdd! 5.1
+C or2_1x_8_0/or2_1x_2/a_5_5# Vdd! 2.8
+C Vdd! a_1_ 4.2
+C Vdd! adder_8_0/b_0_ 6.0
+C adder_8_0/b_3_ a_3_ 2.2
+C Vdd! mux4_1x_8_0/d0_0_ 3.2
+C Vdd! condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 13.5
+C Vdd! and2_1x_8_0/and2_1x_0[6]/a_5_5# 3.0
+C yzdetect_8_0/nor2_1x_0/y GND 6.6
+R yzdetect_8_0/nor2_1x_0/y 1332
+R yzdetect_8_0/nor2_1x_0/a_7_67# 561
+R yzdetect_8_0/nand2_1x_0/a_7_7# 329
+C yzdetect_8_0/nor2_1x_2/a GND 7.3
+R yzdetect_8_0/nor2_1x_2/a 1294
+C yzdetect_8_0/nor2_1x_1/y GND 6.9
+R yzdetect_8_0/nor2_1x_1/y 1365
+R yzdetect_8_0/nor2_1x_1/a_7_67# 561
+R zero 448
+R yzdetect_8_0/nor2_1x_2/a_7_67# 561
+C yzdetect_8_0/nor2_1x_2/b GND 7.1
+R yzdetect_8_0/nor2_1x_2/b 1326
+C yzdetect_8_0/nor2_1x_3/y GND 5.6
+R yzdetect_8_0/nor2_1x_3/y 1364
+R yzdetect_8_0/nor2_1x_3/a_7_67# 561
+R yzdetect_8_0/nand2_1x_1/a_7_7# 329
+C yzdetect_8_0/nor2_1x_4/y GND 7.0
+R yzdetect_8_0/nor2_1x_4/y 1332
+R yzdetect_8_0/nor2_1x_4/a_7_67# 561
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s GND 30.9
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s 8952
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb GND 41.5
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 8820
+R alucontrol_2_ 3593
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_0/y GND 2.2
+R condinv_0/inv_1x_8_0/inv_1x_0/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_1/y GND 2.3
+R condinv_0/inv_1x_8_0/inv_1x_1/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_2/y GND 2.1
+R condinv_0/inv_1x_8_0/inv_1x_2/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 1123
+R b_4_ 3814
+C condinv_0/inv_1x_8_0/inv_1x_3/y GND 2.3
+R condinv_0/inv_1x_8_0/inv_1x_3/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_4/y GND 2.2
+R condinv_0/inv_1x_8_0/inv_1x_4/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_5/y GND 2.2
+R condinv_0/inv_1x_8_0/inv_1x_5/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_6/y GND 2.2
+R condinv_0/inv_1x_8_0/inv_1x_6/y 1383
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# 164
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 316
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# 316
+C condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# GND 2.2
+R condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 1123
+C condinv_0/inv_1x_8_0/inv_1x_7/y GND 2.2
+R condinv_0/inv_1x_8_0/inv_1x_7/y 1383
+R and2_1x_8_0/and2_1x_0[7]/a_15_7# 164
+R and2_1x_8_0/and2_1x_0[7]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[6]/a_15_7# 164
+R and2_1x_8_0/and2_1x_0[6]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[5]/a_15_7# 164
+R and2_1x_8_0/and2_1x_0[5]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[4]/a_15_7# 164
+R and2_1x_8_0/and2_1x_0[4]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[3]/a_15_7# 164
+R and2_1x_8_0/and2_1x_0[3]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[2]/a_15_7# 164
+R b_5_ 3814
+R and2_1x_8_0/and2_1x_0[2]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[1]/a_15_7# 164
+R b_6_ 3814
+R and2_1x_8_0/and2_1x_0[1]/a_5_5# 1086
+R and2_1x_8_0/and2_1x_0[0]/a_15_7# 164
+R b_7_ 3814
+R and2_1x_8_0/and2_1x_0[0]/a_5_5# 1086
+R or2_1x_8_0/or2_1x_0/a_15_71# 421
+C or2_1x_8_0/y_7_ GND 5.7
+R or2_1x_8_0/y_7_ 1252
+R a_7_ 5552
+C or2_1x_8_0/or2_1x_0/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_0/a_5_5# 1304
+R or2_1x_8_0/or2_1x_1/a_15_71# 421
+R a_6_ 5552
+C or2_1x_8_0/or2_1x_1/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_1/a_5_5# 1304
+R or2_1x_8_0/or2_1x_2/a_15_71# 421
+C or2_1x_8_0/or2_1x_2/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_2/a_5_5# 1304
+R or2_1x_8_0/or2_1x_3/a_15_71# 421
+C or2_1x_8_0/or2_1x_3/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_3/a_5_5# 1304
+R or2_1x_8_0/or2_1x_4/a_15_71# 421
+R b_3_ 3812
+C or2_1x_8_0/or2_1x_4/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_4/a_5_5# 1304
+R or2_1x_8_0/or2_1x_5/a_15_71# 421
+R b_2_ 3812
+C or2_1x_8_0/or2_1x_5/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_5/a_5_5# 1304
+R or2_1x_8_0/or2_1x_6/a_15_71# 421
+R b_1_ 3814
+C or2_1x_8_0/or2_1x_6/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_6/a_5_5# 1304
+R or2_1x_8_0/or2_1x_7/a_15_71# 421
+R b_0_ 3814
+C or2_1x_8_0/or2_1x_7/a_5_5# GND 2.0
+R or2_1x_8_0/or2_1x_7/a_5_5# 1304
+R adder_8_0/fulladder_0/a_85_7# 110
+R adder_8_0/fulladder_0/a_77_7# 110
+R adder_8_0/fulladder_0/a_45_7# 494
+R adder_8_0/fulladder_0/a_29_7# 110
+R adder_8_0/fulladder_0/a_n2_7# 504
+R adder_8_0/cout 473
+R adder_8_0/fulladder_0/a_85_65# 281
+R adder_8_0/fulladder_0/a_77_65# 281
+R adder_8_0/fulladder_0/a_45_65# 838
+R adder_8_0/fulladder_0/a_29_65# 281
+R adder_8_0/fulladder_0/a_n2_65# 883
+C adder_8_0/fulladder_0/a_69_7# GND 2.4
+R adder_8_0/fulladder_0/a_69_7# 1250
+C adder_8_0/fulladder_0/a_21_7# GND 5.8
+R adder_8_0/fulladder_0/a_21_7# 2154
+C adder_8_0/c_7_ GND 5.6
+R adder_8_0/c_7_ 3139
+C adder_8_0/b_7_ GND 6.9
+R adder_8_0/b_7_ 3894
+R adder_8_0/fulladder_1/a_85_7# 110
+R adder_8_0/fulladder_1/a_77_7# 110
+R adder_8_0/fulladder_1/a_45_7# 494
+R adder_8_0/fulladder_1/a_29_7# 110
+R adder_8_0/fulladder_1/a_n2_7# 504
+R adder_8_0/fulladder_1/a_85_65# 281
+R adder_8_0/fulladder_1/a_77_65# 281
+R adder_8_0/fulladder_1/a_45_65# 838
+R adder_8_0/fulladder_1/a_29_65# 281
+R adder_8_0/fulladder_1/a_n2_65# 883
+C adder_8_0/fulladder_1/a_69_7# GND 2.4
+R adder_8_0/fulladder_1/a_69_7# 1250
+C adder_8_0/fulladder_1/a_21_7# GND 5.8
+R adder_8_0/fulladder_1/a_21_7# 2154
+C adder_8_0/c_6_ GND 5.6
+R adder_8_0/c_6_ 3139
+C adder_8_0/b_6_ GND 6.9
+R adder_8_0/b_6_ 3894
+R adder_8_0/fulladder_2/a_85_7# 110
+R adder_8_0/fulladder_2/a_77_7# 110
+R adder_8_0/fulladder_2/a_45_7# 494
+R adder_8_0/fulladder_2/a_29_7# 110
+R adder_8_0/fulladder_2/a_n2_7# 504
+R adder_8_0/fulladder_2/a_85_65# 281
+R adder_8_0/fulladder_2/a_77_65# 281
+R adder_8_0/fulladder_2/a_45_65# 838
+R adder_8_0/fulladder_2/a_29_65# 281
+R adder_8_0/fulladder_2/a_n2_65# 883
+C adder_8_0/fulladder_2/a_69_7# GND 2.4
+R adder_8_0/fulladder_2/a_69_7# 1250
+C adder_8_0/fulladder_2/a_21_7# GND 5.8
+R adder_8_0/fulladder_2/a_21_7# 2154
+C adder_8_0/c_5_ GND 5.6
+R adder_8_0/c_5_ 3139
+C adder_8_0/b_5_ GND 6.9
+R adder_8_0/b_5_ 3894
+R a_5_ 5552
+R adder_8_0/fulladder_3/a_85_7# 110
+R adder_8_0/fulladder_3/a_77_7# 110
+R adder_8_0/fulladder_3/a_45_7# 494
+R adder_8_0/fulladder_3/a_29_7# 110
+R adder_8_0/fulladder_3/a_n2_7# 504
+R adder_8_0/fulladder_3/a_85_65# 281
+R adder_8_0/fulladder_3/a_77_65# 281
+R adder_8_0/fulladder_3/a_45_65# 838
+R adder_8_0/fulladder_3/a_29_65# 281
+R adder_8_0/fulladder_3/a_n2_65# 883
+C adder_8_0/fulladder_3/a_69_7# GND 2.4
+R adder_8_0/fulladder_3/a_69_7# 1250
+C adder_8_0/fulladder_3/a_21_7# GND 5.8
+R adder_8_0/fulladder_3/a_21_7# 2154
+C adder_8_0/c_4_ GND 5.6
+R adder_8_0/c_4_ 3138
+C adder_8_0/b_4_ GND 6.9
+R adder_8_0/b_4_ 3894
+R a_4_ 5552
+R adder_8_0/fulladder_4/a_85_7# 110
+R adder_8_0/fulladder_4/a_77_7# 110
+R adder_8_0/fulladder_4/a_45_7# 494
+R adder_8_0/fulladder_4/a_29_7# 110
+R adder_8_0/fulladder_4/a_n2_7# 504
+R adder_8_0/fulladder_4/a_85_65# 281
+R adder_8_0/fulladder_4/a_77_65# 281
+R adder_8_0/fulladder_4/a_45_65# 838
+R adder_8_0/fulladder_4/a_29_65# 281
+R adder_8_0/fulladder_4/a_n2_65# 883
+C adder_8_0/fulladder_4/a_69_7# GND 2.4
+R adder_8_0/fulladder_4/a_69_7# 1250
+C adder_8_0/fulladder_4/a_21_7# GND 5.8
+R adder_8_0/fulladder_4/a_21_7# 2154
+C adder_8_0/c_3_ GND 5.6
+R adder_8_0/c_3_ 3139
+C adder_8_0/b_3_ GND 6.9
+R adder_8_0/b_3_ 3894
+R a_3_ 5550
+R adder_8_0/fulladder_5/a_85_7# 110
+R adder_8_0/fulladder_5/a_77_7# 110
+R adder_8_0/fulladder_5/a_45_7# 494
+R adder_8_0/fulladder_5/a_29_7# 110
+R adder_8_0/fulladder_5/a_n2_7# 504
+R adder_8_0/fulladder_5/a_85_65# 281
+R adder_8_0/fulladder_5/a_77_65# 281
+R adder_8_0/fulladder_5/a_45_65# 838
+R adder_8_0/fulladder_5/a_29_65# 281
+R adder_8_0/fulladder_5/a_n2_65# 883
+C adder_8_0/fulladder_5/a_69_7# GND 2.4
+R adder_8_0/fulladder_5/a_69_7# 1250
+C adder_8_0/fulladder_5/a_21_7# GND 5.8
+R adder_8_0/fulladder_5/a_21_7# 2154
+C adder_8_0/c_2_ GND 5.6
+R adder_8_0/c_2_ 3139
+C adder_8_0/b_2_ GND 6.9
+R adder_8_0/b_2_ 3894
+R a_2_ 5550
+R adder_8_0/fulladder_6/a_85_7# 110
+R adder_8_0/fulladder_6/a_77_7# 110
+R adder_8_0/fulladder_6/a_45_7# 494
+R adder_8_0/fulladder_6/a_29_7# 110
+R adder_8_0/fulladder_6/a_n2_7# 504
+R adder_8_0/fulladder_6/a_85_65# 281
+R adder_8_0/fulladder_6/a_77_65# 281
+R adder_8_0/fulladder_6/a_45_65# 838
+R adder_8_0/fulladder_6/a_29_65# 281
+R adder_8_0/fulladder_6/a_n2_65# 883
+C adder_8_0/fulladder_6/a_69_7# GND 2.4
+R adder_8_0/fulladder_6/a_69_7# 1250
+C adder_8_0/fulladder_6/a_21_7# GND 5.8
+R adder_8_0/fulladder_6/a_21_7# 2154
+C adder_8_0/c_1_ GND 5.6
+R adder_8_0/c_1_ 3139
+C adder_8_0/b_1_ GND 6.9
+R adder_8_0/b_1_ 3894
+R a_1_ 5550
+R adder_8_0/fulladder_7/a_85_7# 110
+R adder_8_0/fulladder_7/a_77_7# 110
+R adder_8_0/fulladder_7/a_45_7# 494
+R adder_8_0/fulladder_7/a_29_7# 110
+R adder_8_0/fulladder_7/a_n2_7# 504
+R adder_8_0/fulladder_7/a_85_65# 281
+R adder_8_0/fulladder_7/a_77_65# 281
+R adder_8_0/fulladder_7/a_45_65# 838
+R adder_8_0/fulladder_7/a_29_65# 281
+R adder_8_0/fulladder_7/a_n2_65# 883
+C adder_8_0/fulladder_7/a_69_7# GND 2.4
+R adder_8_0/fulladder_7/a_69_7# 1250
+C adder_8_0/fulladder_7/a_21_7# GND 5.8
+R adder_8_0/fulladder_7/a_21_7# 2154
+C adder_8_0/b_0_ GND 6.9
+R adder_8_0/b_0_ 3894
+R a_0_ 5552
+C mux4_1x_8_0/mux4_dp_1x_7/s0 GND 48.6
+R mux4_1x_8_0/mux4_dp_1x_7/s0 18650
+C mux4_1x_8_0/mux4_dp_1x_7/s0b GND 37.6
+R mux4_1x_8_0/mux4_dp_1x_7/s0b 20137
+R alucontrol_0_ 880
+C mux4_1x_8_0/mux4_dp_1x_7/s1 GND 32.2
+R mux4_1x_8_0/mux4_dp_1x_7/s1 9300
+C mux4_1x_8_0/mux4_dp_1x_7/s1b GND 42.3
+R mux4_1x_8_0/mux4_dp_1x_7/s1b 10622
+R alucontrol_1_ 880
+R mux4_1x_8_0/mux4_dp_1x_0/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_0/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_0/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_0/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_0/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_0/a_6_7# 481
+C result_7_ GND 8.0
+R result_7_ 1243
+R mux4_1x_8_0/mux4_dp_1x_0/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_0/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_0/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_0/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_0/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_0/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_0/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_0/a_39_7# 1123
+C adder_8_0/s_7_ GND 11.7
+R adder_8_0/s_7_ 2420
+C and2_1x_8_0/and2_1x_0[0]/y GND 5.6
+R and2_1x_8_0/and2_1x_0[0]/y 1209
+R Vdd! 288189
+R mux4_1x_8_0/mux4_dp_1x_1/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_1/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_1/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_1/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_1/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_1/a_6_7# 481
+C result_6_ GND 8.9
+R result_6_ 1211
+R mux4_1x_8_0/mux4_dp_1x_1/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_1/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_1/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_1/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_1/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_1/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_1/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_1/a_39_7# 1123
+R Gnd! 216982
+C adder_8_0/s_6_ GND 5.0
+R adder_8_0/s_6_ 1424
+C or2_1x_8_0/y_6_ GND 5.5
+R or2_1x_8_0/y_6_ 1253
+C and2_1x_8_0/and2_1x_0[1]/y GND 5.5
+R and2_1x_8_0/and2_1x_0[1]/y 1209
+R mux4_1x_8_0/mux4_dp_1x_2/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_2/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_2/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_2/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_2/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_2/a_6_7# 481
+C result_5_ GND 9.5
+R result_5_ 1212
+R mux4_1x_8_0/mux4_dp_1x_2/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_2/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_2/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_2/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_2/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_2/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_2/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_2/a_39_7# 1123
+C adder_8_0/s_5_ GND 5.0
+R adder_8_0/s_5_ 1424
+C or2_1x_8_0/y_5_ GND 5.3
+R or2_1x_8_0/y_5_ 1253
+C and2_1x_8_0/and2_1x_0[2]/y GND 5.7
+R and2_1x_8_0/and2_1x_0[2]/y 1209
+R mux4_1x_8_0/mux4_dp_1x_3/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_3/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_3/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_3/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_3/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_3/a_6_7# 481
+C result_4_ GND 8.8
+R result_4_ 1244
+R mux4_1x_8_0/mux4_dp_1x_3/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_3/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_3/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_3/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_3/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_3/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_3/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_3/a_39_7# 1123
+C adder_8_0/s_4_ GND 5.0
+R adder_8_0/s_4_ 1424
+C or2_1x_8_0/y_4_ GND 5.3
+R or2_1x_8_0/y_4_ 1253
+C and2_1x_8_0/and2_1x_0[3]/y GND 6.3
+R and2_1x_8_0/and2_1x_0[3]/y 1208
+R mux4_1x_8_0/mux4_dp_1x_4/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_4/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_4/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_4/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_4/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_4/a_6_7# 481
+C result_3_ GND 10.6
+R result_3_ 1245
+R mux4_1x_8_0/mux4_dp_1x_4/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_4/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_4/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_4/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_4/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_4/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_4/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_4/a_39_7# 1123
+C adder_8_0/s_3_ GND 2.9
+R adder_8_0/s_3_ 1423
+C or2_1x_8_0/y_3_ GND 5.3
+R or2_1x_8_0/y_3_ 1253
+C and2_1x_8_0/and2_1x_0[4]/y GND 5.6
+R and2_1x_8_0/and2_1x_0[4]/y 1209
+R mux4_1x_8_0/mux4_dp_1x_5/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_5/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_5/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_5/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_5/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_5/a_6_7# 481
+C result_2_ GND 8.8
+R result_2_ 1211
+R mux4_1x_8_0/mux4_dp_1x_5/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_5/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_5/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_5/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_5/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_5/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_5/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_5/a_39_7# 1123
+C adder_8_0/s_2_ GND 3.2
+R adder_8_0/s_2_ 1423
+C or2_1x_8_0/y_2_ GND 5.3
+R or2_1x_8_0/y_2_ 1253
+C and2_1x_8_0/and2_1x_0[5]/y GND 5.6
+R and2_1x_8_0/and2_1x_0[5]/y 1209
+R mux4_1x_8_0/mux4_dp_1x_6/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_6/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_6/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_6/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_6/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_6/a_6_7# 481
+C result_1_ GND 10.7
+R result_1_ 1245
+R mux4_1x_8_0/mux4_dp_1x_6/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_6/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_6/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_6/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_6/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_6/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_6/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_6/a_39_7# 1123
+C adder_8_0/s_1_ GND 6.0
+R adder_8_0/s_1_ 1423
+C or2_1x_8_0/y_1_ GND 5.3
+R or2_1x_8_0/y_1_ 1253
+C and2_1x_8_0/and2_1x_0[6]/y GND 5.6
+R and2_1x_8_0/and2_1x_0[6]/y 1209
+R mux4_1x_8_0/mux4_dp_1x_7/a_68_7# 164
+R mux4_1x_8_0/mux4_dp_1x_7/a_55_7# 164
+R mux4_1x_8_0/mux4_dp_1x_7/a_47_7# 481
+R mux4_1x_8_0/mux4_dp_1x_7/a_26_7# 164
+R mux4_1x_8_0/mux4_dp_1x_7/a_13_7# 164
+R mux4_1x_8_0/mux4_dp_1x_7/a_6_7# 481
+C result_0_ GND 9.1
+R result_0_ 1211
+R mux4_1x_8_0/mux4_dp_1x_7/a_68_74# 316
+R mux4_1x_8_0/mux4_dp_1x_7/a_55_74# 316
+R mux4_1x_8_0/mux4_dp_1x_7/a_47_74# 668
+R mux4_1x_8_0/mux4_dp_1x_7/a_26_74# 316
+R mux4_1x_8_0/mux4_dp_1x_7/a_13_74# 316
+R mux4_1x_8_0/mux4_dp_1x_7/a_6_74# 668
+C mux4_1x_8_0/mux4_dp_1x_7/a_39_7# GND 3.8
+R mux4_1x_8_0/mux4_dp_1x_7/a_39_7# 1123
+C adder_8_0/s_0_ GND 5.0
+R adder_8_0/s_0_ 1424
+C or2_1x_8_0/y_0_ GND 5.2
+R or2_1x_8_0/y_0_ 1253
+C mux4_1x_8_0/d0_0_ GND 5.5
+R mux4_1x_8_0/d0_0_ 1209

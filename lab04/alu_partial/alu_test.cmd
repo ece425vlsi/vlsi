@@ -1,0 +1,109 @@
+h Vdd!
+l Gnd!
+
+#analyzer a_0_ a_1_ a_2_ a_3_ a_4_ a_5_ a_6_ a_7_ b_0_ b_1_ b_2_ b_3_ b_4_ b_5_ b_6_ b_7_ alucontrol_0_ alucontrol_1_ alucontrol_2_ result_0_ result_1_ result_2_ result_3_ result_4_ result_5_ result_6_ result_7_ 
+vector A a_7_ a_6_ a_5_ a_4_ a_3_ a_2_ a_1_ a_0_ 
+vector B b_7_ b_6_ b_5_ b_4_ b_3_ b_2_ b_1_ b_0_ 
+vector OP alucontrol_2_ alucontrol_1_ alucontrol_0_ 
+vector Y result_7_ result_6_ result_5_ result_4_ result_3_ result_2_ result_1_ result_0_
+
+stepsize 250
+
+analyzer A B OP Y
+
+#and
+setvector A 00000000
+setvector B 00000000
+setvector OP 000
+s
+setvector A 11110000
+setvector B 10101010
+s
+setvector A 11111111
+setvector B 11111111
+s
+setvector A 11111111
+setvector B 00000000
+s
+
+#or
+setvector A 00000000
+setvector B 00000000
+setvector OP 001
+s
+setvector A 11110000
+setvector B 10101010
+s
+setvector A 11111111
+setvector B 11111111
+s
+setvector A 11111111
+setvector B 00000000
+s
+
+#add
+setvector A 00000000
+setvector B 00000000
+setvector OP 010
+s
+s
+s
+setvector A 00000001
+setvector B 00000000
+s
+s
+s
+setvector A 00000001
+setvector B 00000001
+s
+s
+s
+setvector A 00000010
+setvector B 00000001
+s
+s
+s
+
+#subtract
+setvector A 00000000
+setvector B 00000000
+setvector OP 110
+s
+s
+s
+setvector A 00000010
+setvector B 00000001
+s
+s
+s
+setvector A 11111111
+setvector B 11111111
+s
+s
+s
+setvector A 10000000
+setvector B 00000001
+s
+s
+s
+
+#slt
+setvector A 01010101
+setvector B 01010101
+setvector OP 111
+s
+s
+s
+setvector A 00000001
+setvector B 00000000
+s
+s
+s
+setvector A 00000000
+setvector B 00000001
+s
+s
+s
+setvector A 11111111
+setvector B 00000000
+s
