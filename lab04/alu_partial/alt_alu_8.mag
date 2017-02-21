@@ -1,0 +1,260 @@
+magic
+tech scmos
+timestamp 1487711615
+<< psubstratepcontact >>
+rect 302 884 306 888
+rect 350 662 354 666
+rect 350 552 354 556
+rect 350 442 354 446
+rect 350 332 354 336
+rect 350 222 354 226
+rect 350 112 354 116
+rect 350 2 354 6
+<< nsubstratencontact >>
+rect 302 974 306 978
+rect 350 752 354 756
+rect 350 642 354 646
+rect 350 532 354 536
+rect 350 422 354 426
+rect 350 312 354 316
+rect 350 202 354 206
+rect 350 92 354 96
+<< metal1 >>
+rect 300 978 308 980
+rect 300 974 302 978
+rect 306 974 308 978
+rect 300 972 308 974
+rect 300 888 308 890
+rect 300 884 302 888
+rect 306 884 308 888
+rect 300 882 308 884
+rect 348 756 356 758
+rect 348 752 350 756
+rect 354 752 356 756
+rect 348 750 356 752
+rect 348 666 356 668
+rect 348 662 350 666
+rect 354 662 356 666
+rect 348 660 356 662
+rect 348 646 356 648
+rect 348 642 350 646
+rect 354 642 356 646
+rect 348 640 356 642
+rect 348 556 356 558
+rect 348 552 350 556
+rect 354 552 356 556
+rect 348 550 356 552
+rect 348 536 356 538
+rect 348 532 350 536
+rect 354 532 356 536
+rect 348 530 356 532
+rect 348 446 356 448
+rect 348 442 350 446
+rect 354 442 356 446
+rect 348 440 356 442
+rect 348 426 356 428
+rect 348 422 350 426
+rect 354 422 356 426
+rect 348 420 356 422
+rect 348 336 356 338
+rect 348 332 350 336
+rect 354 332 356 336
+rect 348 330 356 332
+rect 348 316 356 318
+rect 348 312 350 316
+rect 354 312 356 316
+rect 348 310 356 312
+rect 348 226 356 228
+rect 348 222 350 226
+rect 354 222 356 226
+rect 348 220 356 222
+rect 348 206 356 208
+rect 348 202 350 206
+rect 354 202 356 206
+rect 348 200 356 202
+rect 348 116 356 118
+rect 348 112 350 116
+rect 354 112 356 116
+rect 348 110 356 112
+rect 348 96 356 98
+rect 348 92 350 96
+rect 354 92 356 96
+rect 348 90 356 92
+rect 348 6 356 8
+rect 348 2 350 6
+rect 354 2 356 6
+rect 348 0 356 2
+<< m2contact >>
+rect 254 799 258 803
+rect 190 51 194 55
+<< metal2 >>
+rect 190 55 194 882
+rect 270 879 274 928
+rect 278 879 282 928
+rect 310 879 314 928
+rect 318 879 322 928
+rect 278 878 284 879
+rect 278 874 279 878
+rect 283 874 284 878
+rect 278 873 284 874
+rect 292 878 298 879
+rect 292 874 293 878
+rect 297 874 298 878
+rect 292 873 298 874
+rect 254 16 258 799
+rect 358 706 362 711
+rect 374 690 378 812
+rect 342 584 346 596
+rect 358 487 362 580
+rect 342 474 346 486
+rect 342 355 346 376
+rect 358 266 362 271
+rect 374 250 378 351
+rect 342 144 346 156
+rect 358 46 362 51
+rect 374 30 378 140
+<< m3contact >>
+rect 279 874 283 878
+rect 293 874 297 878
+rect 342 812 346 816
+rect 374 812 378 816
+rect 342 702 346 706
+rect 358 702 362 706
+rect 342 580 346 584
+rect 358 580 362 584
+rect 342 470 346 474
+rect 374 470 378 474
+rect 342 351 346 355
+rect 374 351 378 355
+rect 342 262 346 266
+rect 358 262 362 266
+rect 342 140 346 144
+rect 374 140 378 144
+rect 342 42 346 46
+rect 358 42 362 46
+rect 254 12 258 16
+<< metal3 >>
+rect 278 878 298 879
+rect 278 874 279 878
+rect 283 874 293 878
+rect 297 874 298 878
+rect 278 873 298 874
+rect 341 816 379 817
+rect 341 812 342 816
+rect 346 812 374 816
+rect 378 812 379 816
+rect 341 811 379 812
+rect 341 706 363 707
+rect 341 702 342 706
+rect 346 702 358 706
+rect 362 702 363 706
+rect 341 701 363 702
+rect 341 584 363 585
+rect 341 580 342 584
+rect 346 580 358 584
+rect 362 580 363 584
+rect 341 579 363 580
+rect 341 474 379 475
+rect 341 470 342 474
+rect 346 470 374 474
+rect 378 470 379 474
+rect 341 469 379 470
+rect 341 355 379 356
+rect 341 351 342 355
+rect 346 351 374 355
+rect 378 351 379 355
+rect 341 350 379 351
+rect 341 266 363 267
+rect 341 262 342 266
+rect 346 262 358 266
+rect 362 262 363 266
+rect 341 261 363 262
+rect 341 144 379 145
+rect 341 140 342 144
+rect 346 140 374 144
+rect 378 140 379 144
+rect 341 139 379 140
+rect 341 46 363 47
+rect 341 42 342 46
+rect 346 42 358 46
+rect 362 42 363 46
+rect 341 41 363 42
+use invbuf_4x  invbuf_4x_0
+timestamp 1484532969
+transform 1 0 270 0 1 886
+box -6 -4 34 96
+use invbuf_4x  invbuf_4x_1
+timestamp 1484532969
+transform 1 0 310 0 1 886
+box -6 -4 34 96
+use alt_alu_slice_less  alt_alu_slice_less_5
+timestamp 1487704203
+transform 1 0 0 0 1 770
+box 0 0 352 112
+use alt_alu_slice_less  alt_alu_slice_less_4
+timestamp 1487704203
+transform 1 0 0 0 1 660
+box 0 0 352 112
+use alt_alu_slice_less  alt_alu_slice_less_3
+timestamp 1487704203
+transform 1 0 0 0 1 550
+box 0 0 352 112
+use alt_alu_slice_less  alt_alu_slice_less_2
+timestamp 1487704203
+transform 1 0 0 0 1 440
+box 0 0 352 112
+use alt_alu_slice_less  alt_alu_slice_less_1
+timestamp 1487704203
+transform 1 0 0 0 1 330
+box 0 0 352 112
+use alt_alu_slice_less  alt_alu_slice_less_0
+timestamp 1487704203
+transform 1 0 0 0 1 220
+box 0 0 352 112
+use alt_alu_slice_less  alt_alu_slice_less_6
+timestamp 1487704203
+transform 1 0 0 0 1 112
+box 0 0 352 112
+use alt_alu_slice  alt_alu_slice_0
+timestamp 1487704451
+transform 1 0 0 0 1 0
+box 0 0 352 112
+use yzdetect_8  yzdetect_8_0
+timestamp 1484534894
+transform 1 0 358 0 1 4
+box -8 -4 28 756
+<< labels >>
+rlabel metal2 192 879 192 879 1 op2
+rlabel metal2 272 925 272 925 1 op0
+rlabel metal2 312 925 312 925 1 op1
+rlabel metal2 192 877 192 877 1 op2
+rlabel space 56 877 56 877 1 op6
+rlabel space 64 878 64 878 1 op5
+rlabel space 95 875 95 875 1 op4
+rlabel space 112 876 112 876 1 op3
+rlabel metal3 359 814 359 814 1 result7
+rlabel metal3 350 703 350 703 1 result6
+rlabel metal3 349 581 349 581 1 result5
+rlabel metal2 344 483 344 483 1 result4
+rlabel metal2 343 373 343 373 1 result3
+rlabel m3contact 343 263 343 263 1 result2
+rlabel metal2 344 153 344 153 1 result1
+rlabel m3contact 344 43 344 43 1 result0
+rlabel space 367 368 367 368 1 zero
+rlabel space 7 831 7 831 1 b7
+rlabel space 7 818 7 818 1 a7
+rlabel space 7 721 7 721 1 b6
+rlabel space 8 708 8 708 1 a6
+rlabel space 7 611 7 611 1 b5
+rlabel space 7 599 7 599 1 a5
+rlabel space 8 502 8 502 1 b4
+rlabel space 7 488 7 488 1 a4
+rlabel space 8 391 8 391 1 b3
+rlabel space 7 378 7 378 1 a3
+rlabel space 7 281 7 281 1 b2
+rlabel space 8 268 8 268 1 a2
+rlabel space 8 171 8 171 1 b1
+rlabel space 7 158 7 158 1 a1
+rlabel space 7 61 7 61 1 b0
+rlabel space 7 48 7 48 1 a0
+<< end >>

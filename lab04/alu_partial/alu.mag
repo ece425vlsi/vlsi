@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1486499645
+timestamp 1487710279
 << nwell >>
 rect 124 175 125 178
 << metal1 >>
@@ -1154,9 +1154,9 @@ timestamp 1484427118
 transform 1 0 160 0 1 0
 box -6 -4 130 866
 use mux4_1x_8  mux4_1x_8_0
-timestamp 1484532969
+timestamp 1487096309
 transform 1 0 288 0 1 0
-box -6 -4 106 976
+box -6 -4 314 976
 << labels >>
 rlabel metal3 -15 10 -15 10 3 result_0_
 rlabel metal3 -15 69 -15 69 3 b_0_

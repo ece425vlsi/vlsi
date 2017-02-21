@@ -1,6 +1,8 @@
 magic
 tech scmos
-timestamp 1487702025
+timestamp 1487704203
+<< m2contact >>
+rect 6 12 10 16
 << metal2 >>
 rect 22 64 26 65
 rect 6 32 10 47

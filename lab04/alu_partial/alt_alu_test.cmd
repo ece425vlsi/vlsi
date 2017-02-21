@@ -5,8 +5,8 @@ l cin
 
 ############# VECTOR DECLARATIONS #####################
 
-vector OP op6 op5 op4 op3 op1 op0
-vector OPB op1b op0b
+vector OP op6 op5 op4 op3 op2 op1 op0
+
 vector input A B
 
 l op2

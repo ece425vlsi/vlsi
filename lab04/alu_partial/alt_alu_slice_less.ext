@@ -1,0 +1,243 @@
+timestamp 1487704203
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use inv_1x inv_1x_0 1 0 6 0 1 4
+use inv_1x inv_1x_1 1 0 22 0 1 4
+use mux4_dp_1x mux4_dp_1x_0 1 0 38 0 1 4
+use fulladder fulladder_0 1 0 144 0 1 4
+use mux3_dp_1x mux3_dp_1x_0 1 0 270 0 1 4
+node "Result" 0 546 342 42 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 36 24
+node "op1b" 3 4293.6 318 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "op1" 3 4293.6 310 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "op0b" 3 4293.6 294 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "op0" 3 4293.6 270 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "y_temp" 1 1546.8 246 43 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 228 88
+node "m2_134_41#" 3 6226.8 134 41 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 124 984 352
+node "cin" 3 5295.6 158 51 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 468 250 180 72
+node "cout" 3 5218.8 158 59 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 476 254 132 56
+node "op3" 3 4293.6 110 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "op4" 3 4293.6 94 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "op5" 3 4293.6 62 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "op6" 3 4293.6 54 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 232 0 0
+node "m2_30_42#" 1 1122 30 42 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 40 84 40
+node "m2_14_36#" 1 2508 14 36 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 44 474 170
+node "A" 3 6326.4 6 28 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 264 156 888 320
+node "B" 2 4261.2 6 60 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 86 708 248
+node "Less" 4 9994.8 6 12 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 192 112 1956 664
+cap "Less" "op0b" 409.44
+cap "A" "m2_14_36#" 409.44
+cap "B" "op4" 409.44
+cap "op6" "m2_14_36#" 409.44
+cap "op6" "Less" 409.44
+cap "y_temp" "op0" 409.44
+cap "op6" "A" 409.44
+cap "cin" "cout" 409.44
+cap "B" "m2_14_36#" 134.4
+cap "op3" "Less" 409.44
+cap "op5" "m2_14_36#" 409.44
+cap "op5" "Less" 409.44
+cap "op3" "A" 409.44
+cap "B" "op6" 409.44
+cap "op5" "A" 409.44
+cap "m2_134_41#" "op0" 409.44
+cap "op0" "Less" 409.44
+cap "op1" "Less" 409.44
+cap "m2_134_41#" "cout" 409.44
+cap "cout" "Less" 409.44
+cap "B" "op3" 409.44
+cap "B" "op5" 409.44
+cap "m2_134_41#" "cin" 409.44
+cap "cin" "Less" 409.44
+cap "op4" "Less" 409.44
+cap "m2_14_36#" "m2_30_42#" 134.4
+cap "Less" "op1b" 409.44
+cap "op4" "A" 409.44
+cap "mux4_dp_1x_0/d2" "mux4_dp_1x_0/a_47_7#" 40.32
+cap "B" "Less" 9.72
+cap "inv_1x_0/Vdd!" "mux4_dp_1x_0/d0" 199.98
+cap "inv_1x_1/y" "mux4_dp_1x_0/d1" 40.32
+cap "inv_1x_1/y" "Less" 51.3
+cap "inv_1x_0/y" "mux4_dp_1x_0/d0" 8.64
+cap "mux4_dp_1x_0/d2" "Less" 80.64
+cap "inv_1x_0/y" "mux4_dp_1x_0/a_39_7#" 73.44
+cap "mux4_dp_1x_0/d0" "mux4_dp_1x_0/a_6_7#" 40.32
+cap "mux4_dp_1x_0/a_39_7#" "A" 118.8
+cap "mux4_dp_1x_0/s0" "mux4_dp_1x_0/d0" 80.64
+cap "inv_1x_0/Vdd!" "inv_1x_0/y" -5.68434e-14
+cap "mux4_dp_1x_0/a_47_7#" "Less" 37.8
+cap "mux4_dp_1x_0/d2" "mux4_dp_1x_0/a_55_7#" 16.2
+cap "inv_1x_0/Vdd!" "A" 68.4
+cap "B" "mux4_dp_1x_0/a_39_7#" 73.44
+cap "inv_1x_0/y" "A" 57.42
+cap "Less" "mux4_dp_1x_0/d1" 80.64
+cap "mux4_dp_1x_0/a_26_7#" "mux4_dp_1x_0/d1" 16.2
+cap "mux4_dp_1x_0/d0" "inv_1x_1/y" 40.32
+cap "mux4_dp_1x_0/s0" "inv_1x_0/y" 9.72
+cap "mux4_dp_1x_0/a_26_7#" "Less" 5.94
+cap "mux4_dp_1x_0/d2" "mux4_dp_1x_0/a_39_7#" 40.32
+cap "inv_1x_0/Vdd!" "B" 289.8
+cap "mux4_dp_1x_0/s0" "A" 63.18
+cap "inv_1x_0/y" "B" 38.88
+cap "mux4_dp_1x_0/a_6_74#" "mux4_dp_1x_0/d1" 40.32
+cap "inv_1x_0/Vdd!" "inv_1x_1/y" 34.2
+cap "mux4_dp_1x_0/d2" "inv_1x_0/Vdd!" 185.94
+cap "B" "A" 22.68
+cap "inv_1x_0/y" "inv_1x_1/y" 35.64
+cap "Less" "mux4_dp_1x_0/a_55_7#" 5.94
+cap "mux4_dp_1x_0/s0" "B" 173.34
+cap "A" "inv_1x_1/y" 80.82
+cap "mux4_dp_1x_0/d2" "A" 4.05
+cap "mux4_dp_1x_0/a_26_74#" "mux4_dp_1x_0/d1" 24.3
+cap "mux4_dp_1x_0/d0" "Less" 111.42
+cap "mux4_dp_1x_0/d2" "mux4_dp_1x_0/s0" 40.32
+cap "mux4_dp_1x_0/a_39_7#" "Less" 69.48
+cap "mux4_dp_1x_0/d2" "B" 3.24
+cap "B" "inv_1x_1/y" 29.16
+cap "mux4_dp_1x_0/d0" "mux4_dp_1x_0/a_6_74#" 40.32
+cap "inv_1x_0/Vdd!" "mux4_dp_1x_0/d1" 177.84
+cap "inv_1x_0/y" "mux4_dp_1x_0/d1" 9.72
+cap "mux4_dp_1x_0/d2" "inv_1x_1/y" 72.72
+cap "mux4_dp_1x_0/a_13_7#" "Less" 17.82
+cap "inv_1x_0/y" "Less" 41.58
+cap "A" "mux4_dp_1x_0/d1" 4.86
+cap "mux4_dp_1x_0/a_6_7#" "mux4_dp_1x_0/d1" 40.32
+cap "mux4_dp_1x_0/a_6_7#" "Less" 69.66
+cap "A" "Less" 19.44
+cap "mux4_dp_1x_0/s0" "Less" 9.72
+cap "mux4_dp_1x_0/s0" "mux4_dp_1x_0/d1" 80.64
+cap "mux4_dp_1x_0/d2" "mux4_dp_1x_0/a_55_74#" 24.3
+cap "mux4_dp_1x_0/d2" "mux4_dp_1x_0/a_47_74#" 40.32
+cap "mux4_dp_1x_0/d3" "mux4_dp_1x_0/Vdd!" 208.89
+cap "Less" "fulladder_0/a_n2_7#" 69.66
+cap "Less" "mux4_dp_1x_0/Gnd!" 125.82
+cap "mux4_dp_1x_0/Gnd!" "fulladder_0/cout" 80.64
+cap "mux4_dp_1x_0/Vdd!" "fulladder_0/cout" 229.14
+cap "mux4_dp_1x_0/a_68_7#" "Less" 17.82
+cap "fulladder_0/a" "fulladder_0/c" 43.56
+cap "fulladder_0/c" "Less" 9.72
+cap "fulladder_0/a_29_65#" "fulladder_0/cout" 86.4
+cap "mux4_dp_1x_0/y" "fulladder_0/a" 42.12
+cap "fulladder_0/c" "fulladder_0/cout" 85.5
+cap "mux4_dp_1x_0/y" "Less" 61.02
+cap "fulladder_0/c" "fulladder_0/a_21_7#" 113.76
+cap "mux4_dp_1x_0/d3" "mux4_dp_1x_0/a_47_7#" 93.78
+cap "mux4_dp_1x_0/y" "fulladder_0/cout" 45.18
+cap "mux4_dp_1x_0/y" "fulladder_0/a_21_7#" 73.44
+cap "fulladder_0/c" "mux4_dp_1x_0/Gnd!" 191.52
+cap "mux4_dp_1x_0/s0" "mux4_dp_1x_0/s0b" 3.24
+cap "mux4_dp_1x_0/a_47_7#" "Less" 12.96
+cap "Less" "fulladder_0/a_29_7#" 11.88
+cap "fulladder_0/a_29_7#" "fulladder_0/cout" 43.2
+cap "fulladder_0/c" "mux4_dp_1x_0/Vdd!" 405.72
+cap "mux4_dp_1x_0/s0" "mux4_dp_1x_0/d3" 61.11
+cap "mux4_dp_1x_0/y" "mux4_dp_1x_0/Vdd!" 63
+cap "mux4_dp_1x_0/d3" "mux4_dp_1x_0/a_47_74#" 112.95
+cap "mux4_dp_1x_0/s0" "fulladder_0/a" 4.86
+cap "mux4_dp_1x_0/s0" "Less" 4.86
+cap "mux4_dp_1x_0/y" "fulladder_0/c" 46.8
+cap "mux4_dp_1x_0/d3" "mux4_dp_1x_0/s0b" 61.92
+cap "Less" "fulladder_0/a_45_7#" 37.8
+cap "fulladder_0/a" "mux4_dp_1x_0/d3" 4.86
+cap "mux4_dp_1x_0/d3" "Less" 9.72
+cap "mux4_dp_1x_0/d3" "mux4_dp_1x_0/a_39_7#" 40.32
+cap "mux4_dp_1x_0/s0" "mux4_dp_1x_0/Vdd!" 26.1
+cap "fulladder_0/a" "mux4_dp_1x_0/a_39_7#" 88.56
+cap "fulladder_0/a" "Less" 29.16
+cap "Less" "mux4_dp_1x_0/a_39_7#" 9.72
+cap "fulladder_0/a" "fulladder_0/cout" 40.32
+cap "fulladder_0/a_21_7#" "Less" 37.8
+cap "mux4_dp_1x_0/d3" "mux4_dp_1x_0/Gnd!" 80.64
+cap "fulladder_0/a" "mux4_dp_1x_0/d2" 2.43
+cap "fulladder_0/a_21_7#" "fulladder_0/cout" 113.76
+cap "Less" "fulladder_0/Gnd!" 126.36
+cap "fulladder_0/a_77_7#" "Less" 35.64
+cap "fulladder_0/c" "Less" 19.44
+cap "fulladder_0/c" "mux3_dp_1x_0/d1" 6.48
+cap "fulladder_0/Vdd!" "mux3_dp_1x_0/d1" 71.1
+cap "fulladder_0/Gnd!" "mux3_dp_1x_0/s0" 80.64
+cap "fulladder_0/Vdd!" "mux3_dp_1x_0/s0" 145.44
+cap "Less" "mux3_dp_1x_0/s0b" 4.86
+cap "Less" "mux3_dp_1x_0/a_0_7#" 18.9
+cap "mux3_dp_1x_0/a_20_7#" "Less" 17.82
+cap "fulladder_0/cout" "Less" 47.7
+cap "fulladder_0/cout" "mux3_dp_1x_0/d1" 73.44
+cap "mux3_dp_1x_0/a_0_7#" "mux3_dp_1x_0/s0" 141.12
+cap "mux3_dp_1x_0/a_0_74#" "mux3_dp_1x_0/s0b" 117.99
+cap "Less" "y_temp" 57.42
+cap "mux3_dp_1x_0/d1" "y_temp" 113.76
+cap "fulladder_0/a_21_7#" "y_temp" 9.72
+cap "Less" "fulladder_0/b" 9.72
+cap "mux3_dp_1x_0/d1" "fulladder_0/b" 115.56
+cap "Less" "mux3_dp_1x_0/d1" 9.72
+cap "fulladder_0/Gnd!" "mux3_dp_1x_0/s0b" 80.64
+cap "fulladder_0/Vdd!" "mux3_dp_1x_0/s0b" 200.79
+cap "Less" "mux3_dp_1x_0/s0" 9.72
+cap "fulladder_0/a" "Less" 9.72
+cap "Less" "fulladder_0/a_69_7#" 47.52
+cap "mux3_dp_1x_0/d1" "fulladder_0/a_69_7#" 83.16
+cap "fulladder_0/a" "mux3_dp_1x_0/d1" 25.47
+cap "fulladder_0/a_85_7#" "Less" 35.64
+cap "fulladder_0/a_21_7#" "Less" 19.44
+cap "fulladder_0/a_21_7#" "mux3_dp_1x_0/d1" 12.96
+cap "mux3_dp_1x_0/a_0_7#" "mux3_dp_1x_0/s0b" 98.82
+cap "mux3_dp_1x_0/s0" "mux3_dp_1x_0/a_0_74#" 252
+cap "fulladder_0/Vdd!" "y_temp" 71.1
+cap "y_temp" "mux3_dp_1x_0/s0b" 32.31
+cap "mux3_dp_1x_0/a_7_7#" "Less" 17.82
+cap "fulladder_0/cout" "y_temp" 73.44
+cap "Less" "fulladder_0/a_45_7#" 37.8
+cap "mux3_dp_1x_0/d2" "mux3_dp_1x_0/a_0_7#" 5.94
+cap "mux3_dp_1x_0/a_41_7#" "mux3_dp_1x_0/s1" 24.3
+cap "Result" "mux3_dp_1x_0/a_33_7#" 4.86
+cap "mux3_dp_1x_0/Vdd!" "Result" 2.7
+cap "mux3_dp_1x_0/d2" "mux3_dp_1x_0/s1" 39.87
+cap "mux3_dp_1x_0/d2" "mux3_dp_1x_0/a_33_7#" 78.93
+cap "mux3_dp_1x_0/d2" "mux3_dp_1x_0/Vdd!" 35.1
+cap "mux3_dp_1x_0/d2" "mux3_dp_1x_0/Gnd!" 12.42
+cap "mux3_dp_1x_0/d2" "mux3_dp_1x_0/s1b" 31.32
+cap "mux3_dp_1x_0/s1" "mux3_dp_1x_0/a_33_7#" 80.64
+cap "mux3_dp_1x_0/Gnd!" "mux3_dp_1x_0/s1" 80.64
+cap "mux3_dp_1x_0/s1" "mux3_dp_1x_0/s1b" 92.97
+cap "mux3_dp_1x_0/Vdd!" "mux3_dp_1x_0/s1" 199.44
+cap "mux3_dp_1x_0/s1b" "mux3_dp_1x_0/a_33_7#" 80.64
+cap "mux3_dp_1x_0/Vdd!" "mux3_dp_1x_0/s1b" 282.06
+cap "mux3_dp_1x_0/Gnd!" "mux3_dp_1x_0/s1b" 148.68
+cap "mux3_dp_1x_0/a_41_74#" "mux3_dp_1x_0/s1" 36.45
+merge "mux4_dp_1x_0/s1b" "inv_1x_0/y" -712.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_0/y" "m2_14_36#"
+merge "mux3_dp_1x_0/s1b" "op1b" -741.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_dp_1x_0/s0" "inv_1x_1/a" -1176.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_1/a" "B"
+merge "mux3_dp_1x_0/d2" "mux3_dp_1x_0/Gnd!" -7672.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -80 -16 -16 -1200 -400
+merge "mux3_dp_1x_0/Gnd!" "fulladder_0/Gnd!"
+merge "fulladder_0/Gnd!" "mux4_dp_1x_0/Gnd!"
+merge "mux4_dp_1x_0/Gnd!" "inv_1x_1/Gnd!"
+merge "inv_1x_1/Gnd!" "inv_1x_0/Gnd!"
+merge "inv_1x_0/Gnd!" "Less"
+merge "mux3_dp_1x_0/y" "Result" -291.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux3_dp_1x_0/d0" "fulladder_0/s" -668.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "fulladder_0/s" "y_temp"
+merge "mux3_dp_1x_0/d1" "fulladder_0/b" -1437.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 0 0
+merge "fulladder_0/b" "mux4_dp_1x_0/y"
+merge "mux4_dp_1x_0/y" "m2_134_41#"
+merge "fulladder_0/a" "mux4_dp_1x_0/s1" -1262.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 0 0
+merge "mux4_dp_1x_0/s1" "inv_1x_0/a"
+merge "inv_1x_0/a" "A"
+merge "mux3_dp_1x_0/Vdd!" "fulladder_0/Vdd!" -7776 0 0 0 0 -1792 -544 0 0 0 0 0 0 0 0 0 0 0 -64 0 0 0 0
+merge "fulladder_0/Vdd!" "mux4_dp_1x_0/Vdd!"
+merge "mux4_dp_1x_0/Vdd!" "inv_1x_1/Vdd!"
+merge "inv_1x_1/Vdd!" "inv_1x_0/Vdd!"
+merge "mux4_dp_1x_0/d1" "op5" -759.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_dp_1x_0/d0" "op6" -790.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux3_dp_1x_0/s0" "op0" -767.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_dp_1x_0/d2" "op4" -762 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
+merge "mux3_dp_1x_0/s1" "op1" -735 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux4_dp_1x_0/d3" "op3" -757.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "fulladder_0/cout" "cout" -848.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "mux3_dp_1x_0/s0b" "op0b" -737.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
+merge "mux4_dp_1x_0/s0b" "inv_1x_1/y" -616.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "inv_1x_1/y" "m2_30_42#"
+merge "fulladder_0/c" "cin" -879 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0

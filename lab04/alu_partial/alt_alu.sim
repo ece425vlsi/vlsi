@@ -1,6 +1,6 @@
 | units: 30 tech: scmos format: MIT
 p op0 mux3_dp_1x_0/a_0_74# mux3_dp_1x_0/a_7_74# 2 9 275 78
-p fulladder_0/s mux3_dp_1x_0/a_7_74# Vdd! 2 9 280 78
+p y_temp mux3_dp_1x_0/a_7_74# Vdd! 2 9 280 78
 p fulladder_0/b Vdd! mux3_dp_1x_0/a_20_74# 2 9 288 78
 p op0b mux3_dp_1x_0/a_20_74# mux3_dp_1x_0/a_0_74# 2 9 293 78
 p op1 mux3_dp_1x_0/a_0_74# mux3_dp_1x_0/a_33_7# 2 9 301 78
@@ -9,7 +9,7 @@ p Less mux3_dp_1x_0/a_41_74# Vdd! 2 9 314 78
 p mux3_dp_1x_0/a_33_7# Result Vdd! 2 10 329 77
 n op0 mux3_dp_1x_0/a_0_7# mux3_dp_1x_0/a_7_7# 2 6 275 11
 n fulladder_0/b mux3_dp_1x_0/a_7_7# Gnd! 2 6 280 11
-n fulladder_0/s Gnd! mux3_dp_1x_0/a_20_7# 2 6 288 11
+n y_temp Gnd! mux3_dp_1x_0/a_20_7# 2 6 288 11
 n op0b mux3_dp_1x_0/a_20_7# mux3_dp_1x_0/a_0_7# 2 6 293 11
 n op1b mux3_dp_1x_0/a_0_7# mux3_dp_1x_0/a_33_7# 2 6 301 11
 n op1 mux3_dp_1x_0/a_33_7# mux3_dp_1x_0/a_41_7# 2 6 309 11
@@ -27,7 +27,7 @@ p fulladder_0/a_21_7# fulladder_0/a_45_65# fulladder_0/a_69_7# 2 16 211 69
 p cin fulladder_0/a_69_7# fulladder_0/a_77_65# 2 16 219 69
 p fulladder_0/b fulladder_0/a_77_65# fulladder_0/a_85_65# 2 16 227 69
 p A fulladder_0/a_85_65# Vdd! 2 16 235 69
-p fulladder_0/a_69_7# Vdd! fulladder_0/s 2 16 243 69
+p fulladder_0/a_69_7# Vdd! y_temp 2 16 243 69
 p fulladder_0/a_21_7# Vdd! cout 2 16 259 69
 n A fulladder_0/a_n2_7# Gnd! 2 8 147 11
 n fulladder_0/b Gnd! fulladder_0/a_n2_7# 2 8 155 11
@@ -41,7 +41,7 @@ n fulladder_0/a_21_7# fulladder_0/a_45_7# fulladder_0/a_69_7# 2 8 211 11
 n cin fulladder_0/a_69_7# fulladder_0/a_77_7# 2 8 219 11
 n fulladder_0/b fulladder_0/a_77_7# fulladder_0/a_85_7# 2 8 227 11
 n A fulladder_0/a_85_7# Gnd! 2 8 235 11
-n fulladder_0/a_69_7# Gnd! fulladder_0/s 2 8 243 11
+n fulladder_0/a_69_7# Gnd! y_temp 2 8 243 11
 n fulladder_0/a_21_7# Gnd! cout 2 8 259 11
 p B mux4_dp_1x_0/a_6_74# mux4_dp_1x_0/a_13_74# 2 9 49 78
 p op6 mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 78
@@ -69,16 +69,16 @@ p B Vdd! inv_1x_1/y 2 10 27 77
 n B Gnd! inv_1x_1/y 2 7 27 11
 p A Vdd! inv_1x_0/y 2 10 11 77
 n A Gnd! inv_1x_0/y 2 7 11 11
-C mux3_dp_1x_0/a_33_7# Result 2.1
-C Vdd! inv_1x_1/y 7.0
-C Vdd! cout 6.2
-C Vdd! fulladder_0/s 2.7
-C Vdd! inv_1x_0/y 2.7
+C Vdd! fulladder_0/b 7.0
+C cin Vdd! 4.6
+C Result mux3_dp_1x_0/a_33_7# 2.1
+C B Vdd! 5.9
+C cout Vdd! 6.2
+C inv_1x_0/y Vdd! 2.7
+C inv_1x_1/y Vdd! 7.0
 C mux3_dp_1x_0/a_33_7# Vdd! 3.1
-C mux3_dp_1x_0/a_0_74# Vdd! 2.2
-C Vdd! B 5.9
-C Vdd! cin 4.6
-C fulladder_0/b Vdd! 7.0
+C Vdd! mux3_dp_1x_0/a_0_74# 2.2
+C y_temp Vdd! 2.7
 C Vdd! A 3.9
 R mux4_dp_1x_0/a_68_7# 164
 R mux4_dp_1x_0/a_55_7# 164
@@ -145,8 +145,8 @@ C op0b GND 4.2
 R op0b 1103
 C fulladder_0/b GND 10.2
 R fulladder_0/b 4909
-C fulladder_0/s GND 3.0
-R fulladder_0/s 1505
+C y_temp GND 3.0
+R y_temp 1505
 C op0 GND 4.1
 R op0 992
 R Vdd! 24586
