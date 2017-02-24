@@ -1,20 +1,21 @@
 h Vdd!
 l Gnd!
-l cin
+
 
 
 ############# VECTOR DECLARATIONS #####################
 
-vector OP op6 op5 op4 op3 op2 op1 op0
-
-vector input A B
-
-l op2
+vector op op6 op5 op4 op3 op2 op1 op0
+vector a a7 a6 a5 a4 a3 a2 a1 a0
+vector b b7 b6 b5 b4 b3 b2 b1 b0
+vector result result7 result6 result5 result4 result3 result2 result1 result0
 
 
 stepsize 250
 
-analyzer A B Less OP Result y_temp
+#analyzer A B Less OP Result y_temp
+analyzer op a b result zero
+w op a b result zero
 
 
 
@@ -47,65 +48,42 @@ proc dec2bin {i {width {}}} {
     return $sign$res
 }
 
-proc s2i01 s {
 
-     if {$s == "0"} {
-     return 0
-     } elseif {$s == "1"} {
-     return 1
+
+proc cycleInput { operator } {
+for {set i 0} {$i < 256} {incr i} {
+
+    set adec [dec2bin $i 8]
+    puts "adec is: $adec"
+    setvector a $adec
+
+    set j 1
+    	      while {$j < 256}  {
+	      	  set bdec [dec2bin $j 8]
+    		  puts "bdec is: $bdec"
+		  setvector b $bdec
+		  set j [expr $j << 1]
+		  checkAnswer $operator
+		  s
+	      }
+}
+}
+
+proc checkAnswer { operator } {
+     if { $operator == 6} {
+     	set expected $a & $b
+	assert result expected
      }
-     return 0
-
-
-}
-
-proc cycleInput {} {
-for {set i 0} {$i < 4} {incr i} {
-
-    set opCode [dec2bin $i 2]
-    puts "opcode is: $opCode"
-    setvector input $opCode
-    s
-}
 }
 
 ####################### EXECUTED CODE: ########################################
 
-l Less
-
 #and
-setvector OP 000101
-setvector OPB 10
-cycleInput
+set operator 0
+setvector op 0001001
+cycleInput $operator
 
-#or
-setvector OP 011101
-cycleInput
 
-#nor
-setvector OP 100001
-cycleInput
-
-#xor
-setvector OP 011001
-cycleInput
-
-#add
-setvector OP 010100
-setvector OPB 11
-cycleInput
-
-h cin
-h Less
-
-#sub
-setvector OP 101000
-cycleInput
-
-#slt
-setvector OP 101010
-setvector OPB 01
-cycleInput
 
 
 
@@ -156,4 +134,14 @@ cycleInput
 #    }
 #    if {$res == {}} {set res 0}
 #    return $res
+#}
+
+#proc s2i01 s {
+#
+#     if {$s == "0"} {
+#     return 0
+#     } elseif {$s == "1"} {
+#     return 1
+#     }
+#     return 0
 #}

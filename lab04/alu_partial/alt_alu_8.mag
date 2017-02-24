@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1487711615
+timestamp 1487969058
 << psubstratepcontact >>
 rect 302 884 306 888
 rect 350 662 354 666
@@ -88,6 +88,10 @@ rect 348 0 356 2
 rect 254 799 258 803
 rect 190 51 194 55
 << metal2 >>
+rect 54 876 58 880
+rect 62 877 66 881
+rect 94 874 98 878
+rect 110 874 114 878
 rect 190 55 194 882
 rect 270 879 274 928
 rect 278 879 282 928
@@ -108,6 +112,7 @@ rect 342 584 346 596
 rect 358 487 362 580
 rect 342 474 346 486
 rect 342 355 346 376
+rect 366 367 370 371
 rect 358 266 362 271
 rect 374 250 378 351
 rect 342 144 346 156
@@ -139,41 +144,57 @@ rect 278 874 279 878
 rect 283 874 293 878
 rect 297 874 298 878
 rect 278 873 298 874
+rect 6 830 10 834
+rect 6 817 10 821
 rect 341 816 379 817
 rect 341 812 342 816
 rect 346 812 374 816
 rect 378 812 379 816
 rect 341 811 379 812
+rect 6 720 10 724
+rect 6 707 10 711
 rect 341 706 363 707
 rect 341 702 342 706
 rect 346 702 358 706
 rect 362 702 363 706
 rect 341 701 363 702
+rect 6 610 10 614
+rect 6 597 10 601
 rect 341 584 363 585
 rect 341 580 342 584
 rect 346 580 358 584
 rect 362 580 363 584
 rect 341 579 363 580
+rect 6 500 10 504
+rect 6 487 10 491
 rect 341 474 379 475
 rect 341 470 342 474
 rect 346 470 374 474
 rect 378 470 379 474
 rect 341 469 379 470
+rect 6 390 10 394
+rect 6 377 10 381
 rect 341 355 379 356
 rect 341 351 342 355
 rect 346 351 374 355
 rect 378 351 379 355
 rect 341 350 379 351
+rect 6 280 10 284
+rect 6 267 10 271
 rect 341 266 363 267
 rect 341 262 342 266
 rect 346 262 358 266
 rect 362 262 363 266
 rect 341 261 363 262
+rect 6 171 10 176
+rect 6 158 10 162
 rect 341 144 379 145
 rect 341 140 342 144
 rect 346 140 374 144
 rect 378 140 379 144
 rect 341 139 379 140
+rect 6 60 10 64
+rect 6 47 10 51
 rect 341 46 363 47
 rect 341 42 342 46
 rect 346 42 358 46
@@ -228,10 +249,10 @@ rlabel metal2 192 879 192 879 1 op2
 rlabel metal2 272 925 272 925 1 op0
 rlabel metal2 312 925 312 925 1 op1
 rlabel metal2 192 877 192 877 1 op2
-rlabel space 56 877 56 877 1 op6
-rlabel space 64 878 64 878 1 op5
-rlabel space 95 875 95 875 1 op4
-rlabel space 112 876 112 876 1 op3
+rlabel metal2 56 877 56 877 1 op6
+rlabel metal2 64 878 64 878 1 op5
+rlabel metal2 95 875 95 875 1 op4
+rlabel metal2 112 876 112 876 1 op3
 rlabel metal3 359 814 359 814 1 result7
 rlabel metal3 350 703 350 703 1 result6
 rlabel metal3 349 581 349 581 1 result5
@@ -240,21 +261,21 @@ rlabel metal2 343 373 343 373 1 result3
 rlabel m3contact 343 263 343 263 1 result2
 rlabel metal2 344 153 344 153 1 result1
 rlabel m3contact 344 43 344 43 1 result0
-rlabel space 367 368 367 368 1 zero
-rlabel space 7 831 7 831 1 b7
-rlabel space 7 818 7 818 1 a7
-rlabel space 7 721 7 721 1 b6
-rlabel space 8 708 8 708 1 a6
-rlabel space 7 611 7 611 1 b5
-rlabel space 7 599 7 599 1 a5
-rlabel space 8 502 8 502 1 b4
-rlabel space 7 488 7 488 1 a4
-rlabel space 8 391 8 391 1 b3
-rlabel space 7 378 7 378 1 a3
-rlabel space 7 281 7 281 1 b2
-rlabel space 8 268 8 268 1 a2
-rlabel space 8 171 8 171 1 b1
-rlabel space 7 158 7 158 1 a1
-rlabel space 7 61 7 61 1 b0
-rlabel space 7 48 7 48 1 a0
+rlabel metal2 367 368 367 368 1 zero
+rlabel metal3 7 831 7 831 1 b7
+rlabel metal3 7 818 7 818 1 a7
+rlabel metal3 7 721 7 721 1 b6
+rlabel metal3 8 708 8 708 1 a6
+rlabel metal3 7 611 7 611 1 b5
+rlabel metal3 7 599 7 599 1 a5
+rlabel metal3 8 502 8 502 1 b4
+rlabel metal3 7 488 7 488 1 a4
+rlabel metal3 8 391 8 391 1 b3
+rlabel metal3 7 378 7 378 1 a3
+rlabel metal3 7 281 7 281 1 b2
+rlabel metal3 8 268 8 268 1 a2
+rlabel metal3 8 171 8 171 1 b1
+rlabel metal3 7 158 7 158 1 a1
+rlabel metal3 7 61 7 61 1 b0
+rlabel metal3 7 48 7 48 1 a0
 << end >>
