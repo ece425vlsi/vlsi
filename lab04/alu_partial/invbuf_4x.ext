@@ -10,8 +10,8 @@ node "sb_out" 2192 1291.62 7 7 ndif 135 64 185 84 0 0 0 0 0 0 184 184 0 0 0 0 32
 node "s" 880 431.46 1 38 pc 0 0 0 0 0 0 0 0 0 0 176 172 0 0 0 0 20 18 16 16 0 0
 node "Vdd!" 4068 8064 -6 40 nw 64 64 370 168 2240 192 0 0 0 0 0 0 0 0 0 0 576 240 0 0 0 0
 cap "s_out" "Vdd!" 1225.5
-cap "Vdd!" "sb_out" 1498.62
 cap "s" "Vdd!" 431.46
+cap "sb_out" "Vdd!" 1498.62
 fet nfet 21 7 22 8 54 58 "Gnd!" "sb_out" 4 0 "Gnd!" 27 0 "s_out" 27 0
 fet nfet 5 7 6 8 54 58 "Gnd!" "s" 4 0 "Gnd!" 27 0 "sb_out" 27 0
 fet pfet 21 46 22 47 74 78 "Vdd!" "sb_out" 4 0 "Vdd!" 37 0 "s_out" 37 0

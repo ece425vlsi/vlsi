@@ -9,7 +9,7 @@ vector op op6 op5 op4 op3 op2 op1 op0
 vector a a7 a6 a5 a4 a3 a2 a1 a0
 vector b b7 b6 b5 b4 b3 b2 b1 b0
 vector result result7 result6 result5 result4 result3 result2 result1 result0
-
+#vector expected expected7 expected6 expected5 expected4 expected3 expected2 expected1 expected0
 
 stepsize 250
 
@@ -49,99 +49,103 @@ proc dec2bin {i {width {}}} {
 }
 
 
-
-proc cycleInput { operator } {
+proc cycleInput {} {
 for {set i 0} {$i < 256} {incr i} {
 
     set adec [dec2bin $i 8]
-    puts "adec is: $adec"
+    #puts "adec is: $adec"
     setvector a $adec
 
     set j 1
     	      while {$j < 256}  {
 	      	  set bdec [dec2bin $j 8]
-    		  puts "bdec is: $bdec"
+    		  #puts "bdec is: $bdec"
 		  setvector b $bdec
 		  set j [expr $j << 1]
-		  checkAnswer $operator
 		  s
+		  checkAnswer
 	      }
 }
 }
 
-proc checkAnswer { operator } {
-     if { $operator == 6} {
-     	set expected $a & $b
-	assert result expected
+proc checkAnswer {} {
+     set expectedNum 0
+
+     if { [query op] == 9 } {
+     	#and
+     	set expectedNum [expr [query a] & [query b] ]
+     } elseif { [query op] ==  57} {
+       #or
+       set expectedNum [expr [query a] | [query b] ]
+     } elseif { [query op] ==  65} {
+       #nor
+       set expectedNum [expr [query a] | [query b] ]
+       set expectedNum [expr ~$expectedNum]
+       set expectedNum [expr 256 + $expectedNum]
+     } elseif { [query op] ==  49} {
+       #xor
+       set expectedNum [expr [query a] ^ [query b] ]
+     } elseif { [query op] ==  40} {
+       #add
+       set expectedNum [expr [query a] + [query b] ]
+     } elseif { [query op] ==  84} {
+       #sub
+       set expectedNum [expr [query a] - [query b] ]
+       if { $expectedNum < 0} {
+       	  set expectedNum [expr $expectedNum + 256]
+       }
+     } elseif { [query op] ==  86} {
+       #slt
+       set expectedNum [expr [query a] < [query b] ]
      }
+
+     set decex $expectedNum
+     set binex [dec2bin $expectedNum 8]
+     set decre [query result]
+     set binre [dec2bin $decre 8]
+
+     puts "a is [query a]; b is [query b]"
+     puts "dec expected: $decex"
+     #puts "bin expected: $binex"
+     puts "dec result: $decre"
+     #puts "bin result: $binre"
+
+     #if { $expectedNum < 240} {
+     	assert result [dec2bin $expectedNum 8]
+     #}
+     
 }
 
 ####################### EXECUTED CODE: ########################################
 
 #and
-set operator 0
 setvector op 0001001
-cycleInput $operator
+cycleInput
+
+#or
+setvector op 0111001
+cycleInput
+
+#nor
+setvector op 1000001
+cycleInput
+
+#xor
+setvector op 0110001
+cycleInput
+
+#add
+setvector op 0101000
+cycleInput
+
+#sub
+setvector op 1010100
+cycleInput
+
+#slt
+setvector op 1010110
+cycleInput
 
 
 
 
-
-
-################################## Garbage/Reference: ############################
-
-#setvector input 000
-#s
-#setvector input 001
-#s
-#setvector input 010
-#s
-#setvector input 011
-#s
-
-#set temp [dec2bin $i 3]
-#set spot [split $temp {}]
-#puts $spot
-#set listSize [llength $spot]
-#puts "list size is $listSize"
-#set secondElem [lindex $spot 1]
-#puts "second bit is: $secondElem"
-#set tempNum [s2i01 $secondElem]
-#puts "the tempNum is: $tempNum"
-#puts "current i is $i"
-#puts "current temp is $temp"
-#set vecList {}
-#for {set j 0} {$j < $listSize} {incr j} {
-#lappend vecList [s2i01 [lindex $spot $j]]
-#}
-#lappend vecList 0
-#lappend vecList 0
-#lappend vecList 0
-#puts "veclist is: $vecList"
-#setvector OP $vecList
-#set numList [join $vecList]
-#setvector input $vecList
-#puts "numlist is: $numList"
-#setvector input $temp
-
-
-#proc dec2bin i {
-#    #returns a string, e.g. dec2bin 10 => 1010 
-#    set res {} 
-#    while {$i>0} {
-#        set res [expr {$i%2}]$res
-#        set i [expr {$i/2}]
-#    }
-#    if {$res == {}} {set res 0}
-#    return $res
-#}
-
-#proc s2i01 s {
-#
-#     if {$s == "0"} {
-#     return 0
-#     } elseif {$s == "1"} {
-#     return 1
-#     }
-#     return 0
-#}

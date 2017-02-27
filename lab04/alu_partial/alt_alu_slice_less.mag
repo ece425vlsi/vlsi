@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1487704203
+timestamp 1488158942
 << m2contact >>
 rect 6 12 10 16
 << metal2 >>
@@ -16,16 +16,18 @@ rect 70 32 74 57
 rect 70 27 74 28
 rect 94 0 98 112
 rect 110 0 114 112
+rect 182 107 186 112
+rect 174 103 186 107
 rect 158 65 162 66
 rect 158 59 162 61
-rect 174 65 178 112
+rect 174 65 178 103
 rect 158 51 162 52
 rect 134 47 138 48
 rect 134 41 138 43
 rect 142 32 146 40
 rect 142 27 146 28
-rect 174 0 178 61
-rect 182 56 186 112
+rect 174 8 178 61
+rect 182 56 186 100
 rect 182 0 186 52
 rect 237 38 241 43
 rect 270 0 274 112
@@ -153,11 +155,10 @@ rlabel metal2 56 110 56 110 5 op6
 rlabel metal2 64 110 64 110 5 op5
 rlabel metal2 96 110 96 110 5 op4
 rlabel metal2 112 110 112 110 5 op3
-rlabel metal2 176 110 176 110 5 cout
-rlabel metal2 184 110 184 110 5 cin
 rlabel metal2 272 110 272 110 5 op0
 rlabel metal2 296 110 296 110 5 op0b
 rlabel metal2 312 110 312 110 5 op1
 rlabel metal2 320 110 320 110 5 op1b
 rlabel m3contact 248 45 248 45 1 y_temp
+rlabel metal2 184 110 184 110 5 cout
 << end >>

@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1487969058
+timestamp 1488158942
 << psubstratepcontact >>
 rect 302 884 306 888
 rect 350 662 354 666
@@ -209,35 +209,35 @@ timestamp 1484532969
 transform 1 0 310 0 1 886
 box -6 -4 34 96
 use alt_alu_slice_less  alt_alu_slice_less_5
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 770
 box 0 0 352 112
 use alt_alu_slice_less  alt_alu_slice_less_4
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 660
 box 0 0 352 112
 use alt_alu_slice_less  alt_alu_slice_less_3
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 550
 box 0 0 352 112
 use alt_alu_slice_less  alt_alu_slice_less_2
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 440
 box 0 0 352 112
 use alt_alu_slice_less  alt_alu_slice_less_1
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 330
 box 0 0 352 112
 use alt_alu_slice_less  alt_alu_slice_less_0
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 220
 box 0 0 352 112
 use alt_alu_slice_less  alt_alu_slice_less_6
-timestamp 1487704203
+timestamp 1488158942
 transform 1 0 0 0 1 112
 box 0 0 352 112
 use alt_alu_slice  alt_alu_slice_0
-timestamp 1487704451
+timestamp 1488157443
 transform 1 0 0 0 1 0
 box 0 0 352 112
 use yzdetect_8  yzdetect_8_0

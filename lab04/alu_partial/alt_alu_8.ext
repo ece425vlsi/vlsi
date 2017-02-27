@@ -1,4 +1,4 @@
-timestamp 1487711615
+timestamp 1488158942
 version 8.1
 tech scmos
 style AMI0.5um(amic5)from:T24H
@@ -67,233 +67,233 @@ node "a_350_662#" 105 792 350 662 poc 0 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 
 node "a_350_752#" 82 792 350 752 noc 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
 node "a_302_884#" 105 792 302 884 poc 0 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
 node "a_302_974#" 82 792 302 974 noc 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 32 0 0 0 0
-cap "alt_alu_slice_0/fulladder_0/c" "alt_alu_slice_0/fulladder_0/cout" 40.32
-cap "alt_alu_slice_0/fulladder_0/a_45_65#" "alt_alu_slice_0/fulladder_0/c" 161.28
-cap "alt_alu_slice_0/fulladder_0/Vdd!" "alt_alu_slice_0/fulladder_0/c" 172.44
-cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/a_20_7#" -3.55271e-15
-cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/cout" 40.32
-cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" 416.52
-cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/Gnd!" 48.96
-cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/a" 1.77636e-15
-cap "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" "alt_alu_slice_0/y_temp" -14.4
+cap "alt_alu_slice_0/fulladder_0/c" "alt_alu_slice_0/fulladder_0/Vdd!" 172.44
+cap "alt_alu_slice_0/fulladder_0/c" "alt_alu_slice_0/fulladder_0/a_45_65#" 161.28
+cap "alt_alu_slice_0/fulladder_0/c" "alt_alu_slice_0/cout" 40.32
 cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/a_45_7#" 7.10543e-15
+cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/a_20_7#" -3.55271e-15
 cap "alt_alu_slice_0/mux3_dp_1x_0/a_0_7#" "m1_254_799#" -3.55271e-15
-cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/a_7_7#" -3.55271e-15
-cap "m1_254_799#" "alt_alu_slice_0/y_temp" 73.44
-cap "alt_alu_slice_0/fulladder_0/a_21_7#" "m1_254_799#" 40.32
 cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/b" 1.77636e-15
-cap "alt_alu_slice_0/fulladder_0/a_77_7#" "m1_254_799#" -7.10543e-15
-cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/c" 3.55271e-15
+cap "alt_alu_slice_0/y_temp" "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" -14.4
 cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/d1" 73.44
+cap "m1_254_799#" "alt_alu_slice_0/y_temp" 73.44
+cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/Gnd!" 48.96
+cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/c" 3.55271e-15
+cap "m1_254_799#" "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" 416.52
+cap "alt_alu_slice_0/mux3_dp_1x_0/a_7_7#" "m1_254_799#" -3.55271e-15
 cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/a_85_7#" -7.10543e-15
+cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/cout" 40.32
+cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/a_77_7#" -7.10543e-15
+cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/a" 1.77636e-15
+cap "m1_254_799#" "alt_alu_slice_0/fulladder_0/a_21_7#" 40.32
+cap "result0" "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" 48.6
+cap "yzdetect_8_0/nor2_1x_4/y" "yzdetect_8_0/a_1_" 126
 cap "yzdetect_8_0/a_1_" "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" 281.79
-cap "yzdetect_8_0/a_1_" "yzdetect_8_0/nor2_1x_4/y" 126
-cap "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" "result0" 48.6
-cap "alt_alu_slice_less_6/fulladder_0/a_45_7#" "op2" 151.2
-cap "alt_alu_slice_less_6/fulladder_0/a_45_65#" "op2" 161.28
 cap "op2" "alt_alu_slice_less_6/Less" 73.44
-cap "alt_alu_slice_less_6/fulladder_0/a" "op2" 40.32
-cap "alt_alu_slice_less_6/fulladder_0/c" "op2" 40.32
-cap "alt_alu_slice_less_6/fulladder_0/cout" "op2" 40.32
-cap "alt_alu_slice_less_6/mux4_dp_1x_0/y" "alt_alu_slice_less_6/fulladder_0/Vdd!" -3.6
-cap "alt_alu_slice_less_6/fulladder_0/a_45_7#" "alt_alu_slice_less_6/Less" -25.92
-cap "alt_alu_slice_less_6/fulladder_0/a_21_7#" "op2" 40.32
+cap "alt_alu_slice_less_6/fulladder_0/a_45_7#" "op2" 151.2
 cap "alt_alu_slice_less_6/mux4_dp_1x_0/y" "op2" 113.76
-cap "alt_alu_slice_less_6/fulladder_0/Gnd!" "op2" 80.64
-cap "alt_alu_slice_less_6/fulladder_0/Vdd!" "op2" 91.8
-cap "alt_alu_slice_less_6/fulladder_0/a_21_7#" "m1_254_799#" 40.32
-cap "alt_alu_slice_less_6/y_temp" "alt_alu_slice_less_6/mux3_dp_1x_0/Vdd!" -14.4
-cap "m1_254_799#" "alt_alu_slice_less_6/y_temp" 73.44
-cap "alt_alu_slice_less_6/mux3_dp_1x_0/Gnd!" "m1_254_799#" 191.52
-cap "alt_alu_slice_less_6/Less" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_6/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_6/Less" -25.92
+cap "op2" "alt_alu_slice_less_6/fulladder_0/Gnd!" 80.64
+cap "alt_alu_slice_less_6/mux4_dp_1x_0/y" "alt_alu_slice_less_6/fulladder_0/Vdd!" -3.6
+cap "alt_alu_slice_less_6/fulladder_0/cout" "op2" 40.32
+cap "alt_alu_slice_less_6/fulladder_0/a_21_7#" "op2" 40.32
+cap "alt_alu_slice_less_6/fulladder_0/a" "op2" 40.32
+cap "op2" "alt_alu_slice_less_6/fulladder_0/Vdd!" 91.8
+cap "op2" "alt_alu_slice_less_6/fulladder_0/c" 40.32
+cap "alt_alu_slice_less_6/fulladder_0/a_45_7#" "alt_alu_slice_less_6/Less" -25.92
+cap "alt_alu_slice_less_6/fulladder_0/a_45_65#" "op2" 161.28
+cap "m1_254_799#" "alt_alu_slice_less_6/Less" 73.44
 cap "m1_254_799#" "alt_alu_slice_less_6/mux3_dp_1x_0/d1" 73.44
 cap "m1_254_799#" "alt_alu_slice_less_6/mux3_dp_1x_0/Vdd!" 304.92
+cap "m1_254_799#" "alt_alu_slice_less_6/y_temp" 73.44
+cap "alt_alu_slice_less_6/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_6/Less" -25.92
+cap "m1_254_799#" "alt_alu_slice_less_6/fulladder_0/a_21_7#" 40.32
+cap "alt_alu_slice_less_6/mux3_dp_1x_0/Vdd!" "alt_alu_slice_less_6/y_temp" -14.4
 cap "m1_254_799#" "alt_alu_slice_less_6/fulladder_0/cout" 40.32
-cap "result1" "yzdetect_8_0/nand2_1x_1/Y" 78.48
+cap "m1_254_799#" "alt_alu_slice_less_6/mux3_dp_1x_0/Gnd!" 191.52
 cap "result1" "alt_alu_slice_less_6/mux3_dp_1x_0/Gnd!" 80.64
-cap "result1" "alt_alu_slice_less_6/mux3_dp_1x_0/a_33_7#" 4.86
-cap "result1" "yzdetect_8_0/nand2_1x_1/A" 83.16
+cap "result1" "yzdetect_8_0/nand2_1x_1/Y" 78.48
+cap "yzdetect_8_0/nand2_1x_1/A" "result1" 83.16
 cap "result1" "yzdetect_8_0/nand2_1x_1/b" 9.72
+cap "result1" "alt_alu_slice_less_6/mux3_dp_1x_0/a_33_7#" 4.86
+cap "op2" "alt_alu_slice_less_0/fulladder_0/cout" 40.32
+cap "alt_alu_slice_less_0/mux4_dp_1x_0/Vdd!" "op2" 75.6
 cap "alt_alu_slice_less_0/mux4_dp_1x_0/y" "alt_alu_slice_less_0/mux4_dp_1x_0/Vdd!" -3.6
-cap "op2" "alt_alu_slice_less_0/fulladder_0/a_21_7#" 40.32
+cap "alt_alu_slice_less_0/fulladder_0/Gnd!" "op2" 80.64
+cap "alt_alu_slice_less_0/fulladder_0/c" "op2" 40.32
+cap "alt_alu_slice_less_0/fulladder_0/a_21_7#" "op2" 40.32
+cap "alt_alu_slice_less_0/fulladder_0/a_45_7#" "op2" 151.2
+cap "alt_alu_slice_less_0/mux4_dp_1x_0/y" "op2" 113.76
+cap "alt_alu_slice_less_0/fulladder_0/a" "op2" 40.32
+cap "alt_alu_slice_less_0/fulladder_0/a_45_65#" "op2" 110.88
+cap "alt_alu_slice_less_0/fulladder_0/a_45_7#" "alt_alu_slice_less_0/Less" -25.92
 cap "alt_alu_slice_less_6/fulladder_0/Vdd!" "op2" 102.24
 cap "op2" "alt_alu_slice_less_0/Less" 73.44
-cap "op2" "alt_alu_slice_less_0/fulladder_0/a_45_7#" 151.2
-cap "op2" "alt_alu_slice_less_0/fulladder_0/c" 40.32
-cap "op2" "alt_alu_slice_less_0/fulladder_0/a_45_65#" 110.88
-cap "op2" "alt_alu_slice_less_0/fulladder_0/Gnd!" 80.64
-cap "op2" "alt_alu_slice_less_0/mux4_dp_1x_0/Vdd!" 75.6
-cap "op2" "alt_alu_slice_less_0/fulladder_0/a" 40.32
-cap "alt_alu_slice_less_0/fulladder_0/cout" "op2" 40.32
-cap "alt_alu_slice_less_0/mux4_dp_1x_0/y" "op2" 113.76
-cap "alt_alu_slice_less_0/Less" "alt_alu_slice_less_0/fulladder_0/a_45_7#" -25.92
-cap "alt_alu_slice_less_0/fulladder_0/Vdd!" "m1_254_799#" 113.4
-cap "alt_alu_slice_less_0/fulladder_0/a_21_7#" "m1_254_799#" 40.32
-cap "alt_alu_slice_less_6/mux3_dp_1x_0/Vdd!" "m1_254_799#" 111.6
-cap "alt_alu_slice_less_0/fulladder_0/Vdd!" "alt_alu_slice_less_0/y_temp" -14.4
-cap "m1_254_799#" "alt_alu_slice_less_0/y_temp" 73.44
-cap "alt_alu_slice_less_0/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_0/Less" -25.92
+cap "m1_254_799#" "alt_alu_slice_less_0/fulladder_0/cout" 40.32
+cap "m1_254_799#" "alt_alu_slice_less_0/fulladder_0/Vdd!" 113.4
+cap "m1_254_799#" "alt_alu_slice_less_0/mux3_dp_1x_0/Gnd!" 191.52
 cap "m1_254_799#" "alt_alu_slice_less_0/fulladder_0/Vdd!" 110.88
-cap "alt_alu_slice_less_0/fulladder_0/cout" "m1_254_799#" 40.32
-cap "alt_alu_slice_less_0/Less" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_0/mux3_dp_1x_0/d1" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_0/mux3_dp_1x_0/Gnd!" "m1_254_799#" 191.52
+cap "m1_254_799#" "alt_alu_slice_less_0/fulladder_0/a_21_7#" 40.32
+cap "m1_254_799#" "alt_alu_slice_less_0/mux3_dp_1x_0/d1" 73.44
+cap "m1_254_799#" "alt_alu_slice_less_6/mux3_dp_1x_0/Vdd!" 111.6
+cap "m1_254_799#" "alt_alu_slice_less_0/Less" 73.44
+cap "alt_alu_slice_less_0/Less" "alt_alu_slice_less_0/mux3_dp_1x_0/Gnd!" -25.92
+cap "alt_alu_slice_less_0/y_temp" "alt_alu_slice_less_0/fulladder_0/Vdd!" -14.4
+cap "alt_alu_slice_less_0/y_temp" "m1_254_799#" 73.44
 cap "yzdetect_8_0/a_3_" "yzdetect_8_0/nor2_1x_3/y" 108.36
-cap "result2" "yzdetect_8_0/nor2_1x_3/Vdd!" 48.6
 cap "yzdetect_8_0/nor2_1x_3/Vdd!" "yzdetect_8_0/a_3_" 145.8
-cap "op2" "alt_alu_slice_less_1/fulladder_0/c" 40.32
-cap "alt_alu_slice_less_1/mux4_dp_1x_0/y" "op2" 113.76
-cap "alt_alu_slice_less_1/fulladder_0/a_21_7#" "op2" 40.32
-cap "op2" "alt_alu_slice_less_1/fulladder_0/a" 40.32
-cap "alt_alu_slice_less_0/fulladder_0/Vdd!" "op2" 118.44
-cap "alt_alu_slice_less_1/mux4_dp_1x_0/Vdd!" "op2" 75.6
-cap "alt_alu_slice_less_1/fulladder_0/a_45_7#" "op2" 151.2
-cap "alt_alu_slice_less_1/mux4_dp_1x_0/Vdd!" "alt_alu_slice_less_1/mux4_dp_1x_0/y" -3.6
-cap "alt_alu_slice_less_1/Less" "op2" 73.44
-cap "alt_alu_slice_less_0/fulladder_0/a_45_65#" "op2" 50.4
-cap "op2" "alt_alu_slice_less_1/fulladder_0/cout" 40.32
-cap "alt_alu_slice_less_1/fulladder_0/Gnd!" "op2" 80.64
-cap "op2" "alt_alu_slice_less_1/fulladder_0/a_45_65#" 10.08
+cap "yzdetect_8_0/nor2_1x_3/Vdd!" "result2" 48.6
 cap "alt_alu_slice_less_1/fulladder_0/a_45_7#" "alt_alu_slice_less_1/Less" -25.92
-cap "m1_254_799#" "alt_alu_slice_less_1/y_temp" 73.44
-cap "m1_254_799#" "alt_alu_slice_less_1/mux3_dp_1x_0/d1" 73.44
-cap "alt_alu_slice_less_1/y_temp" "alt_alu_slice_less_1/fulladder_0/Vdd!" -14.4
-cap "m1_254_799#" "alt_alu_slice_less_1/mux3_dp_1x_0/Gnd!" 191.52
+cap "op2" "alt_alu_slice_less_0/fulladder_0/a_45_65#" 50.4
+cap "op2" "alt_alu_slice_less_1/mux4_dp_1x_0/Vdd!" 75.6
+cap "alt_alu_slice_less_1/fulladder_0/Gnd!" "op2" 80.64
+cap "alt_alu_slice_less_1/mux4_dp_1x_0/Vdd!" "alt_alu_slice_less_1/mux4_dp_1x_0/y" -3.6
+cap "alt_alu_slice_less_0/fulladder_0/Vdd!" "op2" 118.44
+cap "alt_alu_slice_less_1/fulladder_0/a_45_65#" "op2" 10.08
+cap "alt_alu_slice_less_1/fulladder_0/c" "op2" 40.32
+cap "op2" "alt_alu_slice_less_1/Less" 73.44
+cap "op2" "alt_alu_slice_less_1/fulladder_0/a" 40.32
+cap "op2" "alt_alu_slice_less_1/mux4_dp_1x_0/y" 113.76
+cap "alt_alu_slice_less_1/fulladder_0/a_45_7#" "op2" 151.2
+cap "op2" "alt_alu_slice_less_1/fulladder_0/cout" 40.32
+cap "alt_alu_slice_less_1/fulladder_0/a_21_7#" "op2" 40.32
+cap "alt_alu_slice_less_1/fulladder_0/Vdd!" "m1_254_799#" 10.08
 cap "m1_254_799#" "alt_alu_slice_less_1/Less" 73.44
-cap "alt_alu_slice_less_1/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_1/Less" -25.92
-cap "m1_254_799#" "alt_alu_slice_less_1/fulladder_0/a_21_7#" 40.32
-cap "m1_254_799#" "alt_alu_slice_less_1/fulladder_0/Vdd!" 10.08
+cap "alt_alu_slice_less_1/fulladder_0/cout" "m1_254_799#" 40.32
 cap "alt_alu_slice_less_0/mux3_dp_1x_0/Vdd!" "m1_254_799#" 192.24
-cap "m1_254_799#" "alt_alu_slice_less_1/fulladder_0/Vdd!" 113.4
-cap "m1_254_799#" "alt_alu_slice_less_1/fulladder_0/cout" 40.32
-cap "result3" "alt_alu_slice_less_1/mux3_dp_1x_0/Gnd!" 191.52
-cap "alt_alu_slice_less_1/mux3_dp_1x_0/a_33_7#" "result3" 2.43
-cap "result3" "yzdetect_8_0/nor2_1x_2/a" 9.72
-cap "result3" "alt_alu_slice_less_0/mux3_dp_1x_0/Vdd!" 135.99
-cap "yzdetect_8_0/nor2_1x_3/y" "result3" 17.64
-cap "zero" "result3" 25.92
-cap "yzdetect_8_0/nor2_1x_2/Vdd!" "yzdetect_8_0/nor2_1x_2/a" 72.9
+cap "alt_alu_slice_less_1/fulladder_0/Vdd!" "m1_254_799#" 113.4
+cap "m1_254_799#" "alt_alu_slice_less_1/fulladder_0/a_21_7#" 40.32
+cap "alt_alu_slice_less_1/y_temp" "m1_254_799#" 73.44
+cap "alt_alu_slice_less_1/mux3_dp_1x_0/d1" "m1_254_799#" 73.44
+cap "m1_254_799#" "alt_alu_slice_less_1/mux3_dp_1x_0/Gnd!" 191.52
+cap "alt_alu_slice_less_1/Less" "alt_alu_slice_less_1/mux3_dp_1x_0/Gnd!" -25.92
+cap "alt_alu_slice_less_1/fulladder_0/Vdd!" "alt_alu_slice_less_1/y_temp" -14.4
+cap "result3" "alt_alu_slice_less_1/mux3_dp_1x_0/a_33_7#" 2.43
 cap "yzdetect_8_0/nor2_1x_2/b" "result3" 9.72
-cap "op2" "alt_alu_slice_less_2/Less" 73.44
-cap "op2" "alt_alu_slice_less_2/fulladder_0/a_45_7#" 151.2
-cap "op2" "alt_alu_slice_less_2/fulladder_0/a_21_7#" 40.32
-cap "op2" "alt_alu_slice_less_2/mux4_dp_1x_0/Vdd!" 43.2
-cap "op2" "alt_alu_slice_less_2/mux4_dp_1x_0/y" 113.76
-cap "op2" "alt_alu_slice_less_2/fulladder_0/c" 40.32
-cap "op2" "alt_alu_slice_less_2/fulladder_0/a" 40.32
-cap "alt_alu_slice_less_2/mux4_dp_1x_0/y" "alt_alu_slice_less_2/mux4_dp_1x_0/Vdd!" -3.6
-cap "op2" "alt_alu_slice_less_1/fulladder_0/a_45_65#" 151.2
-cap "alt_alu_slice_less_2/fulladder_0/a_45_7#" "alt_alu_slice_less_2/Less" -25.92
-cap "op2" "alt_alu_slice_less_2/fulladder_0/cout" 10.08
-cap "op2" "alt_alu_slice_less_2/fulladder_0/Gnd!" 80.64
+cap "yzdetect_8_0/nor2_1x_3/y" "result3" 17.64
+cap "result3" "alt_alu_slice_less_0/mux3_dp_1x_0/Vdd!" 135.99
+cap "zero" "result3" 25.92
+cap "alt_alu_slice_less_1/mux3_dp_1x_0/Gnd!" "result3" 191.52
+cap "yzdetect_8_0/nor2_1x_2/a" "yzdetect_8_0/nor2_1x_2/Vdd!" 72.9
+cap "yzdetect_8_0/nor2_1x_2/a" "result3" 9.72
 cap "op2" "alt_alu_slice_less_1/fulladder_0/Vdd!" 118.44
+cap "op2" "alt_alu_slice_less_2/fulladder_0/a_21_7#" 40.32
+cap "op2" "alt_alu_slice_less_2/fulladder_0/a_45_7#" 151.2
+cap "op2" "alt_alu_slice_less_1/fulladder_0/a_45_65#" 151.2
+cap "alt_alu_slice_less_2/mux4_dp_1x_0/y" "alt_alu_slice_less_2/mux4_dp_1x_0/Vdd!" -3.6
+cap "alt_alu_slice_less_2/Less" "alt_alu_slice_less_2/fulladder_0/a_45_7#" -25.92
+cap "op2" "alt_alu_slice_less_2/fulladder_0/Gnd!" 80.64
+cap "alt_alu_slice_less_2/fulladder_0/cout" "op2" 10.08
+cap "op2" "alt_alu_slice_less_2/mux4_dp_1x_0/y" 113.76
+cap "op2" "alt_alu_slice_less_2/fulladder_0/a" 40.32
+cap "op2" "alt_alu_slice_less_2/mux4_dp_1x_0/Vdd!" 43.2
+cap "op2" "alt_alu_slice_less_2/Less" 73.44
+cap "op2" "alt_alu_slice_less_2/fulladder_0/c" 40.32
 cap "m1_254_799#" "alt_alu_slice_less_2/fulladder_0/a_21_7#" 40.32
-cap "m1_254_799#" "alt_alu_slice_less_2/fulladder_0/cout" 10.08
-cap "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" "m1_254_799#" 191.52
-cap "alt_alu_slice_less_2/mux3_dp_1x_0/d1" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_2/fulladder_0/Vdd!" "alt_alu_slice_less_2/y_temp" -14.4
+cap "m1_254_799#" "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" 191.52
 cap "m1_254_799#" "alt_alu_slice_less_2/fulladder_0/Vdd!" 81
-cap "alt_alu_slice_less_2/Less" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_2/Less" -25.92
+cap "m1_254_799#" "alt_alu_slice_less_2/Less" 73.44
 cap "m1_254_799#" "alt_alu_slice_less_2/y_temp" 73.44
-cap "alt_alu_slice_less_1/mux3_dp_1x_0/Vdd!" "m1_254_799#" 293.04
-cap "result4" "yzdetect_8_0/m1_n8_373#" 73.44
-cap "yzdetect_8_0/nor2_1x_1/Vdd!" "yzdetect_8_0/a_4_" 48.6
-cap "yzdetect_8_0/nor2_1x_1/Vdd!" "yzdetect_8_0/m1_n8_373#" 43.2
-cap "result4" "alt_alu_slice_less_2/mux3_dp_1x_0/a_33_7#" 4.86
-cap "yzdetect_8_0/m1_n8_373#" "alt_alu_slice_less_1/mux3_dp_1x_0/Vdd!" 118.44
-cap "result4" "yzdetect_8_0/nor2_1x_1/y" 25.92
+cap "m1_254_799#" "alt_alu_slice_less_1/mux3_dp_1x_0/Vdd!" 293.04
+cap "m1_254_799#" "alt_alu_slice_less_2/mux3_dp_1x_0/d1" 73.44
+cap "alt_alu_slice_less_2/Less" "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" -25.92
+cap "m1_254_799#" "alt_alu_slice_less_2/fulladder_0/cout" 10.08
+cap "alt_alu_slice_less_2/fulladder_0/Vdd!" "alt_alu_slice_less_2/y_temp" -14.4
 cap "result4" "yzdetect_8_0/nor2_1x_1/Vdd!" -2.84217e-14
-cap "yzdetect_8_0/m1_n8_373#" "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" 80.64
-cap "result4" "yzdetect_8_0/a_4_" 9.72
-cap "alt_alu_slice_less_3/Less" "alt_alu_slice_less_3/fulladder_0/a_45_7#" -25.92
-cap "op2" "alt_alu_slice_less_2/fulladder_0/Vdd!" 150.84
-cap "op2" "alt_alu_slice_less_3/fulladder_0/a_45_7#" 151.2
-cap "op2" "alt_alu_slice_less_3/fulladder_0/a" 40.32
-cap "op2" "alt_alu_slice_less_2/cout" 30.24
-cap "alt_alu_slice_less_3/fulladder_0/Gnd!" "op2" 80.64
-cap "op2" "alt_alu_slice_less_2/fulladder_0/a_45_65#" 161.28
-cap "op2" "alt_alu_slice_less_3/fulladder_0/a_21_7#" 40.32
-cap "op2" "alt_alu_slice_less_3/mux4_dp_1x_0/Vdd!" 16.2
+cap "yzdetect_8_0/a_4_" "yzdetect_8_0/nor2_1x_1/Vdd!" 48.6
+cap "result4" "yzdetect_8_0/m1_n8_373#" 73.44
+cap "alt_alu_slice_less_1/mux3_dp_1x_0/Vdd!" "yzdetect_8_0/m1_n8_373#" 118.44
+cap "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" "yzdetect_8_0/m1_n8_373#" 80.64
+cap "yzdetect_8_0/a_4_" "result4" 9.72
+cap "yzdetect_8_0/nor2_1x_1/Vdd!" "yzdetect_8_0/m1_n8_373#" 43.2
+cap "result4" "yzdetect_8_0/nor2_1x_1/y" 25.92
+cap "alt_alu_slice_less_2/mux3_dp_1x_0/a_33_7#" "result4" 4.86
+cap "alt_alu_slice_less_2/fulladder_0/a_45_65#" "op2" 161.28
+cap "alt_alu_slice_less_2/fulladder_0/Vdd!" "op2" 150.84
+cap "alt_alu_slice_less_3/fulladder_0/a_21_7#" "op2" 40.32
+cap "alt_alu_slice_less_3/mux4_dp_1x_0/y" "op2" 113.76
+cap "alt_alu_slice_less_3/fulladder_0/a_45_7#" "alt_alu_slice_less_3/Less" -25.92
+cap "alt_alu_slice_less_3/fulladder_0/c" "op2" 30.24
+cap "alt_alu_slice_less_3/mux4_dp_1x_0/Vdd!" "op2" 16.2
+cap "alt_alu_slice_less_3/Less" "op2" 73.44
+cap "alt_alu_slice_less_3/fulladder_0/a_45_7#" "op2" 151.2
+cap "alt_alu_slice_less_3/fulladder_0/a" "op2" 40.32
 cap "alt_alu_slice_less_3/mux4_dp_1x_0/Vdd!" "alt_alu_slice_less_3/mux4_dp_1x_0/y" -3.6
-cap "op2" "alt_alu_slice_less_3/Less" 73.44
-cap "op2" "alt_alu_slice_less_3/mux4_dp_1x_0/y" 113.76
-cap "m1_254_799#" "alt_alu_slice_less_3/Less" 73.44
-cap "alt_alu_slice_less_3/y_temp" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" "m1_254_799#" 191.52
-cap "alt_alu_slice_less_3/mux3_dp_1x_0/d1" "m1_254_799#" 73.44
+cap "alt_alu_slice_less_3/fulladder_0/Gnd!" "op2" 80.64
 cap "alt_alu_slice_less_3/fulladder_0/Vdd!" "m1_254_799#" 32.4
+cap "alt_alu_slice_less_3/Less" "m1_254_799#" 73.44
+cap "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" "m1_254_799#" 191.52
 cap "alt_alu_slice_less_2/mux3_dp_1x_0/Vdd!" "m1_254_799#" 335.52
-cap "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_3/Less" -25.92
+cap "alt_alu_slice_less_3/y_temp" "alt_alu_slice_less_3/fulladder_0/Vdd!" -14.4
 cap "alt_alu_slice_less_2/fulladder_0/cout" "m1_254_799#" 30.24
+cap "alt_alu_slice_less_3/y_temp" "m1_254_799#" 73.44
+cap "alt_alu_slice_less_3/mux3_dp_1x_0/d1" "m1_254_799#" 73.44
 cap "alt_alu_slice_less_3/fulladder_0/a_21_7#" "m1_254_799#" 40.32
-cap "alt_alu_slice_less_3/fulladder_0/Vdd!" "alt_alu_slice_less_3/y_temp" -14.4
+cap "alt_alu_slice_less_3/Less" "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" -25.92
+cap "result5" "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" 231.84
+cap "yzdetect_8_0/nand2_1x_0/Y" "result5" 73.44
+cap "yzdetect_8_0/nand2_1x_0/Y" "alt_alu_slice_less_2/mux3_dp_1x_0/Vdd!" 145.44
 cap "yzdetect_8_0/nand2_1x_0/Y" "yzdetect_8_0/nand2_1x_0/Vdd!" 24.3
 cap "result5" "alt_alu_slice_less_2/mux3_dp_1x_0/Vdd!" 342.36
-cap "yzdetect_8_0/nand2_1x_0/Y" "alt_alu_slice_less_2/mux3_dp_1x_0/Vdd!" 145.44
 cap "result5" "alt_alu_slice_less_3/mux3_dp_1x_0/a_33_7#" 4.86
-cap "yzdetect_8_0/nand2_1x_0/Y" "result5" 73.44
-cap "result5" "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" 231.84
 cap "yzdetect_8_0/nand2_1x_0/Y" "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" 80.64
-cap "alt_alu_slice_less_3/cout" "op2" 40.32
-cap "alt_alu_slice_less_4/fulladder_0/a_21_7#" "op2" 40.32
-cap "op2" "alt_alu_slice_less_3/cin" 40.32
+cap "alt_alu_slice_less_3/fulladder_0/a_45_65#" "op2" 161.28
 cap "alt_alu_slice_less_4/Less" "op2" 73.44
-cap "alt_alu_slice_less_4/fulladder_0/Gnd!" "op2" 80.64
 cap "op2" "alt_alu_slice_less_4/fulladder_0/a_45_7#" 151.2
 cap "alt_alu_slice_less_4/Less" "alt_alu_slice_less_4/fulladder_0/a_45_7#" -25.92
+cap "op2" "alt_alu_slice_less_4/m2_158_51#" 40.32
+cap "op2" "alt_alu_slice_less_4/fulladder_0/Gnd!" 80.64
+cap "op2" "alt_alu_slice_less_4/fulladder_0/a" 40.32
+cap "alt_alu_slice_less_3/fulladder_0/c" "op2" 40.32
+cap "op2" "alt_alu_slice_less_4/fulladder_0/a_21_7#" 40.32
 cap "op2" "alt_alu_slice_less_3/fulladder_0/Vdd!" 177.84
-cap "alt_alu_slice_less_4/fulladder_0/a" "op2" 40.32
-cap "alt_alu_slice_less_3/fulladder_0/a_45_65#" "op2" 161.28
-cap "m1_254_799#" "alt_alu_slice_less_4/m2_134_41#" 73.44
-cap "alt_alu_slice_less_4/Less" "alt_alu_slice_less_4/mux3_dp_1x_0/Gnd!" -25.92
-cap "m1_254_799#" "alt_alu_slice_less_4/fulladder_0/a_21_7#" 40.32
+cap "alt_alu_slice_less_4/fulladder_0/a_21_7#" "m1_254_799#" 40.32
+cap "alt_alu_slice_less_4/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_4/Less" -25.92
+cap "alt_alu_slice_less_4/mux3_dp_1x_0/Gnd!" "m1_254_799#" 191.52
 cap "alt_alu_slice_less_3/fulladder_0/cout" "m1_254_799#" 40.32
 cap "alt_alu_slice_less_3/mux3_dp_1x_0/Vdd!" "m1_254_799#" 384.12
-cap "m1_254_799#" "alt_alu_slice_less_4/mux3_dp_1x_0/Gnd!" 191.52
+cap "m1_254_799#" "alt_alu_slice_less_4/m2_134_41#" 73.44
 cap "alt_alu_slice_less_4/Less" "m1_254_799#" 73.44
-cap "alt_alu_slice_less_3/op1b" "alt_alu_slice_less_4/mux3_dp_1x_0/s1" -1.77636e-15
+cap "yzdetect_8_0/a_7_" "yzdetect_8_0/nor2_1x_0/y" 7.56
 cap "alt_alu_slice_less_3/mux3_dp_1x_0/Vdd!" "yzdetect_8_0/nand2_1x_0/Y" 5.4
-cap "yzdetect_8_0/nor2_1x_0/y" "yzdetect_8_0/a_7_" 7.56
-cap "alt_alu_slice_less_4/mux4_dp_1x_0/y" "op2" 113.76
-cap "alt_alu_slice_less_4/fulladder_0/Vdd!" "alt_alu_slice_less_4/mux4_dp_1x_0/y" -3.6
-cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "op2" 10.08
-cap "op2" "alt_alu_slice_less_4/cout" 40.32
-cap "op2" "alt_alu_slice_less_4/cin" 40.32
-cap "alt_alu_slice_less_5/fulladder_0/Gnd!" "op2" 80.64
-cap "alt_alu_slice_less_4/fulladder_0/a_45_65#" "op2" 161.28
-cap "alt_alu_slice_less_4/fulladder_0/Vdd!" "op2" 194.04
-cap "alt_alu_slice_less_5/Less" "op2" 73.44
-cap "op2" "alt_alu_slice_less_5/fulladder_0/a_45_7#" 151.2
+cap "alt_alu_slice_less_3/op1b" "alt_alu_slice_less_4/mux3_dp_1x_0/s1" -1.77636e-15
+cap "op2" "alt_alu_slice_less_4/mux4_dp_1x_0/y" 113.76
 cap "alt_alu_slice_less_5/Less" "alt_alu_slice_less_5/fulladder_0/a_45_7#" -25.92
-cap "alt_alu_slice_less_5/mux3_dp_1x_0/Gnd!" "alt_alu_slice_less_5/Less" -25.92
-cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "alt_alu_slice_less_4/y_temp" 73.44
-cap "alt_alu_slice_less_4/y_temp" "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" -14.4
-cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "alt_alu_slice_less_5/mux3_dp_1x_0/Gnd!" 191.52
-cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" 416.52
-cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "alt_alu_slice_less_5/Less" 73.44
+cap "op2" "alt_alu_slice_less_4/fulladder_0/Vdd!" 194.04
+cap "alt_alu_slice_less_4/mux4_dp_1x_0/y" "alt_alu_slice_less_4/fulladder_0/Vdd!" -3.6
+cap "op2" "alt_alu_slice_less_5/Less" 73.44
+cap "alt_alu_slice_less_5/m2_158_51#" "op2" 40.32
+cap "op2" "alt_alu_slice_less_4/fulladder_0/c" 40.32
+cap "alt_alu_slice_less_5/fulladder_0/Gnd!" "op2" 80.64
+cap "op2" "alt_alu_slice_less_4/fulladder_0/a_45_65#" 161.28
+cap "op2" "alt_alu_slice_less_5/fulladder_0/a_45_7#" 151.2
+cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "op2" 10.08
 cap "alt_alu_slice_less_4/fulladder_0/cout" "alt_alu_slice_less_5/fulladder_0/a_21_7#" 40.32
-cap "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" "yzdetect_8_0/nor2_1x_0/b" 281.79
-cap "yzdetect_8_0/nor2_1x_0/b" "yzdetect_8_0/nor2_1x_0/y" 118.44
+cap "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" "alt_alu_slice_less_5/fulladder_0/a_21_7#" 416.52
+cap "alt_alu_slice_less_5/Less" "alt_alu_slice_less_5/mux3_dp_1x_0/Gnd!" -25.92
+cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "alt_alu_slice_less_4/y_temp" 73.44
+cap "alt_alu_slice_less_5/Less" "alt_alu_slice_less_5/fulladder_0/a_21_7#" 73.44
+cap "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" "alt_alu_slice_less_4/y_temp" -14.4
+cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "alt_alu_slice_less_5/mux3_dp_1x_0/Gnd!" 191.52
 cap "result6" "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" 48.6
-cap "alt_alu_slice_less_5/fulladder_0/a" "op2" 40.32
-cap "op2" "alt_alu_slice_less_5/fulladder_0/a_45_65#" 161.28
-cap "op2" "alt_alu_slice_less_5/fulladder_0/Vdd!" 194.04
-cap "alt_alu_slice_less_5/mux4_dp_1x_0/y" "alt_alu_slice_less_5/fulladder_0/Vdd!" -3.6
-cap "op2" "alt_alu_slice_less_5/cin" 40.32
-cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "op2" 30.24
+cap "yzdetect_8_0/nor2_1x_0/b" "alt_alu_slice_less_4/mux3_dp_1x_0/Vdd!" 281.79
+cap "yzdetect_8_0/nor2_1x_0/b" "yzdetect_8_0/nor2_1x_0/y" 118.44
 cap "op2" "alt_alu_slice_less_5/cout" 40.32
+cap "alt_alu_slice_less_5/fulladder_0/a_21_7#" "op2" 30.24
+cap "alt_alu_slice_less_5/fulladder_0/Vdd!" "op2" 194.04
+cap "alt_alu_slice_less_5/fulladder_0/Vdd!" "alt_alu_slice_less_5/mux4_dp_1x_0/y" -3.6
+cap "alt_alu_slice_less_5/fulladder_0/a" "op2" 40.32
+cap "alt_alu_slice_less_5/fulladder_0/c" "op2" 40.32
 cap "op2" "alt_alu_slice_less_5/mux4_dp_1x_0/y" 113.76
-cap "invbuf_4x_0/Gnd!" "alt_alu_slice_less_5/op0b" 80.64
+cap "op2" "alt_alu_slice_less_5/fulladder_0/a_45_65#" 161.28
+cap "invbuf_4x_0/sb_out" "alt_alu_slice_less_5/op0b" 70.56
+cap "alt_alu_slice_less_5/op0b" "invbuf_4x_0/Gnd!" 80.64
 cap "alt_alu_slice_less_5/op0" "invbuf_4x_0/Gnd!" 181.44
-cap "alt_alu_slice_less_5/op0b" "invbuf_4x_0/sb_out" 70.56
-cap "alt_alu_slice_less_5/op1b" "invbuf_4x_0/Gnd!" 80.64
-cap "result7" "alt_alu_slice_less_5/mux3_dp_1x_0/Vdd!" 13.5
 cap "alt_alu_slice_less_5/op1" "invbuf_4x_0/Gnd!" 181.44
-cap "alt_alu_slice_less_5/op1b" "invbuf_4x_1/sb_out" 70.56
+cap "result7" "alt_alu_slice_less_5/mux3_dp_1x_0/Vdd!" 13.5
+cap "alt_alu_slice_less_5/op1b" "invbuf_4x_0/Gnd!" 80.64
+cap "invbuf_4x_1/sb_out" "alt_alu_slice_less_5/op1b" 70.56
 cap "op0" "invbuf_4x_0/Gnd!" 201.6
-cap "invbuf_4x_1/Gnd!" "op1" 201.6
+cap "op1" "invbuf_4x_1/Gnd!" 201.6
 merge "alt_alu_slice_less_3/B" "b5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "yzdetect_8_0/nor2_1x_3/Vdd!" "alt_alu_slice_less_0/mux3_dp_1x_0/Vdd!" -792 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
 merge "alt_alu_slice_less_0/mux3_dp_1x_0/Vdd!" "a_350_312#"
@@ -307,20 +307,16 @@ merge "alt_alu_slice_less_3/op1b" "alt_alu_slice_less_4/op1b"
 merge "alt_alu_slice_less_4/op1b" "alt_alu_slice_less_5/op1b"
 merge "alt_alu_slice_less_5/op1b" "m2_318_879#"
 merge "alt_alu_slice_less_4/B" "b6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "alt_alu_slice_less_6/cin" "alt_alu_slice_less_0/fulladder_0/c" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "alt_alu_slice_less_4/op3" "alt_alu_slice_less_5/mux4_dp_1x_0/d3" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_0/B" "b2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "alt_alu_slice_0/cout" "alt_alu_slice_less_6/fulladder_0/cout" -127.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
 merge "alt_alu_slice_less_5/B" "b7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "alt_alu_slice_less_3/op4" "alt_alu_slice_less_4/op4" -265.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
 merge "alt_alu_slice_less_4/op4" "alt_alu_slice_less_5/op4"
 merge "alt_alu_slice_less_5/op4" "op4"
 merge "alt_alu_slice_less_3/Result" "yzdetect_8_0/a_4_" -1101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -32 0 0
 merge "yzdetect_8_0/a_4_" "result5"
-merge "alt_alu_slice_less_1/cout" "alt_alu_slice_less_2/fulladder_0/cout" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "yzdetect_8_0/nor2_1x_4/Vdd!" "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" -792 0 0 0 0 0 -112 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
 merge "alt_alu_slice_0/mux3_dp_1x_0/Vdd!" "a_350_92#"
-merge "alt_alu_slice_less_6/cout" "alt_alu_slice_less_0/fulladder_0/cout" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "alt_alu_slice_less_0/op6" "alt_alu_slice_less_1/mux4_dp_1x_0/d0" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_4/op5" "alt_alu_slice_less_5/op5" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "alt_alu_slice_less_5/op5" "op5"
@@ -328,16 +324,14 @@ merge "alt_alu_slice_less_1/op0" "alt_alu_slice_less_2/mux3_dp_1x_0/s0" -201.6 0
 merge "yzdetect_8_0/a_0_" "alt_alu_slice_0/Result" -870.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -36 -24
 merge "alt_alu_slice_0/Result" "result0"
 merge "alt_alu_slice_less_4/A" "a6" -157.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -16
-merge "alt_alu_slice_0/cin" "alt_alu_slice_less_6/fulladder_0/c" -127.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
 merge "alt_alu_slice_less_4/op6" "alt_alu_slice_less_5/op6" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "alt_alu_slice_less_5/op6" "op6"
 merge "alt_alu_slice_less_0/op5" "alt_alu_slice_less_1/mux4_dp_1x_0/d1" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_1/op1" "alt_alu_slice_less_2/mux3_dp_1x_0/s1" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
+merge "alt_alu_slice_less_6/cout" "alt_alu_slice_less_0/fulladder_0/c" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "alt_alu_slice_less_6/Result" "yzdetect_8_0/a_1_" -1051.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0
 merge "yzdetect_8_0/a_1_" "result1"
-merge "alt_alu_slice_less_2/cout" "alt_alu_slice_less_3/cout" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
-merge "alt_alu_slice_less_3/cout" "alt_alu_slice_less_4/cout"
-merge "alt_alu_slice_less_4/cout" "alt_alu_slice_less_5/cout"
+merge "alt_alu_slice_less_3/cout" "alt_alu_slice_less_4/m2_158_51#" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_0/op4" "alt_alu_slice_less_1/mux4_dp_1x_0/d2" -196.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0
 merge "alt_alu_slice_less_2/op0b" "alt_alu_slice_less_3/mux3_dp_1x_0/s0b" -196.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0
 merge "alt_alu_slice_0/A" "a0" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
@@ -346,13 +340,11 @@ merge "alt_alu_slice_less_0/Result" "result2"
 merge "alt_alu_slice_less_0/op0" "alt_alu_slice_less_1/mux3_dp_1x_0/s0" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "yzdetect_8_0/a_6_" "alt_alu_slice_less_4/Result" -811.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -32 18 -24
 merge "alt_alu_slice_less_4/Result" "result6"
-merge "alt_alu_slice_less_3/cin" "alt_alu_slice_less_4/cin" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
-merge "alt_alu_slice_less_4/cin" "alt_alu_slice_less_5/cin"
 merge "alt_alu_slice_less_0/op3" "alt_alu_slice_less_1/mux4_dp_1x_0/d3" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_1/op3" "alt_alu_slice_less_2/mux4_dp_1x_0/d3" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
-merge "alt_alu_slice_less_0/cin" "alt_alu_slice_less_1/fulladder_0/c" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "yzdetect_8_0/nor2_1x_4/Gnd!" "alt_alu_slice_0/mux3_dp_1x_0/Gnd!" -662.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
 merge "alt_alu_slice_0/mux3_dp_1x_0/Gnd!" "a_350_2#"
+merge "alt_alu_slice_less_0/cout" "alt_alu_slice_less_1/fulladder_0/c" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_2/op6" "alt_alu_slice_less_3/mux4_dp_1x_0/d0" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_0/op1" "alt_alu_slice_less_1/mux3_dp_1x_0/s1" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_0/B" "b0" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
@@ -362,7 +354,7 @@ merge "alt_alu_slice_less_1/op4" "alt_alu_slice_less_2/mux4_dp_1x_0/d2" -196.2 0
 merge "alt_alu_slice_less_2/op5" "alt_alu_slice_less_3/mux4_dp_1x_0/d1" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "yzdetect_8_0/a_5_" "alt_alu_slice_less_2/Result" -694.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "alt_alu_slice_less_2/Result" "result4"
-merge "alt_alu_slice_less_1/cin" "alt_alu_slice_less_2/fulladder_0/c" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
+merge "alt_alu_slice_less_1/cout" "alt_alu_slice_less_2/fulladder_0/c" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_1/op5" "alt_alu_slice_less_2/mux4_dp_1x_0/d1" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "invbuf_4x_0/s" "alt_alu_slice_less_3/op0" -741.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -30 0 0
 merge "alt_alu_slice_less_3/op0" "alt_alu_slice_less_4/op0"
@@ -377,8 +369,8 @@ merge "alt_alu_slice_less_4/op1" "alt_alu_slice_less_5/op1"
 merge "alt_alu_slice_less_5/op1" "op1"
 merge "alt_alu_slice_less_2/op0" "alt_alu_slice_less_3/mux3_dp_1x_0/s0" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_2/op3" "alt_alu_slice_less_3/mux4_dp_1x_0/d3" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
+merge "alt_alu_slice_less_2/cout" "alt_alu_slice_less_3/fulladder_0/c" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_2/op1" "alt_alu_slice_less_3/mux3_dp_1x_0/s1" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
-merge "alt_alu_slice_less_2/cin" "alt_alu_slice_less_3/fulladder_0/c" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_1/op0b" "alt_alu_slice_less_2/mux3_dp_1x_0/s0b" -196.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0
 merge "alt_alu_slice_less_5/Result" "yzdetect_8_0/nor2_1x_0/b" -1168.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -36 -24
 merge "yzdetect_8_0/nor2_1x_0/b" "yzdetect_8_0/a_7_"
@@ -407,12 +399,13 @@ merge "yzdetect_8_0/nor2_1x_1/Gnd!" "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" -66
 merge "alt_alu_slice_less_2/mux3_dp_1x_0/Gnd!" "a_350_442#"
 merge "yzdetect_8_0/nor2_1x_0/Gnd!" "alt_alu_slice_less_4/mux3_dp_1x_0/Gnd!" -662.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
 merge "alt_alu_slice_less_4/mux3_dp_1x_0/Gnd!" "a_350_662#"
+merge "alt_alu_slice_0/cout" "alt_alu_slice_less_6/fulladder_0/c" -127.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
 merge "alt_alu_slice_less_6/op0b" "alt_alu_slice_less_0/mux3_dp_1x_0/s0b" -265.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0
 merge "alt_alu_slice_0/fulladder_0/c" "op2" -21376.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 1400 -1400 0 0
 merge "yzdetect_8_0/nand2_1x_0/Gnd!" "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" -662.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
 merge "alt_alu_slice_less_3/mux3_dp_1x_0/Gnd!" "a_350_552#"
+merge "alt_alu_slice_less_4/cout" "alt_alu_slice_less_5/m2_158_51#" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_6/op0" "alt_alu_slice_less_0/mux3_dp_1x_0/s0" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
-merge "alt_alu_slice_less_0/cout" "alt_alu_slice_less_1/fulladder_0/cout" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_alu_slice_less_6/op6" "alt_alu_slice_less_0/mux4_dp_1x_0/d0" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "yzdetect_8_0/zero" "zero" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "alt_alu_slice_less_6/op1" "alt_alu_slice_less_0/mux3_dp_1x_0/s1" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
