@@ -1,0 +1,74 @@
+Information: linking reference library : /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells. (PSYN-878)
+Information: Loading local_link_library attribute {osu05_stdcells.db}. (MWDC-290)
+
+  Linking design 'decoder'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  decoder                     decoder.CEL
+  osu05_stdcells (library)    /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db
+
+Information: The design has horizontal rows, and Y-symmetry has been used for sites. (MWDC-217)
+Floorplan loading succeeded.
+
+Warning: Limited std master NOR2X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
+Warning: Limited std master INVX2: orientation(s) = { R0_MX R0_MY }.  (APL-082)
+Warning: Limited std master FILL: orientation(s) = { R0_MX R0_MY }.  (APL-082)
+  Loading design 'decoder'
+Warning: Layer 'metal1' is missing the optional 'edge capacitance' attribute. (PSYN-101)
+Warning: Layer 'metal2' is missing the optional 'edge capacitance' attribute. (PSYN-101)
+Warning: Layer 'metal3' is missing the optional 'edge capacitance' attribute. (PSYN-101)
+
+
+
+
+Information: Library Manufacturing Grid(GridResolution) : 150
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Information: Design Library and main library resistance units are matched - 1.000 kohm. 
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+Information: Design Library and main library capacitance units are matched - 1.000 pf. 
+Error: Initialization of the detail route TLU+ RC model failed. (RCEX-030)
+Error: Extraction failed. (RCEX-205)
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : decoder
+Version: L-2016.03-SP5-1
+Date   : Tue Feb 28 13:17:45 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: typical   Library: osu05_stdcells
+
+  Startpoint: a[0] (input port)
+  Endpoint: y3 (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[0] (in)                                0.00       0.00 f
+  U4/Y (INVX2)                             0.07 *     0.07 r
+  U5/Y (NOR2X1)                            0.10 *     0.17 f
+  y3 (out)                                 0.00 *     0.17 f
+  data arrival time                                   0.17
+
+  max_delay                               25.00      25.00
+  output external delay                    0.00      25.00
+  data required time                                 25.00
+  -----------------------------------------------------------
+  data required time                                 25.00
+  data arrival time                                  -0.17
+  -----------------------------------------------------------
+  slack (MET)                                        24.83
+
+
+1

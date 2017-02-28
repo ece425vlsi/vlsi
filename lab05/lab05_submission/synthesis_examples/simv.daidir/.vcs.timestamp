@@ -1,0 +1,92 @@
+0 
+31
++cli+4
++itf+/home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/vcsd.tab
++memcbk
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/shared/synopsys/vcs/K-2015.09-SP2-9/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/libvirsim.so /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/liberrorinf.so /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/shared/synopsys/vcs/K-2015.09-SP2-9/include
+-Xcbug=0x1
+-debug=3
+-full64
+-gen_obj
+-picarchive
+-timescale=1ns/10ps
+/home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/bin/vcs1
+decoder.v
+decoder_bench.v
+47
+sysc_uni_pwd=/home/nessa/Desktop/VLSI/lab05/synthesis_examples
+XMODIFIERS=@im=none
+XDG_VTNR=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session3
+XDG_SESSION_ID=11
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/4277927
+XDG_MENU_PREFIX=xfce-
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/nessa
+XDG_DATA_DIRS=/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=XFCE
+XDG_CONFIG_DIRS=/etc/xdg
+XAUTHORITY=/var/run/lightdm/nessa/xauthority
+VTE_VERSION=4403
+VMR_MODE_FLAG=64
+VCS_MODE_FLAG=64
+VCS_HOME=/home/shared/synopsys/vcs/K-2015.09-SP2-9
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64
+SYNOPSYS=/home/shared/synopsys
+SSH_AUTH_SOCK=/tmp/ssh-VuGjuNblikBb/agent.11006
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=11140
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/11166,unix/unix:/tmp/.ICE-unix/11166
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=xim
+OVA_UUM=0
+MATHEMATICA_HOME=/usr/local/Wolfram/Mathematica/10.4
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GTK_IM_MODULE=gtk-im-context-simple
+GNOME_KEYRING_CONTROL=/home/nessa/.cache/keyring-CYHLWY
+GLADE_PIXMAP_PATH=:/usr/share/glade3/pixmaps
+GLADE_MODULE_PATH=:/usr/lib64/glade3/modules
+GLADE_CATALOG_PATH=:/usr/share/glade3/catalogs
+GDMSESSION=xfce
+DESKTOP_SESSION=xfce
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/4277927/bus
+COLORTERM=truecolor
+0
+3
+1396562634 decoder_bench.v
+1396471070 decoder.v
+1481776127 /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/vcsd.tab
+4
+0 
+1481777307 /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/libvirsim.so
+1481776729 /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/liberrorinf.so
+1481776695 /home/shared/synopsys/vcs/K-2015.09-SP2-9/linux64/lib/libsnpsmalloc.so
+1488304816 simv.daidir

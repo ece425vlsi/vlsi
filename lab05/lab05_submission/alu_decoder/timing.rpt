@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : alu_ctl
+Version: L-2016.03-SP5-2
+Date   : Tue Feb 28 14:15:05 2017
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: funct[4] (input port)
+  Endpoint: op[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  funct[4] (in)                            0.00       0.00 r
+  U31/Y (NOR2X1)                           0.13       0.13 f
+  U30/Y (NAND2X1)                          0.18       0.31 r
+  U29/Y (NOR2X1)                           0.38       0.69 f
+  U28/Y (NAND3X1)                          0.34       1.03 r
+  U7/Y (INVX2)                             0.09       1.12 f
+  U18/Y (NAND3X1)                          0.12       1.24 r
+  U17/Y (NAND3X1)                          0.04       1.27 f
+  op[4] (out)                              0.00       1.27 f
+  data arrival time                                   1.27
+
+  max_delay                               25.00      25.00
+  output external delay                    0.00      25.00
+  data required time                                 25.00
+  -----------------------------------------------------------
+  data required time                                 25.00
+  data arrival time                                  -1.27
+  -----------------------------------------------------------
+  slack (MET)                                        23.73
+
+
+1

@@ -1,0 +1,50 @@
+| units: 30 tech: scmos format: MIT
+p a[1] Vdd! INVX2_1/Y 2 40 311 144
+n a[1] Gnd! INVX2_1/Y 2 20 311 96
+p a[1] Vdd! NOR2X1_3/a_9_54# 2 40 271 144
+p a[0] NOR2X1_3/a_9_54# y0 2 40 276 144
+n a[1] Gnd! y0 2 10 271 96
+n a[0] y0 Gnd! 2 10 279 96
+p INVX2_0/Y Vdd! NOR2X1_2/a_9_54# 2 40 223 144
+p INVX2_1/Y NOR2X1_2/a_9_54# y3 2 40 228 144
+n INVX2_0/Y Gnd! y3 2 10 223 96
+n INVX2_1/Y y3 Gnd! 2 10 231 96
+p a[1] Vdd! NOR2X1_1/a_9_54# 2 40 175 144
+p INVX2_0/Y NOR2X1_1/a_9_54# y1 2 40 180 144
+n a[1] Gnd! y1 2 10 175 96
+n INVX2_0/Y y1 Gnd! 2 10 183 96
+p a[0] Vdd! INVX2_0/Y 2 40 143 144
+n a[0] Gnd! INVX2_0/Y 2 20 143 96
+p a[0] Vdd! NOR2X1_0/a_9_54# 2 40 95 144
+p INVX2_1/Y NOR2X1_0/a_9_54# y2 2 40 100 144
+n a[0] Gnd! y2 2 10 95 96
+n INVX2_1/Y y2 Gnd! 2 10 103 96
+C y1 Vdd! 2.8
+C Vdd! y0 2.4
+C Vdd! y2 2.3
+C Vdd! INVX2_0/Y 2.2
+C INVX2_1/Y Vdd! 2.1
+C y3 Vdd! 2.6
+C Vdd! GND 228.3
+R Vdd! 9044
+R Gnd! 3808
+C y2 GND 9.5
+R y2 986
+R NOR2X1_0/a_9_54# 1403
+R NOR2X1_1/a_9_54# 1403
+C y3 GND 7.9
+R y3 983
+R NOR2X1_2/a_9_54# 1403
+C INVX2_1/Y GND 11.8
+R INVX2_1/Y 3371
+C INVX2_0/Y GND 7.8
+R INVX2_0/Y 3279
+C y0 GND 3.4
+R y0 982
+R NOR2X1_3/a_9_54# 1403
+C a[0] GND 16.1
+R a[0] 3170
+C y1 GND 8.6
+R y1 984
+C a[1] GND 21.1
+R a[1] 3133

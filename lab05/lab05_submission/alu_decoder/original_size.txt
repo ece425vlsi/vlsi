@@ -1,0 +1,7 @@
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  241.80 x 153.60  ( -0.60, -5.10 ), ( 241.20,  148.50)  37140.48  
+lambda:      806 x 512     (    -2, -17   ), (   804,  495  )  412672    
+
+Dimentions of ALU Decoder when first imported to Magic
