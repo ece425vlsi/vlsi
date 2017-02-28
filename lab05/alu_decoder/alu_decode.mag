@@ -1,0 +1,125 @@
+magic
+tech scmos
+timestamp 1488315962
+<< metal1 >>
+rect 147 1052 156 1060
+rect 142 1027 151 1035
+rect 122 863 126 867
+rect 122 773 126 777
+<< m2contact >>
+rect 366 368 370 372
+<< metal2 >>
+rect 266 994 269 998
+rect 306 994 309 998
+rect 47 883 51 985
+rect 62 881 66 987
+rect 90 983 98 987
+rect 106 983 114 987
+rect 186 983 194 987
+rect 267 983 274 987
+rect 306 983 314 987
+rect 94 882 98 983
+rect 110 882 114 983
+rect 190 882 194 983
+rect 270 925 274 983
+rect 310 925 314 983
+<< m3contact >>
+rect 47 879 51 883
+rect 54 879 58 883
+rect 6 831 10 835
+rect 6 818 10 822
+rect 6 721 10 725
+rect 6 708 10 712
+rect 6 611 10 615
+rect 6 598 10 602
+rect 6 501 10 505
+rect 6 488 10 492
+rect 6 391 10 395
+rect 6 378 10 382
+rect 6 281 10 285
+rect 6 268 10 272
+rect 6 173 10 177
+rect 6 160 10 164
+rect 6 61 10 65
+rect 6 48 10 52
+<< metal3 >>
+rect 25 1251 29 1255
+rect 24 1210 28 1214
+rect 24 1180 28 1184
+rect 24 1151 28 1155
+rect 24 1111 28 1115
+rect 24 1081 28 1085
+rect 23 1060 27 1064
+rect 23 1040 27 1044
+rect 46 883 59 884
+rect 46 879 47 883
+rect 51 879 54 883
+rect 58 879 59 883
+rect 46 878 59 879
+rect 367 812 370 816
+rect 352 703 355 707
+rect 347 581 350 585
+rect 343 483 346 487
+rect 342 373 345 377
+rect 342 263 345 267
+rect 343 154 346 158
+rect 343 43 346 47
+use alu_ctl  alu_ctl_0
+timestamp 1488311656
+transform 1 0 0 0 1 983
+box 0 0 442 740
+use alt_alu_8  alt_alu_8_0
+timestamp 1488158942
+transform 1 0 0 0 1 1
+box 0 0 386 982
+<< labels >>
+rlabel metal1 146 1030 146 1030 1 Vdd!
+rlabel metal1 150 1056 150 1056 1 Gnd!
+rlabel metal1 124 865 124 865 1 Vdd!
+rlabel metal1 124 775 124 775 1 Gnd!
+rlabel space 178 876 178 876 1 cout
+rlabel metal2 48 971 48 971 1 op6
+rlabel metal2 63 971 63 971 1 op5
+rlabel metal2 96 967 96 967 1 op4
+rlabel metal2 112 967 112 967 1 op3
+rlabel metal2 193 968 193 968 1 op2
+rlabel metal2 268 996 268 996 1 op0
+rlabel metal2 308 995 308 995 1 op1
+rlabel metal3 26 1252 26 1252 1 funct0
+rlabel metal3 25 1212 25 1212 1 funct1
+rlabel metal3 26 1182 26 1182 1 funct2
+rlabel metal3 25 1152 25 1152 1 funct3
+rlabel metal3 25 1112 25 1112 1 funct4
+rlabel metal3 25 1083 25 1083 1 funct5
+rlabel metal3 25 1061 25 1061 1 alu_op0
+rlabel metal3 25 1042 25 1042 1 alu_op1
+rlabel metal3 368 814 368 814 1 result7
+rlabel metal3 353 704 353 704 1 result6
+rlabel metal3 348 582 348 582 1 result5
+rlabel metal3 344 484 344 484 1 result4
+rlabel metal3 344 374 344 374 1 result3
+rlabel metal3 344 264 344 264 1 result2
+rlabel metal3 344 157 344 157 1 result1
+rlabel metal3 344 45 344 45 1 result0
+rlabel m3contact 9 49 9 49 1 a0
+rlabel m3contact 8 62 8 62 1 b0
+rlabel m3contact 8 161 8 161 1 a1
+rlabel m3contact 9 174 9 174 1 b1
+rlabel m3contact 8 269 8 269 1 a2
+rlabel m3contact 8 282 8 282 1 b2
+rlabel m3contact 8 379 8 379 1 a3
+rlabel m3contact 9 393 9 393 1 b3
+rlabel m3contact 9 489 9 489 1 a4
+rlabel m3contact 7 502 7 502 1 b4
+rlabel m3contact 9 599 9 599 1 a5
+rlabel m3contact 8 612 8 612 1 b5
+rlabel m3contact 7 709 7 709 1 a6
+rlabel m3contact 9 722 9 722 1 b6
+rlabel m3contact 9 819 9 819 1 a7
+rlabel m3contact 9 832 9 832 1 b7
+rlabel metal2 191 972 191 972 1 op2
+rlabel metal2 112 970 112 970 1 op3
+rlabel metal2 96 970 96 970 1 op4
+rlabel metal2 64 975 64 975 1 op5
+rlabel metal2 49 975 49 975 1 op6
+<< end >>

@@ -1,0 +1,12 @@
+ 
+****************************************
+Report : hierarchy
+Design : decoder
+Version: L-2016.03-SP5-2
+Date   : Tue Feb 28 13:08:12 2017
+****************************************
+
+decoder
+    INVX2           osu05_stdcells
+    NOR2X1          osu05_stdcells
+1

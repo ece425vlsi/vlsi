@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : alu_ctl
+Version: L-2016.03-SP5-2
+Date   : Tue Feb 28 14:15:05 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           15
+Number of nets:                            37
+Number of cells:                           29
+Number of combinational cells:             29
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          7
+Number of references:                      11
+
+Combinational area:               7173.000000
+Buf/Inv area:                     1008.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  7173.000000
+Total area:                 undefined
+1

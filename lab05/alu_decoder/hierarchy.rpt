@@ -1,0 +1,21 @@
+ 
+****************************************
+Report : hierarchy
+Design : alu_ctl
+Version: L-2016.03-SP5-2
+Date   : Tue Feb 28 14:15:05 2017
+****************************************
+
+alu_ctl
+    AND2X2          osu05_stdcells
+    AOI21X1         osu05_stdcells
+    AOI22X1         osu05_stdcells
+    INVX2           osu05_stdcells
+    NAND2X1         osu05_stdcells
+    NAND3X1         osu05_stdcells
+    NOR2X1          osu05_stdcells
+    OAI21X1         osu05_stdcells
+    OAI22X1         osu05_stdcells
+    OR2X1           osu05_stdcells
+    XOR2X1          osu05_stdcells
+1

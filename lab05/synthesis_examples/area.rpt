@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : decoder
+Version: L-2016.03-SP5-2
+Date   : Tue Feb 28 13:08:12 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                            6
+Number of nets:                             8
+Number of cells:                            6
+Number of combinational cells:              6
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       2
+
+Combinational area:               1152.000000
+Buf/Inv area:                      288.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1152.000000
+Total area:                 undefined
+1

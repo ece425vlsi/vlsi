@@ -1,0 +1,10 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/home/nessa/Desktop/VLSI/lab05/synthesis_examples
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+TOP=decoder_bench 
