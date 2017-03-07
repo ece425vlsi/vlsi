@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP2-1 linux64' PARAM_COUNT=0
+.TITLE '* yzdet_8_bench.sp'
+ tpdr1            tpdf1            tpd1             tpdr7           
+ tpdf7            tpd7             trise            tfall           
+ temper           alter#          
+  6.861e-10        7.237e-10        7.049e-10        3.384e-10      
+  8.135e-10        5.759e-10        5.045e-10        3.079e-10      
+   25.0000        1               
