@@ -1,0 +1,23 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP2-1 linux64"
+* "format" "HSP"
+* "rundate" "14:48:14 03/07/2017 "
+* "netlist" "nor2_1x_bench.sp "
+* "runtitle" "* nor2_1x_bench.sp"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =  52.8693n       
++ a_7_67# =   5.0000        
++ ab =   5.0000        
++ abb =   0.            
++ b =  52.8693n       
++ bb =   5.0000        
++ bbb =   0.            
++ vdd =   5.0000        
++ y =   5.0000        
++ yb =  52.8693n       
+***   END: Saved Operating Point ***                     

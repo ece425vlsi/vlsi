@@ -1,0 +1,39 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP2 (build Nov 14, ) ###
+### created at 14:49:34 on Tue Mar  7 2017 (Linux AMD64) ###
+### Host Name: localhost.localdomain   User ID: nessa   PID: 3799   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 0 419
+wv_move_window CustomWaveView 1591 1
+wv_resize_window CustomWaveView 1920 1051
+sx_open_sim_file_read {nor2_1x_bench.tr0}
+wv_move_window CustomWaveView 1591 31
+wv_move_window CustomWaveView 1591 1
+wv_move_window CustomWaveView 1591 31
+wv_expand_tree_item MainWindow.hierview {D0:nor2_1x_bench.tr0}
+wv_select_tree_item MainWindow.hierview {D0:nor2_1x_bench.tr0}
+wv_select_tree_item MainWindow.hierview {D0:nor2_1x_bench.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(y)
+wv_drag_list_item MainWindow.sigview v(y)
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(yb)
+wv_select_list_item MainWindow.sigview v(b)
+wv_drag_list_item MainWindow.sigview v(b)
+wv_drag_enter WV1
+wv_drag_to WV1 15 656
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a)
+wv_drag_list_item MainWindow.sigview v(a)
+wv_drag_enter WV1
+wv_drag_to WV1 58 595
+wv_drop_on WV1
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 2463 538
+# wv_press_button Confirmation.Ok
