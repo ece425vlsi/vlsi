@@ -1,0 +1,53 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP2-1 linux64"
+* "format" "HSP"
+* "rundate" "15:01:57 03/21/2017 "
+* "netlist" "yzdet_8_bench.sp "
+* "runtitle" "* yzdet_8_bench.sp"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a_0_ =  52.8693n       
++ a_1_ =  52.8693n       
++ a_2_ =  52.8693n       
++ a_3_ =  52.8693n       
++ a_4_ =  52.8693n       
++ a_5_ =  52.8693n       
++ a_6_ =  52.8693n       
++ a_7_ =  52.8693n       
++ nor2_1x_4/a_7_51# =   5.0000        
++ nand2_1x_1/a_7_7# =   8.6659n       
++ nor2_1x_3/a_7_51# =   5.0000        
++ nor2_1x_2/a_7_51# =   5.0000        
++ nor2_1x_1/a_7_51# =   5.0000        
++ nand2_1x_0/a_7_7# =   8.6659n       
++ nor2_1x_0/a_7_51# =   5.0000        
++ nor2_1x_0/y =   5.0000        
++ nor2_1x_1/y =   5.0000        
++ nor2_1x_2/a =  17.3317n       
++ nor2_1x_2/b =  17.3317n       
++ nor2_1x_3/y =   5.0000        
++ nor2_1x_4/y =   5.0000        
++ vdd =   5.0000        
++ vdd2 =   5.0000        
++ zero =   5.0000        
++ x1.a =   0.            
++ x1.b =   5.0000        
++ x2.a =   0.            
++ x2.b =   5.0000        
++ x3.a =   0.            
++ x3.b =   5.0000        
++ x4.a =   0.            
++ x4.b =   5.0000        
++ x5.a =   0.            
++ x5.b =   5.0000        
++ x6.a =   0.            
++ x6.b =   5.0000        
++ x7.a =   0.            
++ x7.b =   5.0000        
++ x8.a =   0.            
++ x8.b =   5.0000        
+***   END: Saved Operating Point ***                     

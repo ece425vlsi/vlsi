@@ -1,0 +1,10 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP2-1 linux64' PARAM_COUNT=0
+.TITLE '* yzdet_8_bench.sp'
+ current          avg_d_power      avg_q_power      tpdr1           
+ tpdf1            tpd1             tpdr7            tpdf7           
+ tpd7             trise            tfall            temper          
+ alter#          
+ -3.026e-04       -1.376e-02       -3.380e-06        4.672e-10      
+  4.956e-10        4.814e-10        2.257e-10        5.753e-10      
+  4.005e-10        2.793e-10        1.665e-10         25.0000       
+1               

@@ -1,0 +1,33 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto 744994ce5f9041b6a370f4ae9ac277b6 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/townleym/Desktop/VLSI/lab09/lab9.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/townleym/Desktop/VLSI/lab09/lab9.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mips_fsm
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.mux2(WIDTH=3)
+Compiling module xil_defaultlib.flopen
+Compiling module xil_defaultlib.flopenr(WIDTH=8)
+Compiling module xil_defaultlib.flop(WIDTH=8)
+Compiling module xil_defaultlib.mux2(WIDTH=8)
+Compiling module xil_defaultlib.mux4(WIDTH=8)
+Compiling module xil_defaultlib.mux3(WIDTH=8)
+Compiling module xil_defaultlib.regfile(WIDTH=8,REGBITS=3)
+Compiling module xil_defaultlib.mux4(WIDTH=1)
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux3(WIDTH=1)
+Compiling module xil_defaultlib.zerodetect(WIDTH=8)
+Compiling module xil_defaultlib.alu(WIDTH=8)
+Compiling module xil_defaultlib.datapath(WIDTH=8,REGBITS=3)
+Compiling module xil_defaultlib.mips(WIDTH=8,REGBITS=3)
+Compiling module xil_defaultlib.exmemory(WIDTH=8)
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

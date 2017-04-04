@@ -1,0 +1,70 @@
+* SPICE3 file created from yzdetect_8.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 nor2_1x_4/a_7_51# a_0_ Vdd Vdd pfet w=32 l=2
++  ad=96 pd=70 as=1280 ps=602
+M1001 nor2_1x_4/y a_1_ nor2_1x_4/a_7_51# Vdd pfet w=32 l=2
++  ad=160 pd=74 as=0 ps=0
+M1002 nor2_1x_4/y a_0_ Gnd Gnd nfet w=16 l=2
++  ad=96 pd=44 as=1040 ps=536
+M1003 Gnd a_1_ nor2_1x_4/y Gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 nor2_1x_2/b nor2_1x_4/y Vdd Vdd pfet w=24 l=2
++  ad=144 pd=60 as=0 ps=0
+M1005 Vdd nor2_1x_3/y nor2_1x_2/b Vdd pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 nand2_1x_1/a_7_7# nor2_1x_4/y Gnd Gnd nfet w=24 l=2
++  ad=72 pd=54 as=0 ps=0
+M1007 nor2_1x_2/b nor2_1x_3/y nand2_1x_1/a_7_7# Gnd nfet w=24 l=2
++  ad=120 pd=58 as=0 ps=0
+M1008 nor2_1x_3/a_7_51# a_2_ Vdd Vdd pfet w=32 l=2
++  ad=96 pd=70 as=0 ps=0
+M1009 nor2_1x_3/y a_3_ nor2_1x_3/a_7_51# Vdd pfet w=32 l=2
++  ad=160 pd=74 as=0 ps=0
+M1010 nor2_1x_3/y a_2_ Gnd Gnd nfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1011 Gnd a_3_ nor2_1x_3/y Gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 nor2_1x_2/a_7_51# nor2_1x_2/a Vdd Vdd pfet w=32 l=2
++  ad=96 pd=70 as=0 ps=0
+M1013 zero nor2_1x_2/b nor2_1x_2/a_7_51# Vdd pfet w=32 l=2
++  ad=160 pd=74 as=0 ps=0
+M1014 zero nor2_1x_2/a Gnd Gnd nfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1015 Gnd nor2_1x_2/b zero Gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 nor2_1x_1/a_7_51# a_4_ Vdd Vdd pfet w=32 l=2
++  ad=96 pd=70 as=0 ps=0
+M1017 nor2_1x_1/y a_5_ nor2_1x_1/a_7_51# Vdd pfet w=32 l=2
++  ad=160 pd=74 as=0 ps=0
+M1018 nor2_1x_1/y a_4_ Gnd Gnd nfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1019 Gnd a_5_ nor2_1x_1/y Gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 nor2_1x_2/a nor2_1x_0/y Vdd Vdd pfet w=24 l=2
++  ad=144 pd=60 as=0 ps=0
+M1021 Vdd nor2_1x_1/y nor2_1x_2/a Vdd pfet w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 nand2_1x_0/a_7_7# nor2_1x_0/y Gnd Gnd nfet w=24 l=2
++  ad=72 pd=54 as=0 ps=0
+M1023 nor2_1x_2/a nor2_1x_1/y nand2_1x_0/a_7_7# Gnd nfet w=24 l=2
++  ad=120 pd=58 as=0 ps=0
+M1024 nor2_1x_0/a_7_51# a_6_ Vdd Vdd pfet w=32 l=2
++  ad=96 pd=70 as=0 ps=0
+M1025 nor2_1x_0/y a_7_ nor2_1x_0/a_7_51# Vdd pfet w=32 l=2
++  ad=160 pd=74 as=0 ps=0
+M1026 nor2_1x_0/y a_6_ Gnd Gnd nfet w=16 l=2
++  ad=96 pd=44 as=0 ps=0
+M1027 Gnd a_7_ nor2_1x_0/y Gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 Vdd nor2_1x_1/y 2.4fF
+C1 Vdd nor2_1x_0/y 2.0fF
+C2 Vdd nor2_1x_3/y 2.6fF
+C3 nor2_1x_2/a Vdd 2.6fF
+C4 nor2_1x_0/y 0 6.0fF
+C5 nor2_1x_2/a 0 6.8fF
+C6 nor2_1x_1/y 0 6.3fF
+C7 nor2_1x_2/b 0 6.6fF
+C8 nor2_1x_3/y 0 5.0fF
+C9 nor2_1x_4/y 0 6.3fF

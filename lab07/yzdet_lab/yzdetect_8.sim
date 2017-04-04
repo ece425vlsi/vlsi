@@ -1,0 +1,63 @@
+| units: 30 tech: scmos format: MIT
+p a_0_ Vdd! nor2_1x_4/a_7_51# 2 32 5 51
+p a_1_ nor2_1x_4/a_7_51# nor2_1x_4/y 2 32 10 51
+n a_0_ Gnd! nor2_1x_4/y 2 16 5 7
+n a_1_ nor2_1x_4/y Gnd! 2 16 13 7
+p nor2_1x_4/y Vdd! nor2_1x_2/b 2 24 5 169
+p nor2_1x_3/y nor2_1x_2/b Vdd! 2 24 13 169
+n nor2_1x_4/y Gnd! nand2_1x_1/a_7_7# 2 24 5 117
+n nor2_1x_3/y nand2_1x_1/a_7_7# nor2_1x_2/b 2 24 10 117
+p a_2_ Vdd! nor2_1x_3/a_7_51# 2 32 5 271
+p a_3_ nor2_1x_3/a_7_51# nor2_1x_3/y 2 32 10 271
+n a_2_ Gnd! nor2_1x_3/y 2 16 5 227
+n a_3_ nor2_1x_3/y Gnd! 2 16 13 227
+p nor2_1x_2/a Vdd! nor2_1x_2/a_7_51# 2 32 5 381
+p nor2_1x_2/b nor2_1x_2/a_7_51# zero 2 32 10 381
+n nor2_1x_2/a Gnd! zero 2 16 5 337
+n nor2_1x_2/b zero Gnd! 2 16 13 337
+p a_4_ Vdd! nor2_1x_1/a_7_51# 2 32 5 491
+p a_5_ nor2_1x_1/a_7_51# nor2_1x_1/y 2 32 10 491
+n a_4_ Gnd! nor2_1x_1/y 2 16 5 447
+n a_5_ nor2_1x_1/y Gnd! 2 16 13 447
+p nor2_1x_0/y Vdd! nor2_1x_2/a 2 24 5 609
+p nor2_1x_1/y nor2_1x_2/a Vdd! 2 24 13 609
+n nor2_1x_0/y Gnd! nand2_1x_0/a_7_7# 2 24 5 557
+n nor2_1x_1/y nand2_1x_0/a_7_7# nor2_1x_2/a 2 24 10 557
+p a_6_ Vdd! nor2_1x_0/a_7_51# 2 32 5 711
+p a_7_ nor2_1x_0/a_7_51# nor2_1x_0/y 2 32 10 711
+n a_6_ Gnd! nor2_1x_0/y 2 16 5 667
+n a_7_ nor2_1x_0/y Gnd! 2 16 13 667
+C Vdd! nor2_1x_1/y 2.4
+C Vdd! nor2_1x_0/y 2.0
+C nor2_1x_3/y Vdd! 2.6
+C Vdd! nor2_1x_2/a 2.6
+C nor2_1x_0/y GND 6.0
+R nor2_1x_0/y 1778
+R nor2_1x_0/a_7_51# 1122
+R a_7_ 913
+R a_6_ 880
+R nand2_1x_0/a_7_7# 658
+C nor2_1x_2/a GND 6.8
+R nor2_1x_2/a 1701
+C nor2_1x_1/y GND 6.3
+R nor2_1x_1/y 1811
+R nor2_1x_1/a_7_51# 1122
+R a_5_ 913
+R a_4_ 880
+R zero 894
+R nor2_1x_2/a_7_51# 1122
+C nor2_1x_2/b GND 6.6
+R nor2_1x_2/b 1734
+C nor2_1x_3/y GND 5.0
+R nor2_1x_3/y 1810
+R nor2_1x_3/a_7_51# 1122
+R a_3_ 913
+R a_2_ 880
+R nand2_1x_1/a_7_7# 658
+C nor2_1x_4/y GND 6.3
+R nor2_1x_4/y 1778
+R Gnd! 14145
+R nor2_1x_4/a_7_51# 1122
+R a_1_ 913
+R a_0_ 880
+R Vdd! 36780

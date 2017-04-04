@@ -13,7 +13,7 @@
 *----------------------------------------------------------------------
 * Subcircuits
 *----------------------------------------------------------------------
-.global vdd gnd
+.global vdd vdd2 gnd
 .subckt driver1 y
 
 Vin a gnd PULSE 0 'SUPPLY' 5000ps 40ps 40ps 5000ps 10000ps
@@ -39,6 +39,8 @@ X2 b y inv M='H' * reshape input waveform
 * Drive Inputs
 *----------------------------------------------------------------------
 
+Vdd2 vdd2 gnd 'SUPPLY'
+
 Vdd vdd gnd 'SUPPLY'
 
 X1 a_0_ driver1
@@ -56,6 +58,12 @@ Cload zero gnd 61f
 
 
 .tran 10ps 25000ps
+
+
+.measure avg_d_power avg p(vdd) from 15n to 16n
+
+.measure avg_q_power avg p(vdd) from 16n to 20n
+
 
 
 

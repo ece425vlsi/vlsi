@@ -2,8 +2,8 @@
  Input File: yzdet_8_bench.sp
  lic:
  lic: FLEXlm: v11.2.1
- lic: USER:   nessa                HOSTNAME: localhost.localdomain
- lic: HOSTID: 1866da19ebfe         PID:      4372
+ lic: USER:   townleym             HOSTNAME: localhost.localdomain
+ lic: HOSTID: 1866da19ebfe         PID:      6049
  lic: Using FLEXlm license file:
  lic: 27020@139.147.103.148
  lic: Checkout 1 hspice
