@@ -1,0 +1,4 @@
+Running: xsim.dir/mips_fsm_bench_behav/xsimk -simmode gui -wdb mips_fsm_bench_behav.wdb -simrunnum 0 -socket 50237
+Design successfully loaded
+Design Loading Memory Usage: 53028 KB (Peak: 53052 KB)
+Design Loading CPU Usage: 0 ms

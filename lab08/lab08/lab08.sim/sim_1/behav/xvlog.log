@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Documents/VLSI/vlsi/lab08/sequential_examples/mips_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Documents/VLSI/vlsi/lab08/sequential_examples/mips_fsm_bench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fsm_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/townleym/Documents/VLSI/vlsi/lab08/lab08/lab08.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

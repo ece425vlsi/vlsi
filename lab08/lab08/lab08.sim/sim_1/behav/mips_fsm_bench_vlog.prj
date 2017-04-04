@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../../sequential_examples/mips_fsm.sv"
+sv xil_defaultlib  "../../../../sequential_examples/mips_fsm_bench.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : mips_fsm
+Version: L-2016.03-SP5-2
+Date   : Fri Mar 31 17:20:44 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           26
+Number of nets:                            80
+Number of cells:                           72
+Number of combinational cells:             67
+Number of sequential cells:                 5
+Number of macros/black boxes:               0
+Number of buf/inv:                         17
+Number of references:                      10
+
+Combinational area:              14634.000000
+Buf/Inv area:                     2448.000000
+Noncombinational area:            3456.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 18090.000000
+Total area:                 undefined
+1

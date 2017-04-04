@@ -1,0 +1,43 @@
+//-----------------------------------------------------------------------------
+// Title         : mips_fsm
+// Project       : ECE 425 - VLSI Circuit Design
+//-----------------------------------------------------------------------------
+// File          : mips_fsm.sv
+// Author        : John Nestor, Lafayette College
+// Created       : 26.03.2017
+// Last modified : 26.03.2017
+//-----------------------------------------------------------------------------
+// Description :
+// Skeleton file for the MIPS control unit FSM
+//-----------------------------------------------------------------------------
+
+module mips_fsm(
+		input logic 	   clk, reset, 
+                input [5:0] 	   op,
+                output logic 	   memwrite, alusrca, 
+                output logic 	   memtoreg, iord, pcwrite, brnch,
+                output logic 	   regwrite, regdst, 
+                output logic [1:0] pcsrc, alusrcb,
+                output logic [1:0] aluop,
+                output logic [3:0] irwrite
+		);
+
+   typedef enum logic [3:0] {
+			     FETCH1 = 4'b0000, FETCH2, FETCH3, FETCH4,
+			     DECODE, MEMADR, LBRD, LBWR, SBWR,
+			     RTYPEEX, RTYPEWR, BEQEX, JEX
+			     } state_t;
+
+   typedef enum logic [5:0] {
+			     LB    = 6'b100000,
+                             SB    = 6'b101000,
+                             RTYPE = 6'b000000,
+                             BEQ   = 6'b000100,
+                             J     = 6'b000010
+			     } op_t;
+
+   // add state register and next state logic / output logic here
+
+
+endmodule
+

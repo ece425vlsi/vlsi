@@ -1,0 +1,78 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mips_fsm
+Version: L-2016.03-SP5-2
+Date   : Fri Mar 31 17:20:44 2017
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: state_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: state_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  state_reg[3]/CLK (DFFPOSX1)              0.00       0.00 r
+  state_reg[3]/Q (DFFPOSX1)                0.29       0.29 r
+  U9/Y (INVX2)                             0.18       0.48 f
+  U56/Y (NAND2X1)                          0.35       0.83 r
+  U50/Y (NOR2X1)                           0.37       1.20 f
+  U40/Y (NAND3X1)                          0.22       1.42 r
+  U39/Y (OAI21X1)                          0.10       1.51 f
+  U38/Y (NAND3X1)                          0.18       1.69 r
+  U37/Y (OAI21X1)                          0.08       1.77 f
+  state_reg[3]/D (DFFPOSX1)                0.00       1.77 f
+  data arrival time                                   1.77
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  state_reg[3]/CLK (DFFPOSX1)              0.00     100.00 r
+  library setup time                      -0.32      99.68
+  data required time                                 99.68
+  -----------------------------------------------------------
+  data required time                                 99.68
+  data arrival time                                  -1.77
+  -----------------------------------------------------------
+  slack (MET)                                        97.91
+
+
+  Startpoint: state_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: alusrca (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  state_reg[3]/CLK (DFFPOSX1)              0.00       0.00 r
+  state_reg[3]/Q (DFFPOSX1)                0.29       0.29 r
+  U9/Y (INVX2)                             0.18       0.48 f
+  U56/Y (NAND2X1)                          0.35       0.83 r
+  U50/Y (NOR2X1)                           0.37       1.20 f
+  U7/Y (INVX2)                             0.16       1.36 r
+  U34/Y (AOI21X1)                          0.08       1.43 f
+  alusrca (out)                            0.00       1.43 f
+  data arrival time                                   1.43
+
+  max_delay                               25.00      25.00
+  output external delay                    0.00      25.00
+  data required time                                 25.00
+  -----------------------------------------------------------
+  data required time                                 25.00
+  data arrival time                                  -1.43
+  -----------------------------------------------------------
+  slack (MET)                                        23.57
+
+
+1

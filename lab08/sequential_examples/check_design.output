@@ -1,0 +1,17 @@
+ 
+****************************************
+check_design summary:
+Version:     L-2016.03-SP5-2
+Date:        Fri Mar 31 17:20:44 2017
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      2
+    Shorted outputs (LINT-31)                                       1
+    Constant outputs (LINT-52)                                      1
+--------------------------------------------------------------------------------
+
+Warning: In design 'mips_fsm', output port 'pcsrc[0]' is connected directly to output port 'aluop[0]'. (LINT-31)
+Warning: In design 'mips_fsm', output port 'aluop[1]' is connected directly to 'logic 0'. (LINT-52)
+1
