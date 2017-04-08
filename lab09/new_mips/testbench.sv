@@ -34,9 +34,10 @@ module testbench #(parameter WIDTH = 8, REGBITS = 3)();
   always@(negedge clk)
     begin
       if(memwrite) begin
-        //assert(adr == 76 & writedata == 7)
-        assert(adr == 8'h1c & writedata == 8'h0a)
-          $display("Simulation completed successfully");
+         //assert(adr == 76 & writedata == 7)  // original program
+         //assert(adr == 8'h1c & writedata == 8'h0a) // program simulating xor and nor
+	 assert(adr == 8'h2c & writedata == 8'h15) // program simulating shifting
+          $display("Simulation completed successfully!");
         else $error("Simulation failed");
         $stop;
       end

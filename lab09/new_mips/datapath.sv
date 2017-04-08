@@ -11,16 +11,20 @@ module datapath #(parameter WIDTH = 8, REGBITS = 3)
                   output logic [5:0]       funct,
                   output logic [WIDTH-1:0] adr, writedata);
 
-  logic [REGBITS-1:0] ra1, ra2, wa;
-  logic [WIDTH-1:0]   pc, nextpc, data, rd1, rd2, wd, a, srca, 
-                      srcb, aluresult, aluout, immx4;
-  logic [31:0]        instr;
+   logic [REGBITS-1:0] 			   ra1, ra2, wa;
+   logic [WIDTH-1:0] 			   pc, nextpc, data, rd1, rd2, wd, a, srca, 
+					   srcb, aluresult, aluout, immx4;
+   logic [31:0] 			   instr;
 
-  logic [WIDTH-1:0] CONST_ZERO = 0;
-  logic [WIDTH-1:0] CONST_ONE =  1;
-  
-  assign op = instr[31:26];
-  assign funct = instr[5:0];
+   logic [4:0] 				   shamt;
+   
+
+   logic [WIDTH-1:0] 			   CONST_ZERO = 0;
+   logic [WIDTH-1:0] 			   CONST_ONE =  1;
+   
+   assign op = instr[31:26];
+   assign funct = instr[5:0];
+   assign shamt = instr[10:6];
 
   // shift left immediate field by 2
   assign immx4 = {instr[WIDTH-3:0],2'b00};
@@ -52,5 +56,5 @@ module datapath #(parameter WIDTH = 8, REGBITS = 3)
   mux2       #(WIDTH)  wdmux(aluout, data, memtoreg, wd);
   regfile    #(WIDTH,REGBITS) rf(clk, regwrite, ra1, ra2, 
                                  wa, wd, rd1, rd2);
-  alu        #(WIDTH) alunit(srca, srcb, alucontrol, aluresult, zero);
+  alu        #(WIDTH) alunit(srca, srcb, alucontrol, shamt, aluresult, zero);
 endmodule

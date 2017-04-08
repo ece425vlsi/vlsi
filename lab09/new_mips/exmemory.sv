@@ -11,7 +11,7 @@ module exmemory #(parameter WIDTH = 8)
   logic [WIDTH-2:0] wordadr;
 
   initial
-    $readmemh("memfile2.dat", mem);
+    $readmemh("memfile3.dat", mem);
 
   assign bytesel = adr[1:0];
   assign wordadr = adr[WIDTH-1:2];

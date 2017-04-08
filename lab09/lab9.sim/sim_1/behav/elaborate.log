@@ -20,9 +20,9 @@ Compiling module xil_defaultlib.mux2(WIDTH=8)
 Compiling module xil_defaultlib.mux4(WIDTH=8)
 Compiling module xil_defaultlib.mux3(WIDTH=8)
 Compiling module xil_defaultlib.regfile(WIDTH=8,REGBITS=3)
+Compiling module xil_defaultlib.shifter
 Compiling module xil_defaultlib.mux4(WIDTH=1)
 Compiling module xil_defaultlib.adder
-Compiling module xil_defaultlib.mux3(WIDTH=1)
 Compiling module xil_defaultlib.zerodetect(WIDTH=8)
 Compiling module xil_defaultlib.alu(WIDTH=8)
 Compiling module xil_defaultlib.datapath(WIDTH=8,REGBITS=3)

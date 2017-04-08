@@ -1,9 +1,10 @@
 # compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../new_mips/shifter.sv"
 sv xil_defaultlib  "../../../new_mips/zerodetect.sv"
 sv xil_defaultlib  "../../../new_mips/mux4.sv"
 sv xil_defaultlib  "../../../new_mips/adder.sv"
-sv xil_defaultlib  "../../../new_mips/mux3.sv"
 sv xil_defaultlib  "../../../new_mips/aludec.sv"
+sv xil_defaultlib  "../../../new_mips/mux3.sv"
 sv xil_defaultlib  "../../../new_mips/mux2.sv"
 sv xil_defaultlib  "../../../new_mips/mips_fsm.sv"
 sv xil_defaultlib  "../../../new_mips/flopenr.sv"
