@@ -1,0 +1,43 @@
+magic
+tech scmos
+timestamp 1484532969
+<< metal2 >>
+rect 8 47 12 921
+rect 24 56 28 921
+use invbuf_4x  invbuf_4x_0
+timestamp 1484532969
+transform 1 0 0 0 1 880
+box -6 -4 34 96
+use mux2_dp_1x  mux2_dp_1x_0
+timestamp 1484435125
+transform 1 0 0 0 1 770
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_1
+timestamp 1484435125
+transform 1 0 0 0 1 660
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_2
+timestamp 1484435125
+transform 1 0 0 0 1 550
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_3
+timestamp 1484435125
+transform 1 0 0 0 1 440
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_4
+timestamp 1484435125
+transform 1 0 0 0 1 330
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_5
+timestamp 1484435125
+transform 1 0 0 0 1 220
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_6
+timestamp 1484435125
+transform 1 0 0 0 1 110
+box -6 -4 50 96
+use mux2_dp_1x  mux2_dp_1x_7
+timestamp 1484435125
+transform 1 0 0 0 1 0
+box -6 -4 50 96
+<< end >>

@@ -1,0 +1,25 @@
+h Vdd!
+l Gnd!
+vector av a_7_ a_6_ a_5_ a_4_ a_3_ a_2_ a_1_ a_0_
+vector bv b_7_ b_6_ b_5_ b_4_ b_3_ b_2_ b_1_ b_0_
+vector sv s_7_ s_6_ s_5_ s_4_ s_3_ s_2_ s_1_ s_0_
+setvector av 00000000
+setvector bv 00000000
+s
+setvector av 11111111
+s
+setvector bv 00000001
+s
+setvector bv 11111111
+s
+setvector av 00000001
+s
+setvector bv 00000000
+s
+setvector bv 00000001
+s
+setvector av 00001111
+setvector bv 11110000
+s
+setvector bv 00000010
+s

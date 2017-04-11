@@ -1,0 +1,43 @@
+magic
+tech scmos
+timestamp 1484533619
+<< metal2 >>
+rect 24 15 28 882
+rect 56 15 60 882
+use regram_zipper  regram_zipper_0
+timestamp 1484533408
+transform 1 0 0 0 1 880
+box -6 -4 74 426
+use regram0  regram0_0
+timestamp 1484533619
+transform 1 0 0 0 1 770
+box -2 -4 70 23
+use regram0  regram0_1
+timestamp 1484533619
+transform 1 0 0 0 1 660
+box -2 -4 70 23
+use regram0  regram0_2
+timestamp 1484533619
+transform 1 0 0 0 1 550
+box -2 -4 70 23
+use regram0  regram0_3
+timestamp 1484533619
+transform 1 0 0 0 1 440
+box -2 -4 70 23
+use regram0  regram0_4
+timestamp 1484533619
+transform 1 0 0 0 1 330
+box -2 -4 70 23
+use regram0  regram0_5
+timestamp 1484533619
+transform 1 0 0 0 1 220
+box -2 -4 70 23
+use regram0  regram0_6
+timestamp 1484533619
+transform 1 0 0 0 1 110
+box -2 -4 70 23
+use regram0  regram0_7
+timestamp 1484533619
+transform 1 0 0 0 1 0
+box -2 -4 70 23
+<< end >>

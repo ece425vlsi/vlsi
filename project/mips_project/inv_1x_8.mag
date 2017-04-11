@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1484534894
+use inv_1x  inv_1x_0
+timestamp 1484418501
+transform 1 0 0 0 1 770
+box -6 -4 18 96
+use inv_1x  inv_1x_1
+timestamp 1484418501
+transform 1 0 0 0 1 660
+box -6 -4 18 96
+use inv_1x  inv_1x_2
+timestamp 1484418501
+transform 1 0 0 0 1 550
+box -6 -4 18 96
+use inv_1x  inv_1x_3
+timestamp 1484418501
+transform 1 0 0 0 1 440
+box -6 -4 18 96
+use inv_1x  inv_1x_4
+timestamp 1484418501
+transform 1 0 0 0 1 330
+box -6 -4 18 96
+use inv_1x  inv_1x_5
+timestamp 1484418501
+transform 1 0 0 0 1 220
+box -6 -4 18 96
+use inv_1x  inv_1x_6
+timestamp 1484418501
+transform 1 0 0 0 1 110
+box -6 -4 18 96
+use inv_1x  inv_1x_7
+timestamp 1484418501
+transform 1 0 0 0 1 0
+box -6 -4 18 96
+<< end >>

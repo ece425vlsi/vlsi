@@ -1,0 +1,56 @@
+magic
+tech scmos
+timestamp 1484532171
+<< metal1 >>
+rect 5 966 30 974
+rect 11 868 31 872
+rect 67 868 87 872
+<< m2contact >>
+rect 7 868 11 872
+rect 31 868 35 872
+rect 63 868 67 872
+rect 87 868 91 872
+<< metal2 >>
+rect 7 872 11 878
+rect 31 44 35 868
+rect 39 54 43 878
+rect 63 26 67 868
+rect 71 54 75 878
+rect 87 872 91 878
+use clkinvbufdual_4x  clkinvbufdual_4x_0
+timestamp 1484532171
+transform 1 0 7 0 1 880
+box -6 -6 90 96
+use flop_dp_1x  flop_dp_1x_0
+timestamp 1484518396
+transform 1 0 -41 0 1 770
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_1
+timestamp 1484518396
+transform 1 0 -41 0 1 660
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_2
+timestamp 1484518396
+transform 1 0 -41 0 1 550
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_3
+timestamp 1484518396
+transform 1 0 -41 0 1 440
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_4
+timestamp 1484518396
+transform 1 0 -41 0 1 330
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_5
+timestamp 1484518396
+transform 1 0 -41 0 1 220
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_6
+timestamp 1484518396
+transform 1 0 -41 0 1 110
+box 34 -4 146 96
+use flop_dp_1x  flop_dp_1x_7
+timestamp 1484518396
+transform 1 0 -41 0 1 0
+box 34 -4 146 96
+<< end >>

@@ -1,0 +1,6 @@
+h Vdd!
+l Gnd!
+h resetb
+l d
+clock clk ph1 ph2
+analyzer ph1 ph2 resetb d master slave q

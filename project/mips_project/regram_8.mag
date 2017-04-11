@@ -1,0 +1,285 @@
+magic
+tech scmos
+timestamp 1484532171
+<< metal2 >>
+rect -1 822 5 823
+rect -1 818 0 822
+rect 4 818 5 822
+rect -1 817 5 818
+rect 0 788 4 817
+rect -1 712 5 713
+rect -1 708 0 712
+rect 4 708 5 712
+rect -1 707 5 708
+rect 0 678 4 707
+rect -1 602 5 603
+rect -1 598 0 602
+rect 4 598 5 602
+rect -1 597 5 598
+rect 0 568 4 597
+rect -1 492 5 493
+rect -1 488 0 492
+rect 4 488 5 492
+rect -1 487 5 488
+rect 0 458 4 487
+rect -1 382 5 383
+rect -1 378 0 382
+rect 4 378 5 382
+rect -1 377 5 378
+rect 0 348 4 377
+rect -1 272 5 273
+rect -1 268 0 272
+rect 4 268 5 272
+rect -1 267 5 268
+rect 0 238 4 267
+rect -1 162 5 163
+rect -1 158 0 162
+rect 4 158 5 162
+rect -1 157 5 158
+rect 0 128 4 157
+rect -1 52 5 53
+rect -1 48 0 52
+rect 4 48 5 52
+rect 8 48 12 870
+rect -1 47 5 48
+rect 0 18 4 47
+rect 16 40 20 870
+rect 24 26 28 870
+rect 32 52 36 870
+rect 40 793 44 805
+rect 39 792 45 793
+rect 39 788 40 792
+rect 44 788 45 792
+rect 39 787 45 788
+rect 40 683 44 695
+rect 39 682 45 683
+rect 39 678 40 682
+rect 44 678 45 682
+rect 39 677 45 678
+rect 40 573 44 585
+rect 39 572 45 573
+rect 39 568 40 572
+rect 44 568 45 572
+rect 39 567 45 568
+rect 40 463 44 475
+rect 39 462 45 463
+rect 39 458 40 462
+rect 44 458 45 462
+rect 39 457 45 458
+rect 40 353 44 365
+rect 39 352 45 353
+rect 39 348 40 352
+rect 44 348 45 352
+rect 39 347 45 348
+rect 40 243 44 255
+rect 39 242 45 243
+rect 39 238 40 242
+rect 44 238 45 242
+rect 39 237 45 238
+rect 40 133 44 145
+rect 39 132 45 133
+rect 39 128 40 132
+rect 44 128 45 132
+rect 39 127 45 128
+rect 48 65 52 870
+rect 40 23 44 35
+rect 39 22 45 23
+rect 39 18 40 22
+rect 44 18 45 22
+rect 56 20 60 870
+rect 64 783 68 826
+rect 63 782 69 783
+rect 63 778 64 782
+rect 68 778 69 782
+rect 63 777 69 778
+rect 64 673 68 716
+rect 63 672 69 673
+rect 63 668 64 672
+rect 68 668 69 672
+rect 63 667 69 668
+rect 64 563 68 606
+rect 63 562 69 563
+rect 63 558 64 562
+rect 68 558 69 562
+rect 63 557 69 558
+rect 64 453 68 496
+rect 63 452 69 453
+rect 63 448 64 452
+rect 68 448 69 452
+rect 63 447 69 448
+rect 64 343 68 386
+rect 63 342 69 343
+rect 63 338 64 342
+rect 68 338 69 342
+rect 63 337 69 338
+rect 64 233 68 276
+rect 63 232 69 233
+rect 63 228 64 232
+rect 68 228 69 232
+rect 63 227 69 228
+rect 64 123 68 166
+rect 63 122 69 123
+rect 63 118 64 122
+rect 68 118 69 122
+rect 63 117 69 118
+rect 39 17 45 18
+rect 64 13 68 56
+rect 63 12 69 13
+rect 63 8 64 12
+rect 68 8 69 12
+rect 63 7 69 8
+<< m3contact >>
+rect 0 818 4 822
+rect 0 708 4 712
+rect 0 598 4 602
+rect 0 488 4 492
+rect 0 378 4 382
+rect 0 268 4 272
+rect 0 158 4 162
+rect 0 48 4 52
+rect 40 788 44 792
+rect 40 678 44 682
+rect 40 568 44 572
+rect 40 458 44 462
+rect 40 348 44 352
+rect 40 238 44 242
+rect 40 128 44 132
+rect 40 18 44 22
+rect 64 778 68 782
+rect 64 668 68 672
+rect 64 558 68 562
+rect 64 448 68 452
+rect 64 338 68 342
+rect 64 228 68 232
+rect 64 118 68 122
+rect 64 8 68 12
+<< metal3 >>
+rect -1 822 5 823
+rect -1 818 0 822
+rect 4 818 5 822
+rect -1 817 5 818
+rect 39 792 45 793
+rect 39 788 40 792
+rect 44 788 45 792
+rect 39 787 45 788
+rect 63 782 69 783
+rect 63 778 64 782
+rect 68 778 69 782
+rect 63 777 69 778
+rect -1 712 5 713
+rect -1 708 0 712
+rect 4 708 5 712
+rect -1 707 5 708
+rect 39 682 45 683
+rect 39 678 40 682
+rect 44 678 45 682
+rect 39 677 45 678
+rect 63 672 69 673
+rect 63 668 64 672
+rect 68 668 69 672
+rect 63 667 69 668
+rect -1 602 5 603
+rect -1 598 0 602
+rect 4 598 5 602
+rect -1 597 5 598
+rect 39 572 45 573
+rect 39 568 40 572
+rect 44 568 45 572
+rect 39 567 45 568
+rect 63 562 69 563
+rect 63 558 64 562
+rect 68 558 69 562
+rect 63 557 69 558
+rect -1 492 5 493
+rect -1 488 0 492
+rect 4 488 5 492
+rect -1 487 5 488
+rect 39 462 45 463
+rect 39 458 40 462
+rect 44 458 45 462
+rect 39 457 45 458
+rect 63 452 69 453
+rect 63 448 64 452
+rect 68 448 69 452
+rect 63 447 69 448
+rect -1 382 5 383
+rect -1 378 0 382
+rect 4 378 5 382
+rect -1 377 5 378
+rect 39 352 45 353
+rect 39 348 40 352
+rect 44 348 45 352
+rect 39 347 45 348
+rect 63 342 69 343
+rect 63 338 64 342
+rect 68 338 69 342
+rect 63 337 69 338
+rect -1 272 5 273
+rect -1 268 0 272
+rect 4 268 5 272
+rect -1 267 5 268
+rect 39 242 45 243
+rect 39 238 40 242
+rect 44 238 45 242
+rect 39 237 45 238
+rect 63 232 69 233
+rect 63 228 64 232
+rect 68 228 69 232
+rect 63 227 69 228
+rect -1 162 5 163
+rect -1 158 0 162
+rect 4 158 5 162
+rect -1 157 5 158
+rect 39 132 45 133
+rect 39 128 40 132
+rect 44 128 45 132
+rect 39 127 45 128
+rect 63 122 69 123
+rect 63 118 64 122
+rect 68 118 69 122
+rect 63 117 69 118
+rect -1 52 5 53
+rect -1 48 0 52
+rect 4 48 5 52
+rect -1 47 5 48
+rect 39 22 45 23
+rect 39 18 40 22
+rect 44 18 45 22
+rect 39 17 45 18
+rect 63 12 69 13
+rect 63 8 64 12
+rect 68 8 69 12
+rect 63 7 69 8
+use regram_dp  regram_dp_0
+timestamp 1484531287
+transform 1 0 0 0 1 770
+box -6 -4 74 96
+use regram_dp  regram_dp_1
+timestamp 1484531287
+transform 1 0 0 0 1 660
+box -6 -4 74 96
+use regram_dp  regram_dp_2
+timestamp 1484531287
+transform 1 0 0 0 1 550
+box -6 -4 74 96
+use regram_dp  regram_dp_3
+timestamp 1484531287
+transform 1 0 0 0 1 440
+box -6 -4 74 96
+use regram_dp  regram_dp_4
+timestamp 1484531287
+transform 1 0 0 0 1 330
+box -6 -4 74 96
+use regram_dp  regram_dp_5
+timestamp 1484531287
+transform 1 0 0 0 1 220
+box -6 -4 74 96
+use regram_dp  regram_dp_6
+timestamp 1484531287
+transform 1 0 0 0 1 110
+box -6 -4 74 96
+use regram_dp  regram_dp_7
+timestamp 1484531287
+transform 1 0 0 0 1 0
+box -6 -4 74 96
+<< end >>

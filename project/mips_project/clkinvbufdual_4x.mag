@@ -1,0 +1,40 @@
+magic
+tech scmos
+timestamp 1484532171
+<< metal1 >>
+rect -2 86 54 94
+rect -2 -4 54 4
+<< metal2 >>
+rect -1 22 5 23
+rect -1 18 0 22
+rect 4 18 5 22
+rect -1 17 5 18
+rect 0 -6 4 17
+rect 16 13 20 25
+rect 32 23 36 24
+rect 31 22 37 23
+rect 31 18 32 22
+rect 36 18 37 22
+rect 31 17 37 18
+rect 16 9 36 13
+rect 32 -6 36 9
+rect 64 -6 68 25
+rect 80 -6 84 25
+<< m3contact >>
+rect 0 18 4 22
+rect 32 18 36 22
+<< metal3 >>
+rect -1 22 37 23
+rect -1 18 0 22
+rect 4 18 32 22
+rect 36 18 37 22
+rect -1 17 37 18
+use clkinvbuf_4x  clkinvbuf_4x_0
+timestamp 1484455428
+transform 1 0 0 0 1 0
+box -6 -4 42 96
+use clkinvbuf_4x  clkinvbuf_4x_1
+timestamp 1484455428
+transform 1 0 48 0 1 0
+box -6 -4 42 96
+<< end >>

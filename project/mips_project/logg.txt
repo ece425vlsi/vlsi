@@ -1,0 +1,7 @@
+| (command line, 1): assertion failed on 'y' 1 (0)
+| (command line, 1): assertion failed on 'y' 1 (0)
+| (command line, 1): assertion failed on 'y' 1 (0)
+| (command line, 1): assertion failed on 'y' X (0)
+| (command line, 1): assertion failed on 'y' X (1)
+| (command line, 1): assertion failed on 'y' X (1)
+| (command line, 1): assertion failed on 'y' 0 (1)
