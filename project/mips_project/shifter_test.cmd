@@ -64,38 +64,53 @@ for {set i 0} {$i < 256} {incr i} {
 proc checkAnswer {} {
      set expectedNum 0
 
-     if { [query op] == 9 } {
-     	#and
-     	set expectedNum [expr [query a] & [query b] ]
-     } elseif { [query op] ==  57} {
-       #or
-       set expectedNum [expr [query a] | [query b] ]
-     } elseif { [query op] ==  65} {
-       #nor
-       set expectedNum [expr [query a] | [query b] ]
-       set expectedNum [expr ~$expectedNum]
-       set expectedNum [expr 256 + $expectedNum]
-     } elseif { [query op] ==  49} {
-       #xor
-       set expectedNum [expr [query a] ^ [query b] ]
-     } elseif { [query op] ==  40} {
-       #add
-       set expectedNum [expr [query a] + [query b] ]
-     } elseif { [query op] ==  84} {
-       #sub
-       set expectedNum [expr [query a] - [query b] ]
-       if { $expectedNum < 0} {
-       	  set expectedNum [expr $expectedNum + 256]
-       }
-     } elseif { [query op] ==  86} {
-       #slt
-       set expectedNum [expr [query a] < [query b] ]
+     if { ~right } {
+     	set expectedNum [expr [query A] << [query K]]
+     } elseif { arith } {
+     	set expectedNum [expr [query A] >> [query K]]
+     } else {
+     	set expectedNum [expr [query A] >> [query K]] # NEED TO ACCOUNT FOR LOGICAL SHIFT FEATURES
+	if { a7 } { # MUST SET THE BITS SHIFTED IN LOW
+	   set mask 127 #01111111
+	   for {set i 0} {$i < [query K]} {incr i} {
+	       set expectedNum [expr $expectedNum & $mask]
+	       set mask [expr $mask >> 1]
+	   }
+	}
      }
 
-     set decex $expectedNum
-     set binex [dec2bin $expectedNum 8]
-     set decre [query result]
-     set binre [dec2bin $decre 8]
+     #if { [query op] == 9 } {
+     #	#and
+     #	set expectedNum [expr [query a] & [query b] ]
+     #} elseif { [query op] ==  57} {
+     #  #or
+     #  set expectedNum [expr [query a] | [query b] ]
+     #} elseif { [query op] ==  65} {
+     #  #nor
+    #   set expectedNum [expr [query a] | [query b] ]
+     #  set expectedNum [expr ~$expectedNum]
+    #   set expectedNum [expr 256 + $expectedNum]
+     #} elseif { [query op] ==  49} {
+     #  #xor
+    #   set expectedNum [expr [query a] ^ [query b] ]
+    # } elseif { [query op] ==  40} {
+    #   #add
+    #   set expectedNum [expr [query a] + [query b] ]
+    # } elseif { [query op] ==  84} {
+    #   #sub
+    #   set expectedNum [expr [query a] - [query b] ]
+    #   if { $expectedNum < 0} {
+    #   	  set expectedNum [expr $expectedNum + 256]
+    #   }
+    # } elseif { [query op] ==  86} {
+    #   #slt
+    #   set expectedNum [expr [query a] < [query b] ]
+    # }
+
+     #set decex $expectedNum
+     #set binex [dec2bin $expectedNum 8]
+     #set decre [query Y]
+     #set binre [dec2bin $decre 8]
 
      puts "a is [query a]; b is [query b]"
      puts "dec expected: $decex"
@@ -103,9 +118,9 @@ proc checkAnswer {} {
      puts "dec result: $decre"
      #puts "bin result: $binre"
 
-     #if { $expectedNum < 240} {
-     	assert result [dec2bin $expectedNum 8]
-     #}
+     
+     assert Y [dec2bin $expectedNum 8]
+     
      
 }
 
