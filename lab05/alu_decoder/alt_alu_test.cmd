@@ -70,6 +70,13 @@ for {set i 0} {$i < 256} {incr i} {
 
 proc checkAnswer {} {
      set expectedNum 0
+     if {~right} {
+       set expectedNum [expr [query A] << [query K]]
+     } elseif {arith} {
+       set expectedNum [expr [query A] >> [query K]]
+     } else {
+       set expectedNum [expr [query A] >> [query K]]
+     }
 
      if { [query op] == 9 } {
      	#and

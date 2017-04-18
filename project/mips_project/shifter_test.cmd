@@ -54,7 +54,7 @@ for {set i 0} {$i < 256} {incr i} {
 
     set adec [dec2bin $i 8]
     #puts "adec is: $adec"
-    setvector a $adec
+    setvector A $adec
     s
     checkAnswer
 
