@@ -1,0 +1,33 @@
+module three_eight_decoder(input logic [2:0] k,
+			   input logic 	      right,
+			   output logic [7:0] s);
+
+   logic [2:0] 				      shamt;
+
+   always_comb
+     begin
+	if(right)
+	  shamt = k;
+	else
+	  shamt = ~k;
+     end
+   
+   always_comb
+     begin
+	case(shamt)
+	  3'h0: s = 8'h01;
+	  3'h1: s = 8'h02;
+	  3'h2: s = 8'h04;
+	  3'h3: s = 8'h08;
+	  3'h4: s = 8'h10;
+	  3'h5: s = 8'h20;
+	  3'h6: s = 8'h40;
+	  3'h7: s = 8'h80;
+	endcase // case (shamt)
+     end // always_comb
+   
+   
+
+   
+endmodule // three_eight_decoder
+
