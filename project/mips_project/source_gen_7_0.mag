@@ -1,0 +1,22 @@
+magic
+tech scmos
+timestamp 1492528143
+use source_gen_2nm2_n  source_gen_2nm2_n_0
+array 0 6 80 0 0 100
+timestamp 1492524654
+transform 1 0 6 0 1 116
+box -6 -4 82 96
+use source_gen_nm2_0  source_gen_nm2_0_0
+array 0 6 32 0 0 100
+timestamp 1492522594
+transform 1 0 6 0 1 4
+box -6 -4 34 96
+use source_gen_nm1  source_gen_nm1_0
+timestamp 1492523316
+transform 1 0 230 0 1 4
+box -6 -4 50 96
+use array_shifter_sg  array_shifter_0
+timestamp 1492524685
+transform 1 0 597 0 1 0
+box -4 0 176 224
+<< end >>
