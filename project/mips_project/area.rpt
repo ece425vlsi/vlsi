@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : three_eight_decoder
+Version: L-2016.03-SP5-2
+Date   : Tue Apr 18 11:37:08 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           12
+Number of nets:                            24
+Number of cells:                           20
+Number of combinational cells:             20
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          4
+Number of references:                       3
+
+Combinational area:               5184.000000
+Buf/Inv area:                      576.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  5184.000000
+Total area:                 undefined
+1

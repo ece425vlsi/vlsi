@@ -1,0 +1,13 @@
+ 
+****************************************
+Report : hierarchy
+Design : three_eight_decoder
+Version: L-2016.03-SP5-2
+Date   : Tue Apr 18 11:37:08 2017
+****************************************
+
+three_eight_decoder
+    INVX2           osu05_stdcells
+    NAND2X1         osu05_stdcells
+    OAI22X1         osu05_stdcells
+1
