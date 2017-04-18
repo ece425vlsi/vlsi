@@ -1,9 +1,9 @@
 magic
 tech scmos
-timestamp 1492528143
+timestamp 1492545400
 use source_gen_2nm2_n  source_gen_2nm2_n_0
 array 0 6 80 0 0 100
-timestamp 1492524654
+timestamp 1492545400
 transform 1 0 6 0 1 116
 box -6 -4 82 96
 use source_gen_nm2_0  source_gen_nm2_0_0

@@ -1,0 +1,16 @@
+timestamp 1492545400
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use source_gen_2nm2_n source_gen_2nm2_n_0[0:6:80][0:0:100] 1 0 6 0 1 116
+use source_gen_nm2_0 source_gen_nm2_0_0[0:6:32][0:0:100] 1 0 6 0 1 4
+use source_gen_nm1 source_gen_nm1_0 1 0 230 0 1 4
+use array_shifter_sg array_shifter_0 1 0 597 0 1 0
+merge "source_gen_nm1_0/Gnd!" "source_gen_nm2_0_0[6]/Gnd!" -331.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "source_gen_nm1_0/Vdd!" "source_gen_nm2_0_0[6]/Vdd!" -1944 0 0 0 0 -448 -136 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "source_gen_2nm2_n_0[1:6]/Vdd!" "source_gen_2nm2_n_0[0:5]/nand2_1x_1/Vdd!" -1944 0 0 0 0 -448 -128 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "source_gen_nm2_0_0[1:6]/Gnd!" "source_gen_nm2_0_0[0:5]/Gnd!" -331.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "source_gen_nm2_0_0[1:6]/Vdd!" "source_gen_nm2_0_0[0:5]/Vdd!" -1944 0 0 0 0 -448 -128 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "source_gen_2nm2_n_0[1:6]/Gnd!" "source_gen_2nm2_n_0[0:5]/nand2_1x_1/Gnd!" -331.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0

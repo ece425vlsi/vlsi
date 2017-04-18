@@ -1,0 +1,42 @@
+timestamp 1492545400
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use nand2_1x nand2_1x_0 1 0 32 0 1 0
+use nand2_1x nand2_1x_1 1 0 56 0 1 0
+node "m1_45_35#" 0 1000.8 45 35 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "a_12_7#" 438 0 12 7 ndif 48 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_7_7#" 438 0 7 7 ndif 48 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Gnd!" 1729 2662.2 0 -2 poc 80 42 64 64 0 0 0 0 0 0 0 0 0 0 0 0 332 118 0 0 0 0
+node "Aimnp1" 1050 3453.6 7 70 pdif 80 42 143 74 0 0 0 0 0 0 0 0 0 0 0 0 472 252 64 48 330 122
+equiv "Aimnp1" "y"
+node "Anm1" 946 371.52 15 5 p 0 0 0 0 0 0 0 0 0 0 188 184 0 0 0 0 16 16 16 16 0 0
+node "right" 913 294.12 8 43 pc 0 0 0 0 0 0 0 0 0 0 174 174 0 0 0 0 16 16 16 16 0 0
+node "arith" 951 776.22 0 26 pc 0 0 0 0 0 0 0 0 0 0 183 182 0 0 0 0 16 16 16 16 0 0
+node "Vdd!" 3060 8064 -6 40 nw 64 64 143 74 2240 192 0 0 0 0 0 0 0 0 0 0 384 144 0 0 0 0
+cap "arith" "Vdd!" 557.28
+cap "Anm1" "Aimnp1" 227.52
+cap "right" "Vdd!" 1042.92
+cap "Aimnp1" "Vdd!" 3257.4
+cap "Anm1" "Vdd!" 1073.88
+cap "right" "Aimnp1" 404.88
+fet nfet 15 7 16 8 32 36 "Gnd!" "Anm1" 4 0 "a_12_7#" 16 0 "Aimnp1" 16 0
+fet nfet 10 7 11 8 32 36 "Gnd!" "right" 4 0 "a_7_7#" 16 0 "a_12_7#" 16 0
+fet nfet 5 7 6 8 32 36 "Gnd!" "arith" 4 0 "Gnd!" 16 0 "a_7_7#" 16 0
+fet pfet 21 70 22 71 26 30 "Vdd!" "Anm1" 4 0 "Vdd!" 13 0 "Aimnp1" 13 0
+fet pfet 13 70 14 71 26 30 "Vdd!" "right" 4 0 "Aimnp1" 13 0 "Vdd!" 13 0
+fet pfet 5 70 6 71 26 30 "Vdd!" "arith" 4 0 "Vdd!" 13 0 "Aimnp1" 13 0
+cap "nand2_1x_0/A" "y" 9.72
+cap "nand2_1x_0/Y" "y" 35.64
+cap "nand2_1x_1/Y" "y" 25.92
+cap "Vdd!" "y" 115.2
+cap "nand2_1x_0/b" "y" 63
+merge "nand2_1x_1/b" "y" -852 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
+merge "nand2_1x_1/A" "nand2_1x_0/Y" -801 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "nand2_1x_0/Y" "m1_45_35#"
+merge "nand2_1x_1/Vdd!" "nand2_1x_0/Vdd!" -3888 0 0 0 0 -896 -256 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
+merge "nand2_1x_0/Vdd!" "Vdd!"
+merge "nand2_1x_1/Gnd!" "nand2_1x_0/Gnd!" -662.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
+merge "nand2_1x_0/Gnd!" "Gnd!"

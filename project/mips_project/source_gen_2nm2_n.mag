@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492524654
+timestamp 1492545400
 << nwell >>
 rect -6 40 34 96
 << ntransistor >>
@@ -61,12 +61,12 @@ rect 5 69 7 70
 rect 13 69 15 70
 rect 1 67 7 69
 rect 10 67 15 69
-rect 1 47 3 67
+rect 1 30 3 67
 rect 10 47 12 67
 rect 21 62 23 70
 rect 20 60 23 62
-rect 1 27 3 43
-rect 1 25 7 27
+rect 4 26 7 27
+rect 1 25 7 26
 rect 5 23 7 25
 rect 10 23 12 43
 rect 20 26 22 60
@@ -76,9 +76,9 @@ rect 5 5 7 7
 rect 10 5 12 7
 rect 15 5 17 7
 << polycontact >>
-rect 0 43 4 47
 rect 8 43 12 47
 rect 16 43 20 47
+rect 0 26 4 30
 << metal1 >>
 rect -2 92 30 94
 rect -2 88 0 92
@@ -96,7 +96,8 @@ rect 16 70 20 72
 rect 24 81 28 83
 rect 24 67 28 72
 rect 8 63 28 67
-rect 24 47 28 63
+rect 24 55 28 63
+rect 24 47 28 51
 rect 24 23 28 43
 rect 45 35 61 39
 rect 0 22 4 23
@@ -112,11 +113,12 @@ rect 20 -2 24 2
 rect 28 -2 30 2
 rect -2 -4 30 -2
 << m2contact >>
+rect 24 51 28 55
 rect 72 51 76 55
-rect 0 43 4 47
 rect 8 43 12 47
 rect 16 43 20 47
 rect 24 43 28 47
+rect 0 26 4 30
 << metal2 >>
 rect 24 47 28 51
 << m3contact >>
@@ -140,10 +142,10 @@ box -6 -4 26 96
 rlabel m2contact 26 45 26 45 1 y
 rlabel metal1 -1 90 -1 90 3 Vdd!
 rlabel metal1 -1 0 -1 0 2 Gnd!
-rlabel m2contact 2 45 2 45 1 arith
 rlabel m2contact 10 45 10 45 1 right
 rlabel m2contact 18 45 18 45 1 Anm1
 rlabel space 34 36 34 36 1 rightb
 rlabel metal3 50 52 50 52 1 Aimnp1
 rlabel space 65 44 65 44 1 Z
+rlabel m2contact 2 28 2 28 1 arith
 << end >>
