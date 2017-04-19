@@ -1,9 +1,9 @@
 magic
 tech scmos
-timestamp 1492524685
+timestamp 1492554432
 use arraysh_tile  arraysh_tile_0
 array 0 7 22 0 7 28
-timestamp 1492524685
+timestamp 1492553397
 transform 1 0 0 0 1 0
 box -4 0 22 28
 << end >>

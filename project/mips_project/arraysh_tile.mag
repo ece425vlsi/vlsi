@@ -1,11 +1,14 @@
 magic
 tech scmos
-timestamp 1492524685
+timestamp 1492553397
 << ntransistor >>
 rect 4 13 8 15
 << ndiffusion >>
-rect 4 15 8 20
-rect 4 8 8 13
+rect 4 15 8 16
+rect 4 12 8 13
+<< ndcontact >>
+rect 4 16 8 20
+rect 4 8 8 12
 << polysilicon >>
 rect 2 13 4 15
 rect 8 13 11 15

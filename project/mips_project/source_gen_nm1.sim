@@ -1,0 +1,24 @@
+| units: 30 tech: scmos format: MIT
+p A0 Vdd! a_12_74# 2 9 10 74
+p rightb a_12_74# a_17_7# 2 9 15 74
+p right a_17_7# a_25_74# 2 9 23 74
+p Anm1 a_25_74# Vdd! 2 9 28 74
+p a_17_7# Vdd! Z 2 10 36 73
+n A0 Gnd! a_12_7# 2 6 10 7
+n right a_12_7# a_17_7# 2 6 15 7
+n rightb a_17_7# a_25_7# 2 6 23 7
+n Anm1 a_25_7# Gnd! 2 6 28 7
+n a_17_7# Gnd! Z 2 7 36 7
+C Vdd! Z 2.1
+R a_25_7# 164
+R a_12_7# 164
+R Gnd! 2799
+R Z 327
+R a_25_74# 316
+R a_12_74# 316
+R a_17_7# 1123
+R Anm1 913
+R right 924
+R rightb 781
+R A0 1056
+R Vdd! 3297

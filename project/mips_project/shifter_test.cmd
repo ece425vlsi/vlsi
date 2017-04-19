@@ -9,13 +9,15 @@ vector A a7 a6 a5 a4 a3 a2 a1 a0
 vector Y y7 y6 y5 y4 y3 y2 y1 y0
 vector K k2 k1 k0
 
-
+vector S s7 s6 s5 s4 s3 s2 s1 s0
+vector Z z14 z13 z12 z11 z10 z9 z8 z7 z6 z5 z4 z3 z2 z1 z0
+vector temp zout a0in a7in rightin rightbin
 
 stepsize 250
 
 #analyzer A B Less OP Result y_temp
-analyzer right arith A K Y
-w right arith A K Y
+analyzer right arith temp A K Y S Z 
+w        right arith temp A K Y S Z 
 
 
 
@@ -50,7 +52,7 @@ proc dec2bin {i {width {}}} {
 
 
 proc cycleInput {} {
-for {set i 0} {$i < 256} {incr i} {
+for {set i 0} {$i < 255} {incr i} {
 
     set adec [dec2bin $i 8]
     #puts "adec is: $adec"
@@ -64,9 +66,9 @@ for {set i 0} {$i < 256} {incr i} {
 proc checkAnswer {} {
      set expectedNum 0
 
-     if { ~right } {
+     if { ~[query right] } {
      	set expectedNum [expr [query A] << [query K]]
-     } elseif { arith } {
+     } elseif { [query arith] } {
      	set expectedNum [expr [query A] >> [query K]]
      } else {
      	set expectedNum [expr [query A] >> [query K]] # NEED TO ACCOUNT FOR LOGICAL SHIFT FEATURES
@@ -112,10 +114,10 @@ proc checkAnswer {} {
      #set decre [query Y]
      #set binre [dec2bin $decre 8]
 
-     puts "a is [query a]; b is [query b]"
-     puts "dec expected: $decex"
+     #puts "a is [query a]; b is [query b]"
+     #puts "dec expected: $decex"
      #puts "bin expected: $binex"
-     puts "dec result: $decre"
+     #puts "dec result: $decre"
      #puts "bin result: $binre"
 
      
@@ -126,34 +128,24 @@ proc checkAnswer {} {
 
 ####################### EXECUTED CODE: ########################################
 
-#and
-setvector op 0001001
+setvector k 010
+
+l right
+l arith
+
 cycleInput
 
-#or
-setvector op 0111001
+h arith
 cycleInput
 
-#nor
-setvector op 1000001
+l arith
+
+h right
+
 cycleInput
 
-#xor
-setvector op 0110001
+h arith
+
 cycleInput
-
-#add
-setvector op 0101000
-cycleInput
-
-#sub
-setvector op 1010100
-cycleInput
-
-#slt
-setvector op 1010110
-cycleInput
-
-
 
 

@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492545400
+timestamp 1492561529
 use source_gen_2nm2_n  source_gen_2nm2_n_0
 array 0 6 80 0 0 100
 timestamp 1492545400
@@ -11,12 +11,12 @@ array 0 6 32 0 0 100
 timestamp 1492522594
 transform 1 0 6 0 1 4
 box -6 -4 34 96
-use source_gen_nm1  source_gen_nm1_0
-timestamp 1492523316
+use source_gen_nm1  source_gen_nm1_0 /home/townleym/Desktop/VLSI/project/mips_project
+timestamp 1492561082
 transform 1 0 230 0 1 4
 box -6 -4 50 96
 use array_shifter_sg  array_shifter_0
-timestamp 1492524685
+timestamp 1492554432
 transform 1 0 597 0 1 0
 box -4 0 176 224
 << end >>

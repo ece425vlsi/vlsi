@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492523316
+timestamp 1492561082
 << nwell >>
 rect -6 40 50 96
 << ntransistor >>
@@ -176,7 +176,7 @@ rlabel metal1 -1 0 -1 0 2 Gnd!
 rlabel metal1 -1 90 -1 90 3 Vdd!
 rlabel m2contact 42 40 42 40 1 Z
 rlabel m2contact 34 46 34 46 1 Anm1
-rlabel m2contact 26 57 26 57 1 right
-rlabel m2contact 10 48 10 48 1 rightb
 rlabel m2contact 2 48 2 48 1 A0
+rlabel m2contact 10 48 10 48 1 right
+rlabel m2contact 26 57 26 57 1 rightb
 << end >>
