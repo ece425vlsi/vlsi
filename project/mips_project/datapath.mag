@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493129212
+timestamp 1493130135
 << metal1 >>
 rect -140 1302 2698 1304
 rect -76 1298 2634 1302
@@ -2658,6 +2658,10 @@ use regramarray_dp  regramarray_dp_0
 timestamp 1488938149
 transform 1 0 920 0 1 0
 box -102 -5 578 1306
+use array_sh_sg  array_sh_sg_0
+timestamp 1492562097
+transform 1 0 944 0 1 -354
+box 0 -64 1539 301
 << labels >>
 rlabel metal2 2755 1316 2755 1316 1 Gnd!
 rlabel metal2 2665 1327 2665 1327 1 Vdd!
