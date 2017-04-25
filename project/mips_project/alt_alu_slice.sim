@@ -1,0 +1,162 @@
+| units: 30 tech: scmos format: MIT
+p op0 mux4_dp_1x_1/a_6_74# mux4_dp_1x_1/a_13_74# 2 9 281 78
+p y_temp mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 78
+p fulladder_0/b Vdd! mux4_dp_1x_1/a_26_74# 2 9 294 78
+p op0b mux4_dp_1x_1/a_26_74# mux4_dp_1x_1/a_6_74# 2 9 299 78
+p op1 mux4_dp_1x_1/a_6_74# mux4_dp_1x_1/a_39_7# 2 9 307 78
+p op1b mux4_dp_1x_1/a_39_7# mux4_dp_1x_1/a_47_74# 2 9 315 78
+p op0 mux4_dp_1x_1/a_47_74# mux4_dp_1x_1/a_55_74# 2 9 323 78
+p Less mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 78
+p mux4_dp_1x_1/d3 Vdd! mux4_dp_1x_1/a_68_74# 2 9 336 78
+p op0b mux4_dp_1x_1/a_68_74# mux4_dp_1x_1/a_47_74# 2 9 341 78
+p mux4_dp_1x_1/a_39_7# Vdd! result 2 10 363 77
+n op0b mux4_dp_1x_1/a_6_7# mux4_dp_1x_1/a_13_7# 2 6 281 11
+n y_temp mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 11
+n fulladder_0/b Gnd! mux4_dp_1x_1/a_26_7# 2 6 294 11
+n op0 mux4_dp_1x_1/a_26_7# mux4_dp_1x_1/a_6_7# 2 6 299 11
+n op1b mux4_dp_1x_1/a_6_7# mux4_dp_1x_1/a_39_7# 2 6 307 11
+n op1 mux4_dp_1x_1/a_39_7# mux4_dp_1x_1/a_47_7# 2 6 315 11
+n op0b mux4_dp_1x_1/a_47_7# mux4_dp_1x_1/a_55_7# 2 6 323 11
+n Less mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 11
+n mux4_dp_1x_1/d3 Gnd! mux4_dp_1x_1/a_68_7# 2 6 336 11
+n op0 mux4_dp_1x_1/a_68_7# mux4_dp_1x_1/a_47_7# 2 6 341 11
+n mux4_dp_1x_1/a_39_7# Gnd! result 2 7 363 11
+p A fulladder_0/a_n2_65# Vdd! 2 16 147 69
+p fulladder_0/b Vdd! fulladder_0/a_n2_65# 2 16 155 69
+p cin fulladder_0/a_n2_65# fulladder_0/a_21_7# 2 16 163 69
+p fulladder_0/b fulladder_0/a_21_7# fulladder_0/a_29_65# 2 16 171 69
+p A fulladder_0/a_29_65# Vdd! 2 16 179 69
+p A Vdd! fulladder_0/a_45_65# 2 16 187 69
+p fulladder_0/b fulladder_0/a_45_65# Vdd! 2 16 195 69
+p cin Vdd! fulladder_0/a_45_65# 2 16 203 69
+p fulladder_0/a_21_7# fulladder_0/a_45_65# fulladder_0/a_69_7# 2 16 211 69
+p cin fulladder_0/a_69_7# fulladder_0/a_77_65# 2 16 219 69
+p fulladder_0/b fulladder_0/a_77_65# fulladder_0/a_85_65# 2 16 227 69
+p A fulladder_0/a_85_65# Vdd! 2 16 235 69
+p fulladder_0/a_69_7# Vdd! y_temp 2 16 243 69
+p fulladder_0/a_21_7# Vdd! cout 2 16 259 69
+n A fulladder_0/a_n2_7# Gnd! 2 8 147 11
+n fulladder_0/b Gnd! fulladder_0/a_n2_7# 2 8 155 11
+n cin fulladder_0/a_n2_7# fulladder_0/a_21_7# 2 8 163 11
+n fulladder_0/b fulladder_0/a_21_7# fulladder_0/a_29_7# 2 8 171 11
+n A fulladder_0/a_29_7# Gnd! 2 8 179 11
+n A Gnd! fulladder_0/a_45_7# 2 8 187 11
+n fulladder_0/b fulladder_0/a_45_7# Gnd! 2 8 195 11
+n cin Gnd! fulladder_0/a_45_7# 2 8 203 11
+n fulladder_0/a_21_7# fulladder_0/a_45_7# fulladder_0/a_69_7# 2 8 211 11
+n cin fulladder_0/a_69_7# fulladder_0/a_77_7# 2 8 219 11
+n fulladder_0/b fulladder_0/a_77_7# fulladder_0/a_85_7# 2 8 227 11
+n A fulladder_0/a_85_7# Gnd! 2 8 235 11
+n fulladder_0/a_69_7# Gnd! y_temp 2 8 243 11
+n fulladder_0/a_21_7# Gnd! cout 2 8 259 11
+p B mux4_dp_1x_0/a_6_74# mux4_dp_1x_0/a_13_74# 2 9 49 78
+p op6 mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 78
+p op5 Vdd! mux4_dp_1x_0/a_26_74# 2 9 62 78
+p inv_1x_1/y mux4_dp_1x_0/a_26_74# mux4_dp_1x_0/a_6_74# 2 9 67 78
+p A mux4_dp_1x_0/a_6_74# mux4_dp_1x_0/a_39_7# 2 9 75 78
+p inv_1x_0/y mux4_dp_1x_0/a_39_7# mux4_dp_1x_0/a_47_74# 2 9 83 78
+p B mux4_dp_1x_0/a_47_74# mux4_dp_1x_0/a_55_74# 2 9 91 78
+p op4 mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 78
+p op3 Vdd! mux4_dp_1x_0/a_68_74# 2 9 104 78
+p inv_1x_1/y mux4_dp_1x_0/a_68_74# mux4_dp_1x_0/a_47_74# 2 9 109 78
+p mux4_dp_1x_0/a_39_7# Vdd! fulladder_0/b 2 10 131 77
+n inv_1x_1/y mux4_dp_1x_0/a_6_7# mux4_dp_1x_0/a_13_7# 2 6 49 11
+n op6 mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 11
+n op5 Gnd! mux4_dp_1x_0/a_26_7# 2 6 62 11
+n B mux4_dp_1x_0/a_26_7# mux4_dp_1x_0/a_6_7# 2 6 67 11
+n inv_1x_0/y mux4_dp_1x_0/a_6_7# mux4_dp_1x_0/a_39_7# 2 6 75 11
+n A mux4_dp_1x_0/a_39_7# mux4_dp_1x_0/a_47_7# 2 6 83 11
+n inv_1x_1/y mux4_dp_1x_0/a_47_7# mux4_dp_1x_0/a_55_7# 2 6 91 11
+n op4 mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 11
+n op3 Gnd! mux4_dp_1x_0/a_68_7# 2 6 104 11
+n B mux4_dp_1x_0/a_68_7# mux4_dp_1x_0/a_47_7# 2 6 109 11
+n mux4_dp_1x_0/a_39_7# Gnd! fulladder_0/b 2 7 131 11
+p B Vdd! inv_1x_1/y 2 10 27 77
+n B Gnd! inv_1x_1/y 2 7 27 11
+p A Vdd! inv_1x_0/y 2 10 11 77
+n A Gnd! inv_1x_0/y 2 7 11 11
+C cin Vdd! 4.6
+C inv_1x_1/y Vdd! 7.0
+C Vdd! B 5.9
+C cout Vdd! 6.2
+C op0b Vdd! 5.2
+C op0 Vdd! 5.2
+C A Vdd! 3.9
+C fulladder_0/b Vdd! 6.5
+C result Vdd! 2.0
+C inv_1x_0/y Vdd! 2.7
+R mux4_dp_1x_0/a_68_7# 164
+R mux4_dp_1x_0/a_55_7# 164
+R mux4_dp_1x_0/a_47_7# 481
+R mux4_dp_1x_0/a_26_7# 164
+R mux4_dp_1x_0/a_13_7# 164
+R mux4_dp_1x_0/a_6_7# 481
+R mux4_dp_1x_0/a_68_74# 316
+R mux4_dp_1x_0/a_55_74# 316
+R mux4_dp_1x_0/a_47_74# 668
+R mux4_dp_1x_0/a_26_74# 316
+R mux4_dp_1x_0/a_13_74# 316
+R mux4_dp_1x_0/a_6_74# 668
+C mux4_dp_1x_0/a_39_7# GND 3.8
+R mux4_dp_1x_0/a_39_7# 1123
+C op3 GND 4.7
+R op3 949
+C op4 GND 4.0
+R op4 954
+C inv_1x_0/y GND 5.1
+R inv_1x_0/y 1335
+C inv_1x_1/y GND 3.3
+R inv_1x_1/y 2524
+C op5 GND 4.6
+R op5 927
+C op6 GND 4.5
+R op6 882
+R B 3064
+R fulladder_0/a_85_7# 110
+R fulladder_0/a_77_7# 110
+R fulladder_0/a_45_7# 494
+R fulladder_0/a_29_7# 110
+R fulladder_0/a_n2_7# 504
+R cout 476
+R fulladder_0/a_85_65# 281
+R fulladder_0/a_77_65# 281
+R fulladder_0/a_45_65# 838
+R fulladder_0/a_29_65# 281
+R fulladder_0/a_n2_65# 883
+C fulladder_0/a_69_7# GND 2.4
+R fulladder_0/a_69_7# 1250
+C fulladder_0/a_21_7# GND 5.8
+R fulladder_0/a_21_7# 2154
+R cin 2666
+R A 5506
+R mux4_dp_1x_1/a_68_7# 164
+R mux4_dp_1x_1/a_55_7# 164
+R mux4_dp_1x_1/a_47_7# 481
+R mux4_dp_1x_1/a_26_7# 164
+R Gnd! 23323
+R mux4_dp_1x_1/a_13_7# 164
+R mux4_dp_1x_1/a_6_7# 481
+R result 327
+R mux4_dp_1x_1/a_68_74# 316
+R mux4_dp_1x_1/a_55_74# 316
+R mux4_dp_1x_1/a_47_74# 668
+R mux4_dp_1x_1/a_26_74# 316
+R mux4_dp_1x_1/a_13_74# 316
+R mux4_dp_1x_1/a_6_74# 668
+C mux4_dp_1x_1/a_39_7# GND 3.8
+R mux4_dp_1x_1/a_39_7# 1123
+R mux4_dp_1x_1/d3 947
+R Less 955
+C op1b GND 5.2
+R op1b 1009
+C op1 GND 5.3
+R op1 971
+C op0b GND 6.8
+R op0b 2199
+C fulladder_0/b GND 10.3
+R fulladder_0/b 4864
+C y_temp GND 3.5
+R y_temp 1351
+C op0 GND 11.4
+R op0 2142
+R Vdd! 25916
