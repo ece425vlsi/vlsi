@@ -1,8 +1,6 @@
 magic
 tech scmos
-timestamp 1493135946
-<< error_s >>
-rect 174 220 178 221
+timestamp 1493139678
 << psubstratepcontact >>
 rect 302 884 306 888
 rect 350 662 354 666
@@ -98,9 +96,32 @@ rect 292 874 293 878
 rect 297 874 298 878
 rect 292 873 298 874
 rect 254 16 258 799
+rect 382 705 386 711
+rect 398 690 402 811
+rect 366 584 370 595
+rect 382 487 386 580
+rect 366 474 370 485
+rect 366 357 370 375
+rect 382 265 386 271
+rect 398 250 402 353
+rect 366 142 370 157
+rect 382 45 386 51
+rect 398 30 402 138
 << m3contact >>
 rect 279 874 283 878
 rect 293 874 297 878
+rect 398 811 402 815
+rect 382 701 386 705
+rect 366 580 370 584
+rect 382 580 386 584
+rect 366 470 370 474
+rect 398 470 402 474
+rect 366 353 370 357
+rect 398 353 402 357
+rect 382 261 386 265
+rect 366 138 370 142
+rect 398 138 402 142
+rect 382 41 386 45
 rect 254 12 258 16
 << metal3 >>
 rect 278 878 298 879
@@ -110,20 +131,56 @@ rect 297 874 298 878
 rect 278 873 298 874
 rect 6 830 10 834
 rect 6 817 10 821
+rect 365 815 403 816
+rect 365 811 398 815
+rect 402 811 403 815
+rect 365 810 403 811
 rect 6 720 10 724
 rect 6 707 10 711
+rect 365 705 387 706
+rect 365 701 382 705
+rect 386 701 387 705
+rect 365 700 387 701
 rect 6 610 10 614
 rect 6 597 10 601
+rect 365 584 387 585
+rect 365 580 366 584
+rect 370 580 382 584
+rect 386 580 387 584
+rect 365 579 387 580
 rect 6 500 10 504
 rect 6 487 10 491
+rect 365 474 403 475
+rect 365 470 366 474
+rect 370 470 398 474
+rect 402 470 403 474
+rect 365 469 403 470
 rect 6 390 10 394
 rect 6 377 10 381
+rect 365 357 403 358
+rect 365 353 366 357
+rect 370 353 398 357
+rect 402 353 403 357
+rect 365 352 403 353
 rect 6 280 10 284
 rect 6 267 10 271
+rect 365 265 387 266
+rect 365 261 382 265
+rect 386 261 387 265
+rect 365 260 387 261
 rect 6 171 10 176
 rect 6 158 10 162
+rect 365 142 403 143
+rect 365 138 366 142
+rect 370 138 398 142
+rect 402 138 403 142
+rect 365 137 403 138
 rect 6 60 10 64
 rect 6 47 10 51
+rect 365 45 387 46
+rect 365 41 382 45
+rect 386 41 387 45
+rect 365 40 387 41
 use invbuf_4x  invbuf_4x_0
 timestamp 1484532969
 transform 1 0 270 0 1 886
@@ -133,31 +190,31 @@ timestamp 1484532969
 transform 1 0 310 0 1 886
 box -6 -4 34 96
 use alt_alu_slice_less  alt_alu_slice_less_5
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 770
 box 0 0 376 112
 use alt_alu_slice_less  alt_alu_slice_less_4
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 660
 box 0 0 376 112
 use alt_alu_slice_less  alt_alu_slice_less_3
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 550
 box 0 0 376 112
 use alt_alu_slice_less  alt_alu_slice_less_2
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 440
 box 0 0 376 112
 use alt_alu_slice_less  alt_alu_slice_less_1
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 330
 box 0 0 376 112
 use alt_alu_slice_less  alt_alu_slice_less_0
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 220
 box 0 0 376 112
 use alt_alu_slice_less  alt_alu_slice_less_6
-timestamp 1493135493
+timestamp 1493138306
 transform 1 0 0 0 1 112
 box 0 0 376 112
 use alt_alu_slice  alt_alu_slice_0
@@ -193,4 +250,12 @@ rlabel metal3 8 171 8 171 1 b1
 rlabel metal3 7 158 7 158 1 a1
 rlabel metal3 7 61 7 61 1 b0
 rlabel metal3 7 48 7 48 1 a0
+rlabel metal3 390 813 390 813 1 result7
+rlabel metal3 377 703 377 703 1 result6
+rlabel metal2 369 593 369 593 1 result5
+rlabel metal2 369 483 369 483 1 result4
+rlabel metal2 369 374 369 374 1 result3
+rlabel metal3 369 263 369 263 1 result2
+rlabel metal2 369 156 369 156 1 result1
+rlabel metal3 369 44 369 44 1 result0
 << end >>
