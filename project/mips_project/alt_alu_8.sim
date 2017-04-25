@@ -35,7 +35,7 @@ p op1 alt_alu_slice_0/mux4_dp_1x_1/a_6_74# alt_alu_slice_0/mux4_dp_1x_1/a_39_7# 
 p invbuf_4x_1/sb_out alt_alu_slice_0/mux4_dp_1x_1/a_39_7# alt_alu_slice_0/mux4_dp_1x_1/a_47_74# 2 9 315 78
 p op0 alt_alu_slice_0/mux4_dp_1x_1/a_47_74# alt_alu_slice_0/mux4_dp_1x_1/a_55_74# 2 9 323 78
 p alt_alu_slice_0/Less alt_alu_slice_0/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 78
-p alt_alu_slice_0/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0/mux4_dp_1x_1/a_68_74# 2 9 336 78
+p shift0 Vdd! alt_alu_slice_0/mux4_dp_1x_1/a_68_74# 2 9 336 78
 p invbuf_4x_0/sb_out alt_alu_slice_0/mux4_dp_1x_1/a_68_74# alt_alu_slice_0/mux4_dp_1x_1/a_47_74# 2 9 341 78
 p alt_alu_slice_0/mux4_dp_1x_1/a_39_7# Vdd! result0 2 10 363 77
 n invbuf_4x_0/sb_out alt_alu_slice_0/mux4_dp_1x_1/a_6_7# alt_alu_slice_0/mux4_dp_1x_1/a_13_7# 2 6 281 11
@@ -46,7 +46,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_0/mux4_dp_1x_1/a_6_7# alt_alu_slice_0/mux4_dp
 n op1 alt_alu_slice_0/mux4_dp_1x_1/a_39_7# alt_alu_slice_0/mux4_dp_1x_1/a_47_7# 2 6 315 11
 n invbuf_4x_0/sb_out alt_alu_slice_0/mux4_dp_1x_1/a_47_7# alt_alu_slice_0/mux4_dp_1x_1/a_55_7# 2 6 323 11
 n alt_alu_slice_0/Less alt_alu_slice_0/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 11
-n alt_alu_slice_0/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0/mux4_dp_1x_1/a_68_7# 2 6 336 11
+n shift0 Gnd! alt_alu_slice_0/mux4_dp_1x_1/a_68_7# 2 6 336 11
 n op0 alt_alu_slice_0/mux4_dp_1x_1/a_68_7# alt_alu_slice_0/mux4_dp_1x_1/a_47_7# 2 6 341 11
 n alt_alu_slice_0/mux4_dp_1x_1/a_39_7# Gnd! result0 2 7 363 11
 p a0 alt_alu_slice_0/fulladder_0/a_n2_65# Vdd! 2 16 147 69
@@ -111,7 +111,7 @@ p op1 alt_alu_slice_less_6/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_6/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_6/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_6/mux4_dp_1x_1/a_47_74# 2 9 315 190
 p op0 alt_alu_slice_less_6/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_6/mux4_dp_1x_1/a_55_74# 2 9 323 190
 p Gnd! alt_alu_slice_less_6/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 190
-p alt_alu_slice_less_6/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_6/mux4_dp_1x_1/a_68_74# 2 9 336 190
+p shift1 Vdd! alt_alu_slice_less_6/mux4_dp_1x_1/a_68_74# 2 9 336 190
 p invbuf_4x_0/sb_out alt_alu_slice_less_6/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_6/mux4_dp_1x_1/a_47_74# 2 9 341 190
 p alt_alu_slice_less_6/mux4_dp_1x_1/a_39_7# Vdd! result1 2 10 363 189
 n invbuf_4x_0/sb_out alt_alu_slice_less_6/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_6/mux4_dp_1x_1/a_13_7# 2 6 281 123
@@ -122,7 +122,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_6/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_6/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_6/mux4_dp_1x_1/a_47_7# 2 6 315 123
 n invbuf_4x_0/sb_out alt_alu_slice_less_6/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_6/mux4_dp_1x_1/a_55_7# 2 6 323 123
 n Gnd! alt_alu_slice_less_6/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 123
-n alt_alu_slice_less_6/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_6/mux4_dp_1x_1/a_68_7# 2 6 336 123
+n shift1 Gnd! alt_alu_slice_less_6/mux4_dp_1x_1/a_68_7# 2 6 336 123
 n op0 alt_alu_slice_less_6/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_6/mux4_dp_1x_1/a_47_7# 2 6 341 123
 n alt_alu_slice_less_6/mux4_dp_1x_1/a_39_7# Gnd! result1 2 7 363 123
 p a1 alt_alu_slice_less_6/fulladder_0/a_n2_65# Vdd! 2 16 147 181
@@ -187,7 +187,7 @@ p op1 alt_alu_slice_less_0/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_0/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_0/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_0/mux4_dp_1x_1/a_47_74# 2 9 315 298
 p op0 alt_alu_slice_less_0/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_0/mux4_dp_1x_1/a_55_74# 2 9 323 298
 p Gnd! alt_alu_slice_less_0/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 298
-p alt_alu_slice_less_0/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_0/mux4_dp_1x_1/a_68_74# 2 9 336 298
+p shift2 Vdd! alt_alu_slice_less_0/mux4_dp_1x_1/a_68_74# 2 9 336 298
 p invbuf_4x_0/sb_out alt_alu_slice_less_0/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_0/mux4_dp_1x_1/a_47_74# 2 9 341 298
 p alt_alu_slice_less_0/mux4_dp_1x_1/a_39_7# Vdd! result2 2 10 363 297
 n invbuf_4x_0/sb_out alt_alu_slice_less_0/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_0/mux4_dp_1x_1/a_13_7# 2 6 281 231
@@ -198,7 +198,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_0/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_0/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_0/mux4_dp_1x_1/a_47_7# 2 6 315 231
 n invbuf_4x_0/sb_out alt_alu_slice_less_0/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_0/mux4_dp_1x_1/a_55_7# 2 6 323 231
 n Gnd! alt_alu_slice_less_0/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 231
-n alt_alu_slice_less_0/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_0/mux4_dp_1x_1/a_68_7# 2 6 336 231
+n shift2 Gnd! alt_alu_slice_less_0/mux4_dp_1x_1/a_68_7# 2 6 336 231
 n op0 alt_alu_slice_less_0/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_0/mux4_dp_1x_1/a_47_7# 2 6 341 231
 n alt_alu_slice_less_0/mux4_dp_1x_1/a_39_7# Gnd! result2 2 7 363 231
 p a2 alt_alu_slice_less_0/fulladder_0/a_n2_65# Vdd! 2 16 147 289
@@ -263,7 +263,7 @@ p op1 alt_alu_slice_less_1/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_1/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_1/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_1/mux4_dp_1x_1/a_47_74# 2 9 315 408
 p op0 alt_alu_slice_less_1/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_1/mux4_dp_1x_1/a_55_74# 2 9 323 408
 p Gnd! alt_alu_slice_less_1/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 408
-p alt_alu_slice_less_1/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_1/mux4_dp_1x_1/a_68_74# 2 9 336 408
+p shift3 Vdd! alt_alu_slice_less_1/mux4_dp_1x_1/a_68_74# 2 9 336 408
 p invbuf_4x_0/sb_out alt_alu_slice_less_1/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_1/mux4_dp_1x_1/a_47_74# 2 9 341 408
 p alt_alu_slice_less_1/mux4_dp_1x_1/a_39_7# Vdd! result3 2 10 363 407
 n invbuf_4x_0/sb_out alt_alu_slice_less_1/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_1/mux4_dp_1x_1/a_13_7# 2 6 281 341
@@ -274,7 +274,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_1/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_1/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_1/mux4_dp_1x_1/a_47_7# 2 6 315 341
 n invbuf_4x_0/sb_out alt_alu_slice_less_1/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_1/mux4_dp_1x_1/a_55_7# 2 6 323 341
 n Gnd! alt_alu_slice_less_1/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 341
-n alt_alu_slice_less_1/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_1/mux4_dp_1x_1/a_68_7# 2 6 336 341
+n shift3 Gnd! alt_alu_slice_less_1/mux4_dp_1x_1/a_68_7# 2 6 336 341
 n op0 alt_alu_slice_less_1/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_1/mux4_dp_1x_1/a_47_7# 2 6 341 341
 n alt_alu_slice_less_1/mux4_dp_1x_1/a_39_7# Gnd! result3 2 7 363 341
 p a3 alt_alu_slice_less_1/fulladder_0/a_n2_65# Vdd! 2 16 147 399
@@ -339,7 +339,7 @@ p op1 alt_alu_slice_less_2/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_2/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_2/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_2/mux4_dp_1x_1/a_47_74# 2 9 315 518
 p op0 alt_alu_slice_less_2/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_2/mux4_dp_1x_1/a_55_74# 2 9 323 518
 p Gnd! alt_alu_slice_less_2/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 518
-p alt_alu_slice_less_2/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_2/mux4_dp_1x_1/a_68_74# 2 9 336 518
+p shift4 Vdd! alt_alu_slice_less_2/mux4_dp_1x_1/a_68_74# 2 9 336 518
 p invbuf_4x_0/sb_out alt_alu_slice_less_2/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_2/mux4_dp_1x_1/a_47_74# 2 9 341 518
 p alt_alu_slice_less_2/mux4_dp_1x_1/a_39_7# Vdd! result4 2 10 363 517
 n invbuf_4x_0/sb_out alt_alu_slice_less_2/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_2/mux4_dp_1x_1/a_13_7# 2 6 281 451
@@ -350,7 +350,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_2/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_2/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_2/mux4_dp_1x_1/a_47_7# 2 6 315 451
 n invbuf_4x_0/sb_out alt_alu_slice_less_2/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_2/mux4_dp_1x_1/a_55_7# 2 6 323 451
 n Gnd! alt_alu_slice_less_2/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 451
-n alt_alu_slice_less_2/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_2/mux4_dp_1x_1/a_68_7# 2 6 336 451
+n shift4 Gnd! alt_alu_slice_less_2/mux4_dp_1x_1/a_68_7# 2 6 336 451
 n op0 alt_alu_slice_less_2/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_2/mux4_dp_1x_1/a_47_7# 2 6 341 451
 n alt_alu_slice_less_2/mux4_dp_1x_1/a_39_7# Gnd! result4 2 7 363 451
 p a4 alt_alu_slice_less_2/fulladder_0/a_n2_65# Vdd! 2 16 147 509
@@ -415,7 +415,7 @@ p op1 alt_alu_slice_less_3/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_3/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_3/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_3/mux4_dp_1x_1/a_47_74# 2 9 315 628
 p op0 alt_alu_slice_less_3/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_3/mux4_dp_1x_1/a_55_74# 2 9 323 628
 p Gnd! alt_alu_slice_less_3/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 628
-p alt_alu_slice_less_3/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_3/mux4_dp_1x_1/a_68_74# 2 9 336 628
+p shift5 Vdd! alt_alu_slice_less_3/mux4_dp_1x_1/a_68_74# 2 9 336 628
 p invbuf_4x_0/sb_out alt_alu_slice_less_3/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_3/mux4_dp_1x_1/a_47_74# 2 9 341 628
 p alt_alu_slice_less_3/mux4_dp_1x_1/a_39_7# Vdd! result5 2 10 363 627
 n invbuf_4x_0/sb_out alt_alu_slice_less_3/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_3/mux4_dp_1x_1/a_13_7# 2 6 281 561
@@ -426,7 +426,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_3/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_3/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_3/mux4_dp_1x_1/a_47_7# 2 6 315 561
 n invbuf_4x_0/sb_out alt_alu_slice_less_3/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_3/mux4_dp_1x_1/a_55_7# 2 6 323 561
 n Gnd! alt_alu_slice_less_3/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 561
-n alt_alu_slice_less_3/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_3/mux4_dp_1x_1/a_68_7# 2 6 336 561
+n shift5 Gnd! alt_alu_slice_less_3/mux4_dp_1x_1/a_68_7# 2 6 336 561
 n op0 alt_alu_slice_less_3/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_3/mux4_dp_1x_1/a_47_7# 2 6 341 561
 n alt_alu_slice_less_3/mux4_dp_1x_1/a_39_7# Gnd! result5 2 7 363 561
 p a5 alt_alu_slice_less_3/fulladder_0/a_n2_65# Vdd! 2 16 147 619
@@ -491,7 +491,7 @@ p op1 alt_alu_slice_less_4/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_4/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_4/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_4/mux4_dp_1x_1/a_47_74# 2 9 315 738
 p op0 alt_alu_slice_less_4/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_4/mux4_dp_1x_1/a_55_74# 2 9 323 738
 p Gnd! alt_alu_slice_less_4/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 738
-p alt_alu_slice_less_4/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_4/mux4_dp_1x_1/a_68_74# 2 9 336 738
+p shift6 Vdd! alt_alu_slice_less_4/mux4_dp_1x_1/a_68_74# 2 9 336 738
 p invbuf_4x_0/sb_out alt_alu_slice_less_4/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_4/mux4_dp_1x_1/a_47_74# 2 9 341 738
 p alt_alu_slice_less_4/mux4_dp_1x_1/a_39_7# Vdd! result6 2 10 363 737
 n invbuf_4x_0/sb_out alt_alu_slice_less_4/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_4/mux4_dp_1x_1/a_13_7# 2 6 281 671
@@ -502,7 +502,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_4/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_4/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_4/mux4_dp_1x_1/a_47_7# 2 6 315 671
 n invbuf_4x_0/sb_out alt_alu_slice_less_4/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_4/mux4_dp_1x_1/a_55_7# 2 6 323 671
 n Gnd! alt_alu_slice_less_4/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 671
-n alt_alu_slice_less_4/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_4/mux4_dp_1x_1/a_68_7# 2 6 336 671
+n shift6 Gnd! alt_alu_slice_less_4/mux4_dp_1x_1/a_68_7# 2 6 336 671
 n op0 alt_alu_slice_less_4/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_4/mux4_dp_1x_1/a_47_7# 2 6 341 671
 n alt_alu_slice_less_4/mux4_dp_1x_1/a_39_7# Gnd! result6 2 7 363 671
 p a6 alt_alu_slice_less_4/fulladder_0/a_n2_65# Vdd! 2 16 147 729
@@ -567,7 +567,7 @@ p op1 alt_alu_slice_less_5/mux4_dp_1x_1/a_6_74# alt_alu_slice_less_5/mux4_dp_1x_
 p invbuf_4x_1/sb_out alt_alu_slice_less_5/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_5/mux4_dp_1x_1/a_47_74# 2 9 315 848
 p op0 alt_alu_slice_less_5/mux4_dp_1x_1/a_47_74# alt_alu_slice_less_5/mux4_dp_1x_1/a_55_74# 2 9 323 848
 p Gnd! alt_alu_slice_less_5/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 848
-p alt_alu_slice_less_5/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_less_5/mux4_dp_1x_1/a_68_74# 2 9 336 848
+p shift7 Vdd! alt_alu_slice_less_5/mux4_dp_1x_1/a_68_74# 2 9 336 848
 p invbuf_4x_0/sb_out alt_alu_slice_less_5/mux4_dp_1x_1/a_68_74# alt_alu_slice_less_5/mux4_dp_1x_1/a_47_74# 2 9 341 848
 p alt_alu_slice_less_5/mux4_dp_1x_1/a_39_7# Vdd! result7 2 10 363 847
 n invbuf_4x_0/sb_out alt_alu_slice_less_5/mux4_dp_1x_1/a_6_7# alt_alu_slice_less_5/mux4_dp_1x_1/a_13_7# 2 6 281 781
@@ -578,7 +578,7 @@ n invbuf_4x_1/sb_out alt_alu_slice_less_5/mux4_dp_1x_1/a_6_7# alt_alu_slice_less
 n op1 alt_alu_slice_less_5/mux4_dp_1x_1/a_39_7# alt_alu_slice_less_5/mux4_dp_1x_1/a_47_7# 2 6 315 781
 n invbuf_4x_0/sb_out alt_alu_slice_less_5/mux4_dp_1x_1/a_47_7# alt_alu_slice_less_5/mux4_dp_1x_1/a_55_7# 2 6 323 781
 n Gnd! alt_alu_slice_less_5/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 781
-n alt_alu_slice_less_5/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_less_5/mux4_dp_1x_1/a_68_7# 2 6 336 781
+n shift7 Gnd! alt_alu_slice_less_5/mux4_dp_1x_1/a_68_7# 2 6 336 781
 n op0 alt_alu_slice_less_5/mux4_dp_1x_1/a_68_7# alt_alu_slice_less_5/mux4_dp_1x_1/a_47_7# 2 6 341 781
 n alt_alu_slice_less_5/mux4_dp_1x_1/a_39_7# Gnd! result7 2 7 363 781
 p a7 alt_alu_slice_less_5/fulladder_0/a_n2_65# Vdd! 2 16 147 839
@@ -643,93 +643,94 @@ p op0 Vdd! invbuf_4x_0/sb_out 2 37 275 932
 p invbuf_4x_0/sb_out Vdd! invbuf_4x_0/s_out 2 37 291 932
 n op0 Gnd! invbuf_4x_0/sb_out 2 27 275 893
 n invbuf_4x_0/sb_out Gnd! invbuf_4x_0/s_out 2 27 291 893
-C alt_alu_slice_less_0/fulladder_0/b Vdd! 6.5
-C Vdd! b4 5.9
-C Vdd! result0 3.1
-C op5 Gnd! 3.5
-C Vdd! a1 3.9
-C Vdd! a7 3.9
-C Vdd! yzdetect_8_0/nor2_1x_0/y 2.7
-C Gnd! op1 4.8
-C Vdd! op6 6.1
-C invbuf_4x_0/sb_out Gnd! 5.8
-C Vdd! result1 2.8
-C Vdd! alt_alu_slice_less_0/inv_1x_1/y 7.0
-C Vdd! result7 2.8
-C op3 Vdd! 6.5
-C op2 Vdd! 6.2
-C invbuf_4x_1/sb_out op0 5.4
 C Gnd! op4 3.5
-C invbuf_4x_0/sb_out op1 3.8
-C b1 Vdd! 5.9
-C Vdd! alt_alu_slice_less_2/inv_1x_0/y 2.7
-C result3 Vdd! 2.8
-C Vdd! alt_alu_slice_less_4/inv_1x_0/y 2.7
-C alt_alu_slice_less_3/inv_1x_1/y Vdd! 7.0
-C Gnd! Vdd! 9.7
-C alt_alu_slice_less_6/cout Vdd! 10.9
-C alt_alu_slice_less_2/cout Vdd! 10.9
-C Vdd! result6 3.1
-C Vdd! alt_alu_slice_less_5/cout 6.2
-C Vdd! b0 5.9
-C alt_alu_slice_less_5/inv_1x_1/y Vdd! 7.0
-C Vdd! alt_alu_slice_less_2/fulladder_0/b 6.5
-C op5 Vdd! 6.1
-C Vdd! op1 12.8
-C invbuf_4x_0/sb_out Vdd! 43.2
-C Vdd! a4 3.9
-C alt_alu_slice_less_1/inv_1x_1/y Vdd! 7.0
-C Vdd! yzdetect_8_0/nor2_1x_1/y 3.2
-C b5 Vdd! 5.9
-C Vdd! a3 3.9
-C op4 Vdd! 12.4
-C Vdd! a2 3.9
-C Vdd! a0 3.9
-C alt_alu_slice_less_4/inv_1x_1/y Vdd! 7.0
-C invbuf_4x_1/sb_out Gnd! 3.7
-C Vdd! alt_alu_slice_less_2/inv_1x_1/y 7.0
-C Vdd! result4 2.5
-C invbuf_4x_1/sb_out invbuf_4x_0/sb_out 2.1
-C Vdd! alt_alu_slice_0/inv_1x_0/y 2.7
-C Vdd! alt_alu_slice_less_6/inv_1x_0/y 2.7
-C b2 Vdd! 5.9
-C Vdd! alt_alu_slice_less_6/inv_1x_1/y 7.0
+C Vdd! alt_alu_slice_less_5/inv_1x_0/y 2.7
 C b3 Vdd! 5.9
-C Vdd! a6 3.9
-C Vdd! b6 5.9
-C Vdd! alt_alu_slice_less_3/fulladder_0/b 6.5
-C Vdd! alt_alu_slice_0/inv_1x_1/y 7.0
-C alt_alu_slice_less_0/cout Vdd! 10.9
-C invbuf_4x_1/sb_out Vdd! 7.8
-C alt_alu_slice_less_1/cout Vdd! 10.9
-C Gnd! op0 7.8
-C Vdd! result2 3.1
-C alt_alu_slice_less_5/inv_1x_0/y Vdd! 2.7
-C alt_alu_slice_0/Less Gnd! 2.3
-C Vdd! alt_alu_slice_less_0/inv_1x_0/y 2.7
-C Vdd! alt_alu_slice_less_4/fulladder_0/b 6.5
-C Vdd! alt_alu_slice_less_3/inv_1x_0/y 2.7
-C op0 op1 5.4
-C invbuf_4x_0/sb_out op0 9.2
-C alt_alu_slice_less_3/cout Vdd! 10.9
-C alt_alu_slice_less_6/fulladder_0/b Vdd! 6.5
-C a5 Vdd! 3.9
-C Vdd! yzdetect_8_0/nor2_1x_4/y 2.5
-C Vdd! alt_alu_slice_less_1/inv_1x_0/y 2.7
-C Vdd! alt_alu_slice_less_4/cout 10.9
+C op3 Gnd! 3.6
+C Vdd! alt_alu_slice_0/inv_1x_0/y 2.7
+C Vdd! b5 5.9
+C Vdd! alt_alu_slice_less_2/cout 10.9
+C alt_alu_slice_0/inv_1x_1/y Vdd! 7.0
+C Vdd! invbuf_4x_1/sb_out 7.8
+C op6 Gnd! 3.8
 C alt_alu_slice_0/cout Vdd! 10.9
-C Vdd! alt_alu_slice_less_5/fulladder_0/b 6.5
+C b7 Vdd! 5.9
+C alt_alu_slice_0/Less Gnd! 2.3
+C op1 Vdd! 12.8
+C Vdd! alt_alu_slice_less_0/cout 10.9
+C result1 Vdd! 2.8
 C yzdetect_8_0/nor2_1x_2/a Vdd! 3.9
-C Gnd! op6 3.8
-C Vdd! alt_alu_slice_less_1/fulladder_0/b 6.5
-C result5 Vdd! 3.5
-C Vdd! yzdetect_8_0/nor2_1x_2/b 2.8
-C Gnd! op3 3.6
-C op0 Vdd! 42.2
+C yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
+C alt_alu_slice_less_3/cout Vdd! 10.9
+C Vdd! op4 12.4
+C op3 Vdd! 6.5
+C Vdd! result3 2.8
+C Vdd! a1 3.9
+C alt_alu_slice_less_2/inv_1x_0/y Vdd! 2.7
+C alt_alu_slice_less_1/fulladder_0/b Vdd! 6.5
+C Vdd! a3 3.9
+C alt_alu_slice_less_3/inv_1x_1/y Vdd! 7.0
+C op6 Vdd! 6.1
+C Vdd! alt_alu_slice_less_0/inv_1x_1/y 7.0
+C Vdd! alt_alu_slice_less_1/inv_1x_0/y 2.7
+C alt_alu_slice_less_0/fulladder_0/b Vdd! 6.5
+C op0 invbuf_4x_0/sb_out 9.1
+C Vdd! alt_alu_slice_less_5/fulladder_0/b 6.5
+C Vdd! alt_alu_slice_0/Less 5.8
+C Vdd! Gnd! 9.7
+C result0 Vdd! 3.1
+C a6 Vdd! 3.9
 C yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
+C Vdd! alt_alu_slice_less_6/inv_1x_0/y 2.7
+C Vdd! a0 3.9
+C Vdd! op2 6.2
+C op0 invbuf_4x_1/sb_out 5.4
+C invbuf_4x_0/sb_out invbuf_4x_1/sb_out 2.1
 C Vdd! alt_alu_slice_0/fulladder_0/b 6.5
-C alt_alu_slice_0/Less Vdd! 5.8
-C Vdd! b7 5.9
+C Vdd! alt_alu_slice_less_5/cout 6.2
+C Vdd! alt_alu_slice_less_6/inv_1x_1/y 7.0
+C Vdd! a4 3.9
+C Vdd! alt_alu_slice_less_4/inv_1x_1/y 7.0
+C Vdd! alt_alu_slice_less_4/fulladder_0/b 6.5
+C alt_alu_slice_less_5/inv_1x_1/y Vdd! 7.0
+C op0 op1 5.4
+C alt_alu_slice_less_4/cout Vdd! 10.9
+C op1 invbuf_4x_0/sb_out 3.8
+C alt_alu_slice_less_6/cout Vdd! 10.9
+C Vdd! shift7 2.9
+C Vdd! b0 5.9
+C alt_alu_slice_less_2/fulladder_0/b Vdd! 6.5
+C op5 Gnd! 3.5
+C Vdd! yzdetect_8_0/nor2_1x_0/y 2.7
+C Vdd! alt_alu_slice_less_1/inv_1x_1/y 7.0
+C alt_alu_slice_less_2/inv_1x_1/y Vdd! 7.0
+C Vdd! b1 5.9
+C yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
+C b4 Vdd! 5.9
+C op0 Gnd! 7.8
+C Vdd! b6 5.9
+C invbuf_4x_0/sb_out Gnd! 5.8
+C Vdd! a7 3.9
+C result4 Vdd! 2.5
+C result5 Vdd! 3.5
+C alt_alu_slice_less_1/cout Vdd! 10.9
+C Vdd! result2 3.1
+C alt_alu_slice_less_0/inv_1x_0/y Vdd! 2.7
+C Vdd! a5 3.9
+C op5 Vdd! 6.1
+C Vdd! alt_alu_slice_less_3/inv_1x_0/y 2.7
+C invbuf_4x_1/sb_out Gnd! 3.7
+C Vdd! alt_alu_slice_less_6/fulladder_0/b 6.5
+C Vdd! a2 3.9
+C b2 Vdd! 5.9
+C alt_alu_slice_less_3/fulladder_0/b Vdd! 6.5
+C alt_alu_slice_less_4/inv_1x_0/y Vdd! 2.7
+C Vdd! result6 3.1
+C op1 Gnd! 4.8
+C op0 Vdd! 42.2
+C invbuf_4x_0/sb_out Vdd! 43.1
+C Vdd! yzdetect_8_0/nor2_1x_2/b 2.8
+C Vdd! result7 2.8
 R invbuf_4x_0/s_out 1224
 C invbuf_4x_0/sb_out GND 58.3
 R invbuf_4x_0/sb_out 20142
@@ -790,7 +791,8 @@ R alt_alu_slice_less_5/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_5/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_5/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_5/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_5/mux4_dp_1x_1/d3 947
+C shift7 GND 35.1
+R shift7 966
 C alt_alu_slice_less_5/fulladder_0/b GND 10.3
 R alt_alu_slice_less_5/fulladder_0/b 4864
 C alt_alu_slice_less_5/y_temp GND 3.5
@@ -845,7 +847,8 @@ R alt_alu_slice_less_4/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_4/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_4/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_4/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_4/mux4_dp_1x_1/d3 947
+C shift6 GND 30.8
+R shift6 964
 C alt_alu_slice_less_4/fulladder_0/b GND 10.3
 R alt_alu_slice_less_4/fulladder_0/b 4864
 C alt_alu_slice_less_4/y_temp GND 3.5
@@ -902,7 +905,8 @@ R alt_alu_slice_less_3/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_3/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_3/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_3/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_3/mux4_dp_1x_1/d3 947
+C shift5 GND 26.3
+R shift5 961
 C alt_alu_slice_less_3/fulladder_0/b GND 10.3
 R alt_alu_slice_less_3/fulladder_0/b 4864
 C alt_alu_slice_less_3/y_temp GND 3.5
@@ -957,7 +961,8 @@ R alt_alu_slice_less_2/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_2/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_2/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_2/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_2/mux4_dp_1x_1/d3 947
+C shift4 GND 20.8
+R shift4 958
 C alt_alu_slice_less_2/fulladder_0/b GND 10.3
 R alt_alu_slice_less_2/fulladder_0/b 4864
 C alt_alu_slice_less_2/y_temp GND 3.5
@@ -1014,7 +1019,8 @@ R alt_alu_slice_less_1/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_1/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_1/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_1/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_1/mux4_dp_1x_1/d3 947
+C shift3 GND 15.7
+R shift3 956
 C alt_alu_slice_less_1/fulladder_0/b GND 10.3
 R alt_alu_slice_less_1/fulladder_0/b 4864
 C alt_alu_slice_less_1/y_temp GND 3.5
@@ -1069,7 +1075,8 @@ R alt_alu_slice_less_0/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_0/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_0/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_0/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_0/mux4_dp_1x_1/d3 947
+C shift2 GND 11.2
+R shift2 953
 C alt_alu_slice_less_0/fulladder_0/b GND 10.3
 R alt_alu_slice_less_0/fulladder_0/b 4864
 C alt_alu_slice_less_0/y_temp GND 3.5
@@ -1126,7 +1133,8 @@ R alt_alu_slice_less_6/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_less_6/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_less_6/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_less_6/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_less_6/mux4_dp_1x_1/d3 947
+C shift1 GND 7.7
+R shift1 951
 C alt_alu_slice_less_6/fulladder_0/b GND 10.3
 R alt_alu_slice_less_6/fulladder_0/b 4864
 C alt_alu_slice_less_6/y_temp GND 3.5
@@ -1191,7 +1199,8 @@ R alt_alu_slice_0/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0/mux4_dp_1x_1/d3 947
+C shift0 GND 3.8
+R shift0 948
 C op1 GND 42.7
 R op1 9009
 C alt_alu_slice_0/fulladder_0/b GND 10.3
@@ -1225,6 +1234,6 @@ C yzdetect_8_0/nor2_1x_4/y GND 7.0
 R yzdetect_8_0/nor2_1x_4/y 1332
 R Gnd! 215286
 R yzdetect_8_0/nor2_1x_4/a_7_67# 561
-C result0 GND 2.9
+C result0 GND 2.8
 R result0 1208
 R Vdd! 249572
