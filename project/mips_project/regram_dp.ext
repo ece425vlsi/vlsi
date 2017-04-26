@@ -1,0 +1,66 @@
+timestamp 1484531287
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+node "a_58_7#" 110 0 58 7 ndif 12 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_45_7#" 110 0 45 7 ndif 12 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Gnd!" 4082 4791.6 0 -2 poc 48 40 144 144 0 0 0 0 0 0 0 0 0 0 0 0 632 188 0 0 0 0
+node "a_15_7#" 110 0 15 7 ndif 12 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "read2" 196 968.04 60 19 pc 0 0 0 0 0 0 0 0 0 0 44 44 0 0 0 0 32 24 16 16 0 0
+node "read1" 263 1519.32 42 25 pc 0 0 0 0 0 0 0 0 0 0 56 56 0 0 0 0 88 52 16 16 0 0
+node "r2" 274 1390.8 63 7 ndif 20 18 40 26 0 0 0 0 0 0 0 0 0 0 0 0 64 56 288 152 0 0
+node "a_58_75#" 281 0 58 75 pdif 0 0 24 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_45_75#" 281 0 45 75 pdif 0 0 24 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "r1" 274 1367.4 38 7 ndc 20 18 40 26 0 0 0 0 0 0 0 0 0 0 0 0 150 98 224 120 0 0
+node "a_15_75#" 281 0 15 75 pdif 0 0 24 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w" 274 1193.25 0 7 ndc 20 18 40 26 0 0 0 0 0 0 0 0 0 0 0 0 64 56 288 152 0 0
+node "read2b" 229 2.41585e-13 60 64 pc 0 0 0 0 0 0 0 0 0 0 50 50 0 0 0 0 64 40 16 16 0 0
+node "read1b" 373 -4.26326e-14 42 51 pc 0 0 0 0 0 0 0 0 0 0 76 76 0 0 0 0 56 36 16 16 0 0
+node "wt" 1145 1511.1 7 7 ndif 24 20 48 28 0 0 0 0 0 0 176 172 0 0 0 0 236 134 0 0 0 0
+node "write" 815 890.82 2 39 pc 0 0 0 0 0 0 0 0 0 0 156 156 0 0 0 0 88 60 80 48 0 0
+node "data" 2881 3655.08 9 31 pc 20 18 40 26 0 0 0 0 0 0 490 486 0 0 0 0 492 258 0 0 0 0
+node "writeb" 990 479.88 2 47 pc 0 0 0 0 0 0 0 0 0 0 188 188 0 0 0 0 76 46 16 16 0 0
+node "Vdd!" 4579 16128 -6 40 nw 144 144 96 56 4480 272 0 0 0 0 0 0 0 0 0 0 664 204 0 0 0 0
+cap "Vdd!" "w" 1169.85
+cap "w" "writeb" 810.81
+cap "Vdd!" "data" 5095.44
+cap "data" "writeb" 498.24
+cap "Vdd!" "wt" 1718.28
+cap "wt" "writeb" 227.52
+cap "r1" "read1b" 747.12
+cap "data" "wt" 1843.44
+cap "Vdd!" "read2b" 1265.76
+cap "Vdd!" "r2" 1986
+cap "read1" "data" 227.52
+cap "read1" "wt" 270.72
+cap "r1" "Vdd!" 1377.15
+cap "data" "read2b" 227.52
+cap "Vdd!" "read1b" 1467
+cap "read2" "r2" 160.8
+cap "write" "Vdd!" 1773.66
+cap "r1" "data" 275.52
+cap "write" "writeb" 558.24
+cap "write" "w" 1031.37
+cap "r1" "read1" 768.78
+cap "write" "data" 227.52
+cap "Vdd!" "writeb" 1736.88
+cap "r2" "read2b" 160.8
+cap "write" "wt" 227.52
+fet nfet 61 7 62 8 8 12 "Gnd!" "read2" 4 0 "a_58_7#" 4 0 "r2" 4 0
+fet nfet 56 7 57 8 8 12 "Gnd!" "data" 4 0 "Gnd!" 4 0 "a_58_7#" 4 0
+fet nfet 48 7 49 8 8 12 "Gnd!" "data" 4 0 "a_45_7#" 4 0 "Gnd!" 4 0
+fet nfet 43 7 44 8 8 12 "Gnd!" "read1" 4 0 "r1" 4 0 "a_45_7#" 4 0
+fet nfet 26 7 27 8 8 12 "Gnd!" "wt" 4 0 "Gnd!" 4 0 "data" 4 0
+fet nfet 18 7 19 8 8 12 "Gnd!" "writeb" 4 0 "a_15_7#" 4 0 "Gnd!" 4 0
+fet nfet 13 7 14 8 8 12 "Gnd!" "data" 4 0 "wt" 4 0 "a_15_7#" 4 0
+fet nfet 5 7 6 8 8 12 "Gnd!" "write" 4 0 "w" 4 0 "wt" 4 0
+fet pfet 61 75 62 76 16 20 "Vdd!" "read2b" 4 0 "a_58_75#" 8 0 "r2" 8 0
+fet pfet 56 75 57 76 16 20 "Vdd!" "data" 4 0 "Vdd!" 8 0 "a_58_75#" 8 0
+fet pfet 48 75 49 76 16 20 "Vdd!" "data" 4 0 "a_45_75#" 8 0 "Vdd!" 8 0
+fet pfet 43 75 44 76 16 20 "Vdd!" "read1b" 4 0 "r1" 8 0 "a_45_75#" 8 0
+fet pfet 26 75 27 76 16 20 "Vdd!" "wt" 4 0 "Vdd!" 8 0 "data" 8 0
+fet pfet 18 75 19 76 16 20 "Vdd!" "write" 4 0 "a_15_75#" 8 0 "Vdd!" 8 0
+fet pfet 13 75 14 76 16 20 "Vdd!" "data" 4 0 "wt" 8 0 "a_15_75#" 8 0
+fet pfet 5 75 6 76 16 20 "Vdd!" "writeb" 4 0 "w" 8 0 "wt" 8 0
