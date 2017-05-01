@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../mux2.sv"
+sv xil_defaultlib  "../../../inv.sv"
+sv xil_defaultlib  "../../../mux4.sv"
+sv xil_defaultlib  "../../../zerodetect.sv"
+sv xil_defaultlib  "../../../adder.sv"
+sv xil_defaultlib  "../../../orN.sv"
+sv xil_defaultlib  "../../../andN.sv"
+sv xil_defaultlib  "../../../condinv.sv"
+sv xil_defaultlib  "../../../flopen.sv"
+sv xil_defaultlib  "../../../mux3.sv"
+sv xil_defaultlib  "../../../flop.sv"
+sv xil_defaultlib  "../../../regfile.sv"
+sv xil_defaultlib  "../../../flopenr.sv"
+sv xil_defaultlib  "../../../mips_fsm.sv"
+sv xil_defaultlib  "../../../aludec.sv"
+sv xil_defaultlib  "../../../alu.sv"
+sv xil_defaultlib  "../../../controller.sv"
+sv xil_defaultlib  "../../../datapath.sv"
+sv xil_defaultlib  "../../../exmemory.sv"
+sv xil_defaultlib  "../../../mips.sv"
+sv xil_defaultlib  "../../../testbench.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
