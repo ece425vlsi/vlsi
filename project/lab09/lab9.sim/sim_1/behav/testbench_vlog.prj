@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../new_mips/shifter.sv"
+sv xil_defaultlib  "../../../new_mips/zerodetect.sv"
+sv xil_defaultlib  "../../../new_mips/mux4.sv"
+sv xil_defaultlib  "../../../new_mips/adder.sv"
+sv xil_defaultlib  "../../../new_mips/aludec.sv"
+sv xil_defaultlib  "../../../new_mips/mux3.sv"
+sv xil_defaultlib  "../../../new_mips/mux2.sv"
+sv xil_defaultlib  "../../../new_mips/mips_fsm.sv"
+sv xil_defaultlib  "../../../new_mips/flopenr.sv"
+sv xil_defaultlib  "../../../new_mips/regfile.sv"
+sv xil_defaultlib  "../../../new_mips/flopen.sv"
+sv xil_defaultlib  "../../../new_mips/alu.sv"
+sv xil_defaultlib  "../../../new_mips/flop.sv"
+sv xil_defaultlib  "../../../new_mips/datapath.sv"
+sv xil_defaultlib  "../../../new_mips/controller.sv"
+sv xil_defaultlib  "../../../new_mips/exmemory.sv"
+sv xil_defaultlib  "../../../new_mips/mips.sv"
+sv xil_defaultlib  "../../../new_mips/testbench.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

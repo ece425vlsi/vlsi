@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/inv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/mux4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/zerodetect.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zerodetect
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/orN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module orN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/andN.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andN
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/condinv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module condinv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/flopen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/mux3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/flop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/flopenr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/mips_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/exmemory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exmemory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/townleym/Desktop/VLSI/lab09/original/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/townleym/Desktop/VLSI/lab09/original/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
