@@ -1,0 +1,8 @@
+magic
+tech scmos
+timestamp 1493684343
+use datapath  datapath_0
+timestamp 1493684343
+transform 1 0 140 0 1 548
+box -140 -548 2736 1343
+<< end >>
