@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : controller
+Version: L-2016.03-SP5-2
+Date   : Tue May  2 10:48:56 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           37
+Number of nets:                           138
+Number of cells:                          123
+Number of combinational cells:            119
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                         32
+Number of references:                      11
+
+Combinational area:              27180.000000
+Buf/Inv area:                     4608.000000
+Noncombinational area:            3456.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 30636.000000
+Total area:                 undefined
+1

@@ -12,7 +12,7 @@ set OSUcells "/home/shared/OSU/synopsys/lib/ami05"
 set          lib_path    $OSUcells
 
 ## modify design_name to match your design
-set         design_name    "mips_fsm"  
+set         design_name    "controller"  
 
 set_app_var search_path "$lib_path"
 set_app_var target_library "osu05_stdcells.db"
@@ -45,9 +45,72 @@ read_sdc ./${design_name}.sdc
 #  As an example, the following will place a pin named "myPin" on the bottom of the cell
 #  10 microns from its left edge:
 # set_pin_physical_constraints -pin_name {myPin} -layers {metal2} -side 4 -offset 10
+# set_pin_physical_constraints -pin_name {op[6]} -layers {metal2} -side 4 -offset 15.6
+# set_pin_physical_constraints -pin_name {op[5]} -layers {metal2} -side 4 -offset 18
+# set_pin_physical_constraints -pin_name {op[4]} -layers {metal2} -side 4 -offset 27.6
+# set_pin_physical_constraints -pin_name {op[3]} -layers {metal2} -side 4 -offset 32.4
+# set_pin_physical_constraints -pin_name {op[2]} -layers {metal2} -side 4 -offset 56.4
+# set_pin_physical_constraints -pin_name {op[1]} -layers {metal2} -side 4 -offset 92.4
+# set_pin_physical_constraints -pin_name {op[0]} -layers {metal2} -side 4 -offset 80.4
+# # Set alu_op pins
+# set_pin_physical_constraints -pin_name {alu_op[1]} -layers {metal2} -side 1 -offset 10
+# set_pin_physical_constraints -pin_name {alu_op[0]} -layers {metal2} -side 1 -offset 20
+# # Set funct pins
+# set_pin_physical_constraints -pin_name {funct[5]} -layers {metal2} -side 1 -offset 30
+# set_pin_physical_constraints -pin_name {funct[4]} -layers {metal2} -side 1 -offset 40
+# set_pin_physical_constraints -pin_name {funct[3]} -layers {metal2} -side 1 -offset 50
+# set_pin_physical_constraints -pin_name {funct[2]} -layers {metal2} -side 1 -offset 60
+# set_pin_physical_constraints -pin_name {funct[1]} -layers {metal2} -side 1 -offset 70
+# set_pin_physical_constraints -pin_name {funct[0]} -layers {metal2} -side 1 -offset 80
+
+set_pin_physical_constraints -pin_name {reset} -layers {metal2} -side 2 -offset 10
+set_pin_physical_constraints -pin_name {clk} -layers {metal2} -side 1 -offset 100
+
+set_pin_physical_constraints -pin_name {memwrite} -layers {metal2} -side 2 -offset 400
+
+#pins interfaced with datapath
+set_pin_physical_constraints -pin_name {iord} -layers {metal2} -side 4 -offset 10
+set_pin_physical_constraints -pin_name {irwrite[3]} -layers {metal2} -side 4 -offset 20
+set_pin_physical_constraints -pin_name {op[5]} -layers {metal2} -side 4 -offset 30
+set_pin_physical_constraints -pin_name {op[4]} -layers {metal2} -side 4 -offset 40
+set_pin_physical_constraints -pin_name {op[3]} -layers {metal2} -side 4 -offset 50
+set_pin_physical_constraints -pin_name {op[2]} -layers {metal2} -side 4 -offset 60
+set_pin_physical_constraints -pin_name {op[1]} -layers {metal2} -side 4 -offset 70
+set_pin_physical_constraints -pin_name {op[0]} -layers {metal2} -side 4 -offset 80
+set_pin_physical_constraints -pin_name {irwrite[2]} -layers {metal2} -side 4 -offset 90
+set_pin_physical_constraints -pin_name {irwrite[1]} -layers {metal2} -side 4 -offset 100
+set_pin_physical_constraints -pin_name {irwrite[0]} -layers {metal2} -side 4 -offset 110
+set_pin_physical_constraints -pin_name {memtoreg} -layers {metal2} -side 4 -offset 120
+set_pin_physical_constraints -pin_name {funct[5]} -layers {metal2} -side 4 -offset 130
+set_pin_physical_constraints -pin_name {funct[4]} -layers {metal2} -side 4 -offset 140
+set_pin_physical_constraints -pin_name {funct[3]} -layers {metal2} -side 4 -offset 150
+set_pin_physical_constraints -pin_name {funct[2]} -layers {metal2} -side 4 -offset 160
+set_pin_physical_constraints -pin_name {funct[1]} -layers {metal2} -side 4 -offset 170
+set_pin_physical_constraints -pin_name {funct[0]} -layers {metal2} -side 4 -offset 180
+set_pin_physical_constraints -pin_name {regdst} -layers {metal2} -side 4 -offset 190
+set_pin_physical_constraints -pin_name {regwrite} -layers {metal2} -side 4 -offset 200
+set_pin_physical_constraints -pin_name {alucontrol[2]} -layers {metal2} -side 4 -offset 210
+set_pin_physical_constraints -pin_name {alucontrol[3]} -layers {metal2} -side 4 -offset 220
+set_pin_physical_constraints -pin_name {alusrcb[0]} -layers {metal2} -side 4 -offset 230
+set_pin_physical_constraints -pin_name {alusrcb[1]} -layers {metal2} -side 4 -offset 240
+set_pin_physical_constraints -pin_name {alusrca} -layers {metal2} -side 4 -offset 250
+set_pin_physical_constraints -pin_name {pcsrc[0]} -layers {metal2} -side 4 -offset 260
+set_pin_physical_constraints -pin_name {pcsrc[1]} -layers {metal2} -side 4 -offset 270
+set_pin_physical_constraints -pin_name {pcen} -layers {metal2} -side 4 -offset 280
+set_pin_physical_constraints -pin_name {alucontrol[6]} -layers {metal2} -side 4 -offset 290
+set_pin_physical_constraints -pin_name {alucontrol[5]} -layers {metal2} -side 4 -offset 300
+set_pin_physical_constraints -pin_name {alucontrol[4]} -layers {metal2} -side 4 -offset 310
+set_pin_physical_constraints -pin_name {alucontrol[0]} -layers {metal2} -side 4 -offset 320
+set_pin_physical_constraints -pin_name {alucontrol[1]} -layers {metal2} -side 4 -offset 330
+set_pin_physical_constraints -pin_name {zero} -layers {metal2} -side 4 -offset 340
+
+
+
+
+
 
 ###### Adjust density here to alleviate LVS errors after routing at the expense of a larger design
-create_floorplan -control_type "aspect_ratio" -core_aspect_ratio "0.5" -core_utilization "0.6" -row_core_ratio "1" -start_first_row  -left_io2core 24 -bottom_io2core 27 -right_io2core 24 -top_io2core 27
+create_floorplan -control_type "aspect_ratio" -core_aspect_ratio "0.15" -core_utilization "0.6" -row_core_ratio "1" -start_first_row  -left_io2core 24 -bottom_io2core 27 -right_io2core 24 -top_io2core 27
 
 derive_pg_connection -power_net {vdd!} -ground_net {gnd!}
 

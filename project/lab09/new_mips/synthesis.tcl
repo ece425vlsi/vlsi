@@ -31,6 +31,9 @@ define_design_lib work -path ./work
 # Change this to your top-level file
 # (include any other files containing submodules FIRST)
 #############################
+analyze -format sverilog ./mips_fsm.sv
+analyze -format sverilog ./aludec.sv
+
 analyze -format sverilog ./${design_name}.sv
 
 #############################

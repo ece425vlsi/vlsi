@@ -1,0 +1,118 @@
+magic
+tech scmos
+timestamp 1487715168
+<< nwell >>
+rect -4 40 36 96
+<< ntransistor >>
+rect 7 7 9 21
+rect 12 7 14 21
+rect 20 7 22 14
+<< ptransistor >>
+rect 7 63 9 83
+rect 15 63 17 83
+rect 23 63 25 83
+<< ndiffusion >>
+rect 6 7 7 21
+rect 9 7 12 21
+rect 14 7 15 21
+rect 19 7 20 14
+rect 22 12 27 14
+rect 22 8 23 12
+rect 22 7 27 8
+<< pdiffusion >>
+rect 2 82 7 83
+rect 6 63 7 82
+rect 9 82 15 83
+rect 9 63 10 82
+rect 14 63 15 82
+rect 17 82 23 83
+rect 17 63 18 82
+rect 22 63 23 82
+rect 25 82 30 83
+rect 25 63 26 82
+<< ndcontact >>
+rect 2 7 6 21
+rect 15 7 19 21
+rect 23 8 27 12
+<< pdcontact >>
+rect 2 63 6 82
+rect 10 63 14 82
+rect 18 63 22 82
+rect 26 63 30 82
+<< psubstratepcontact >>
+rect 2 -2 6 2
+rect 10 -2 14 2
+rect 18 -2 22 2
+rect 26 -2 30 2
+<< nsubstratencontact >>
+rect 2 88 6 92
+rect 10 88 14 92
+rect 18 88 22 92
+rect 26 88 30 92
+<< polysilicon >>
+rect 7 83 9 85
+rect 15 83 17 85
+rect 23 83 25 85
+rect 7 62 9 63
+rect 15 62 17 63
+rect 23 62 25 63
+rect 2 60 9 62
+rect 12 60 17 62
+rect 20 60 25 62
+rect 2 37 4 60
+rect 12 37 14 60
+rect 20 37 22 60
+rect 26 33 30 37
+rect 2 24 4 33
+rect 2 22 9 24
+rect 7 21 9 22
+rect 12 21 14 33
+rect 20 14 22 33
+rect 7 5 9 7
+rect 12 5 14 7
+rect 20 5 22 7
+<< polycontact >>
+rect 2 33 6 37
+rect 10 33 14 37
+rect 18 33 22 37
+<< metal1 >>
+rect 0 92 32 94
+rect 0 88 2 92
+rect 6 88 10 92
+rect 14 88 18 92
+rect 22 88 26 92
+rect 30 88 32 92
+rect 0 86 32 88
+rect 2 82 6 83
+rect 10 82 14 86
+rect 18 82 22 83
+rect 2 60 6 63
+rect 18 60 22 63
+rect 2 56 22 60
+rect 26 82 30 83
+rect 26 37 30 63
+rect 26 21 30 33
+rect 19 17 30 21
+rect 23 12 27 14
+rect 2 4 6 7
+rect 23 4 27 8
+rect 0 2 32 4
+rect 0 -2 2 2
+rect 6 -2 10 2
+rect 14 -2 18 2
+rect 22 -2 26 2
+rect 30 -2 32 2
+rect 0 -4 32 -2
+<< m2contact >>
+rect 2 33 6 37
+rect 10 33 14 37
+rect 18 33 22 37
+rect 26 33 30 37
+<< labels >>
+rlabel metal1 1 0 1 0 3 Gnd!
+rlabel metal1 1 90 1 90 3 Vdd!
+rlabel m2contact 4 35 4 35 1 a
+rlabel m2contact 12 35 12 35 1 b
+rlabel m2contact 20 35 20 35 1 c
+rlabel m2contact 28 35 28 35 1 y
+<< end >>

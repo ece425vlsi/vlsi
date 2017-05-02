@@ -1,0 +1,21 @@
+ 
+****************************************
+Report : hierarchy
+Design : controller
+Version: L-2016.03-SP5-2
+Date   : Tue May  2 10:48:56 2017
+****************************************
+
+controller
+    AOI21X1          osu05_stdcells
+    AOI22X1          osu05_stdcells
+    DFFPOSX1         osu05_stdcells
+    INVX2            osu05_stdcells
+    NAND2X1          osu05_stdcells
+    NAND3X1          osu05_stdcells
+    NOR2X1           osu05_stdcells
+    OAI21X1          osu05_stdcells
+    OAI22X1          osu05_stdcells
+    OR2X1            osu05_stdcells
+    XOR2X1           osu05_stdcells
+1
