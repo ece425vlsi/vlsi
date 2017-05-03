@@ -87,25 +87,61 @@ s
 
 l reset
 s
+#ADD
 runController
 runController
 runController
 runController
 runController
 runController
-setvector funct 101010
+setvector funct 000011
+
+#SRA
+runController
+runController
+runController
+runController
+runController
+runController
+runController
+
+#LB
+setvector op 100000
+runController
+runController
+runController
+runController
+runController
+runController
+runController
+runController
+
+setvector op 101000
+#SB
+runController
+runController
+runController
+runController
+runController
+runController
+runController
+
+# BEQ
+setvector op 000100
+runController
+runController
+runController
+runController
+runController
+runController
+
+# J
+setvector op 000010
+runController
+runController
+runController
+runController
+runController
+runController
 
 runController
-runController
-runController
-runController
-runController
-runController
-runController
-runController #back to state 0
-
-
-
-
-
-
