@@ -9,6 +9,7 @@ vector op op\[5\] op\[4\] op\[3\] op\[2\] op\[1\] op\[0\]
 vector funct funct\[5\] funct\[4\] funct\[3\] funct\[2\] funct\[1\] funct\[0\]
 
 vector pcsrc pcsrc\[1\] pcsrc\[0\]
+vector alusrcb alusrcb\[1\] alusrcb\[0\]
 vector alucontrol alucontrol\[6\] alucontrol\[5\] alucontrol\[4\] alucontrol\[3\] alucontrol\[2\] alucontrol\[1\] alucontrol\[0\]
 vector irwrite irwrite\[3\] irwrite\[2\] irwrite\[1\] irwrite\[0\]
 
@@ -16,12 +17,6 @@ stepsize 250
 
 analyzer clk reset op funct zero memwrite alusrca memtoreg iord pcen regwrite regdst pcsrc alusrcb alucontrol irwrite
 w  clk reset op funct zero memwrite alusrca memtoreg iord pcen regwrite regdst pcsrc alusrcb alucontrol irwrite
-
-### NOTE: RIGHT IS CONNECTED TO OP3, ARITH IS CONNECTED TO OP2
-
-#F_sll  : alucontrol = 7'b0000011;
-#F_srl  : alucontrol = 7'b0001011;
-#F_sra  : alucontrol = 7'b0001111;
 
 ################## PROCESSES ############################
 
@@ -63,6 +58,14 @@ proc runController {} {
 
      s
 
+     if {[query clk]} {
+     	l clk
+     } else {
+       h clk
+     }
+
+     s
+
 }
 
 
@@ -83,10 +86,24 @@ l clk
 s
 
 l reset
+s
+runController
+runController
+runController
+runController
+runController
+runController
+setvector funct 101010
 
 runController
 runController
 runController
+runController
+runController
+runController
+runController
+runController #back to state 0
+
 
 
 
