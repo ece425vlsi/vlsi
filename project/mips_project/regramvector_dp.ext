@@ -12,12 +12,12 @@ node "m2_32_866#" 0 722.4 32 866 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 
 node "m2_24_866#" 0 722.4 24 866 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0
 node "m2_16_866#" 0 722.4 16 866 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0
 node "m2_8_866#" 0 722.4 8 866 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0
-cap "regram_zipper_0/m2_0_n2#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
-cap "regram_zipper_0/m2_32_22#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
-cap "regram_zipper_0/m2_16_n2#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
-cap "regram_zipper_0/m2_48_30#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
-cap "regram_zipper_0/invbuf_4x_1/Gnd!" "regram_zipper_0/m2_32_n2#" 20.16
+cap "regram_zipper_0/invbuf_4x_1/Gnd!" "regram_zipper_0/m2_32_22#" 20.16
+cap "regram_zipper_0/m2_32_n2#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
 cap "regram_zipper_0/m2_24_n2#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
+cap "regram_zipper_0/invbuf_4x_1/Gnd!" "regram_zipper_0/m2_0_n2#" 20.16
+cap "regram_zipper_0/m2_48_30#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
+cap "regram_zipper_0/invbuf_4x_1/Gnd!" "regram_zipper_0/m2_16_n2#" 20.16
 merge "regram_8_0/m2_32_52#" "regram_zipper_0/m2_32_n2#" -562.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "regram_zipper_0/m2_32_n2#" "m2_32_866#"
 merge "regram_8_0/m2_56_20#" "regram_zipper_0/m2_48_30#" -562.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0

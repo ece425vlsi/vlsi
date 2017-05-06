@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493749249
+timestamp 1494106996
 << metal1 >>
 rect 3919 3799 4004 3895
 rect 3716 3441 3919 3444
@@ -423,7 +423,7 @@ rect 1451 1007 1550 1011
 rect 1554 1007 1555 1011
 rect 1446 1006 1555 1007
 use alt_mips  alt_mips_0
-timestamp 1493749249
+timestamp 1494106996
 transform 1 0 1115 0 1 1152
 box 0 0 2876 2332
 use PadFrame17  PadFrame17_0
@@ -433,34 +433,35 @@ box 0 0 5000 5000
 << labels >>
 rlabel space 3702 3437 3702 3437 1 Vdd!
 rlabel space 3682 3412 3682 3412 1 Gnd!
-rlabel space 3249 122 3249 122 1 writedata7
-rlabel space 2946 122 2946 122 1 writedata6
-rlabel space 2639 118 2639 118 1 writedata5
-rlabel space 2343 110 2343 110 1 writedata4
-rlabel space 2052 110 2052 110 1 writedata3
-rlabel space 1749 122 1749 122 1 writedata2
-rlabel space 1458 130 1458 130 1 writedata1
-rlabel space 1154 130 1154 130 1 writedata0
-rlabel space 109 1139 109 1139 1 memdata0
-rlabel space 113 1438 113 1438 1 memdata1
-rlabel space 117 1742 117 1742 1 memdata2
-rlabel space 125 2049 125 2049 1 memdata3
-rlabel space 138 2369 138 2369 1 memdata4
-rlabel space 121 2668 121 2668 1 memdata5
-rlabel space 121 2931 121 2931 1 memdata6
-rlabel space 117 3238 117 3238 1 memdata7
-rlabel space 129 3529 129 3529 1 ph1
-rlabel space 105 3824 105 3824 1 ph2
-rlabel space 1142 4862 1142 4862 1 reset
-rlabel space 1454 4866 1454 4866 1 adr0
-rlabel space 1753 4853 1753 4853 1 adr1
-rlabel space 2048 4878 2048 4878 1 adr2
-rlabel space 2339 4858 2339 4858 1 adr3
-rlabel space 2647 4870 2647 4870 1 adr4
-rlabel space 2934 4853 2934 4853 1 adr5
-rlabel space 3245 4862 3245 4862 1 adr6
-rlabel space 3532 4878 3532 4878 1 adr7
-rlabel space 3836 4862 3836 4862 1 memwrite
-rlabel space 4869 3841 4869 3841 1 Vdd!
-rlabel space 4865 3541 4865 3541 1 Gnd!
+rlabel metal2 3351 1007 3351 1007 1 writedata7
+rlabel metal2 3051 1008 3051 1008 1 writedata6
+rlabel metal2 2752 1007 2752 1007 1 writedata5
+rlabel metal2 2452 1008 2452 1008 1 writedata4
+rlabel metal2 2152 1007 2152 1007 1 writedata3
+rlabel metal2 1851 1006 1851 1006 1 writedata2
+rlabel metal2 1851 1006 1851 1006 1 writedata1
+rlabel metal2 1252 1006 1252 1006 1 writedata0
+rlabel metal3 1006 3661 1006 3661 1 ph1
+rlabel metal2 1006 3961 1006 3961 1 ph2
+rlabel metal2 1261 3996 1261 3996 1 reset
+rlabel metal2 1348 3996 1348 3996 1 adr0
+rlabel metal2 1648 3996 1648 3996 1 adr1
+rlabel metal2 1948 3995 1948 3995 1 adr2
+rlabel metal2 2248 3995 2248 3995 1 adr3
+rlabel metal2 2548 3995 2548 3995 1 adr4
+rlabel metal2 2848 3996 2848 3996 1 adr5
+rlabel metal2 3149 3996 3149 3996 1 adr6
+rlabel metal2 3448 3996 3448 3996 1 adr7
+rlabel metal2 3748 3996 3748 3996 1 memwrite
+rlabel metal1 3995 3847 3995 3847 1 Vdd!
+rlabel metal2 3994 3548 3994 3548 1 Gnd!
+rlabel metal3 1004 1048 1004 1048 1 memdata0
+rlabel metal3 1004 1348 1004 1348 1 memdata1
+rlabel metal3 1005 1861 1005 1861 1 memdata2
+rlabel metal3 1004 2161 1004 2161 1 memdata3
+rlabel metal3 1004 2461 1004 2461 1 memdata4
+rlabel metal3 1005 2761 1005 2761 1 memdata5
+rlabel metal3 1005 3061 1005 3061 1 memdata6
+rlabel metal3 1005 3361 1005 3361 1 memdata7
+rlabel metal2 1552 1004 1552 1004 1 writedata1
 << end >>

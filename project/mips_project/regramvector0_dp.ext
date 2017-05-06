@@ -15,28 +15,28 @@ use regram0 regram0_6 1 0 0 0 1 110
 use regram0 regram0_7 1 0 0 0 1 0
 node "m2_56_15#" 20 32379.6 56 15 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3468 1742 0 0
 node "m2_24_15#" 20 32379.6 24 15 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3468 1742 0 0
-cap "regram0_6/a_0_n2#" "regram0_6/read2" 80.64
-cap "regram0_6/a_0_n2#" "regram0_6/read1" 103.68
-cap "regram0_6/r2" "regram0_6/read2" 15.48
-cap "regram0_5/read1" "regram0_5/a_0_n2#" 103.68
+cap "regram0_6/read1" "regram0_6/a_0_n2#" 103.68
+cap "regram0_6/read2" "regram0_6/r2" 15.48
+cap "regram0_6/read2" "regram0_6/a_0_n2#" 80.64
 cap "regram0_5/r2" "regram0_5/read2" 15.48
-cap "regram0_5/read2" "regram0_5/a_0_n2#" 80.64
-cap "regram0_4/a_0_n2#" "regram0_4/read2" 80.64
-cap "regram0_4/a_0_n2#" "regram0_4/read1" 103.68
-cap "regram0_4/r2" "regram0_4/read2" 15.48
-cap "regram0_3/read1" "regram0_3/a_0_n2#" 103.68
+cap "regram0_5/a_0_n2#" "regram0_5/read1" 103.68
+cap "regram0_5/a_0_n2#" "regram0_5/read2" 80.64
+cap "regram0_4/read1" "regram0_4/a_0_n2#" 103.68
+cap "regram0_4/read2" "regram0_4/r2" 15.48
+cap "regram0_4/read2" "regram0_4/a_0_n2#" 80.64
 cap "regram0_3/r2" "regram0_3/read2" 15.48
-cap "regram0_3/read2" "regram0_3/a_0_n2#" 80.64
-cap "regram0_2/a_0_n2#" "regram0_2/read2" 80.64
-cap "regram0_2/a_0_n2#" "regram0_2/read1" 103.68
-cap "regram0_2/r2" "regram0_2/read2" 15.48
-cap "regram0_1/read1" "regram0_1/a_0_n2#" 103.68
+cap "regram0_3/a_0_n2#" "regram0_3/read1" 103.68
+cap "regram0_3/a_0_n2#" "regram0_3/read2" 80.64
+cap "regram0_2/read1" "regram0_2/a_0_n2#" 103.68
+cap "regram0_2/read2" "regram0_2/r2" 15.48
+cap "regram0_2/read2" "regram0_2/a_0_n2#" 80.64
 cap "regram0_1/r2" "regram0_1/read2" 15.48
-cap "regram0_1/read2" "regram0_1/a_0_n2#" 80.64
-cap "regram0_0/a_0_n2#" "regram0_0/read2" 80.64
-cap "regram0_0/a_0_n2#" "regram0_0/read1" 103.68
-cap "regram0_0/r2" "regram0_0/read2" 15.48
-cap "regram_zipper_0/invbuf_4x_1/Gnd!" "regram_zipper_0/m2_48_30#" 20.16
+cap "regram0_1/a_0_n2#" "regram0_1/read1" 103.68
+cap "regram0_1/a_0_n2#" "regram0_1/read2" 80.64
+cap "regram0_0/read1" "regram0_0/a_0_n2#" 103.68
+cap "regram0_0/read2" "regram0_0/r2" 15.48
+cap "regram0_0/read2" "regram0_0/a_0_n2#" 80.64
+cap "regram_zipper_0/m2_48_30#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
 cap "regram_zipper_0/m2_24_n2#" "regram_zipper_0/invbuf_4x_1/Gnd!" 20.16
 merge "regram_zipper_0/m2_48_30#" "regram0_0/read2" -3156.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140 -142 0 0
 merge "regram0_0/read2" "regram0_1/read2"

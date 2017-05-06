@@ -1,0 +1,282 @@
+timestamp 1491676833
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use PADFC PADFC_0 1 0 0 0 1 4000
+use PADINC reset 1 0 1000 0 1 4000
+use PADOUT adr0 1 0 1300 0 1 4000
+use PADOUT adr1 1 0 1600 0 1 4000
+use PADOUT adr2 1 0 1900 0 1 4000
+use PADOUT adr3 1 0 2200 0 1 4000
+use PADOUT adr4 1 0 2500 0 1 4000
+use PADOUT adr5 1 0 2800 0 1 4000
+use PADOUT adr6 1 0 3100 0 1 4000
+use PADOUT adr7 1 0 3400 0 1 4000
+use PADOUT MemWrite 1 0 3700 0 1 4000
+use PADFC PADFC_3 0 1 4000 -1 0 5000
+use PADINC ph1 0 -1 1000 1 0 3700
+use PADINC ph2 0 -1 1000 1 0 3400
+use PADINC memdata7 0 -1 1000 1 0 3100
+use PADINC memdata6 0 -1 1000 1 0 2800
+use PADINC memdata5 0 -1 1000 1 0 2500
+use PADINC memdata4 0 -1 1000 1 0 2200
+use PADINC memdata3 0 -1 1000 1 0 1900
+use PADINC memdata2 0 -1 1000 1 0 1600
+use PADOUT memdata1 0 -1 1000 1 0 1300
+use PADVDD PADVDD_0 0 1 4000 -1 0 3997
+use PADGND PADGND_0 0 1 4000 -1 0 3698
+use PADNC PADNC_9 0 1 4000 1 0 3100
+use PADNC PADNC_8 0 1 4000 1 0 2800
+use PADNC PADNC_7 0 1 4000 1 0 2500
+use PADNC PADNC_6 0 1 4000 1 0 2200
+use PADNC PADNC_5 0 1 4000 1 0 1900
+use PADNC PADNC_4 0 1 4000 1 0 1600
+use PADNC PADNC_3 0 1 4000 1 0 1300
+use PADOUT memdata0 0 -1 1000 1 0 1000
+use PADFC PADFC_2 0 -1 1000 1 0 0
+use PADOUT writedata0 -1 0 1300 0 -1 1000
+use PADOUT writedata1 -1 0 1600 0 -1 1000
+use PADOUT writedata2 -1 0 1900 0 -1 1000
+use PADOUT writedata3 -1 0 2200 0 -1 1000
+use PADOUT writedata4 -1 0 2500 0 -1 1000
+use PADOUT writedata5 -1 0 2800 0 -1 1000
+use PADOUT writedata6 -1 0 3100 0 -1 1000
+use PADOUT writedata7 -1 0 3400 0 -1 1000
+use PADNC PADNC_0 1 0 3400 0 -1 1000
+use PADNC PADNC_1 0 1 4000 1 0 1000
+use PADFC PADFC_1 -1 0 4998 0 -1 1000
+use PADNC PADNC_2 1 0 3700 0 -1 1000
+cap "writedata1/Gnd" "writedata1/Vdd2" 2.27374e-13
+cap "writedata2/Gnd" "writedata2/Vdd2" 2.27374e-13
+cap "writedata3/Gnd" "writedata3/Vdd2" 2.27374e-13
+cap "writedata4/Gnd" "writedata4/Vdd2" 2.27374e-13
+cap "writedata5/Gnd" "writedata5/Vdd2" 2.27374e-13
+cap "writedata6/Gnd" "writedata6/Vdd2" 2.27374e-13
+cap "writedata7/Gnd" "writedata7/Vdd2" 2.27374e-13
+cap "PADNC_0/w_n3_340#" "PADNC_0/w_17_429#" -2.27374e-13
+cap "PADNC_0/w_n3_340#" "PADNC_0/w_17_429#" -2.27374e-13
+cap "PADFC_1/w_327_n3#" "PADFC_1/m2_330_0#" -352.8
+cap "PADNC_2/w_n3_340#" "PADNC_2/w_17_429#" -504
+cap "PADNC_2/w_n3_340#" "PADNC_2/w_17_429#" -297.36
+cap "writedata1/Vdd" "writedata0/Vdd" -2.84217e-14
+cap "writedata2/Vdd" "writedata1/Vdd" -2.84217e-14
+cap "writedata3/Vdd" "writedata2/Vdd" -2.84217e-14
+cap "writedata4/Vdd" "writedata3/Vdd" -2.84217e-14
+cap "writedata4/Vdd" "writedata5/Vdd" -2.84217e-14
+cap "writedata6/Vdd" "writedata5/Vdd" -2.84217e-14
+cap "writedata7/Vdd" "writedata6/Vdd" -2.84217e-14
+cap "writedata7/Vdd" "PADNC_0/w_n3_n3#" -2.84217e-14
+cap "PADNC_2/w_11_11#" "PADNC_2/w_n3_n3#" 1.77636e-15
+cap "PADNC_2/w_11_11#" "PADNC_2/w_n3_n3#" -151.2
+cap "PADNC_2/w_n3_n3#" "PADNC_2/w_11_11#" -504
+cap "PADNC_0/w_11_11#" "PADNC_0/w_n3_n3#" -4.54747e-13
+cap "PADNC_1/w_n3_n3#" "PADNC_1/w_11_11#" -498.96
+cap "PADNC_9/w_11_11#" "PADGND_0/w_n3_n3#" -498.96
+cap "PADGND_0/w_n3_n3#" "PADNC_9/w_11_11#" -504
+cap "PADNC_9/w_11_11#" "PADGND_0/w_n3_n3#" -151.2
+cap "PADGND_0/w_17_429#" "PADGND_0/gnd" -302.4
+cap "PADGND_0/w_17_429#" "PADGND_0/gnd" -504
+cap "PADGND_0/w_17_429#" "PADGND_0/gnd" -352.8
+cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_11_11#" -249.48
+cap "PADVDD_0/w_11_11#" "PADVDD_0/w_n3_n3#" -252
+cap "PADVDD_0/w_11_11#" "PADVDD_0/w_n3_n3#" -75.6
+cap "PADVDD_0/w_n3_340#" "PADVDD_0/w_n3_n3#" -151.2
+cap "PADVDD_0/w_n3_340#" "PADVDD_0/w_n3_n3#" -252
+cap "PADVDD_0/w_n3_340#" "PADVDD_0/w_n3_n3#" -176.4
+cap "PADFC_0/w_670_n3#" "PADFC_0/m2_769_0#" -4.54747e-13
+cap "adr0/Vdd" "reset/Gnd2" -4.54747e-13
+cap "PADFC_3/m2_769_0#" "PADFC_3/w_670_n3#" -4.54747e-13
+cap "PADFC_0/w_670_n3#" "reset/Gnd2" -5.68434e-14
+cap "reset/Gnd" "reset/DI" 7.10543e-15
+cap "reset/Gnd" "adr0/Vdd" 5.68434e-14
+cap "adr0/Gnd" "adr0/a_248_269#" 7.10543e-15
+cap "adr1/Vdd" "adr0/Gnd" 5.68434e-14
+cap "adr1/Gnd" "adr1/a_248_269#" 7.10543e-15
+cap "adr2/Vdd" "adr1/Gnd" 5.68434e-14
+cap "adr2/Gnd" "adr2/a_248_269#" 7.10543e-15
+cap "adr2/Gnd" "adr3/Vdd" 5.68434e-14
+cap "adr3/a_248_269#" "adr3/Gnd" 7.10543e-15
+cap "adr3/Gnd" "adr4/Vdd" 5.68434e-14
+cap "adr4/Gnd" "adr4/a_248_269#" 7.10543e-15
+cap "adr4/Gnd" "adr5/Vdd" 5.68434e-14
+cap "adr5/a_248_269#" "adr5/Gnd" 7.10543e-15
+cap "adr5/Gnd" "adr6/Vdd" 5.68434e-14
+cap "adr6/Gnd" "adr6/a_248_269#" 7.10543e-15
+cap "adr7/Vdd" "adr6/Gnd" 5.68434e-14
+cap "adr7/Gnd" "adr7/a_248_269#" 7.10543e-15
+cap "MemWrite/Vdd" "adr7/Gnd" 5.68434e-14
+cap "PADFC_0/m2_330_0#" "PADFC_0/w_327_n3#" -4.54747e-13
+merge "PADFC_3/m2_330_0#" "MemWrite/Vdd2" -437989 -328 -8676 0 0 -17679 -5637 0 0 0 0 0 0 0 0 0 0 -59 -8668 -11 -12248 0 0
+merge "MemWrite/Vdd2" "adr7/Vdd2"
+merge "adr7/Vdd2" "adr6/Vdd2"
+merge "adr6/Vdd2" "adr5/Vdd2"
+merge "adr5/Vdd2" "adr4/Vdd2"
+merge "adr4/Vdd2" "adr3/Vdd2"
+merge "adr3/Vdd2" "adr2/Vdd2"
+merge "adr2/Vdd2" "adr1/Vdd2"
+merge "adr1/Vdd2" "adr0/Vdd2"
+merge "adr0/Vdd2" "reset/Vdd2"
+merge "reset/Vdd2" "PADFC_3/w_670_n3#"
+merge "PADFC_3/w_670_n3#" "MemWrite/Vdd"
+merge "MemWrite/Vdd" "adr7/Vdd"
+merge "adr7/Vdd" "adr6/Vdd"
+merge "adr6/Vdd" "adr5/Vdd"
+merge "adr5/Vdd" "adr4/Vdd"
+merge "adr4/Vdd" "adr3/Vdd"
+merge "adr3/Vdd" "adr2/Vdd"
+merge "adr2/Vdd" "adr1/Vdd"
+merge "adr1/Vdd" "adr0/Vdd"
+merge "adr0/Vdd" "reset/Vdd"
+merge "reset/Vdd" "PADNC_2/w_17_429#"
+merge "PADNC_2/w_17_429#" "PADNC_0/w_17_429#"
+merge "PADNC_0/w_17_429#" "writedata7/Vdd2"
+merge "writedata7/Vdd2" "writedata6/Vdd2"
+merge "writedata6/Vdd2" "writedata5/Vdd2"
+merge "writedata5/Vdd2" "writedata4/Vdd2"
+merge "writedata4/Vdd2" "writedata3/Vdd2"
+merge "writedata3/Vdd2" "writedata2/Vdd2"
+merge "writedata2/Vdd2" "writedata1/Vdd2"
+merge "writedata1/Vdd2" "writedata0/Vdd2"
+merge "writedata0/Vdd2" "PADFC_2/m2_330_0#"
+merge "PADFC_2/m2_330_0#" "PADFC_1/m2_330_0#"
+merge "PADFC_1/m2_330_0#" "memdata0/Vdd2"
+merge "memdata0/Vdd2" "PADNC_1/w_17_429#"
+merge "PADNC_1/w_17_429#" "memdata1/Vdd2"
+merge "memdata1/Vdd2" "PADNC_3/w_17_429#"
+merge "PADNC_3/w_17_429#" "memdata2/Vdd2"
+merge "memdata2/Vdd2" "PADNC_4/w_17_429#"
+merge "PADNC_4/w_17_429#" "memdata3/Vdd2"
+merge "memdata3/Vdd2" "PADNC_5/w_17_429#"
+merge "PADNC_5/w_17_429#" "memdata4/Vdd2"
+merge "memdata4/Vdd2" "PADNC_6/w_17_429#"
+merge "PADNC_6/w_17_429#" "memdata5/Vdd2"
+merge "memdata5/Vdd2" "PADNC_7/w_17_429#"
+merge "PADNC_7/w_17_429#" "memdata6/Vdd2"
+merge "memdata6/Vdd2" "PADNC_8/w_17_429#"
+merge "PADNC_8/w_17_429#" "memdata7/Vdd2"
+merge "memdata7/Vdd2" "PADNC_9/w_17_429#"
+merge "PADNC_9/w_17_429#" "ph2/Vdd2"
+merge "ph2/Vdd2" "PADGND_0/w_17_429#"
+merge "PADGND_0/w_17_429#" "ph1/Vdd2"
+merge "ph1/Vdd2" "PADFC_1/w_670_n3#"
+merge "PADFC_1/w_670_n3#" "PADNC_2/w_n3_n3#"
+merge "PADNC_2/w_n3_n3#" "PADNC_0/w_n3_n3#"
+merge "PADNC_0/w_n3_n3#" "writedata7/Vdd"
+merge "writedata7/Vdd" "writedata6/Vdd"
+merge "writedata6/Vdd" "writedata5/Vdd"
+merge "writedata5/Vdd" "writedata4/Vdd"
+merge "writedata4/Vdd" "writedata3/Vdd"
+merge "writedata3/Vdd" "writedata2/Vdd"
+merge "writedata2/Vdd" "writedata1/Vdd"
+merge "writedata1/Vdd" "writedata0/Vdd"
+merge "writedata0/Vdd" "PADFC_2/w_670_n3#"
+merge "PADFC_2/w_670_n3#" "memdata0/Vdd"
+merge "memdata0/Vdd" "PADNC_1/w_n3_n3#"
+merge "PADNC_1/w_n3_n3#" "memdata1/Vdd"
+merge "memdata1/Vdd" "PADNC_3/w_n3_n3#"
+merge "PADNC_3/w_n3_n3#" "memdata2/Vdd"
+merge "memdata2/Vdd" "PADNC_4/w_n3_n3#"
+merge "PADNC_4/w_n3_n3#" "memdata3/Vdd"
+merge "memdata3/Vdd" "PADNC_5/w_n3_n3#"
+merge "PADNC_5/w_n3_n3#" "memdata4/Vdd"
+merge "memdata4/Vdd" "PADNC_6/w_n3_n3#"
+merge "PADNC_6/w_n3_n3#" "memdata5/Vdd"
+merge "memdata5/Vdd" "PADNC_7/w_n3_n3#"
+merge "PADNC_7/w_n3_n3#" "memdata6/Vdd"
+merge "memdata6/Vdd" "PADNC_8/w_n3_n3#"
+merge "PADNC_8/w_n3_n3#" "memdata7/Vdd"
+merge "memdata7/Vdd" "PADNC_9/w_n3_n3#"
+merge "PADNC_9/w_n3_n3#" "ph2/Vdd"
+merge "ph2/Vdd" "PADGND_0/w_n3_n3#"
+merge "PADGND_0/w_n3_n3#" "ph1/Vdd"
+merge "ph1/Vdd" "PADVDD_0/w_n3_n3#"
+merge "PADVDD_0/w_n3_n3#" "PADFC_0/m2_330_0#"
+merge "PADFC_0/m2_330_0#" "PADFC_0/w_670_n3#"
+merge "MemWrite/Gnd" "adr7/Gnd" -358860 0 0 -966 -8978 0 0 0 0 -14715 -5659 0 0 0 0 0 0 -309 -8968 -2874 -10598 0 0
+merge "adr7/Gnd" "adr6/Gnd"
+merge "adr6/Gnd" "adr5/Gnd"
+merge "adr5/Gnd" "adr4/Gnd"
+merge "adr4/Gnd" "adr3/Gnd"
+merge "adr3/Gnd" "adr2/Gnd"
+merge "adr2/Gnd" "adr1/Gnd"
+merge "adr1/Gnd" "adr0/Gnd"
+merge "adr0/Gnd" "reset/Gnd"
+merge "reset/Gnd" "PADFC_3/m2_769_0#"
+merge "PADFC_3/m2_769_0#" "MemWrite/Gnd2"
+merge "MemWrite/Gnd2" "adr7/Gnd2"
+merge "adr7/Gnd2" "adr6/Gnd2"
+merge "adr6/Gnd2" "adr5/Gnd2"
+merge "adr5/Gnd2" "adr4/Gnd2"
+merge "adr4/Gnd2" "adr3/Gnd2"
+merge "adr3/Gnd2" "adr2/Gnd2"
+merge "adr2/Gnd2" "adr1/Gnd2"
+merge "adr1/Gnd2" "adr0/Gnd2"
+merge "adr0/Gnd2" "reset/Gnd2"
+merge "reset/Gnd2" "PADNC_2/w_n3_340#"
+merge "PADNC_2/w_n3_340#" "PADNC_0/w_n3_340#"
+merge "PADNC_0/w_n3_340#" "writedata7/Gnd"
+merge "writedata7/Gnd" "writedata6/Gnd"
+merge "writedata6/Gnd" "writedata5/Gnd"
+merge "writedata5/Gnd" "writedata4/Gnd"
+merge "writedata4/Gnd" "writedata3/Gnd"
+merge "writedata3/Gnd" "writedata2/Gnd"
+merge "writedata2/Gnd" "writedata1/Gnd"
+merge "writedata1/Gnd" "writedata0/Gnd"
+merge "writedata0/Gnd" "PADFC_2/w_327_n3#"
+merge "PADFC_2/w_327_n3#" "PADFC_1/w_327_n3#"
+merge "PADFC_1/w_327_n3#" "memdata0/Gnd"
+merge "memdata0/Gnd" "PADNC_1/w_n3_340#"
+merge "PADNC_1/w_n3_340#" "memdata1/Gnd"
+merge "memdata1/Gnd" "PADNC_3/w_n3_340#"
+merge "PADNC_3/w_n3_340#" "memdata2/Gnd"
+merge "memdata2/Gnd" "PADNC_4/w_n3_340#"
+merge "PADNC_4/w_n3_340#" "memdata3/Gnd"
+merge "memdata3/Gnd" "PADNC_5/w_n3_340#"
+merge "PADNC_5/w_n3_340#" "memdata4/Gnd"
+merge "memdata4/Gnd" "PADNC_6/w_n3_340#"
+merge "PADNC_6/w_n3_340#" "memdata5/Gnd"
+merge "memdata5/Gnd" "PADNC_7/w_n3_340#"
+merge "PADNC_7/w_n3_340#" "memdata6/Gnd"
+merge "memdata6/Gnd" "PADNC_8/w_n3_340#"
+merge "PADNC_8/w_n3_340#" "memdata7/Gnd"
+merge "memdata7/Gnd" "PADNC_9/w_n3_340#"
+merge "PADNC_9/w_n3_340#" "ph2/Gnd"
+merge "ph2/Gnd" "PADFC_1/m2_769_0#"
+merge "PADFC_1/m2_769_0#" "PADNC_2/w_11_11#"
+merge "PADNC_2/w_11_11#" "PADNC_0/w_11_11#"
+merge "PADNC_0/w_11_11#" "writedata7/Gnd2"
+merge "writedata7/Gnd2" "writedata6/Gnd2"
+merge "writedata6/Gnd2" "writedata5/Gnd2"
+merge "writedata5/Gnd2" "writedata4/Gnd2"
+merge "writedata4/Gnd2" "writedata3/Gnd2"
+merge "writedata3/Gnd2" "writedata2/Gnd2"
+merge "writedata2/Gnd2" "writedata1/Gnd2"
+merge "writedata1/Gnd2" "writedata0/Gnd2"
+merge "writedata0/Gnd2" "PADFC_2/m2_769_0#"
+merge "PADFC_2/m2_769_0#" "memdata0/Gnd2"
+merge "memdata0/Gnd2" "PADNC_1/w_11_11#"
+merge "PADNC_1/w_11_11#" "memdata1/Gnd2"
+merge "memdata1/Gnd2" "PADNC_3/w_11_11#"
+merge "PADNC_3/w_11_11#" "memdata2/Gnd2"
+merge "memdata2/Gnd2" "PADNC_4/w_11_11#"
+merge "PADNC_4/w_11_11#" "memdata3/Gnd2"
+merge "memdata3/Gnd2" "PADNC_5/w_11_11#"
+merge "PADNC_5/w_11_11#" "memdata4/Gnd2"
+merge "memdata4/Gnd2" "PADNC_6/w_11_11#"
+merge "PADNC_6/w_11_11#" "memdata5/Gnd2"
+merge "memdata5/Gnd2" "PADNC_7/w_11_11#"
+merge "PADNC_7/w_11_11#" "memdata6/Gnd2"
+merge "memdata6/Gnd2" "PADNC_8/w_11_11#"
+merge "PADNC_8/w_11_11#" "memdata7/Gnd2"
+merge "memdata7/Gnd2" "PADNC_9/w_11_11#"
+merge "PADNC_9/w_11_11#" "ph2/Gnd2"
+merge "ph2/Gnd2" "PADGND_0/gnd"
+merge "PADGND_0/gnd" "ph1/Gnd"
+merge "ph1/Gnd" "ph1/Gnd2"
+merge "ph1/Gnd2" "PADVDD_0/w_11_11#"
+merge "PADVDD_0/w_11_11#" "PADVDD_0/w_n3_340#"
+merge "PADVDD_0/w_n3_340#" "PADFC_0/w_327_n3#"
+merge "PADFC_0/w_327_n3#" "PADFC_0/m2_769_0#"
+merge "PADFC_0/m2_769_0#" "PADFC_3/w_327_n3#"
