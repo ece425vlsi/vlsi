@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1494189148
+timestamp 1494191259
 << metal1 >>
 rect 3919 3799 4004 3895
 rect 3716 3441 3919 3444
@@ -601,7 +601,6 @@ rlabel metal2 3450 1733 3450 1733 1 srca0
 rlabel metal3 3438 1758 3438 1758 1 srcb0
 rlabel metal2 3064 3037 3064 3037 1 alusrca
 rlabel metal2 2761 1735 2761 1735 1 rd2_0
-rlabel metal2 2761 1845 2761 1845 1 rd2_1
 rlabel metal2 2761 1956 2761 1956 1 rd2_2
 rlabel metal2 2761 2065 2761 2065 1 rd2_3
 rlabel metal2 2761 2176 2761 2176 1 rd2_4
@@ -612,4 +611,5 @@ rlabel metal2 2458 3097 2458 3097 1 alusrcb1
 rlabel metal2 2425 3095 2425 3095 1 alusrcb0
 rlabel metal2 1952 3017 1952 3017 1 memtoreg
 rlabel metal2 2322 3025 2322 3025 1 regwrite
+rlabel metal2 2761 1845 2761 1845 1 rd2_1
 << end >>
