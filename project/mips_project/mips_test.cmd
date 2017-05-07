@@ -14,12 +14,16 @@ vector aluout aluout7 aluout6 aluout5 aluout4 aluout3 aluout2 aluout1 aluout0
 vector pcnext pcnext7 pcnext6 pcnext5 pcnext4 pcnext3 pcnext2 pcnext1 pcnext0
 vector pcsrc pcsrc1 pcsrc0
 vector aluresult aluresult7 aluresult6 aluresult5 aluresult4 aluresult3 aluresult2 aluresult1 aluresult0
+vector srca srca7 srca6 srca5 srca4 srca3 srca2 srca1 srca0
+vector srcb srcb7 srcb6 srcb5 srcb4 srcb3 srcb2 srcb1 srcb0
+vector rd2 rd2_7 rd2_6 rd2_5 rd2_4 rd2_3 rd2_2 rd2_1 rd2_0
+vector alusrcb alusrcb1 alusrcb0
 
 stepsize 250
 
 
-analyzer ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult
-w ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult
+analyzer ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult srca srcb alusrca rd2 alusrcb regwrite memtoreg
+w ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult srca srcb alusrca rd2 alusrcb regwrite memtoreg
 
 ################## PROCESSES ############################
 
@@ -227,7 +231,7 @@ run_mips
 #      run_mips
 #}
 
-for {set i 0} {$i < 15} {incr i} {
+for {set i 0} {$i < 100} {incr i} {
     run_mips
 }
 

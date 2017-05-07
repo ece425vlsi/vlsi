@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1488938149
+timestamp 1494184972
 << metal1 >>
 rect -98 1296 510 1304
 rect -98 1206 510 1214
@@ -995,10 +995,6 @@ rlabel metal2 -62 1250 -62 1250 1 wa_1_
 rlabel metal2 -30 1250 -30 1250 1 wa_0_
 rlabel m3contact 42 1250 42 1250 1 regwrite
 rlabel m3contact -94 1130 -94 1130 1 ra2_2_
-rlabel m3contact -64 1158 -60 1162 1 m2
-rlabel m3contact -62 1160 -62 1160 1 ra2_1_
-rlabel m3contact -32 1178 -28 1182 1 m2
-rlabel m3contact -30 1180 -30 1180 1 ra2_0_
 rlabel m3contact -94 1020 -94 1020 1 ra1_2_
 rlabel m3contact -62 1050 -62 1050 1 ra1_1_
 rlabel m3contact -30 1069 -30 1069 1 ra1_0_
@@ -1026,4 +1022,6 @@ rlabel metal3 571 670 571 670 1 r2_6_
 rlabel metal3 571 680 571 680 1 r1_6_
 rlabel metal3 571 780 571 780 1 r2_7_
 rlabel metal3 571 790 571 790 1 r1_7_
+rlabel m3contact -62 1160 -62 1160 1 ra2_1_
+rlabel m3contact -30 1180 -30 1180 1 ra2_0_
 << end >>

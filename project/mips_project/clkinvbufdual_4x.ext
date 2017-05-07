@@ -12,18 +12,18 @@ node "m2_16_9#" 1 1578 16 9 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188 102 0 0
 node "m2_n1_17#" 1 2330.4 -1 17 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 96 228 88
 node "m1_n2_n4#" 1 3859.2 -2 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 128 0 0 0 0
 node "m1_n2_86#" 1 3859.2 -2 86 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 448 128 0 0 0 0
-cap "m1_n2_n4#" "m2_n1_17#" 433.44
-cap "m1_n2_n4#" "m2_16_9#" 433.44
-cap "m2_n1_17#" "m2_16_9#" 409.44
-cap "clkinvbuf_4x_1/phb" "clkinvbuf_4x_0/Gnd!" 80.64
-cap "clkinvbuf_4x_0/ph" "clkinvbuf_4x_0/phb" 10.8
-cap "clkinvbuf_4x_0/Gnd!" "clkinvbuf_4x_0/phb" 51.12
-cap "clkinvbuf_4x_0/phbuf" "clkinvbuf_4x_0/a_7_7#" 35.64
-cap "clkinvbuf_4x_0/phbuf" "clkinvbuf_4x_0/phb" 71.82
-cap "clkinvbuf_4x_0/a_7_7#" "clkinvbuf_4x_0/phb" 10.8
+cap "m2_n1_17#" "m1_n2_n4#" 433.44
+cap "m2_16_9#" "m2_n1_17#" 409.44
+cap "m2_16_9#" "m1_n2_n4#" 433.44
 cap "clkinvbuf_4x_0/Gnd!" "clkinvbuf_4x_1/phbuf" 80.64
+cap "clkinvbuf_4x_0/phb" "clkinvbuf_4x_0/Gnd!" 51.12
+cap "clkinvbuf_4x_0/Gnd!" "clkinvbuf_4x_0/phbuf" 158.76
+cap "clkinvbuf_4x_0/phb" "clkinvbuf_4x_0/phbuf" 71.82
+cap "clkinvbuf_4x_0/phb" "clkinvbuf_4x_0/ph" 10.8
 cap "clkinvbuf_4x_0/ph" "clkinvbuf_4x_0/phbuf" 19.44
-cap "clkinvbuf_4x_0/phbuf" "clkinvbuf_4x_0/Gnd!" 158.76
+cap "clkinvbuf_4x_0/phb" "clkinvbuf_4x_0/a_7_7#" 10.8
+cap "clkinvbuf_4x_0/phbuf" "clkinvbuf_4x_0/a_7_7#" 35.64
+cap "clkinvbuf_4x_1/phb" "clkinvbuf_4x_0/Gnd!" 80.64
 merge "clkinvbuf_4x_0/phbuf" "m2_n1_17#" -446.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0
 merge "clkinvbuf_4x_1/phbuf" "m2_80_n6#" -416.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "clkinvbuf_4x_1/Vdd!" "clkinvbuf_4x_0/Vdd!" -5025.6 0 0 0 0 0 -112 0 0 0 0 0 0 0 0 0 0 -448 -176 0 0 0 0
