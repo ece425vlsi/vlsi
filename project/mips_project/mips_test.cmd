@@ -8,12 +8,18 @@ l Gnd!
 vector memdata memdata7 memdata6 memdata5 memdata4 memdata3 memdata2 memdata1 memdata0
 vector adr adr7 adr6 adr5 adr4 adr3 adr2 adr1 adr0
 vector writedata writedata7 writedata6 writedata5 writedata4 writedata3 writedata2 writedata1 writedata0
+vector instr instr7 instr6 instr5 instr4 instr3 instr2 instr1 instr0
+vector pc pc7 pc6 pc5 pc4 pc3 pc2 pc1 pc0
+vector aluout aluout7 aluout6 aluout5 aluout4 aluout3 aluout2 aluout1 aluout0
+vector pcnext pcnext7 pcnext6 pcnext5 pcnext4 pcnext3 pcnext2 pcnext1 pcnext0
+vector pcsrc pcsrc1 pcsrc0
+vector aluresult aluresult7 aluresult6 aluresult5 aluresult4 aluresult3 aluresult2 aluresult1 aluresult0
 
 stepsize 250
 
 
-analyzer ph1 ph2 reset memdata memwrite adr writedata
-w ph1 ph2 reset memdata memwrite adr writedata
+analyzer ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult
+w ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult
 
 ################## PROCESSES ############################
 

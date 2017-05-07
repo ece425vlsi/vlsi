@@ -26,39 +26,39 @@ node "m1_9_153#" 6 9554.4 9 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120 76 828 42
 node "m1_8_538#" 3 5860.8 8 538 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 536 284 0 0
 node "m1_n8_373#" 6 10291.2 -8 373 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 80 896 456 0 0
 node "m1_0_648#" 3 4968 0 648 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 456 244 0 0
-cap "m1_0_648#" "m1_n8_373#" 275.52
-cap "nor2_1x_4/y" "nor2_1x_4/a_7_67#" 43.2
+cap "m1_n8_373#" "m1_0_648#" 275.52
+cap "nor2_1x_4/Vdd!" "nor2_1x_4/y" 180.54
 cap "nor2_1x_4/y" "a_1_" 116.1
-cap "nor2_1x_4/y" "nor2_1x_4/Vdd!" 180.54
-cap "nand2_1x_1/b" "nand2_1x_1/Vdd!" 237.6
-cap "nand2_1x_1/Y" "nand2_1x_1/Vdd!" 202.5
+cap "nor2_1x_4/y" "nor2_1x_4/a_7_67#" 43.2
 cap "nand2_1x_1/Gnd!" "nand2_1x_1/A" 231.84
-cap "m1_9_153#" "nand2_1x_1/Vdd!" 27
-cap "nand2_1x_1/Vdd!" "nor2_1x_3/y" 91.44
+cap "nand2_1x_1/Y" "nand2_1x_1/Vdd!" 202.5
+cap "nand2_1x_1/b" "nand2_1x_1/Vdd!" 237.6
 cap "nor2_1x_3/Vdd!" "m1_9_153#" 97.2
-cap "nor2_1x_3/Gnd!" "nor2_1x_3/y" 80.64
-cap "nor2_1x_2/a" "nor2_1x_2/Vdd!" 116.1
+cap "nor2_1x_3/y" "nor2_1x_3/Gnd!" 80.64
+cap "nor2_1x_3/y" "nand2_1x_1/Vdd!" 91.44
+cap "nand2_1x_1/Vdd!" "m1_9_153#" 27
 cap "nor2_1x_3/Vdd!" "nor2_1x_2/b" 54
-cap "nor2_1x_2/Vdd!" "m1_n8_373#" 81
-cap "nor2_1x_1/Vdd!" "m1_n8_373#" 43.2
+cap "nor2_1x_2/a" "nor2_1x_2/Vdd!" 116.1
+cap "m1_n8_373#" "nor2_1x_2/Vdd!" 81
 cap "a_5_" "nor2_1x_1/y" 37.8
 cap "nor2_1x_1/y" "nor2_1x_1/Vdd!" 48.6
+cap "nor2_1x_1/Vdd!" "m1_n8_373#" 43.2
+cap "nand2_1x_0/Gnd!" "nand2_1x_0/b" 80.64
+cap "nand2_1x_0/Y" "nor2_1x_1/Vdd!" 108
 cap "nand2_1x_0/Y" "nand2_1x_0/Vdd!" 105.3
-cap "nand2_1x_0/b" "nor2_1x_1/a_7_67#" 43.2
-cap "nand2_1x_0/A" "nand2_1x_0/Vdd!" 16.2
-cap "nand2_1x_0/b" "nand2_1x_0/Gnd!" 80.64
-cap "nor2_1x_1/Vdd!" "nand2_1x_0/b" 131.94
-cap "nand2_1x_0/b" "nand2_1x_0/Y" 98.28
-cap "nand2_1x_0/b" "nor2_1x_1/b" 78.3
-cap "nor2_1x_1/Vdd!" "nand2_1x_0/Y" 108
-cap "nand2_1x_0/b" "nand2_1x_0/Vdd!" 24.3
-cap "nand2_1x_0/A" "nand2_1x_0/Y" 27.54
-cap "nand2_1x_0/b" "nand2_1x_0/Vdd!" 25.65
-cap "nand2_1x_0/Y" "nand2_1x_0/Vdd!" 32.4
-cap "nor2_1x_0/y" "nor2_1x_0/Gnd!" 80.64
-cap "nand2_1x_0/Y" "nor2_1x_0/y" 9.18
+cap "nand2_1x_0/b" "nor2_1x_1/Vdd!" 131.94
+cap "nand2_1x_0/Vdd!" "nand2_1x_0/b" 24.3
+cap "nand2_1x_0/Vdd!" "nand2_1x_0/A" 16.2
+cap "nand2_1x_0/Y" "nand2_1x_0/b" 98.28
+cap "nor2_1x_1/b" "nand2_1x_0/b" 78.3
+cap "nand2_1x_0/Y" "nand2_1x_0/A" 27.54
+cap "nor2_1x_1/a_7_67#" "nand2_1x_0/b" 43.2
+cap "nand2_1x_0/Vdd!" "nand2_1x_0/b" 25.65
 cap "nand2_1x_0/Y" "nand2_1x_0/b" 2.52
-cap "nor2_1x_0/y" "nand2_1x_0/Vdd!" 372.24
+cap "nand2_1x_0/Vdd!" "nor2_1x_0/y" 372.24
+cap "nand2_1x_0/Y" "nand2_1x_0/Vdd!" 32.4
+cap "nand2_1x_0/Y" "nor2_1x_0/y" 9.18
+cap "nor2_1x_0/y" "nor2_1x_0/Gnd!" 80.64
 merge "nand2_1x_1/A" "nor2_1x_4/y" -835.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0
 merge "nor2_1x_4/y" "m1_0_98#"
 merge "nor2_1x_4/a" "a_0_" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0

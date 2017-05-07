@@ -23,31 +23,31 @@ node "write" 815 890.82 2 39 pc 0 0 0 0 0 0 0 0 0 0 156 156 0 0 0 0 88 60 80 48 
 node "data" 2881 3655.08 9 31 pc 20 18 40 26 0 0 0 0 0 0 490 486 0 0 0 0 492 258 0 0 0 0
 node "writeb" 990 479.88 2 47 pc 0 0 0 0 0 0 0 0 0 0 188 188 0 0 0 0 76 46 16 16 0 0
 node "Vdd!" 4579 16128 -6 40 nw 144 144 96 56 4480 272 0 0 0 0 0 0 0 0 0 0 664 204 0 0 0 0
-cap "wt" "write" 227.52
-cap "data" "write" 227.52
-cap "Vdd!" "write" 1773.66
-cap "read1b" "r1" 747.12
-cap "writeb" "wt" 227.52
-cap "writeb" "data" 498.24
-cap "Vdd!" "writeb" 1736.88
-cap "data" "wt" 1843.44
 cap "Vdd!" "wt" 1718.28
-cap "Vdd!" "data" 5095.44
-cap "read1" "r1" 768.78
-cap "Vdd!" "r2" 1986
-cap "Vdd!" "read1b" 1467
-cap "read2b" "data" 227.52
-cap "Vdd!" "read2b" 1265.76
-cap "r2" "read2" 160.8
-cap "data" "read1" 227.52
-cap "wt" "read1" 270.72
-cap "write" "w" 1031.37
-cap "read2b" "r2" 160.8
 cap "data" "r1" 275.52
-cap "Vdd!" "r1" 1377.15
-cap "writeb" "w" 810.81
-cap "Vdd!" "w" 1169.85
 cap "writeb" "write" 558.24
+cap "Vdd!" "r2" 1986
+cap "read1" "r1" 768.78
+cap "Vdd!" "write" 1773.66
+cap "w" "write" 1031.37
+cap "writeb" "Vdd!" 1736.88
+cap "read2b" "data" 227.52
+cap "writeb" "w" 810.81
+cap "Vdd!" "read1b" 1467
+cap "data" "read1" 227.52
+cap "wt" "data" 1843.44
+cap "Vdd!" "w" 1169.85
+cap "r2" "read2b" 160.8
+cap "read1b" "r1" 747.12
+cap "wt" "read1" 270.72
+cap "Vdd!" "r1" 1377.15
+cap "write" "data" 227.52
+cap "writeb" "data" 498.24
+cap "wt" "write" 227.52
+cap "r2" "read2" 160.8
+cap "Vdd!" "data" 5095.44
+cap "writeb" "wt" 227.52
+cap "Vdd!" "read2b" 1265.76
 fet nfet 61 7 62 8 8 12 "Gnd!" "read2" 4 0 "a_58_7#" 4 0 "r2" 4 0
 fet nfet 56 7 57 8 8 12 "Gnd!" "data" 4 0 "Gnd!" 4 0 "a_58_7#" 4 0
 fet nfet 48 7 49 8 8 12 "Gnd!" "data" 4 0 "a_45_7#" 4 0 "Gnd!" 4 0

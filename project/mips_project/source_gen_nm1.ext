@@ -16,17 +16,17 @@ node "rightb" 924 448.92 15 5 p 0 0 0 0 0 0 0 0 0 0 184 180 0 0 0 0 64 40 16 16 
 node "right" 781 1769.4 8 46 pc 0 0 0 0 0 0 0 0 0 0 150 150 0 0 0 0 160 88 16 16 0 0
 node "A0" 1056 572.76 0 46 pc 0 0 0 0 0 0 0 0 0 0 200 200 0 0 0 0 16 16 16 16 0 0
 node "Vdd!" 3297 11289.6 -6 40 nw 96 96 104 60 3136 224 0 0 0 0 0 0 0 0 0 0 484 162 0 0 0 0
-cap "Vdd!" "Z" 2128.2
-cap "a_17_7#" "rightb" 1399.17
-cap "Vdd!" "Anm1" 1272
-cap "a_17_7#" "right" 678.33
-cap "Vdd!" "rightb" 1483.74
-cap "Anm1" "rightb" 170.4
-cap "Vdd!" "right" 1298.4
-cap "Vdd!" "a_17_7#" 1877.07
-cap "a_17_7#" "Anm1" 493.32
+cap "right" "Vdd!" 1298.4
+cap "Z" "Vdd!" 2128.2
+cap "Anm1" "a_17_7#" 493.32
+cap "A0" "Vdd!" 1182.24
+cap "Anm1" "Vdd!" 1272
+cap "a_17_7#" "Vdd!" 1877.07
 cap "right" "rightb" 227.52
-cap "Vdd!" "A0" 1182.24
+cap "Anm1" "rightb" 170.4
+cap "rightb" "a_17_7#" 1399.17
+cap "right" "a_17_7#" 678.33
+cap "rightb" "Vdd!" 1483.74
 fet nfet 36 7 37 8 14 18 "Gnd!" "a_17_7#" 4 0 "Gnd!" 7 0 "Z" 7 0
 fet nfet 28 7 29 8 12 16 "Gnd!" "Anm1" 4 0 "a_25_7#" 6 0 "Gnd!" 6 0
 fet nfet 23 7 24 8 12 16 "Gnd!" "right" 4 0 "a_17_7#" 6 0 "a_25_7#" 6 0

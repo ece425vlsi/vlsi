@@ -58,7 +58,7 @@ for {set i 0} {$i < 255} {incr i} {
     #puts "adec is: $adec"
     setvector A $adec
     s
-    checkAnswer
+    #checkAnswer
 
     }
 }
@@ -66,17 +66,18 @@ for {set i 0} {$i < 255} {incr i} {
 proc checkAnswer {} {
      set expectedNum 0
 
-     if { ~[query right] } {
-     	set expectedNum [expr [query A] << [query K]]
-     } elseif { [query arith] } {
+     if { [query right] } {
      	set expectedNum [expr [query A] >> [query K]]
+     } elseif { ~[query arith] } {
+     	set expectedNum [expr [query A] << [query K]]
      } else {
-     	set expectedNum [expr [query A] >> [query K]] # NEED TO ACCOUNT FOR LOGICAL SHIFT FEATURES
-	if { a7 } { # MUST SET THE BITS SHIFTED IN LOW
-	   set mask 127 #01111111
+     	set expectedNum [expr [query A] << [query K]] # NEED TO ACCOUNT FOR LOGICAL SHIFT FEATURES
+	if { ~[query a7] } { # MUST SET THE BITS SHIFTED IN LOW
+	   #set mask 127 #01111111
+	   set mask 128 #10000000
 	   for {set i 0} {$i < [query K]} {incr i} {
-	       set expectedNum [expr $expectedNum & $mask]
-	       set mask [expr $mask >> 1]
+	       set expectedNum [expr $expectedNum | $mask]
+	       set mask [expr $mask << 1]
 	   }
 	}
      }
