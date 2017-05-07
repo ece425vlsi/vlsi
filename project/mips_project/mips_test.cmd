@@ -228,7 +228,7 @@ l reset
 run_mips
 
 #while { ~[query memwrite] } {
-#      run_mips
+#run_mips
 #}
 
 for {set i 0} {$i < 100} {incr i} {

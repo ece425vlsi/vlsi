@@ -16,23 +16,23 @@ node "Anm1" 946 371.52 15 5 p 0 0 0 0 0 0 0 0 0 0 188 184 0 0 0 0 16 16 16 16 0 
 node "right" 913 294.12 8 43 pc 0 0 0 0 0 0 0 0 0 0 174 174 0 0 0 0 16 16 16 16 0 0
 node "arith" 951 776.22 0 26 pc 0 0 0 0 0 0 0 0 0 0 183 182 0 0 0 0 16 16 16 16 0 0
 node "Vdd!" 3060 8064 -6 40 nw 64 64 143 74 2240 192 0 0 0 0 0 0 0 0 0 0 384 144 0 0 0 0
-cap "arith" "Vdd!" 557.28
-cap "Vdd!" "Aimnp1" 3257.4
-cap "Vdd!" "Anm1" 1073.88
 cap "Aimnp1" "Anm1" 227.52
+cap "right" "Aimnp1" 404.88
+cap "Vdd!" "Aimnp1" 3257.4
+cap "Vdd!" "arith" 557.28
+cap "Vdd!" "Anm1" 1073.88
 cap "Vdd!" "right" 1042.92
-cap "Aimnp1" "right" 404.88
 fet nfet 15 7 16 8 32 36 "Gnd!" "Anm1" 4 0 "a_12_7#" 16 0 "Aimnp1" 16 0
 fet nfet 10 7 11 8 32 36 "Gnd!" "right" 4 0 "a_7_7#" 16 0 "a_12_7#" 16 0
 fet nfet 5 7 6 8 32 36 "Gnd!" "arith" 4 0 "Gnd!" 16 0 "a_7_7#" 16 0
 fet pfet 21 70 22 71 26 30 "Vdd!" "Anm1" 4 0 "Vdd!" 13 0 "Aimnp1" 13 0
 fet pfet 13 70 14 71 26 30 "Vdd!" "right" 4 0 "Aimnp1" 13 0 "Vdd!" 13 0
 fet pfet 5 70 6 71 26 30 "Vdd!" "arith" 4 0 "Vdd!" 13 0 "Aimnp1" 13 0
-cap "y" "nand2_1x_0/b" 63
-cap "y" "nand2_1x_0/A" 9.72
 cap "nand2_1x_0/Y" "y" 35.64
 cap "y" "nand2_1x_1/Y" 25.92
-cap "y" "Vdd!" 115.2
+cap "Vdd!" "y" 115.2
+cap "nand2_1x_0/A" "y" 9.72
+cap "nand2_1x_0/b" "y" 63
 merge "nand2_1x_1/b" "y" -852 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
 merge "nand2_1x_1/A" "nand2_1x_0/Y" -801 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
 merge "nand2_1x_0/Y" "m1_45_35#"
