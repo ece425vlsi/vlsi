@@ -21,34 +21,34 @@ node "ph2" 375 1313.34 60 17 pc 0 0 0 0 0 0 0 0 0 0 76 76 0 0 0 0 112 80 228 122
 node "ph2b" 957 464.4 60 53 pc 0 0 0 0 0 0 0 0 0 0 182 182 0 0 0 0 96 56 16 16 0 0
 node "d" 869 433.44 44 43 pc 0 0 0 0 0 0 0 0 0 0 166 166 0 0 0 0 32 24 16 16 0 0
 node "Vdd!" 7505 22579.2 34 40 nw 208 208 216 128 6272 336 0 0 0 0 0 0 0 0 0 0 1040 328 0 0 0 0
-cap "ph2" "masterb" 711.84
-cap "ph2b" "master" 227.52
-cap "ph1b" "ph1" 503.04
-cap "Vdd!" "ph1" 1265.4
+cap "masterb" "master" 455.04
+cap "masterb" "Vdd!" 1885.68
+cap "ph1" "slave" 711.84
+cap "ph1" "master" 160.8
 cap "Vdd!" "d" 1220.76
-cap "slave" "ph1" 711.84
-cap "master" "ph1" 160.8
-cap "masterinb" "d" 159
-cap "Vdd!" "q" 2139.6
-cap "Vdd!" "masterb" 1885.68
-cap "ph2b" "masterb" 643.44
-cap "ph2" "Vdd!" 1535.4
-cap "ph2" "ph2b" 503.04
-cap "master" "masterb" 455.04
-cap "masterinb" "ph2" 160.8
+cap "ph1" "ph1b" 503.04
+cap "Vdd!" "ph1" 1265.4
+cap "Vdd!" "masterinb" 2283.3
 cap "ph2" "master" 1310.4
+cap "Vdd!" "q" 2139.6
+cap "ph2" "Vdd!" 1535.4
+cap "ph2b" "master" 227.52
+cap "a_108_6#" "slave" 455.04
+cap "ph2b" "Vdd!" 2168.28
+cap "d" "masterinb" 159
 cap "ph1b" "a_108_6#" 227.52
 cap "Vdd!" "a_108_6#" 3920.94
-cap "slave" "a_108_6#" 455.04
-cap "ph1b" "Vdd!" 2115
-cap "ph2b" "Vdd!" 2168.28
-cap "slave" "ph1b" 546.24
+cap "ph2" "masterb" 711.84
+cap "ph2" "masterinb" 160.8
+cap "ph2b" "masterb" 643.44
+cap "ph2b" "masterinb" 160.8
+cap "ph1b" "slave" 546.24
 cap "ph1" "a_108_6#" 1308
-cap "slave" "Vdd!" 1960.08
-cap "masterinb" "Vdd!" 2283.3
 cap "ph1b" "master" 160.8
+cap "Vdd!" "slave" 1960.08
+cap "ph2" "ph2b" 503.04
 cap "Vdd!" "master" 2687.46
-cap "masterinb" "ph2b" 160.8
+cap "Vdd!" "ph1b" 2115
 fet nfet 133 8 134 9 14 18 "Gnd!" "a_108_6#" 4 0 "Gnd!" 7 0 "q" 7 0
 fet nfet 117 8 118 9 12 16 "Gnd!" "slave" 4 0 "Gnd!" 6 0 "a_108_6#" 6 0
 fet nfet 108 8 109 9 8 12 "Gnd!" "a_108_6#" 4 0 "a_103_8#" 4 0 "Gnd!" 4 0

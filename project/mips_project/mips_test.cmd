@@ -18,12 +18,16 @@ vector srca srca7 srca6 srca5 srca4 srca3 srca2 srca1 srca0
 vector srcb srcb7 srcb6 srcb5 srcb4 srcb3 srcb2 srcb1 srcb0
 vector rd2 rd2_7 rd2_6 rd2_5 rd2_4 rd2_3 rd2_2 rd2_1 rd2_0
 vector alusrcb alusrcb1 alusrcb0
+vector data data7 data6 data5 data4 data3 data2 data1 data0
+
+vector wa wa2 wa1 wa0
+vector wd wd7 wd6 wd5 wd4 wd3 wd2 wd1 wd0
 
 stepsize 250
 
 
-analyzer ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult srca srcb alusrca rd2 alusrcb regwrite memtoreg
-w ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult srca srcb alusrca rd2 alusrcb regwrite memtoreg
+analyzer ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult srca srcb alusrca rd2 alusrcb regwrite memtoreg wa wd data
+w ph1 ph2 reset memdata memwrite adr writedata instr iord pc aluout pcen pcnext pcsrc aluresult srca srcb alusrca rd2 alusrcb regwrite memtoreg wa wd data
 
 ################## PROCESSES ############################
 
@@ -214,6 +218,10 @@ s
 
 l ph1
 h ph2
+s
+
+h ph1
+l ph2
 s
 
 l reset

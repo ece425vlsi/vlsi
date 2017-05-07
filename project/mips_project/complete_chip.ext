@@ -1,4 +1,4 @@
-timestamp 1494192211
+timestamp 1494197803
 version 8.1
 tech scmos
 style AMI0.5um(amic5)from:T24H
@@ -8,34 +8,42 @@ use alt_mips alt_mips_0 1 0 1115 0 1 1152
 use PadFrame17 PadFrame17_0 1 0 0 0 1 0
 node "aluresult0" 0 87.6 3812 1737 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluout0" 0 110.4 1260 1737 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10
+node "wd0" 0 87.6 2180 1748 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb0" 0 87.6 3437 1757 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr0" 0 87.6 1973 1759 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult1" 0 157.8 3815 1834 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14
 node "aluout1" 0 110.4 1260 1848 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10
+node "wd1" 0 87.6 2180 1859 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb1" 0 87.6 3436 1869 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr1" 0 87.6 1972 1868 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult2" 0 87.6 3814 1956 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluout2" 0 87.6 1260 1958 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
+node "wd2" 0 66.6 2179 1968 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb2" 0 87.6 3436 1977 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr2" 0 87.6 1972 1979 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult3" 0 87.6 3816 2049 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluout3" 0 87.6 1260 2067 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
+node "wd3" 0 87.6 2180 2079 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb3" 0 87.6 3436 2087 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr3" 0 87.6 1972 2088 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult4" 0 110.4 3813 2166 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10
 node "aluout4" 0 87.6 1260 2177 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
+node "wd4" 0 87.6 2180 2188 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb4" 0 87.6 3437 2197 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr4" 0 87.6 1972 2198 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult5" 0 87.6 3813 2276 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluout5" 0 87.6 1260 2288 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
+node "wd5" 0 87.6 2180 2299 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb5" 0 87.6 3437 2307 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr5" 0 87.6 1972 2308 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult6" 0 87.6 3816 2396 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluout6" 0 87.6 1260 2397 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
+node "wd6" 0 87.6 2179 2409 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb6" 0 87.6 3437 2417 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr6" 0 87.6 1972 2419 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluresult7" 0 87.6 3825 2507 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "aluout7" 0 87.6 1260 2507 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
+node "wd7" 0 87.6 2182 2519 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "srcb7" 0 87.6 3437 2527 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "instr7" 0 87.6 1971 2529 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8
 node "m2_1447_999#" 0 276 1447 999 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
@@ -64,6 +72,8 @@ node "writedata5" 35 65188.8 2175 1042 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53
 node "writedata6" 40 76989.6 2183 1051 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5764 2898 5254 1774
 node "writedata7" 45 88824.9 2191 1060 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6206 3120 7006 2358
 node "pcen" 0 132.6 3304 2570 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0
+node "wa0" 0 132.6 2144 2945 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0
+node "wa1" 0 132.6 2112 2945 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0
 node "pcsrc1" 0 132.6 3248 3005 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0
 node "pcsrc0" 0 132.6 3216 3005 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0
 node "memtoreg" 0 167.1 1951 3016 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0
@@ -92,562 +102,572 @@ node "memdata7" 21 36706.8 998 3359 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3280 
 node "ph1" 21 41570.4 998 3659 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2644 1338 4026 1366
 node "ph2" 24 42679.2 998 3959 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3868 1950 1686 574
 node "adr0" 55 97780.8 1034 1757 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9004 4518 3144 1072
+node "data0" 0 176.4 2112 1721 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pcnext0" 0 176.4 3298 1743 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc0" 0 176.4 1285 1745 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data1" 0 223.2 2112 1829 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
 node "pcnext1" 0 176.4 3300 1853 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc1" 0 176.4 1285 1855 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data2" 0 223.2 2112 1940 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 10 0 0 0 0
 node "pcnext2" 0 176.4 3300 1963 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc2" 0 176.4 1285 1965 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data3" 0 176.4 2112 2051 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pcnext3" 0 176.4 3300 2073 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc3" 0 176.4 1285 2074 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data4" 0 176.4 2112 2160 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pcnext4" 0 176.4 3300 2183 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc4" 0 176.4 1285 2185 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data5" 0 176.4 2112 2271 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pcnext5" 0 176.4 3300 2293 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc5" 0 176.4 1285 2295 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data6" 0 176.4 2112 2383 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pcnext6" 0 176.4 3300 2403 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc6" 0 176.4 1285 2405 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "data7" 0 176.4 2112 2491 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pcnext7" 0 176.4 3300 2513 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "pc7" 0 176.4 1285 2515 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
+node "wa2" 0 176.4 2072 2945 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0
 node "Gnd!" 3 92904 3698 3404 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4395 616 36832 1264 0 0
 node "Vdd!" 2 157515 3716 3429 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17349 926 55552 1864 0 0
-cap "adr0" "memdata1" 409.44
-cap "memdata7" "adr5" 409.44
-cap "reset" "adr3" 409.44
-cap "ph1" "adr5" 409.44
-cap "memdata5" "adr3" 409.44
-cap "adr2" "memdata4" 409.44
-cap "adr0" "reset" 409.44
-cap "adr0" "memdata5" 409.44
-cap "ph2" "adr2" 409.44
-cap "memdata6" "adr6" 409.44
-cap "ph2" "ph1" 409.44
-cap "adr1" "memdata3" 409.44
-cap "memdata2" "memdata1" 818.88
-cap "Vdd!" "Gnd!" 4741.8
-cap "adr1" "memdata7" 409.44
-cap "adr4" "memdata7" 409.44
-cap "adr0" "memdata2" 409.44
-cap "memdata6" "adr2" 409.44
-cap "ph1" "adr1" 409.44
-cap "reset" "adr5" 409.44
-cap "memdata5" "adr5" 409.44
-cap "ph1" "adr4" 409.44
-cap "memdata4" "adr3" 409.44
-cap "adr0" "memdata4" 409.44
-cap "ph2" "reset" 935.04
-cap "ph2" "adr3" 409.44
-cap "adr0" "ph2" 409.44
-cap "adr7" "memdata7" 409.44
-cap "adr6" "memdata7" 409.44
-cap "adr1" "memdata1" 409.44
-cap "adr7" "ph1" 409.44
-cap "adr6" "ph1" 409.44
+cap "adr4" "memdata6" 409.44
 cap "adr2" "memdata3" 409.44
-cap "reset" "adr1" 409.44
-cap "memdata5" "adr1" 409.44
-cap "reset" "adr4" 409.44
-cap "memdata5" "adr4" 409.44
-cap "memdata6" "adr3" 409.44
-cap "adr2" "memdata7" 409.44
-cap "adr0" "memdata6" 409.44
-cap "memdata0" "memdata1" 818.88
-cap "ph1" "adr2" 409.44
-cap "ph2" "adr5" 409.44
-cap "adr0" "memdata0" 409.44
-cap "adr7" "reset" 409.44
-cap "adr6" "reset" 409.44
-cap "adr1" "memdata2" 409.44
-cap "memdata3" "adr3" 409.44
-cap "adr7" "memwrite" 818.88
-cap "adr0" "memdata3" 409.44
-cap "adr6" "memwrite" 818.88
 cap "memdata6" "adr5" 409.44
-cap "adr1" "memdata4" 409.44
-cap "memdata4" "adr4" 409.44
+cap "memdata5" "adr3" 409.44
+cap "ph2" "adr3" 409.44
+cap "reset" "ph2" 935.04
+cap "adr2" "memdata4" 409.44
+cap "memdata2" "adr2" 409.44
+cap "adr4" "ph1" 409.44
+cap "adr7" "memwrite" 818.88
+cap "reset" "adr3" 409.44
+cap "Gnd!" "Vdd!" 4741.8
+cap "ph1" "adr5" 409.44
 cap "memdata7" "adr3" 409.44
+cap "memdata5" "adr1" 409.44
 cap "ph2" "adr1" 409.44
-cap "reset" "adr2" 409.44
-cap "memdata5" "adr2" 409.44
-cap "adr0" "memdata7" 409.44
-cap "ph2" "adr4" 409.44
-cap "reset" "ph1" 818.88
-cap "ph1" "adr3" 409.44
-cap "adr0" "ph1" 409.44
-cap "memdata6" "adr1" 409.44
-cap "adr7" "ph2" 409.44
+cap "memdata3" "adr3" 409.44
+cap "adr0" "memdata5" 409.44
+cap "adr2" "memdata6" 409.44
+cap "adr0" "ph2" 409.44
+cap "reset" "adr1" 409.44
+cap "adr0" "memdata0" 409.44
+cap "adr0" "reset" 409.44
+cap "memdata7" "adr1" 409.44
+cap "adr3" "memdata4" 409.44
+cap "memdata3" "adr1" 409.44
+cap "memdata7" "adr0" 409.44
+cap "memdata0" "memdata1" 818.88
+cap "adr7" "ph1" 409.44
+cap "adr0" "memdata3" 409.44
+cap "adr2" "ph1" 409.44
 cap "adr6" "ph2" 409.44
-cap "memdata6" "adr4" 409.44
-cap "adr2" "memdata2" 409.44
-cap "PadFrame17_0/memdata0/Vdd" "memdata0" 2.84217e-14
-cap "PadFrame17_0/memdata0/Vdd" "memdata0" 19.8
+cap "memdata4" "adr1" 409.44
+cap "memdata6" "adr3" 409.44
+cap "memdata1" "adr1" 409.44
+cap "memdata2" "adr1" 409.44
+cap "reset" "adr6" 409.44
+cap "adr0" "memdata4" 409.44
+cap "adr0" "memdata1" 409.44
+cap "memdata2" "adr0" 409.44
+cap "memdata7" "adr6" 409.44
+cap "adr4" "memdata5" 409.44
+cap "ph1" "ph2" 409.44
+cap "memdata2" "memdata1" 818.88
+cap "adr4" "ph2" 409.44
+cap "memdata6" "adr1" 409.44
+cap "memdata5" "adr5" 409.44
+cap "ph2" "adr5" 409.44
+cap "ph1" "adr3" 409.44
+cap "reset" "ph1" 818.88
+cap "adr0" "memdata6" 409.44
+cap "reset" "adr4" 409.44
+cap "reset" "adr5" 409.44
+cap "memdata7" "adr4" 409.44
+cap "memwrite" "adr6" 818.88
+cap "memdata7" "adr5" 409.44
+cap "wd2" "writedata5" 67.2
+cap "ph1" "adr1" 409.44
+cap "adr0" "ph1" 409.44
+cap "memdata6" "adr6" 409.44
+cap "adr7" "ph2" 409.44
+cap "adr2" "memdata5" 409.44
+cap "adr4" "memdata4" 409.44
+cap "adr2" "ph2" 409.44
+cap "adr7" "reset" 409.44
+cap "adr2" "reset" 409.44
+cap "adr7" "memdata7" 409.44
+cap "memdata7" "adr2" 409.44
+cap "ph1" "adr6" 409.44
+cap "memdata0" "PadFrame17_0/memdata0/Vdd" 2.84217e-14
+cap "memdata0" "PadFrame17_0/memdata0/Vdd" 19.8
 cap "writedata0" "PadFrame17_0/writedata0/Vdd" 16.2
-cap "PadFrame17_0/writedata1/Vdd" "PadFrame17_0/writedata1/a_38_44#" 16.2
-cap "PadFrame17_0/writedata1/Vdd" "writedata1" 16.2
-cap "PadFrame17_0/writedata2/Vdd" "writedata2" 16.2
+cap "PadFrame17_0/writedata1/a_38_44#" "PadFrame17_0/writedata1/Vdd" 16.2
+cap "writedata1" "PadFrame17_0/writedata1/Vdd" 16.2
+cap "writedata2" "PadFrame17_0/writedata2/Vdd" 16.2
 cap "PadFrame17_0/writedata3/Vdd" "writedata3" 16.2
 cap "writedata4" "PadFrame17_0/writedata4/Vdd" 16.2
 cap "writedata5" "PadFrame17_0/writedata5/Vdd" 16.2
-cap "PadFrame17_0/writedata6/Vdd" "writedata6" 16.2
-cap "writedata7" "PadFrame17_0/writedata7/Vdd" 16.2
-cap "alt_mips_0/datapath_0/Gnd!" "writedata3" 80.64
-cap "writedata2" "alt_mips_0/datapath_0/Gnd!" 80.64
+cap "writedata6" "PadFrame17_0/writedata6/Vdd" 16.2
+cap "PadFrame17_0/writedata7/Vdd" "writedata7" 16.2
 cap "writedata1" "alt_mips_0/datapath_0/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/Gnd!" "writedata0" 80.64
-cap "writedata4" "alt_mips_0/datapath_0/Gnd!" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Gnd!" 80.64
-cap "writedata5" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Gnd!" "writedata7" 80.64
-cap "PadFrame17_0/memdata1/Vdd" "memdata1" 2.84217e-14
-cap "PadFrame17_0/memdata1/Vdd" "memdata1" 19.8
-cap "alt_mips_0/datapath_0/Vdd!" "writedata2" 80.64
-cap "alt_mips_0/datapath_0/Vdd!" "writedata3" 80.64
-cap "alt_mips_0/datapath_0/Vdd!" "writedata1" 80.64
-cap "alt_mips_0/datapath_0/Vdd!" "writedata0" 80.64
-cap "writedata2" "alt_mips_0/datapath_0/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/Gnd!" "writedata3" 80.64
-cap "writedata1" "alt_mips_0/datapath_0/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/Gnd!" "writedata0" 80.64
+cap "writedata0" "alt_mips_0/datapath_0/Gnd!" 80.64
+cap "writedata3" "alt_mips_0/datapath_0/Gnd!" 80.64
+cap "alt_mips_0/datapath_0/Gnd!" "writedata2" 80.64
 cap "alt_mips_0/datapath_0/Gnd!" "writedata4" 80.64
-cap "writedata4" "alt_mips_0/datapath_0/Vdd!" 80.64
-cap "writedata5" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Vdd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Gnd!" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Gnd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Vdd!" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Vdd!" 80.64
-cap "writedata5" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Gnd!" 80.64
-cap "writedata3" "alt_mips_0/datapath_0/Vdd!" 80.64
+cap "writedata5" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Gnd!" 80.64
+cap "writedata7" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Gnd!" 80.64
+cap "writedata6" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Gnd!" 80.64
+cap "memdata1" "PadFrame17_0/memdata1/Vdd" 2.84217e-14
+cap "PadFrame17_0/memdata1/Vdd" "memdata1" 19.8
+cap "writedata1" "alt_mips_0/datapath_0/Gnd!" 80.64
+cap "alt_mips_0/datapath_0/Vdd!" "writedata2" 80.64
 cap "writedata0" "alt_mips_0/datapath_0/Vdd!" 80.64
-cap "alt_mips_0/datapath_0/Vdd!" "writedata1" 80.64
-cap "writedata2" "alt_mips_0/datapath_0/Vdd!" 80.64
+cap "writedata3" "alt_mips_0/datapath_0/Gnd!" 80.64
+cap "writedata1" "alt_mips_0/datapath_0/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/Vdd!" "writedata3" 80.64
+cap "alt_mips_0/datapath_0/Gnd!" "writedata2" 80.64
+cap "writedata0" "alt_mips_0/datapath_0/Gnd!" 80.64
 cap "alt_mips_0/datapath_0/Vdd!" "writedata4" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Vdd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Vdd!" 80.64
+cap "writedata4" "alt_mips_0/datapath_0/Gnd!" 80.64
+cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Vdd!" "writedata5" 80.64
+cap "writedata6" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Gnd!" "writedata7" 80.64
+cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Gnd!" "writedata5" 80.64
+cap "writedata7" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_nm2_0_0[0]/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Gnd!" "writedata6" 80.64
+cap "alt_mips_0/datapath_0/Vdd!" "writedata2" 80.64
+cap "alt_mips_0/datapath_0/Vdd!" "writedata0" 80.64
+cap "writedata1" "alt_mips_0/datapath_0/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/Vdd!" "writedata3" 80.64
+cap "writedata4" "alt_mips_0/datapath_0/Vdd!" 80.64
 cap "writedata5" "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Vdd!" 80.64
-cap "alt_mips_0/datapath_0/shamt1" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Vdd!" "writedata6" 80.64
+cap "alt_mips_0/datapath_0/array_sh_sg_0/source_gen_7_0_0/source_gen_2nm2_n_0[0]/Vdd!" "writedata7" 80.64
+cap "alt_mips_0/datapath_0/shamt2" "writedata5" 73.44
+cap "writedata7" "alt_mips_0/datapath_0/shamt0" 73.44
+cap "alt_mips_0/datapath_0/shamt1" "writedata5" 73.44
 cap "alt_mips_0/datapath_0/shamt2" "writedata6" 73.44
-cap "alt_mips_0/datapath_0/shamt1" "writedata6" 73.44
 cap "alt_mips_0/datapath_0/shamt0" "writedata5" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/shamt2" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/shamt1" 73.44
-cap "alt_mips_0/datapath_0/shamt0" "writedata7" 73.44
-cap "alt_mips_0/datapath_0/shamt0" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/shamt1" "writedata6" 73.44
 cap "alt_mips_0/datapath_0/shamt2" "writedata7" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "writedata2" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "writedata3" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "writedata1" 40.32
+cap "alt_mips_0/datapath_0/shamt1" "writedata7" 73.44
+cap "writedata6" "alt_mips_0/datapath_0/shamt0" 73.44
+cap "writedata1" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
+cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
+cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
 cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "writedata0" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "writedata4" 40.32
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" 40.32
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" "writedata5" 40.32
 cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" "writedata6" 40.32
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
 cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" "writedata7" 40.32
-cap "alt_mips_0/datapath_0/Vdd!" "adr0" 1175.04
-cap "alt_mips_0/datapath_0/Vdd!" "memdata0" 1175.04
 cap "alt_mips_0/datapath_0/Gnd!" "adr0" 238.68
-cap "memdata0" "alt_mips_0/datapath_0/Gnd!" 238.68
-cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_7/Gnd!" "alt_mips_0/datapath_0/adr0" 697.68
+cap "alt_mips_0/datapath_0/Gnd!" "memdata0" 238.68
+cap "adr0" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "memdata0" "alt_mips_0/datapath_0/Vdd!" 1175.04
 cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_7/Gnd!" "alt_mips_0/datapath_0/memdata0" 697.68
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "writedata1" 40.32
-cap "writedata3" "alt_mips_0/datapath_0/m2_n1_37#" 73.44
-cap "alt_mips_0/datapath_0/writedata0" "writedata2" 73.44
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/d" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" "writedata2" 80.64
+cap "alt_mips_0/datapath_0/adr0" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_7/Gnd!" 697.68
+cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/m2_n1_37#" 73.44
+cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/d" 73.44
+cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_7/slave" 1.77636e-15
+cap "alt_mips_0/datapath_0/m2_n1_37#" "writedata1" 73.44
+cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" 78.3
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" "writedata1" 80.64
+cap "alt_mips_0/datapath_0/writedata0" "writedata3" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/d" "writedata1" 73.44
+cap "writedata2" "alt_mips_0/datapath_0/writedata0" 73.44
+cap "alt_mips_0/datapath_0/m2_31_27#" "writedata3" 73.44
+cap "writedata2" "alt_mips_0/datapath_0/m2_31_27#" 73.44
+cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/m2_31_27#" 73.44
+cap "alt_mips_0/datapath_0/writedata0" "writedata1" 73.44
 cap "alt_mips_0/datapath_0/m2_31_27#" "writedata1" 73.44
 cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
-cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" 78.3
-cap "writedata3" "alt_mips_0/datapath_0/m2_31_27#" 73.44
-cap "alt_mips_0/datapath_0/m2_n1_37#" "writedata2" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/d" "writedata2" 73.44
-cap "alt_mips_0/datapath_0/writedata0" "writedata1" 73.44
-cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/m2_n1_37#" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" "writedata1" 80.64
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "writedata2" 40.32
-cap "writedata3" "alt_mips_0/datapath_0/writedata0" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" "alt_mips_0/datapath_0/m2_n1_37#" -5.4
-cap "writedata2" "alt_mips_0/datapath_0/m2_31_27#" 73.44
+cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
 cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
-cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_7/slave" 1.77636e-15
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" 80.64
-cap "alt_mips_0/datapath_0/m2_n1_37#" "writedata1" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/d" "writedata1" 73.44
-cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/m2_31_27#" 73.44
-cap "alt_mips_0/datapath_0/m2_n1_37#" "writedata4" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "writedata4" 40.32
+cap "alt_mips_0/datapath_0/m2_n1_37#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" -5.4
+cap "writedata1" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 40.32
+cap "alt_mips_0/datapath_0/m2_n1_37#" "writedata3" 73.44
+cap "writedata2" "alt_mips_0/datapath_0/m2_n1_37#" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/d" "writedata3" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" "writedata3" 80.64
+cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/d" -10.8
 cap "alt_mips_0/datapath_0/m2_n1_37#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/q" -4.32
-cap "alt_mips_0/datapath_0/m2_31_27#" "writedata4" 73.44
-cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" -10.8
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/q" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/d" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" -10.8
 cap "alt_mips_0/datapath_0/writedata0" "writedata4" 73.44
-cap "alt_mips_0/datapath_0/m2_n1_37#" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" -3.6
 cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/d" "writedata4" 73.44
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" 199.44
-cap "writedata6" "alt_mips_0/datapath_0/m2_31_27#" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/y" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
-cap "writedata7" "alt_mips_0/datapath_0/m1_1656_33#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" "alt_mips_0/datapath_0/m1_1656_33#" -10.8
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" 40.32
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_7/q" 40.32
+cap "alt_mips_0/datapath_0/m2_31_27#" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" "alt_mips_0/datapath_0/m2_n1_37#" -3.6
+cap "alt_mips_0/datapath_0/m2_n1_37#" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" "writedata4" 199.44
+cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_7/Vdd!" -10.8
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" 73.44
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/writedata0" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_33#" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" -10.8
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_33#" "writedata6" 73.44
+cap "writedata5" "wd0" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
+cap "alt_mips_0/datapath_0/m1_1656_33#" "writedata7" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/m2_31_27#" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" "wd0" -10.8
+cap "writedata6" "wd0" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" 210.24
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
 cap "writedata5" "alt_mips_0/datapath_0/writedata0" 73.44
 cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/m2_31_27#" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/y" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/m1_1656_33#" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" 80.64
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
-cap "writedata5" "alt_mips_0/datapath_0/m1_1656_33#" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/writedata0" 73.44
+cap "writedata7" "wd0" 73.44
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Gnd!" 40.32
+cap "alt_mips_0/datapath_0/m2_31_27#" "writedata6" 73.44
 cap "alt_mips_0/datapath_0/writedata0" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" -10.8
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_27#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" -5.4
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/y" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/writedata0" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" 210.24
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/y" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" -10.8
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" 73.44
-cap "PadFrame17_0/memdata3/Vdd" "memdata2" 2.84217e-14
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/d0" -5.4
+cap "alt_mips_0/datapath_0/m2_31_27#" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/writedata0" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_33#" "writedata5" 73.44
+cap "memdata2" "PadFrame17_0/memdata3/Vdd" 2.84217e-14
 cap "PadFrame17_0/memdata3/Vdd" "memdata2" 19.8
-cap "alt_mips_0/datapath_0/Vdd!" "memdata1" 1175.04
-cap "alt_mips_0/datapath_0/Gnd!" "memdata1" 238.68
 cap "adr1" "alt_mips_0/datapath_0/Vdd!" 1175.04
-cap "adr1" "alt_mips_0/datapath_0/Gnd!" 238.68
-cap "alt_mips_0/datapath_0/memdata1" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_6/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/adr1" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_6/Gnd!" 697.68
-cap "writedata3" "alt_mips_0/datapath_0/writedata1" 73.44
-cap "writedata3" "alt_mips_0/datapath_0/m2_n1_147#" 73.44
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Gnd!" 80.64
-cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" 40.32
-cap "writedata3" "alt_mips_0/datapath_0/m2_31_137#" 73.44
-cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_6/slave" 1.77636e-15
-cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/m2_n1_147#" 73.44
-cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/d" 73.44
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" 40.32
-cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/m2_31_137#" 73.44
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/d" 73.44
-cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" -2.84217e-14
+cap "alt_mips_0/datapath_0/Gnd!" "adr1" 238.68
+cap "memdata1" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "alt_mips_0/datapath_0/Gnd!" "memdata1" 238.68
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_6/Gnd!" "alt_mips_0/datapath_0/adr1" 697.68
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_6/Gnd!" "alt_mips_0/datapath_0/memdata1" 697.68
+cap "alt_mips_0/datapath_0/m2_n1_147#" "writedata3" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Gnd!" "writedata2" 80.64
+cap "alt_mips_0/datapath_0/m2_31_137#" "writedata2" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/d" "writedata3" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" "writedata2" 40.32
 cap "alt_mips_0/datapath_0/writedata1" "writedata2" 73.44
-cap "writedata2" "alt_mips_0/datapath_0/m2_n1_147#" 73.44
-cap "writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Gnd!" 80.64
-cap "writedata2" "alt_mips_0/datapath_0/m2_31_137#" 73.44
-cap "alt_mips_0/datapath_0/m2_n1_147#" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" -3.6
-cap "alt_mips_0/datapath_0/m2_31_137#" "writedata4" 73.44
-cap "writedata4" "alt_mips_0/datapath_0/writedata1" 73.44
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/q" 40.32
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/d" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" "alt_mips_0/datapath_0/writedata1" -10.8
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" 153.72
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/d" -10.8
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Gnd!" 80.64
+cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/m2_31_137#" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Gnd!" "alt_mips_0/datapath_0/writedata1" 80.64
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" "alt_mips_0/datapath_0/writedata1" -2.84217e-14
+cap "alt_mips_0/datapath_0/m2_n1_147#" "writedata2" 73.44
+cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_6/slave" 1.77636e-15
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Gnd!" "writedata3" 80.64
+cap "writedata3" "alt_mips_0/datapath_0/m2_31_137#" 73.44
+cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/m2_n1_147#" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/d" "writedata2" 73.44
+cap "alt_mips_0/datapath_0/writedata1" "writedata3" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" "writedata3" 40.32
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" "writedata4" 153.72
 cap "alt_mips_0/datapath_0/m2_n1_147#" "writedata4" 73.44
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/q" 40.32
+cap "alt_mips_0/datapath_0/writedata1" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/d" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" -10.8
+cap "alt_mips_0/datapath_0/m2_31_137#" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/d" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Gnd!" "writedata4" 80.64
+cap "alt_mips_0/datapath_0/m2_n1_147#" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" -3.6
 cap "alt_mips_0/datapath_0/m2_n1_147#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/q" -4.32
-cap "alt_mips_0/datapath_0/writedata1" "writedata6" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/y" -10.8
-cap "writedata5" "alt_mips_0/datapath_0/m2_31_137#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "writedata6" 40.32
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Gnd!" "writedata5" 80.64
+cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" -10.8
+cap "alt_mips_0/datapath_0/m1_1656_253#" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_253#" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" -10.8
+cap "writedata5" "alt_mips_0/datapath_0/m1_1656_253#" 73.44
 cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "writedata7" 73.44
 cap "alt_mips_0/datapath_0/m2_31_137#" "writedata6" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/y" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m1_1656_253#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" -5.4
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Gnd!" "writedata6" 80.64
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "alt_mips_0/datapath_0/m1_1656_253#" -10.8
 cap "alt_mips_0/datapath_0/writedata1" "writedata7" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/y" "writedata6" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "writedata7" 40.32
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "writedata5" 73.44
-cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" -10.8
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_137#" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/m1_1656_253#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "writedata6" 73.44
 cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Gnd!" "writedata7" 80.64
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" -5.4
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "writedata5" 73.44
+cap "wd1" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/writedata1" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" -10.8
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" 40.32
+cap "alt_mips_0/datapath_0/m1_1656_253#" "writedata6" 73.44
 cap "alt_mips_0/datapath_0/writedata1" "writedata5" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/y" "writedata7" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/m1_1656_253#" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Gnd!" "writedata5" 80.64
+cap "wd1" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" -10.8
+cap "writedata5" "wd1" 73.44
 cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" 164.52
-cap "memdata2" "alt_mips_0/datapath_0/Gnd!" 119.34
-cap "alt_mips_0/datapath_0/Vdd!" "adr2" 1175.04
-cap "adr2" "alt_mips_0/datapath_0/Gnd!" 238.68
-cap "memdata2" "alt_mips_0/datapath_0/Vdd!" 587.52
-cap "alt_mips_0/datapath_0/adr2" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_5/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/memdata2" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_5/Gnd!" 348.84
-cap "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/q" "alt_mips_0/datapath_0/m2_n1_257#" -8.64
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/q" 40.32
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/d" 36.72
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/m2_31_247#" 73.44
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/slave" 1.77636e-15
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/Vdd!" -2.84217e-14
-cap "writedata3" "alt_mips_0/datapath_0/m2_n1_257#" 73.44
-cap "alt_mips_0/datapath_0/writedata2" "writedata3" 73.44
-cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" 40.32
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/m2_n1_257#" 73.44
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/q" "writedata3" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Gnd!" "writedata3" 80.64
-cap "alt_mips_0/datapath_0/m2_31_247#" "writedata3" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" "alt_mips_0/datapath_0/writedata2" -10.8
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/d" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" -5.4
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" 45.72
-cap "alt_mips_0/datapath_0/m2_n1_257#" "writedata4" 73.44
-cap "alt_mips_0/datapath_0/m2_n1_257#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/q" -4.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/q" "writedata4" 40.32
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" "alt_mips_0/datapath_0/m2_n1_257#" -3.6
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" "writedata4" 97.2
-cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/Gnd!" 80.64
-cap "writedata4" "alt_mips_0/datapath_0/writedata2" 73.44
-cap "alt_mips_0/datapath_0/m2_31_247#" "writedata4" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/d" "writedata4" 36.72
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "writedata7" 40.32
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" -5.4
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" "writedata5" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Gnd!" "writedata7" 80.64
-cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" -10.8
-cap "writedata5" "alt_mips_0/datapath_0/writedata2" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_247#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/y" "writedata7" 73.44
-cap "alt_mips_0/datapath_0/m1_1656_363#" "writedata7" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" 108
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" 45.72
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Gnd!" "writedata5" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" 73.44
-cap "alt_mips_0/datapath_0/m1_1656_363#" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" -10.8
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/y" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" -10.8
-cap "writedata5" "alt_mips_0/datapath_0/m2_31_247#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/y" "writedata5" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/m1_1656_363#" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/writedata2" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/d0" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/m2_31_137#" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/writedata1" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Gnd!" "writedata6" 80.64
+cap "wd1" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/m2_31_137#" "writedata5" 73.44
 cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" 40.32
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" "writedata7" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/y" "writedata6" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/m1_1656_363#" 73.44
-cap "alt_mips_0/datapath_0/writedata2" "writedata7" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/m2_31_247#" 73.44
-cap "alt_mips_0/datapath_0/Vdd!" "adr3" 1175.04
-cap "alt_mips_0/datapath_0/Vdd!" "memdata2" 587.52
-cap "adr3" "alt_mips_0/datapath_0/Gnd!" 238.68
+cap "alt_mips_0/datapath_0/Gnd!" "adr2" 238.68
 cap "alt_mips_0/datapath_0/Gnd!" "memdata2" 119.34
-cap "alt_mips_0/datapath_0/adr3" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_4/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/memdata2" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_4/Gnd!" 348.84
-cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" 80.64
+cap "adr2" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "memdata2" "alt_mips_0/datapath_0/Vdd!" 587.52
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_5/Gnd!" "alt_mips_0/datapath_0/adr2" 697.68
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_5/Gnd!" "alt_mips_0/datapath_0/memdata2" 348.84
+cap "writedata3" "alt_mips_0/datapath_0/writedata2" 73.44
+cap "writedata3" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/q" 40.32
+cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/q" 40.32
+cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/slave" 1.77636e-15
+cap "writedata3" "alt_mips_0/datapath_0/m2_31_247#" 73.44
+cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/m2_31_247#" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Gnd!" "writedata3" 80.64
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Gnd!" "alt_mips_0/datapath_0/writedata2" 80.64
+cap "alt_mips_0/datapath_0/m2_n1_257#" "writedata3" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/d" "writedata3" 36.72
+cap "alt_mips_0/datapath_0/m2_n1_257#" "alt_mips_0/datapath_0/writedata2" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" "writedata3" 40.32
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_6/Vdd!" "alt_mips_0/datapath_0/writedata2" 40.32
+cap "alt_mips_0/datapath_0/m2_n1_257#" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/q" -8.64
+cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_5/Vdd!" -2.84217e-14
+cap "alt_mips_0/datapath_0/writedata2" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" -10.8
+cap "alt_mips_0/datapath_0/writedata2" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/m2_n1_257#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" -3.6
+cap "alt_mips_0/datapath_0/m2_n1_257#" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_6/Vdd!" "writedata4" 45.72
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/d" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" -5.4
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/d" "writedata4" 36.72
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/q" "writedata4" 40.32
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/Gnd!" "writedata4" 80.64
+cap "alt_mips_0/datapath_0/m2_31_247#" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/q" "alt_mips_0/datapath_0/m2_n1_257#" -4.32
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" "writedata4" 97.2
+cap "wd2" "writedata7" 73.44
+cap "writedata5" "wd2" 73.44
+cap "alt_mips_0/datapath_0/m2_31_247#" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Gnd!" "writedata6" 80.64
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "writedata6" 40.32
+cap "alt_mips_0/datapath_0/m1_1656_363#" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" -10.8
+cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" "alt_mips_0/datapath_0/writedata2" -10.8
+cap "alt_mips_0/datapath_0/m2_31_247#" "writedata7" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/m2_31_247#" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_363#" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/writedata2" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" "writedata7" 40.32
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Gnd!" "writedata7" 80.64
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Gnd!" 80.64
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/Vdd!" 45.72
+cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" -5.4
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" "writedata6" 73.44
+cap "wd2" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" -10.8
+cap "alt_mips_0/datapath_0/m1_1656_363#" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_363#" "writedata5" 73.44
+cap "alt_mips_0/datapath_0/writedata2" "writedata7" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/writedata2" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/Vdd!" 108
+cap "wd2" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" "writedata7" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/d0" 73.44
+cap "alt_mips_0/datapath_0/Gnd!" "memdata2" 119.34
+cap "alt_mips_0/datapath_0/Gnd!" "adr3" 238.68
+cap "alt_mips_0/datapath_0/Vdd!" "memdata2" 587.52
+cap "alt_mips_0/datapath_0/Vdd!" "adr3" 1175.04
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_4/Gnd!" "alt_mips_0/datapath_0/memdata2" 348.84
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_4/Gnd!" "alt_mips_0/datapath_0/adr3" 697.68
+cap "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_4/q" "alt_mips_0/datapath_0/writedata3" 40.32
 cap "alt_mips_0/datapath_0/m2_31_357#" "alt_mips_0/datapath_0/writedata3" 73.44
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" -3.55271e-15
 cap "alt_mips_0/datapath_0/m2_n1_367#" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_4/q" -4.32
-cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_4/q" 40.32
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Gnd!" "alt_mips_0/datapath_0/writedata3" 80.64
 cap "alt_mips_0/datapath_0/memdata2" "alt_mips_0/datapath_0/writedata3" 36.72
-cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/m2_n1_367#" 73.44
 cap "alt_mips_0/datapath_0/flopen_1x_8_0/flopen_dp_1x_4/qbar" "alt_mips_0/datapath_0/writedata3" 3.55271e-15
-cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" -5.4
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_4/Gnd!" "writedata4" 80.64
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" "writedata4" 81
-cap "alt_mips_0/datapath_0/memdata2" "writedata4" 36.72
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" "alt_mips_0/datapath_0/writedata3" 80.64
+cap "alt_mips_0/datapath_0/m2_n1_367#" "alt_mips_0/datapath_0/writedata3" 73.44
+cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" -3.55271e-15
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" 81
+cap "alt_mips_0/datapath_0/m2_n1_367#" "writedata4" 73.44
 cap "alt_mips_0/datapath_0/memdata2" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" -5.4
-cap "alt_mips_0/datapath_0/m2_31_357#" "writedata4" 73.44
-cap "writedata4" "alt_mips_0/datapath_0/m2_n1_367#" 73.44
-cap "alt_mips_0/datapath_0/writedata3" "writedata4" 36.72
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" "writedata4" 102.24
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/m2_n1_367#" -5.4
-cap "writedata5" "alt_mips_0/datapath_0/writedata3" 36.72
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" -5.4
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/y" 73.44
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/m1_1656_473#" -10.8
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/m1_1656_473#" "writedata5" 73.44
+cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" -5.4
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" 102.24
+cap "writedata4" "alt_mips_0/datapath_0/m2_31_357#" 73.44
+cap "writedata4" "alt_mips_0/datapath_0/writedata3" 36.72
+cap "writedata4" "alt_mips_0/datapath_0/memdata2" 36.72
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_4/Gnd!" 80.64
+cap "alt_mips_0/datapath_0/m2_n1_367#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" -5.4
 cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/d0" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/y" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/d0" 73.44
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" -5.4
+cap "writedata7" "alt_mips_0/datapath_0/writedata3" 36.72
+cap "writedata6" "wd3" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_473#" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" -10.8
+cap "writedata7" "alt_mips_0/datapath_0/m1_1656_473#" 73.44
 cap "writedata6" "alt_mips_0/datapath_0/m2_31_357#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Vdd!" "writedata6" 80.64
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Gnd!" 90.72
-cap "writedata6" "alt_mips_0/datapath_0/writedata3" 36.72
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/y" -10.8
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/y" 73.44
-cap "alt_mips_0/datapath_0/m1_1656_473#" "writedata6" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Vdd!" "writedata7" 80.64
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" "writedata5" 81
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Vdd!" 102.24
+cap "writedata5" "alt_mips_0/datapath_0/writedata3" 36.72
+cap "writedata5" "alt_mips_0/datapath_0/m1_1656_473#" 73.44
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Gnd!" 80.64
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/d0" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/d0" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" -5.4
+cap "wd3" "writedata7" 73.44
+cap "wd3" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" -10.8
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Vdd!" 80.64
 cap "writedata7" "alt_mips_0/datapath_0/m2_31_357#" 73.44
 cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/d0" 73.44
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/d0" -5.4
-cap "writedata7" "alt_mips_0/datapath_0/writedata3" 36.72
-cap "alt_mips_0/datapath_0/m1_1656_473#" "writedata7" 73.44
+cap "writedata6" "alt_mips_0/datapath_0/writedata3" 36.72
+cap "writedata6" "alt_mips_0/datapath_0/m1_1656_473#" 73.44
+cap "wd3" "writedata5" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/Vdd!" 81
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Gnd!" "writedata7" 80.64
 cap "writedata5" "alt_mips_0/datapath_0/m2_31_357#" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/Vdd!" "writedata5" 102.24
-cap "memdata3" "PadFrame17_0/memdata4/Vdd" 2.84217e-14
-cap "memdata3" "PadFrame17_0/memdata4/Vdd" 19.8
-cap "adr4" "alt_mips_0/datapath_0/Gnd!" 119.34
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Gnd!" "writedata5" 90.72
+cap "PadFrame17_0/memdata4/Vdd" "memdata3" 2.84217e-14
+cap "PadFrame17_0/memdata4/Vdd" "memdata3" 19.8
 cap "memdata3" "alt_mips_0/datapath_0/Vdd!" 1175.04
-cap "alt_mips_0/datapath_0/Gnd!" "memdata3" 238.68
+cap "alt_mips_0/datapath_0/Gnd!" "adr4" 119.34
 cap "adr4" "alt_mips_0/datapath_0/Vdd!" 587.52
+cap "memdata3" "alt_mips_0/datapath_0/Gnd!" 238.68
 cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_3/Gnd!" "alt_mips_0/datapath_0/memdata3" 697.68
 cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_3/Gnd!" "alt_mips_0/datapath_0/adr4" 348.84
 cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" 1.42109e-14
-cap "alt_mips_0/datapath_0/writedata3" "writedata4" 36.72
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/memdata3" -10.8
-cap "alt_mips_0/datapath_0/m2_n1_477#" "writedata4" 73.44
-cap "alt_mips_0/datapath_0/m2_n1_477#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/Vdd!" -5.4
+cap "writedata4" "alt_mips_0/datapath_0/writedata3" 36.72
+cap "alt_mips_0/datapath_0/memdata3" "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_4/Vdd!" -10.8
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_3/Gnd!" "writedata4" 80.64
 cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_4/Vdd!" "writedata4" 129.24
 cap "alt_mips_0/datapath_0/memdata3" "writedata4" 73.44
-cap "writedata4" "alt_mips_0/datapath_0/m2_31_467#" 73.44
+cap "writedata4" "alt_mips_0/datapath_0/m2_n1_477#" 73.44
+cap "writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/Vdd!" 54
 cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" -5.4
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/Vdd!" "writedata4" 54
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_3/Gnd!" "writedata4" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/d0" 73.44
+cap "alt_mips_0/datapath_0/m2_31_467#" "writedata4" 73.44
+cap "alt_mips_0/datapath_0/m2_n1_477#" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/Vdd!" -5.4
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" "alt_mips_0/datapath_0/writedata3" -5.4
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/d0" 73.44
+cap "writedata6" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" "writedata6" 80.64
+cap "writedata5" "alt_mips_0/datapath_0/m2_31_467#" 73.44
+cap "writedata7" "wd4" 73.44
 cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/d0" -5.4
 cap "alt_mips_0/datapath_0/m2_31_467#" "writedata6" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" 129.24
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Gnd!" "writedata5" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" "writedata5" 54
-cap "writedata5" "alt_mips_0/datapath_0/writedata3" 36.72
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" 80.64
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Gnd!" "writedata6" 80.64
-cap "alt_mips_0/datapath_0/writedata3" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" -5.4
-cap "writedata5" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
 cap "writedata7" "alt_mips_0/datapath_0/writedata3" 36.72
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/y" "writedata5" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
-cap "alt_mips_0/datapath_0/writedata3" "writedata6" 36.72
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/y" "writedata7" 73.44
-cap "writedata6" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Gnd!" "writedata7" 80.64
 cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/d0" 73.44
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" "alt_mips_0/datapath_0/m1_1656_583#" -5.4
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/y" "writedata6" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/m2_31_467#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/y" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" -10.8
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/d0" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_467#" 73.44
-cap "alt_mips_0/datapath_0/Vdd!" "adr4" 587.52
-cap "alt_mips_0/datapath_0/Gnd!" "memdata4" 238.68
-cap "memdata4" "alt_mips_0/datapath_0/Vdd!" 1175.04
-cap "alt_mips_0/datapath_0/Gnd!" "adr4" 119.34
-cap "alt_mips_0/datapath_0/memdata4" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/adr4" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/Gnd!" 348.84
-cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_3/Vdd!" "alt_mips_0/datapath_0/writedata4" 24.3
-cap "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/qbar" "alt_mips_0/datapath_0/writedata4" 3.55271e-15
-cap "alt_mips_0/datapath_0/writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/qbar" 1.77636e-15
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/Vdd!" -5.4
+cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" "wd4" -10.8
+cap "writedata5" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" 54
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/d0" 73.44
+cap "writedata5" "wd4" 73.44
 cap "writedata7" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
-cap "alt_mips_0/datapath_0/m1_1656_583#" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" -5.4
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/Vdd!" "writedata5" 27
-cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/Vdd!" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/y" -5.4
-cap "writedata6" "alt_mips_0/datapath_0/m2_31_577#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" "writedata6" 73.44
-cap "writedata5" "alt_mips_0/datapath_0/m2_31_577#" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" "writedata5" 73.44
-cap "alt_mips_0/datapath_0/writedata4" "writedata6" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_577#" 73.44
+cap "wd4" "writedata6" 73.44
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" 80.64
+cap "writedata5" "alt_mips_0/datapath_0/writedata3" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Gnd!" "writedata5" 80.64
+cap "alt_mips_0/datapath_0/writedata3" "writedata6" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Gnd!" "writedata6" 80.64
+cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/Vdd!" "alt_mips_0/datapath_0/m1_1656_583#" -5.4
+cap "writedata7" "alt_mips_0/datapath_0/m2_31_467#" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/Vdd!" 129.24
+cap "adr4" "alt_mips_0/datapath_0/Gnd!" 119.34
+cap "alt_mips_0/datapath_0/Vdd!" "adr4" 587.52
+cap "memdata4" "alt_mips_0/datapath_0/Gnd!" 238.68
+cap "memdata4" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "alt_mips_0/datapath_0/adr4" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/Gnd!" 348.84
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/Gnd!" "alt_mips_0/datapath_0/memdata4" 697.68
+cap "alt_mips_0/datapath_0/flopen_1x_8_2/flopen_dp_1x_3/Vdd!" "alt_mips_0/datapath_0/writedata4" 24.3
+cap "alt_mips_0/datapath_0/writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/qbar" 1.77636e-15
+cap "alt_mips_0/datapath_0/writedata4" "alt_mips_0/datapath_0/flopen_1x_8_1/flopen_dp_1x_3/qbar" 3.55271e-15
 cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" 73.44
-cap "alt_mips_0/datapath_0/writedata4" "writedata5" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Gnd!" "writedata6" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/y" 36.72
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" 80.64
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Gnd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/writedata4" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" "alt_mips_0/datapath_0/m1_1656_583#" -5.4
+cap "writedata7" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
+cap "writedata5" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/Vdd!" 27
 cap "alt_mips_0/datapath_0/writedata4" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" -10.8
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/y" 36.72
-cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" 156.24
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Gnd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/y" 36.72
 cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" 80.64
+cap "writedata7" "alt_mips_0/datapath_0/writedata4" 73.44
+cap "alt_mips_0/datapath_0/m2_31_577#" "writedata5" 73.44
+cap "alt_mips_0/datapath_0/m2_31_577#" "writedata6" 73.44
+cap "wd5" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/Vdd!" -5.4
+cap "writedata5" "wd5" 36.72
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Gnd!" 80.64
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/Vdd!" -5.4
+cap "wd5" "writedata6" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" "writedata5" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Gnd!" "writedata6" 80.64
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" "writedata6" 73.44
+cap "writedata5" "alt_mips_0/datapath_0/m1_1656_583#" 36.72
 cap "alt_mips_0/datapath_0/m1_1656_583#" "writedata6" 36.72
-cap "alt_mips_0/datapath_0/m1_1656_583#" "writedata5" 36.72
+cap "writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" 156.24
+cap "writedata5" "alt_mips_0/datapath_0/writedata4" 73.44
+cap "alt_mips_0/datapath_0/m2_31_577#" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/Vdd!" "writedata6" 80.64
+cap "alt_mips_0/datapath_0/writedata4" "writedata6" 73.44
+cap "writedata7" "wd5" 36.72
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Gnd!" 80.64
 cap "memdata5" "alt_mips_0/datapath_0/Gnd!" 238.68
+cap "alt_mips_0/datapath_0/Vdd!" "memdata5" 1175.04
 cap "adr5" "alt_mips_0/datapath_0/Gnd!" 238.68
-cap "memdata5" "alt_mips_0/datapath_0/Vdd!" 1175.04
-cap "alt_mips_0/datapath_0/Vdd!" "adr5" 1175.04
-cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_1/Gnd!" "alt_mips_0/datapath_0/adr5" 697.68
+cap "adr5" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "alt_mips_0/datapath_0/adr5" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_1/Gnd!" 697.68
 cap "alt_mips_0/datapath_0/memdata5" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_1/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/writedata5" "writedata6" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/sb" "alt_mips_0/datapath_0/writedata5" 1.42109e-14
-cap "writedata6" "alt_mips_0/datapath_0/m1_1656_693#" 73.44
-cap "alt_mips_0/datapath_0/writedata5" "alt_mips_0/datapath_0/regramarray_dp_0/w_5_" 36.72
-cap "writedata7" "alt_mips_0/datapath_0/regramarray_dp_0/w_5_" 36.72
-cap "alt_mips_0/datapath_0/writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7#" 7.10543e-15
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/Gnd!" "writedata6" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" 80.64
+cap "alt_mips_0/datapath_0/m1_1656_693#" "alt_mips_0/datapath_0/writedata5" 73.44
+cap "writedata6" "wd5" 36.72
 cap "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/a_108_6#" "alt_mips_0/datapath_0/writedata5" 1.77636e-15
-cap "alt_mips_0/datapath_0/m2_31_687#" "writedata6" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/writedata5" 73.44
-cap "alt_mips_0/datapath_0/writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7#" 1.77636e-15
-cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" 36.72
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" "alt_mips_0/datapath_0/regramarray_dp_0/w_5_" -5.4
-cap "alt_mips_0/datapath_0/writedata5" "alt_mips_0/datapath_0/m1_1656_693#" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m1_1656_693#" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" "writedata6" 80.64
+cap "writedata7" "wd5" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" "writedata7" 80.64
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7#" "alt_mips_0/datapath_0/writedata5" 7.10543e-15
+cap "alt_mips_0/datapath_0/writedata5" "wd5" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/sb" "alt_mips_0/datapath_0/writedata5" 1.42109e-14
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" "alt_mips_0/datapath_0/writedata5" 51.3
 cap "alt_mips_0/datapath_0/writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/d0" 1.77636e-15
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/writedata5" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" 51.3
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" 80.64
-cap "writedata6" "alt_mips_0/datapath_0/regramarray_dp_0/w_5_" 36.72
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" "alt_mips_0/datapath_0/m1_1656_693#" -10.8
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_687#" 73.44
+cap "writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/Gnd!" "writedata6" 80.64
 cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" 36.72
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/Gnd!" "writedata7" 80.64
+cap "alt_mips_0/datapath_0/m1_1656_693#" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" -10.8
+cap "writedata6" "alt_mips_0/datapath_0/writedata5" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7#" "alt_mips_0/datapath_0/writedata5" 1.77636e-15
+cap "writedata7" "alt_mips_0/datapath_0/writedata5" 73.44
+cap "writedata6" "alt_mips_0/datapath_0/m2_31_687#" 73.44
+cap "writedata7" "alt_mips_0/datapath_0/m2_31_687#" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_693#" "writedata6" 73.44
+cap "alt_mips_0/datapath_0/m1_1656_693#" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/Vdd!" "wd5" -5.4
 cap "PadFrame17_0/memdata5/Vdd" "memdata4" 2.84217e-14
 cap "memdata4" "PadFrame17_0/memdata5/Vdd" 19.8
-cap "alt_mips_0/datapath_0/Vdd!" "memdata6" 1175.04
-cap "alt_mips_0/datapath_0/Gnd!" "memdata6" 238.68
+cap "adr6" "alt_mips_0/datapath_0/Gnd!" 238.68
+cap "memdata6" "alt_mips_0/datapath_0/Gnd!" 238.68
 cap "adr6" "alt_mips_0/datapath_0/Vdd!" 1175.04
-cap "alt_mips_0/datapath_0/Gnd!" "adr6" 238.68
-cap "alt_mips_0/datapath_0/memdata6" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_0/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_0/Gnd!" "alt_mips_0/datapath_0/adr6" 697.68
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/Gnd!" 80.64
-cap "alt_mips_0/datapath_0/writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/y" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/shamt0" 73.44
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7#" "alt_mips_0/datapath_0/writedata6" 7.10543e-15
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/Vdd!" 80.64
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" 36.72
-cap "alt_mips_0/datapath_0/writedata6" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_1/a_108_6#" 1.77636e-15
-cap "alt_mips_0/datapath_0/writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/sb" 1.42109e-14
-cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/y" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/writedata6" 73.44
-cap "writedata7" "alt_mips_0/datapath_0/m2_31_797#" 36.72
+cap "memdata6" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "alt_mips_0/datapath_0/adr6" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_0/Gnd!" 697.68
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_0/Gnd!" "alt_mips_0/datapath_0/memdata6" 697.68
 cap "alt_mips_0/datapath_0/writedata6" "alt_mips_0/datapath_0/shamt0" 73.44
-cap "alt_mips_0/datapath_0/writedata6" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" 36.72
-cap "alt_mips_0/datapath_0/Gnd!" "adr7" 238.68
-cap "memdata7" "alt_mips_0/datapath_0/Vdd!" 1175.04
-cap "alt_mips_0/datapath_0/Vdd!" "adr7" 1175.04
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/Vdd!" "writedata7" 80.64
+cap "writedata7" "alt_mips_0/datapath_0/shamt0" 73.44
+cap "wd6" "alt_mips_0/datapath_0/writedata6" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/Gnd!" "writedata7" 80.64
+cap "writedata7" "alt_mips_0/datapath_0/writedata6" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/sb" "alt_mips_0/datapath_0/writedata6" 1.42109e-14
+cap "wd6" "writedata7" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7#" "alt_mips_0/datapath_0/writedata6" 7.10543e-15
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" "alt_mips_0/datapath_0/writedata6" 36.72
+cap "alt_mips_0/datapath_0/writedata6" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_1/a_108_6#" 1.77636e-15
+cap "writedata7" "alt_mips_0/datapath_0/m2_31_797#" 36.72
+cap "writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/d0" 36.72
+cap "adr7" "alt_mips_0/datapath_0/Vdd!" 1175.04
 cap "memdata7" "alt_mips_0/datapath_0/Gnd!" 238.68
+cap "memdata7" "alt_mips_0/datapath_0/Vdd!" 1175.04
+cap "adr7" "alt_mips_0/datapath_0/Gnd!" 238.68
+cap "alt_mips_0/datapath_0/mux2_1x_8_0/invbuf_4x_0/Gnd!" "alt_mips_0/datapath_0/adr7" 697.68
 cap "alt_mips_0/datapath_0/memdata7" "alt_mips_0/datapath_0/mux2_1x_8_0/invbuf_4x_0/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/adr7" "alt_mips_0/datapath_0/mux2_1x_8_0/invbuf_4x_0/Gnd!" 697.68
-cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/d0" "alt_mips_0/datapath_0/writedata7" 73.44
-cap "alt_mips_0/datapath_0/writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/y" 73.44
+cap "alt_mips_0/datapath_0/writedata7" "wd7" 73.44
 cap "alt_mips_0/datapath_0/writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/sb" 1.42109e-14
-cap "alt_mips_0/datapath_0/writedata7" "alt_mips_0/datapath_0/shamt1" 73.44
-cap "alt_mips_0/datapath_0/writedata7" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7#" 7.10543e-15
+cap "alt_mips_0/datapath_0/shamt1" "alt_mips_0/datapath_0/writedata7" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/d0" "alt_mips_0/datapath_0/writedata7" 73.44
+cap "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7#" "alt_mips_0/datapath_0/writedata7" 7.10543e-15
 cap "alt_mips_0/datapath_0/writedata7" "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_0/a_108_6#" 1.77636e-15
-cap "alt_mips_0/datapath_0/writedata7" "alt_mips_0/datapath_0/m2_31_797#" 36.72
+cap "alt_mips_0/datapath_0/m2_31_797#" "alt_mips_0/datapath_0/writedata7" 36.72
 cap "memdata5" "PadFrame17_0/memdata5/Vdd" 2.84217e-14
-cap "memdata5" "PadFrame17_0/memdata6/Vdd" 19.8
-cap "memdata6" "PadFrame17_0/memdata6/Vdd" 2.84217e-14
+cap "PadFrame17_0/memdata6/Vdd" "memdata5" 19.8
+cap "PadFrame17_0/memdata6/Vdd" "memdata6" 2.84217e-14
 cap "memdata6" "PadFrame17_0/memdata7/Vdd" 19.8
 cap "alt_mips_0/datapath_0/ph2" "alt_mips_0/datapath_0/iord" 12.24
 cap "alt_mips_0/datapath_0/reset" "alt_mips_0/datapath_0/iord" 12.24
 cap "alt_mips_0/datapath_0/ph1" "alt_mips_0/datapath_0/iord" 12.24
-cap "memdata7" "PadFrame17_0/memdata7/Vdd" 2.84217e-14
+cap "PadFrame17_0/memdata7/Vdd" "memdata7" 2.84217e-14
 cap "PadFrame17_0/ph2/Vdd" "memdata7" 19.8
-cap "alt_mips_0/alt_controller_0/m1_55_300#" "alt_mips_0/alt_controller_0/m1_30_325#" 567
+cap "alt_mips_0/alt_controller_0/m1_30_325#" "alt_mips_0/alt_controller_0/m1_55_300#" 567
 cap "Gnd!" "PadFrame17_0/PADGND_0/w_n3_n3#" 388.8
 cap "PadFrame17_0/ph2/Vdd" "ph1" 2.84217e-14
-cap "ph1" "PadFrame17_0/ph1/Vdd" 19.8
+cap "PadFrame17_0/ph1/Vdd" "ph1" 19.8
 cap "PadFrame17_0/PADVDD_0/w_n3_n3#" "PadFrame17_0/PADVDD_0/w_n3_n3#" 8.1
 cap "Vdd!" "PadFrame17_0/PADVDD_0/w_n3_n3#" 769.5
 cap "ph2" "PadFrame17_0/ph1/Vdd" 2.84217e-14
 cap "PadFrame17_0/ph1/Vdd" "ph2" 16.2
-cap "PadFrame17_0/reset/Vdd" "reset" 16.2
+cap "reset" "PadFrame17_0/reset/Vdd" 16.2
 cap "PadFrame17_0/reset/Vdd" "adr0" 16.2
 cap "PadFrame17_0/adr0/Vdd" "adr1" 16.2
-cap "adr2" "PadFrame17_0/adr1/Vdd" 16.2
-cap "PadFrame17_0/adr2/Vdd" "adr3" 16.2
-cap "adr4" "PadFrame17_0/adr3/Vdd" 16.2
-cap "adr5" "PadFrame17_0/adr4/Vdd" 16.2
+cap "PadFrame17_0/adr1/Vdd" "adr2" 16.2
+cap "adr3" "PadFrame17_0/adr2/Vdd" 16.2
+cap "PadFrame17_0/adr3/Vdd" "adr4" 16.2
+cap "PadFrame17_0/adr4/Vdd" "adr5" 16.2
 cap "PadFrame17_0/adr5/Vdd" "adr6" 16.2
-cap "adr7" "PadFrame17_0/adr6/Vdd" 16.2
-cap "memwrite" "PadFrame17_0/adr7/Vdd" 16.2
+cap "PadFrame17_0/adr6/Vdd" "adr7" 16.2
+cap "PadFrame17_0/adr7/Vdd" "memwrite" 16.2
 merge "alt_mips_0/datapath_0/pcsrc_0" "pcsrc0" -119.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -8 0 0
 merge "alt_mips_0/datapath_0/m1_1656_583#" "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_3/q" -108.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_3/q" "instr4"
@@ -681,17 +701,19 @@ merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d1" "aluout0" -110.4 0 0 0
 merge "alt_mips_0/datapath_0/memdata1" "PadFrame17_0/memdata1/DO" -22196.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1928 -1006 897 -404
 merge "PadFrame17_0/memdata1/DO" "memdata1"
 merge "alt_mips_0/datapath_0/regramarray_dp_0/r2_2_" "rd2_2" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_3/y" "wd4" -141.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/memdata2" "PadFrame17_0/memdata2/DI" -9121.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -412 -226 -792 -390
 merge "PadFrame17_0/memdata2/DI" "memdata2"
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d1" "aluout1" -110.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10
 merge "alt_mips_0/datapath_0/alt_alu_8_0/result0" "aluresult0" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/d" "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_3/y" -217.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_3/y" "pcnext4"
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_3/q" "data4" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
+merge "PadFrame17_0/memdata3/DI" "alt_mips_0/datapath_0/memdata3" -3412.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -594 -224
+merge "alt_mips_0/datapath_0/memdata3" "memdata3"
 merge "alt_mips_0/datapath_0/writedata7" "PadFrame17_0/writedata7/DO" -52928.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1230 -2903 -1876 -642
 merge "PadFrame17_0/writedata7/DO" "writedata7"
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d1" "aluout2" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
-merge "PadFrame17_0/memdata3/DI" "alt_mips_0/datapath_0/memdata3" -3412.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -594 -224
-merge "alt_mips_0/datapath_0/memdata3" "memdata3"
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0" "pc1" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "PadFrame17_0/memdata4/DI" "alt_mips_0/datapath_0/memdata4" -3720.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 -216 -36 -24
 merge "alt_mips_0/datapath_0/memdata4" "memdata4"
@@ -705,6 +727,7 @@ merge "alt_mips_0/datapath_0/memdata5" "memdata5"
 merge "PadFrame17_0/adr1/DO" "alt_mips_0/datapath_0/adr1" -69162 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6348 -3190 -2160 -738
 merge "alt_mips_0/datapath_0/adr1" "adr1"
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_2/q" "instr5" -73.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -8
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_7/y" "wd0" -141.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/d" "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_7/y" -217.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_7/y" "pcnext0"
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/d" "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_0/y" -217.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
@@ -721,11 +744,13 @@ merge "alt_mips_0/datapath_0/adr2" "adr2"
 merge "PadFrame17_0/PADVDD_0/w_n3_n3#" "alt_mips_0/alt_controller_0/m1_30_325#" -40485.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -964 -421 -12424 -760 0 0
 merge "alt_mips_0/alt_controller_0/m1_30_325#" "alt_mips_0/datapath_0/Vdd!"
 merge "alt_mips_0/datapath_0/Vdd!" "Vdd!"
+merge "alt_mips_0/datapath_0/regramarray_dp_0/wa_0_" "wa0" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d1" "alt_mips_0/datapath_0/m2_n1_807#" -75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -8
 merge "alt_mips_0/datapath_0/m2_n1_807#" "aluout7"
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d1" "aluout5" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0" "pc5" -160.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -8 0 0 0 0
 merge "PadFrame17_0/writedata1/a_38_44#" "m2_1447_999#" -244.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -14 0 0
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_7/q" "data0" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/d" "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y" -217.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y" "pcnext1"
 merge "alt_mips_0/datapath_0/alt_alu_8_0/result4" "aluresult4" -110.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10
@@ -742,6 +767,7 @@ merge "PadFrame17_0/writedata1/DO" "writedata1"
 merge "alt_mips_0/datapath_0/alt_alu_8_0/result5" "aluresult5" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/d" "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_4/y" -217.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_4/y" "pcnext3"
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_6/y" "wd1" -141.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/alt_alu_8_0/result6" "aluresult6" -84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_6/q" "instr1" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/a1" "srca1" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
@@ -750,19 +776,24 @@ merge "PadFrame17_0/writedata2/DO" "writedata2"
 merge "PadFrame17_0/adr5/DO" "alt_mips_0/datapath_0/adr5" -66386.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4576 -2308 -5487 -1754
 merge "alt_mips_0/datapath_0/adr5" "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/y"
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_2/y" "adr5"
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_5/y" "wd2" -141.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/alusrca" "alusrca" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "alt_mips_0/datapath_0/alt_alu_8_0/result7" "aluresult7" -75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -8
 merge "alt_mips_0/datapath_0/a2" "srca2" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "PadFrame17_0/adr6/DO" "alt_mips_0/datapath_0/adr6" -62755.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3768 -1900 -6162 -2072
 merge "alt_mips_0/datapath_0/adr6" "adr6"
+merge "alt_mips_0/datapath_0/regramarray_dp_0/w_5_" "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/y" -141.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_2/y" "wd5"
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/d" "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_2/y" -190.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/mux3_1x_8_0/mux3_dp_1x_2/y" "pcnext5"
 merge "alt_mips_0/alt_controller_0/regwrite" "regwrite" -201.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0
 merge "alt_mips_0/datapath_0/writedata4" "PadFrame17_0/writedata4/DO" -42903.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3976 -2016 -1184 -416
 merge "PadFrame17_0/writedata4/DO" "writedata4"
 merge "alt_mips_0/datapath_0/a3" "srca3" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_4/y" "wd3" -141.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flop_1x_8_1/flop_dp_1x_7/d" "rd2_0" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "alt_mips_0/datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/en" "pcen" -121.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -8 0 0
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_2/q" "data5" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "alt_mips_0/datapath_0/regramarray_dp_0/r2_3_" "rd2_3" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "PadFrame17_0/reset/DI" "alt_mips_0/alt_controller_0/reset" -911.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23 -54 0 0
 merge "alt_mips_0/alt_controller_0/reset" "alt_mips_0/datapath_0/reset"
@@ -776,12 +807,17 @@ merge "alt_mips_0/datapath_0/writedata6" "PadFrame17_0/writedata6/DO" -56535.6 0
 merge "PadFrame17_0/writedata6/DO" "writedata6"
 merge "alt_mips_0/datapath_0/a5" "srca5" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0" "pc2" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_1/y" "wd6" -130.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_1/q" "instr6" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/a6" "srca6" -119.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -8 0 0
+merge "alt_mips_0/datapath_0/regramarray_dp_0/wa_1_" "wa1" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
+merge "alt_mips_0/datapath_0/mux2_1x_8_1/mux2_dp_1x_0/y" "wd7" -109.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/a7" "alt_mips_0/datapath_0/alt_alu_8_0/alt_alu_slice_less_5/A" -124.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -8 0 0
 merge "alt_mips_0/datapath_0/alt_alu_8_0/alt_alu_slice_less_5/A" "srca7"
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_6/q" "data1" -223.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/regramarray_dp_0/r2_4_" "rd2_4" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "alt_mips_0/alt_controller_0/iord" "iord" -129.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 -8 0 0
+merge "alt_mips_0/datapath_0/mux2_c_1x_0/y" "wa2" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "alt_mips_0/datapath_0/regramarray_dp_0/r2_5_" "rd2_5" -132.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0" "pc6" -149.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 -8 0 0 0 0
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_5/q" "instr2" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
@@ -789,6 +825,7 @@ merge "alt_mips_0/alt_controller_0/alusrcb[0]" "alusrcb0" -121.8 0 0 0 0 0 0 0 0
 merge "alt_mips_0/datapath_0/b0" "srcb0" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/alt_alu_8_0/b1" "srcb1" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0" "pc0" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_1/q" "data6" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "alt_mips_0/datapath_0/alt_alu_8_0/b2" "srcb2" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/alt_alu_8_0/b3" "srcb3" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_0/q" "instr7" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
@@ -796,8 +833,11 @@ merge "alt_mips_0/datapath_0/alt_alu_8_0/b4" "srcb4" -85.8 0 0 0 0 0 0 0 0 0 0 0
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0" "pc3" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "alt_mips_0/datapath_0/alt_alu_8_0/b5" "srcb5" -75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -8
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0" "pc4" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_5/q" "data2" -223.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
 merge "alt_mips_0/datapath_0/alt_alu_8_0/b6" "srcb6" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/alt_alu_8_0/b7" "srcb7" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/flopen_1x_8_3/flopen_dp_1x_4/q" "instr3" -87.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8
 merge "alt_mips_0/datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0" "pc7" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_4/q" "data3" -176.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0
 merge "alt_mips_0/alt_controller_0/alusrcb[1]" "alusrcb1" -127.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "alt_mips_0/datapath_0/flop_1x_8_0/flop_dp_1x_0/q" "data7" -138.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -8 0 0 0 0
