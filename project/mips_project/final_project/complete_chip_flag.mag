@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1494270238
+use American-FlagINK  American-FlagINK_0
+timestamp 1399650201
+transform 1 0 3125 0 1 3806
+box 2 -252 480 0
+use complete_chip  complete_chip_0
+timestamp 1494270238
+transform 1 0 0 0 1 0
+box 0 0 5000 5000
+<< end >>

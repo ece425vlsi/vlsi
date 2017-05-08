@@ -1,0 +1,602 @@
+| units: 30 tech: scmos format: MIT
+p three_eight_decoder_0/OAI22X1_3/A Vdd! three_eight_decoder_0/OAI22X1_7/a_9_54# 2 40 1457 40
+p three_eight_decoder_0/OAI22X1_2/D three_eight_decoder_0/OAI22X1_7/a_9_54# s3 2 40 1452 40
+p three_eight_decoder_0/OAI22X1_4/B s3 three_eight_decoder_0/OAI22X1_7/a_28_54# 2 40 1438 40
+p three_eight_decoder_0/OAI22X1_3/C three_eight_decoder_0/OAI22X1_7/a_28_54# Vdd! 2 40 1433 40
+n three_eight_decoder_0/OAI22X1_3/A three_eight_decoder_0/OAI22X1_7/a_2_6# Gnd! 2 20 1457 -8
+n three_eight_decoder_0/OAI22X1_2/D Gnd! three_eight_decoder_0/OAI22X1_7/a_2_6# 2 20 1449 -8
+n three_eight_decoder_0/OAI22X1_4/B three_eight_decoder_0/OAI22X1_7/a_2_6# s3 2 20 1441 -8
+n three_eight_decoder_0/OAI22X1_3/C s3 three_eight_decoder_0/OAI22X1_7/a_2_6# 2 20 1433 -8
+p three_eight_decoder_0/OAI22X1_0/B Vdd! three_eight_decoder_0/OAI22X1_6/a_9_54# 2 40 1344 40
+p three_eight_decoder_0/OAI22X1_2/D three_eight_decoder_0/OAI22X1_6/a_9_54# s2 2 40 1349 40
+p three_eight_decoder_0/OAI22X1_4/B s2 three_eight_decoder_0/OAI22X1_6/a_28_54# 2 40 1363 40
+p three_eight_decoder_0/OAI22X1_0/D three_eight_decoder_0/OAI22X1_6/a_28_54# Vdd! 2 40 1368 40
+n three_eight_decoder_0/OAI22X1_0/B three_eight_decoder_0/OAI22X1_6/a_2_6# Gnd! 2 20 1344 -8
+n three_eight_decoder_0/OAI22X1_2/D Gnd! three_eight_decoder_0/OAI22X1_6/a_2_6# 2 20 1352 -8
+n three_eight_decoder_0/OAI22X1_4/B three_eight_decoder_0/OAI22X1_6/a_2_6# s2 2 20 1360 -8
+n three_eight_decoder_0/OAI22X1_0/D s2 three_eight_decoder_0/OAI22X1_6/a_2_6# 2 20 1368 -8
+p three_eight_decoder_0/OAI22X1_3/D Vdd! three_eight_decoder_0/OAI22X1_5/a_9_54# 2 40 1273 40
+p three_eight_decoder_0/OAI22X1_3/A three_eight_decoder_0/OAI22X1_5/a_9_54# s4 2 40 1268 40
+p three_eight_decoder_0/OAI22X1_3/B s4 three_eight_decoder_0/OAI22X1_5/a_28_54# 2 40 1254 40
+p three_eight_decoder_0/OAI22X1_3/C three_eight_decoder_0/OAI22X1_5/a_28_54# Vdd! 2 40 1249 40
+n three_eight_decoder_0/OAI22X1_3/D three_eight_decoder_0/OAI22X1_5/a_2_6# Gnd! 2 20 1273 -8
+n three_eight_decoder_0/OAI22X1_3/A Gnd! three_eight_decoder_0/OAI22X1_5/a_2_6# 2 20 1265 -8
+n three_eight_decoder_0/OAI22X1_3/B three_eight_decoder_0/OAI22X1_5/a_2_6# s4 2 20 1257 -8
+n three_eight_decoder_0/OAI22X1_3/C s4 three_eight_decoder_0/OAI22X1_5/a_2_6# 2 20 1249 -8
+p three_eight_decoder_0/INVX2_1/Y Vdd! three_eight_decoder_0/OAI22X1_3/C 2 20 1177 60
+p three_eight_decoder_0/INVX2_0/Y three_eight_decoder_0/OAI22X1_3/C Vdd! 2 20 1169 60
+n three_eight_decoder_0/INVX2_1/Y Gnd! three_eight_decoder_0/NAND2X1_7/a_9_6# 2 20 1177 -8
+n three_eight_decoder_0/INVX2_0/Y three_eight_decoder_0/NAND2X1_7/a_9_6# three_eight_decoder_0/OAI22X1_3/C 2 20 1172 -8
+p three_eight_decoder_0/OAI22X1_3/A Vdd! three_eight_decoder_0/OAI22X1_4/a_9_54# 2 40 1080 40
+p three_eight_decoder_0/OAI22X1_4/B three_eight_decoder_0/OAI22X1_4/a_9_54# s0 2 40 1085 40
+p three_eight_decoder_0/OAI22X1_2/D s0 three_eight_decoder_0/OAI22X1_4/a_28_54# 2 40 1099 40
+p three_eight_decoder_0/OAI22X1_3/C three_eight_decoder_0/OAI22X1_4/a_28_54# Vdd! 2 40 1104 40
+n three_eight_decoder_0/OAI22X1_3/A three_eight_decoder_0/OAI22X1_4/a_2_6# Gnd! 2 20 1080 -8
+n three_eight_decoder_0/OAI22X1_4/B Gnd! three_eight_decoder_0/OAI22X1_4/a_2_6# 2 20 1088 -8
+n three_eight_decoder_0/OAI22X1_2/D three_eight_decoder_0/OAI22X1_4/a_2_6# s0 2 20 1096 -8
+n three_eight_decoder_0/OAI22X1_3/C s0 three_eight_decoder_0/OAI22X1_4/a_2_6# 2 20 1104 -8
+p three_eight_decoder_0/OAI22X1_3/A Vdd! three_eight_decoder_0/OAI22X1_3/a_9_54# 2 40 984 40
+p three_eight_decoder_0/OAI22X1_3/B three_eight_decoder_0/OAI22X1_3/a_9_54# s7 2 40 989 40
+p three_eight_decoder_0/OAI22X1_3/D s7 three_eight_decoder_0/OAI22X1_3/a_28_54# 2 40 1003 40
+p three_eight_decoder_0/OAI22X1_3/C three_eight_decoder_0/OAI22X1_3/a_28_54# Vdd! 2 40 1008 40
+n three_eight_decoder_0/OAI22X1_3/A three_eight_decoder_0/OAI22X1_3/a_2_6# Gnd! 2 20 984 -8
+n three_eight_decoder_0/OAI22X1_3/B Gnd! three_eight_decoder_0/OAI22X1_3/a_2_6# 2 20 992 -8
+n three_eight_decoder_0/OAI22X1_3/D three_eight_decoder_0/OAI22X1_3/a_2_6# s7 2 20 1000 -8
+n three_eight_decoder_0/OAI22X1_3/C s7 three_eight_decoder_0/OAI22X1_3/a_2_6# 2 20 1008 -8
+p three_eight_decoder_0/INVX2_3/Y Vdd! three_eight_decoder_0/OAI22X1_3/D 2 20 1473 111
+p three_eight_decoder_0/INVX2_2/Y three_eight_decoder_0/OAI22X1_3/D Vdd! 2 20 1465 111
+n three_eight_decoder_0/INVX2_3/Y Gnd! three_eight_decoder_0/NAND2X1_6/a_9_6# 2 20 1473 179
+n three_eight_decoder_0/INVX2_2/Y three_eight_decoder_0/NAND2X1_6/a_9_6# three_eight_decoder_0/OAI22X1_3/D 2 20 1468 179
+p right Vdd! three_eight_decoder_0/OAI22X1_2/D 2 20 1440 111
+p three_eight_decoder_0/INVX2_3/Y three_eight_decoder_0/OAI22X1_2/D Vdd! 2 20 1448 111
+n right Gnd! three_eight_decoder_0/NAND2X1_5/a_9_6# 2 20 1440 179
+n three_eight_decoder_0/INVX2_3/Y three_eight_decoder_0/NAND2X1_5/a_9_6# three_eight_decoder_0/OAI22X1_2/D 2 20 1445 179
+p three_eight_decoder_0/OAI22X1_0/B Vdd! three_eight_decoder_0/OAI22X1_2/a_9_54# 2 40 1368 131
+p three_eight_decoder_0/OAI22X1_4/B three_eight_decoder_0/OAI22X1_2/a_9_54# s1 2 40 1373 131
+p three_eight_decoder_0/OAI22X1_2/D s1 three_eight_decoder_0/OAI22X1_2/a_28_54# 2 40 1387 131
+p three_eight_decoder_0/OAI22X1_0/D three_eight_decoder_0/OAI22X1_2/a_28_54# Vdd! 2 40 1392 131
+n three_eight_decoder_0/OAI22X1_0/B three_eight_decoder_0/OAI22X1_2/a_2_6# Gnd! 2 20 1368 179
+n three_eight_decoder_0/OAI22X1_4/B Gnd! three_eight_decoder_0/OAI22X1_2/a_2_6# 2 20 1376 179
+n three_eight_decoder_0/OAI22X1_2/D three_eight_decoder_0/OAI22X1_2/a_2_6# s1 2 20 1384 179
+n three_eight_decoder_0/OAI22X1_0/D s1 three_eight_decoder_0/OAI22X1_2/a_2_6# 2 20 1392 179
+p k2 Vdd! three_eight_decoder_0/INVX2_3/Y 2 40 1312 131
+n k2 Gnd! three_eight_decoder_0/INVX2_3/Y 2 20 1312 179
+p right Vdd! three_eight_decoder_0/INVX2_2/Y 2 40 1297 131
+n right Gnd! three_eight_decoder_0/INVX2_2/Y 2 20 1297 179
+p three_eight_decoder_0/OAI22X1_3/D Vdd! three_eight_decoder_0/OAI22X1_1/a_9_54# 2 40 1273 131
+p three_eight_decoder_0/OAI22X1_0/B three_eight_decoder_0/OAI22X1_1/a_9_54# s5 2 40 1268 131
+p three_eight_decoder_0/OAI22X1_0/D s5 three_eight_decoder_0/OAI22X1_1/a_28_54# 2 40 1254 131
+p three_eight_decoder_0/OAI22X1_3/B three_eight_decoder_0/OAI22X1_1/a_28_54# Vdd! 2 40 1249 131
+n three_eight_decoder_0/OAI22X1_3/D three_eight_decoder_0/OAI22X1_1/a_2_6# Gnd! 2 20 1273 179
+n three_eight_decoder_0/OAI22X1_0/B Gnd! three_eight_decoder_0/OAI22X1_1/a_2_6# 2 20 1265 179
+n three_eight_decoder_0/OAI22X1_0/D three_eight_decoder_0/OAI22X1_1/a_2_6# s5 2 20 1257 179
+n three_eight_decoder_0/OAI22X1_3/B s5 three_eight_decoder_0/OAI22X1_1/a_2_6# 2 20 1249 179
+p k1 Vdd! three_eight_decoder_0/OAI22X1_0/B 2 20 1209 111
+p three_eight_decoder_0/INVX2_1/Y three_eight_decoder_0/OAI22X1_0/B Vdd! 2 20 1201 111
+n k1 Gnd! three_eight_decoder_0/NAND2X1_4/a_9_6# 2 20 1209 179
+n three_eight_decoder_0/INVX2_1/Y three_eight_decoder_0/NAND2X1_4/a_9_6# three_eight_decoder_0/OAI22X1_0/B 2 20 1204 179
+p k2 Vdd! three_eight_decoder_0/OAI22X1_4/B 2 20 1176 111
+p three_eight_decoder_0/INVX2_2/Y three_eight_decoder_0/OAI22X1_4/B Vdd! 2 20 1184 111
+n k2 Gnd! three_eight_decoder_0/NAND2X1_3/a_9_6# 2 20 1176 179
+n three_eight_decoder_0/INVX2_2/Y three_eight_decoder_0/NAND2X1_3/a_9_6# three_eight_decoder_0/OAI22X1_4/B 2 20 1181 179
+p k0 Vdd! three_eight_decoder_0/INVX2_1/Y 2 40 1136 131
+n k0 Gnd! three_eight_decoder_0/INVX2_1/Y 2 20 1136 179
+p k1 Vdd! three_eight_decoder_0/INVX2_0/Y 2 40 1121 131
+n k1 Gnd! three_eight_decoder_0/INVX2_0/Y 2 20 1121 179
+p right Vdd! three_eight_decoder_0/OAI22X1_3/B 2 20 1105 111
+p k2 three_eight_decoder_0/OAI22X1_3/B Vdd! 2 20 1097 111
+n right Gnd! three_eight_decoder_0/NAND2X1_2/a_9_6# 2 20 1105 179
+n k2 three_eight_decoder_0/NAND2X1_2/a_9_6# three_eight_decoder_0/OAI22X1_3/B 2 20 1100 179
+p k0 Vdd! three_eight_decoder_0/OAI22X1_0/D 2 20 1056 111
+p three_eight_decoder_0/INVX2_0/Y three_eight_decoder_0/OAI22X1_0/D Vdd! 2 20 1064 111
+n k0 Gnd! three_eight_decoder_0/NAND2X1_1/a_9_6# 2 20 1056 179
+n three_eight_decoder_0/INVX2_0/Y three_eight_decoder_0/NAND2X1_1/a_9_6# three_eight_decoder_0/OAI22X1_0/D 2 20 1061 179
+p three_eight_decoder_0/OAI22X1_3/B Vdd! three_eight_decoder_0/OAI22X1_0/a_9_54# 2 40 1033 131
+p three_eight_decoder_0/OAI22X1_0/B three_eight_decoder_0/OAI22X1_0/a_9_54# s6 2 40 1028 131
+p three_eight_decoder_0/OAI22X1_0/D s6 three_eight_decoder_0/OAI22X1_0/a_28_54# 2 40 1014 131
+p three_eight_decoder_0/OAI22X1_3/D three_eight_decoder_0/OAI22X1_0/a_28_54# Vdd! 2 40 1009 131
+n three_eight_decoder_0/OAI22X1_3/B three_eight_decoder_0/OAI22X1_0/a_2_6# Gnd! 2 20 1033 179
+n three_eight_decoder_0/OAI22X1_0/B Gnd! three_eight_decoder_0/OAI22X1_0/a_2_6# 2 20 1025 179
+n three_eight_decoder_0/OAI22X1_0/D three_eight_decoder_0/OAI22X1_0/a_2_6# s6 2 20 1017 179
+n three_eight_decoder_0/OAI22X1_3/D s6 three_eight_decoder_0/OAI22X1_0/a_2_6# 2 20 1009 179
+p k1 Vdd! three_eight_decoder_0/OAI22X1_3/A 2 20 960 111
+p k0 three_eight_decoder_0/OAI22X1_3/A Vdd! 2 20 968 111
+n k1 Gnd! three_eight_decoder_0/NAND2X1_0/a_9_6# 2 20 960 179
+n k0 three_eight_decoder_0/NAND2X1_0/a_9_6# three_eight_decoder_0/OAI22X1_3/A 2 20 965 179
+n s7 z7 y0 2 4 601 13
+n s7 z8 y1 2 4 601 41
+n s7 z9 y2 2 4 601 69
+n s7 z10 y3 2 4 601 97
+n s7 z11 y4 2 4 601 125
+n s7 z12 y5 2 4 601 153
+n s7 z13 y6 2 4 601 181
+n s7 z14 y7 2 4 601 209
+n s6 z6 y0 2 4 623 13
+n s6 z7 y1 2 4 623 41
+n s6 z8 y2 2 4 623 69
+n s6 z9 y3 2 4 623 97
+n s6 z10 y4 2 4 623 125
+n s6 z11 y5 2 4 623 153
+n s6 z12 y6 2 4 623 181
+n s6 z13 y7 2 4 623 209
+n s5 z5 y0 2 4 645 13
+n s5 z6 y1 2 4 645 41
+n s5 z7 y2 2 4 645 69
+n s5 z8 y3 2 4 645 97
+n s5 z9 y4 2 4 645 125
+n s5 z10 y5 2 4 645 153
+n s5 z11 y6 2 4 645 181
+n s5 z12 y7 2 4 645 209
+n s4 z4 y0 2 4 667 13
+n s4 z5 y1 2 4 667 41
+n s4 z6 y2 2 4 667 69
+n s4 z7 y3 2 4 667 97
+n s4 z8 y4 2 4 667 125
+n s4 z9 y5 2 4 667 153
+n s4 z10 y6 2 4 667 181
+n s4 z11 y7 2 4 667 209
+n s3 z3 y0 2 4 689 13
+n s3 z4 y1 2 4 689 41
+n s3 z5 y2 2 4 689 69
+n s3 z6 y3 2 4 689 97
+n s3 z7 y4 2 4 689 125
+n s3 z8 y5 2 4 689 153
+n s3 z9 y6 2 4 689 181
+n s3 z10 y7 2 4 689 209
+n s2 z2 y0 2 4 711 13
+n s2 z3 y1 2 4 711 41
+n s2 z4 y2 2 4 711 69
+n s2 z5 y3 2 4 711 97
+n s2 z6 y4 2 4 711 125
+n s2 z7 y5 2 4 711 153
+n s2 z8 y6 2 4 711 181
+n s2 z9 y7 2 4 711 209
+n s1 z1 y0 2 4 733 13
+n s1 z2 y1 2 4 733 41
+n s1 z3 y2 2 4 733 69
+n s1 z4 y3 2 4 733 97
+n s1 z5 y4 2 4 733 125
+n s1 z6 y5 2 4 733 153
+n s1 z7 y6 2 4 733 181
+n s1 z8 y7 2 4 733 209
+n s0 z0 y0 2 4 755 13
+n s0 z1 y1 2 4 755 41
+n s0 z2 y2 2 4 755 69
+n s0 z3 y3 2 4 755 97
+n s0 z4 y4 2 4 755 125
+n s0 z5 y5 2 4 755 153
+n s0 z6 y6 2 4 755 181
+n s0 z7 y7 2 4 755 209
+p a0 Vdd! source_gen_7_0_0/source_gen_nm1_0/a_12_74# 2 9 240 78
+p right source_gen_7_0_0/source_gen_nm1_0/a_12_74# source_gen_7_0_0/source_gen_nm1_0/a_17_7# 2 9 245 78
+p rightb source_gen_7_0_0/source_gen_nm1_0/a_17_7# source_gen_7_0_0/source_gen_nm1_0/a_25_74# 2 9 253 78
+p a7 source_gen_7_0_0/source_gen_nm1_0/a_25_74# Vdd! 2 9 258 78
+p source_gen_7_0_0/source_gen_nm1_0/a_17_7# Vdd! z7 2 10 266 77
+n a0 Gnd! source_gen_7_0_0/source_gen_nm1_0/a_12_7# 2 6 240 11
+n rightb source_gen_7_0_0/source_gen_nm1_0/a_12_7# source_gen_7_0_0/source_gen_nm1_0/a_17_7# 2 6 245 11
+n right source_gen_7_0_0/source_gen_nm1_0/a_17_7# source_gen_7_0_0/source_gen_nm1_0/a_25_7# 2 6 253 11
+n a7 source_gen_7_0_0/source_gen_nm1_0/a_25_7# Gnd! 2 6 258 11
+n source_gen_7_0_0/source_gen_nm1_0/a_17_7# Gnd! z7 2 7 266 11
+p source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# z0 Vdd! 2 10 11 77
+p a0 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# 2 6 19 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# Vdd! 2 6 27 81
+n source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# z0 Gnd! 2 7 11 11
+n a0 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[0]/a_15_7# 2 6 19 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[0]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# 2 6 24 11
+p source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# z1 Vdd! 2 10 43 77
+p a1 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# 2 6 51 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# Vdd! 2 6 59 81
+n source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# z1 Gnd! 2 7 43 11
+n a1 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[1]/a_15_7# 2 6 51 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[1]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# 2 6 56 11
+p source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# z2 Vdd! 2 10 75 77
+p a2 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# 2 6 83 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# Vdd! 2 6 91 81
+n source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# z2 Gnd! 2 7 75 11
+n a2 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[2]/a_15_7# 2 6 83 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[2]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# 2 6 88 11
+p source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# z3 Vdd! 2 10 107 77
+p a3 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# 2 6 115 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# Vdd! 2 6 123 81
+n source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# z3 Gnd! 2 7 107 11
+n a3 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[3]/a_15_7# 2 6 115 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[3]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# 2 6 120 11
+p source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# z4 Vdd! 2 10 139 77
+p a4 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# 2 6 147 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# Vdd! 2 6 155 81
+n source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# z4 Gnd! 2 7 139 11
+n a4 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[4]/a_15_7# 2 6 147 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[4]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# 2 6 152 11
+p source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# z5 Vdd! 2 10 171 77
+p a5 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# 2 6 179 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# Vdd! 2 6 187 81
+n source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# z5 Gnd! 2 7 171 11
+n a5 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[5]/a_15_7# 2 6 179 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[5]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# 2 6 184 11
+p source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# z6 Vdd! 2 10 203 77
+p a6 Vdd! source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# 2 6 211 81
+p right source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# Vdd! 2 6 219 81
+n source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# z6 Gnd! 2 7 203 11
+n a6 Gnd! source_gen_7_0_0/source_gen_nm2_0_0[6]/a_15_7# 2 6 211 11
+n right source_gen_7_0_0/source_gen_nm2_0_0[6]/a_15_7# source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# 2 6 216 11
+p source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y Vdd! z8 2 12 67 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[0]/y z8 Vdd! 2 12 75 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_1/a_7_7# 2 12 67 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[0]/y source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_1/a_7_7# z8 2 12 72 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y 2 12 43 187
+p a1 source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y Vdd! 2 12 51 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/a_7_7# 2 12 43 123
+n a1 source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y 2 12 48 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/y 2 13 11 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[0]/y Vdd! 2 13 19 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/y 2 13 27 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/a_7_7# 2 16 11 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[0]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[0]/a_12_7# 2 16 16 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[0]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[0]/y 2 16 21 123
+p source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y Vdd! z9 2 12 147 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[1]/y z9 Vdd! 2 12 155 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_1/a_7_7# 2 12 147 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[1]/y source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_1/a_7_7# z9 2 12 152 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y 2 12 123 187
+p a2 source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y Vdd! 2 12 131 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/a_7_7# 2 12 123 123
+n a2 source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y 2 12 128 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/y 2 13 91 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[1]/y Vdd! 2 13 99 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/y 2 13 107 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/a_7_7# 2 16 91 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[1]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[1]/a_12_7# 2 16 96 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[1]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[1]/y 2 16 101 123
+p source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y Vdd! z10 2 12 227 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[2]/y z10 Vdd! 2 12 235 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_1/a_7_7# 2 12 227 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[2]/y source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_1/a_7_7# z10 2 12 232 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y 2 12 203 187
+p a3 source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y Vdd! 2 12 211 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/a_7_7# 2 12 203 123
+n a3 source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y 2 12 208 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/y 2 13 171 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[2]/y Vdd! 2 13 179 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/y 2 13 187 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/a_7_7# 2 16 171 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[2]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[2]/a_12_7# 2 16 176 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[2]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[2]/y 2 16 181 123
+p source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y Vdd! z11 2 12 307 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[3]/y z11 Vdd! 2 12 315 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_1/a_7_7# 2 12 307 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[3]/y source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_1/a_7_7# z11 2 12 312 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y 2 12 283 187
+p a4 source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y Vdd! 2 12 291 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/a_7_7# 2 12 283 123
+n a4 source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y 2 12 288 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/y 2 13 251 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[3]/y Vdd! 2 13 259 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/y 2 13 267 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/a_7_7# 2 16 251 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[3]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[3]/a_12_7# 2 16 256 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[3]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[3]/y 2 16 261 123
+p source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y Vdd! z12 2 12 387 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[4]/y z12 Vdd! 2 12 395 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_1/a_7_7# 2 12 387 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[4]/y source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_1/a_7_7# z12 2 12 392 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y 2 12 363 187
+p a5 source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y Vdd! 2 12 371 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/a_7_7# 2 12 363 123
+n a5 source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y 2 12 368 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/y 2 13 331 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[4]/y Vdd! 2 13 339 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/y 2 13 347 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/a_7_7# 2 16 331 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[4]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[4]/a_12_7# 2 16 336 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[4]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[4]/y 2 16 341 123
+p source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y Vdd! z13 2 12 467 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[5]/y z13 Vdd! 2 12 475 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_1/a_7_7# 2 12 467 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[5]/y source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_1/a_7_7# z13 2 12 472 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y 2 12 443 187
+p a6 source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y Vdd! 2 12 451 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/a_7_7# 2 12 443 123
+n a6 source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y 2 12 448 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[5]/y 2 13 411 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[5]/y Vdd! 2 13 419 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[5]/y 2 13 427 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[5]/a_7_7# 2 16 411 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[5]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[5]/a_12_7# 2 16 416 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[5]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[5]/y 2 16 421 123
+p source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y Vdd! z14 2 12 547 187
+p source_gen_7_0_0/source_gen_2nm2_n_0[6]/y z14 Vdd! 2 12 555 187
+n source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_1/a_7_7# 2 12 547 123
+n source_gen_7_0_0/source_gen_2nm2_n_0[6]/y source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_1/a_7_7# z14 2 12 552 123
+p rightb Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y 2 12 523 187
+p a7 source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y Vdd! 2 12 531 187
+n rightb Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/a_7_7# 2 12 523 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y 2 12 528 123
+p arith Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/y 2 13 491 186
+p right source_gen_7_0_0/source_gen_2nm2_n_0[6]/y Vdd! 2 13 499 186
+p a7 Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/y 2 13 507 186
+n arith Gnd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/a_7_7# 2 16 491 123
+n right source_gen_7_0_0/source_gen_2nm2_n_0[6]/a_7_7# source_gen_7_0_0/source_gen_2nm2_n_0[6]/a_12_7# 2 16 496 123
+n a7 source_gen_7_0_0/source_gen_2nm2_n_0[6]/a_12_7# source_gen_7_0_0/source_gen_2nm2_n_0[6]/y 2 16 501 123
+p right Vdd! rightb 2 10 301 77
+n right Gnd! rightb 2 7 301 11
+C Vdd! k2 2.5
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y 2.5
+C source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# Vdd! 3.0
+C Vdd! source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# 3.0
+C Vdd! z11 2.0
+C Vdd! arith 4.2
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/y 4.5
+C source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y Vdd! 2.5
+C Vdd! three_eight_decoder_0/OAI22X1_0/D 4.1
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[6]/y 4.5
+C Vdd! z10 2.6
+C Vdd! source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# 3.0
+C Vdd! source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# 3.0
+C rightb Vdd! 7.7
+C Vdd! three_eight_decoder_0/INVX2_1/Y 3.7
+C Vdd! three_eight_decoder_0/OAI22X1_3/C 2.2
+C z13 Vdd! 2.2
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y 2.5
+C Vdd! z14 2.1
+C Vdd! a6 2.9
+C z7 Vdd! 2.3
+C Vdd! three_eight_decoder_0/OAI22X1_4/B 5.5
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/y 4.5
+C rightb arith 3.0
+C Vdd! s7 2.2
+C Vdd! a0 3.1
+C Vdd! a5 2.3
+C Vdd! three_eight_decoder_0/INVX2_2/Y 8.1
+C Vdd! a2 2.3
+C Vdd! z4 2.1
+C Vdd! three_eight_decoder_0/OAI22X1_0/B 3.9
+C Vdd! z5 2.1
+C Vdd! s5 3.1
+C source_gen_7_0_0/source_gen_2nm2_n_0[5]/y Vdd! 4.5
+C Vdd! k0 2.5
+C Vdd! three_eight_decoder_0/INVX2_3/Y 2.7
+C Vdd! z6 2.1
+C Vdd! source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# 3.0
+C Vdd! z0 2.1
+C three_eight_decoder_0/OAI22X1_0/D three_eight_decoder_0/INVX2_2/Y 2.1
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y 2.5
+C Vdd! three_eight_decoder_0/OAI22X1_3/A 4.1
+C z8 right 3.5
+C z3 Vdd! 2.1
+C Vdd! three_eight_decoder_0/OAI22X1_3/B 4.5
+C Vdd! z8 2.3
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[2]/y 4.5
+C source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y Vdd! 2.5
+C a7 right 2.9
+C Vdd! three_eight_decoder_0/OAI22X1_2/D 2.6
+C Vdd! three_eight_decoder_0/INVX2_0/Y 4.5
+C Vdd! a7 13.1
+C Vdd! z2 2.1
+C s1 Vdd! 2.0
+C Vdd! source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# 3.0
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/y 4.5
+C Vdd! a4 2.6
+C Vdd! z9 2.8
+C Vdd! source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# 3.0
+C Vdd! a3 2.5
+C source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y Vdd! 2.5
+C Vdd! right 22.3
+C Vdd! z1 2.1
+C Vdd! three_eight_decoder_0/OAI22X1_3/D 5.3
+C Vdd! a1 2.3
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[0]/y 4.5
+C Vdd! source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y 2.5
+R source_gen_7_0_0/source_gen_2nm2_n_0[6]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[6]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/a_7_7# 329
+C a7 GND 33.3
+R a7 8825
+C rightb GND 6.0
+R rightb 7726
+R source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_1/a_7_7# 329
+C z14 GND 51.9
+R z14 730
+R source_gen_7_0_0/source_gen_2nm2_n_0[6]/y 1959
+C source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[6]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_2nm2_n_0[5]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[5]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/a_7_7# 329
+C a6 GND 15.1
+R a6 1887
+R source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_1/a_7_7# 329
+R source_gen_7_0_0/source_gen_2nm2_n_0[5]/y 1959
+C source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[5]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_2nm2_n_0[4]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[4]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/a_7_7# 329
+C a5 GND 36.1
+R a5 1882
+R source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_1/a_7_7# 329
+C z12 GND 21.7
+R z12 1373
+R source_gen_7_0_0/source_gen_2nm2_n_0[4]/y 1959
+C source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[4]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_2nm2_n_0[3]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[3]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/a_7_7# 329
+C a4 GND 30.4
+R a4 1882
+R source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_1/a_7_7# 329
+C z11 GND 24.3
+R z11 1702
+R source_gen_7_0_0/source_gen_2nm2_n_0[3]/y 1959
+C source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[3]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_2nm2_n_0[2]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[2]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/a_7_7# 329
+C a3 GND 19.8
+R a3 1882
+R source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_1/a_7_7# 329
+C z10 GND 27.2
+R z10 2030
+R source_gen_7_0_0/source_gen_2nm2_n_0[2]/y 1959
+C source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[2]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_2nm2_n_0[1]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[1]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/a_7_7# 329
+C a2 GND 14.5
+R a2 1883
+R source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_1/a_7_7# 329
+C z9 GND 32.5
+R z9 2363
+R source_gen_7_0_0/source_gen_2nm2_n_0[1]/y 1959
+C source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[1]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_2nm2_n_0[0]/a_12_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[0]/a_7_7# 438
+R source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/a_7_7# 329
+C a1 GND 10.2
+R a1 1889
+R source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_1/a_7_7# 329
+C z8 GND 35.7
+R z8 2691
+C source_gen_7_0_0/source_gen_2nm2_n_0[0]/y GND 3.0
+R source_gen_7_0_0/source_gen_2nm2_n_0[0]/y 1963
+C source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y GND 2.6
+R source_gen_7_0_0/source_gen_2nm2_n_0[0]/nand2_1x_0/Y 1290
+R source_gen_7_0_0/source_gen_nm2_0_0[6]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[6]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm2_0_0[5]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[5]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm2_0_0[4]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[4]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm2_0_0[3]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[3]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm2_0_0[2]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[2]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm2_0_0[1]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[1]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm2_0_0[0]/a_15_7# 164
+R source_gen_7_0_0/source_gen_nm2_0_0[0]/a_5_5# 1086
+R source_gen_7_0_0/source_gen_nm1_0/a_25_7# 164
+R source_gen_7_0_0/source_gen_nm1_0/a_12_7# 164
+R source_gen_7_0_0/source_gen_nm1_0/a_25_74# 316
+R source_gen_7_0_0/source_gen_nm1_0/a_12_74# 316
+C source_gen_7_0_0/source_gen_nm1_0/a_17_7# GND 2.2
+R source_gen_7_0_0/source_gen_nm1_0/a_17_7# 1123
+C a0 GND 17.8
+R a0 2033
+C z7 GND 31.2
+R z7 3037
+C s0 GND 29.7
+R s0 2083
+C y7 GND 19.3
+R y7 2499
+C z6 GND 30.8
+R z6 2703
+C y6 GND 41.4
+R y6 2499
+C z5 GND 32.8
+R z5 2371
+C y5 GND 64.2
+R y5 2500
+C z4 GND 32.3
+R z4 2038
+C y4 GND 88.7
+R y4 2500
+C z3 GND 31.9
+R z3 1705
+C y3 GND 17.0
+R y3 2499
+C z2 GND 31.4
+R z2 1372
+C y2 GND 7.2
+R y2 2503
+C z1 GND 31.0
+R z1 1039
+C y1 GND 7.9
+R y1 2503
+C z0 GND 30.5
+R z0 705
+C y0 GND 6.2
+R y0 2503
+C s1 GND 53.8
+R s1 2093
+C s2 GND 54.1
+R s2 2087
+C s3 GND 51.5
+R s3 2086
+C s4 GND 42.9
+R s4 2086
+C s5 GND 40.1
+R s5 2090
+C z13 GND 11.5
+R z13 1052
+C s6 GND 31.1
+R s6 2085
+R s7 2081
+C Vdd! GND 491.1
+R Vdd! 143925
+R three_eight_decoder_0/NAND2X1_0/a_9_6# 548
+C three_eight_decoder_0/OAI22X1_3/A GND 20.3
+R three_eight_decoder_0/OAI22X1_3/A 5073
+R three_eight_decoder_0/OAI22X1_0/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_0/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_0/a_9_54# 1403
+R three_eight_decoder_0/NAND2X1_1/a_9_6# 548
+R three_eight_decoder_0/NAND2X1_2/a_9_6# 548
+R k0 3168
+R three_eight_decoder_0/NAND2X1_3/a_9_6# 548
+R three_eight_decoder_0/NAND2X1_4/a_9_6# 548
+C three_eight_decoder_0/INVX2_1/Y GND 9.4
+R three_eight_decoder_0/INVX2_1/Y 3281
+C k1 GND 8.9
+R k1 3135
+R three_eight_decoder_0/OAI22X1_1/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_1/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_1/a_9_54# 1403
+C three_eight_decoder_0/OAI22X1_3/B GND 20.4
+R three_eight_decoder_0/OAI22X1_3/B 5085
+C three_eight_decoder_0/OAI22X1_3/D GND 22.8
+R three_eight_decoder_0/OAI22X1_3/D 5107
+R k2 3167
+R three_eight_decoder_0/OAI22X1_2/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_2/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_2/a_9_54# 1403
+C three_eight_decoder_0/OAI22X1_0/D GND 21.6
+R three_eight_decoder_0/OAI22X1_0/D 5119
+C three_eight_decoder_0/OAI22X1_4/B GND 22.0
+R three_eight_decoder_0/OAI22X1_4/B 5009
+C three_eight_decoder_0/OAI22X1_0/B GND 19.5
+R three_eight_decoder_0/OAI22X1_0/B 5049
+R three_eight_decoder_0/NAND2X1_5/a_9_6# 548
+C three_eight_decoder_0/OAI22X1_2/D GND 25.7
+R three_eight_decoder_0/OAI22X1_2/D 5011
+C right GND 56.4
+R right 18161
+R three_eight_decoder_0/NAND2X1_6/a_9_6# 548
+C three_eight_decoder_0/INVX2_2/Y GND 9.1
+R three_eight_decoder_0/INVX2_2/Y 3316
+C three_eight_decoder_0/INVX2_3/Y GND 10.4
+R three_eight_decoder_0/INVX2_3/Y 3280
+R three_eight_decoder_0/OAI22X1_3/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_3/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_3/a_9_54# 1403
+R three_eight_decoder_0/OAI22X1_4/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_4/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_4/a_9_54# 1403
+C three_eight_decoder_0/INVX2_0/Y GND 10.8
+R three_eight_decoder_0/INVX2_0/Y 3315
+R three_eight_decoder_0/NAND2X1_7/a_9_6# 548
+R three_eight_decoder_0/OAI22X1_5/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_5/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_5/a_9_54# 1403
+R three_eight_decoder_0/OAI22X1_6/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_6/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_6/a_9_54# 1403
+R three_eight_decoder_0/OAI22X1_7/a_2_6# 1316
+R three_eight_decoder_0/OAI22X1_7/a_28_54# 1403
+R three_eight_decoder_0/OAI22X1_7/a_9_54# 1403
+C three_eight_decoder_0/OAI22X1_3/C GND 17.7
+R three_eight_decoder_0/OAI22X1_3/C 5222
+R Gnd! 124057

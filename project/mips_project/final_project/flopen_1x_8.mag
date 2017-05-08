@@ -1,0 +1,104 @@
+magic
+tech scmos
+timestamp 1484532171
+<< metal1 >>
+rect 6 966 46 974
+rect 20 918 27 922
+rect 6 876 46 884
+rect 44 868 64 872
+rect 100 868 120 872
+<< m2contact >>
+rect 16 918 20 922
+rect 32 918 36 922
+rect 40 868 44 872
+rect 64 868 68 872
+rect 96 868 100 872
+rect 120 868 124 872
+<< metal2 >>
+rect 16 913 20 918
+rect -1 912 5 913
+rect -1 908 0 912
+rect 4 908 5 912
+rect -1 907 5 908
+rect 15 912 21 913
+rect 15 908 16 912
+rect 20 908 21 912
+rect 15 907 21 908
+rect 0 63 4 907
+rect 32 893 36 918
+rect 7 892 13 893
+rect 7 888 8 892
+rect 12 888 13 892
+rect 7 887 13 888
+rect 31 892 37 893
+rect 31 888 32 892
+rect 36 888 37 892
+rect 31 887 37 888
+rect 8 36 12 887
+rect 40 872 44 878
+rect 64 44 68 868
+rect 72 54 76 878
+rect 96 26 100 868
+rect 104 54 108 878
+rect 120 872 124 878
+<< m3contact >>
+rect 0 908 4 912
+rect 16 908 20 912
+rect 8 888 12 892
+rect 32 888 36 892
+<< metal3 >>
+rect -1 912 21 913
+rect -1 908 0 912
+rect 4 908 16 912
+rect 20 908 21 912
+rect -1 907 21 908
+rect 7 892 37 893
+rect 7 888 8 892
+rect 12 888 32 892
+rect 36 888 37 892
+rect 7 887 37 888
+use inv_4x  inv_4x_0
+timestamp 1484455226
+transform 1 0 8 0 1 880
+box -6 -4 18 96
+use inv_4x  inv_4x_1
+timestamp 1484455226
+transform 1 0 24 0 1 880
+box -6 -4 18 96
+use clkinvbufdual_4x  clkinvbufdual_4x_0
+timestamp 1484532171
+transform 1 0 40 0 1 880
+box -6 -6 90 96
+use flopen_dp_1x  flopen_dp_1x_0
+timestamp 1484455043
+transform 1 0 0 0 1 770
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_1
+timestamp 1484455043
+transform 1 0 0 0 1 660
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_2
+timestamp 1484455043
+transform 1 0 0 0 1 550
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_3
+timestamp 1484455043
+transform 1 0 0 0 1 440
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_4
+timestamp 1484455043
+transform 1 0 0 0 1 330
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_5
+timestamp 1484455043
+transform 1 0 0 0 1 220
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_6
+timestamp 1484455043
+transform 1 0 0 0 1 110
+box -6 -4 138 96
+use flopen_dp_1x  flopen_dp_1x_7
+timestamp 1484455043
+transform 1 0 0 0 1 0
+box -6 -4 138 96
+<< end >>

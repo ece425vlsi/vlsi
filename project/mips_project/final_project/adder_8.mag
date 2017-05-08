@@ -1,0 +1,104 @@
+magic
+tech scmos
+timestamp 1484427118
+<< metal2 >>
+rect 16 825 20 829
+rect 8 809 12 813
+rect 0 802 4 806
+rect 16 715 20 820
+rect 104 781 108 785
+rect 8 699 12 703
+rect 0 692 4 696
+rect 16 605 20 710
+rect 104 671 108 675
+rect 8 589 12 593
+rect 0 582 4 586
+rect 16 495 20 600
+rect 104 561 108 565
+rect 8 479 12 483
+rect 0 472 4 476
+rect 16 385 20 490
+rect 104 451 108 455
+rect 8 369 12 373
+rect 0 362 4 366
+rect 16 275 20 380
+rect 104 341 108 345
+rect 8 259 12 263
+rect 0 252 4 256
+rect 16 165 20 270
+rect 104 231 108 235
+rect 8 149 12 153
+rect 0 142 4 146
+rect 16 55 20 162
+rect 104 121 108 125
+rect 16 47 20 51
+rect 8 39 12 43
+rect 0 32 4 36
+rect 104 11 108 15
+use fulladder  fulladder_0
+timestamp 1484419411
+transform 1 0 2 0 1 770
+box -8 -4 128 96
+use fulladder  fulladder_1
+timestamp 1484419411
+transform 1 0 2 0 1 660
+box -8 -4 128 96
+use fulladder  fulladder_2
+timestamp 1484419411
+transform 1 0 2 0 1 550
+box -8 -4 128 96
+use fulladder  fulladder_3
+timestamp 1484419411
+transform 1 0 2 0 1 440
+box -8 -4 128 96
+use fulladder  fulladder_4
+timestamp 1484419411
+transform 1 0 2 0 1 330
+box -8 -4 128 96
+use fulladder  fulladder_5
+timestamp 1484419411
+transform 1 0 2 0 1 220
+box -8 -4 128 96
+use fulladder  fulladder_6
+timestamp 1484419411
+transform 1 0 2 0 1 110
+box -8 -4 128 96
+use fulladder  fulladder_7
+timestamp 1484419411
+transform 1 0 2 0 1 0
+box -8 -4 128 96
+<< labels >>
+rlabel metal2 1 34 1 34 1 a_0_
+rlabel metal2 9 41 9 41 1 b_0_
+rlabel metal2 1 144 1 144 1 a_1_
+rlabel metal2 9 151 9 151 1 b_1_
+rlabel metal2 0 252 4 256 1 a_2_
+rlabel metal2 8 259 12 263 1 b_2_
+rlabel metal2 0 362 4 366 1 a_3_
+rlabel metal2 8 369 12 373 1 b_3_
+rlabel metal2 0 472 4 476 1 a_4_
+rlabel metal2 8 479 12 483 1 b_4_
+rlabel metal2 0 582 4 586 1 a_5_
+rlabel metal2 8 589 12 593 1 b_5_
+rlabel metal2 0 692 4 696 1 a_6_
+rlabel metal2 8 699 12 703 1 b_6_
+rlabel metal2 0 802 4 806 1 a_7_
+rlabel metal2 8 809 12 813 1 b_7_
+rlabel metal2 16 47 20 51 1 cin
+rlabel metal2 104 11 108 15 1 s_0_
+rlabel metal2 104 121 108 125 1 s_1_
+rlabel metal2 104 231 108 235 1 s_2_
+rlabel metal2 104 341 108 345 1 s_3_
+rlabel metal2 104 451 108 455 1 s_4_
+rlabel metal2 104 561 108 565 1 s_5_
+rlabel metal2 104 671 108 675 1 s_6_
+rlabel metal2 104 781 108 785 1 s_7_
+rlabel metal2 16 825 20 829 1 cout
+rlabel metal2 16 715 20 719 1 c_7_
+rlabel metal2 16 605 20 609 1 c_6_
+rlabel metal2 16 495 20 499 1 c_5_
+rlabel metal2 16 165 20 169 1 c_2_
+rlabel metal2 16 55 20 59 1 c_1_
+rlabel metal2 16 275 20 279 1 c_3_
+rlabel metal2 16 385 20 389 1 c_4_
+<< end >>

@@ -1,0 +1,19 @@
+magic
+tech scmos
+timestamp 1484533408
+<< metal2 >>
+rect 8 866 12 882
+rect 16 866 20 882
+rect 24 866 28 882
+rect 32 866 36 882
+rect 48 866 52 882
+rect 56 866 60 882
+use regram_zipper  regram_zipper_0
+timestamp 1484533408
+transform 1 0 0 0 1 880
+box -6 -4 74 426
+use regram_8  regram_8_0
+timestamp 1484532171
+transform 1 0 0 0 1 0
+box -6 -4 74 870
+<< end >>

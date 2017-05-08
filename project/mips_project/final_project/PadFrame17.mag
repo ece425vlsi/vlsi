@@ -1,0 +1,180 @@
+magic
+tech scmos
+timestamp 1491676833
+use PADFC  PADFC_0
+timestamp 949001400
+transform 1 0 0 0 1 4000
+box 327 -3 1003 673
+use PADINC  reset
+timestamp 1084294328
+transform 1 0 1000 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr0
+timestamp 1084294529
+transform 1 0 1300 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr1
+timestamp 1084294529
+transform 1 0 1600 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr2
+timestamp 1084294529
+transform 1 0 1900 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr3
+timestamp 1084294529
+transform 1 0 2200 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr4
+timestamp 1084294529
+transform 1 0 2500 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr5
+timestamp 1084294529
+transform 1 0 2800 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr6
+timestamp 1084294529
+transform 1 0 3100 0 1 4000
+box -6 -3 303 1000
+use PADOUT  adr7
+timestamp 1084294529
+transform 1 0 3400 0 1 4000
+box -6 -3 303 1000
+use PADOUT  MemWrite
+timestamp 1084294529
+transform 1 0 3700 0 1 4000
+box -6 -3 303 1000
+use PADFC  PADFC_3
+timestamp 949001400
+transform 0 1 4000 -1 0 5000
+box 327 -3 1003 673
+use PADINC  ph1
+timestamp 1084294328
+transform 0 -1 1000 1 0 3700
+box -6 -3 303 1000
+use PADINC  ph2
+timestamp 1084294328
+transform 0 -1 1000 1 0 3400
+box -6 -3 303 1000
+use PADINC  memdata7
+timestamp 1084294328
+transform 0 -1 1000 1 0 3100
+box -6 -3 303 1000
+use PADINC  memdata6
+timestamp 1084294328
+transform 0 -1 1000 1 0 2800
+box -6 -3 303 1000
+use PADINC  memdata5
+timestamp 1084294328
+transform 0 -1 1000 1 0 2500
+box -6 -3 303 1000
+use PADINC  memdata4
+timestamp 1084294328
+transform 0 -1 1000 1 0 2200
+box -6 -3 303 1000
+use PADINC  memdata3
+timestamp 1084294328
+transform 0 -1 1000 1 0 1900
+box -6 -3 303 1000
+use PADINC  memdata2
+timestamp 1084294328
+transform 0 -1 1000 1 0 1600
+box -6 -3 303 1000
+use PADOUT  memdata1
+timestamp 1084294529
+transform 0 -1 1000 1 0 1300
+box -6 -3 303 1000
+use PADVDD  PADVDD_0
+timestamp 1084294447
+transform 0 1 4000 -1 0 3997
+box -3 -3 303 1000
+use PADGND  PADGND_0
+timestamp 1084294269
+transform 0 1 4000 -1 0 3698
+box -3 -3 303 1000
+use PADNC  PADNC_9
+timestamp 1084294400
+transform 0 1 4000 1 0 3100
+box -3 -3 303 1000
+use PADNC  PADNC_8
+timestamp 1084294400
+transform 0 1 4000 1 0 2800
+box -3 -3 303 1000
+use PADNC  PADNC_7
+timestamp 1084294400
+transform 0 1 4000 1 0 2500
+box -3 -3 303 1000
+use PADNC  PADNC_6
+timestamp 1084294400
+transform 0 1 4000 1 0 2200
+box -3 -3 303 1000
+use PADNC  PADNC_5
+timestamp 1084294400
+transform 0 1 4000 1 0 1900
+box -3 -3 303 1000
+use PADNC  PADNC_4
+timestamp 1084294400
+transform 0 1 4000 1 0 1600
+box -3 -3 303 1000
+use PADNC  PADNC_3
+timestamp 1084294400
+transform 0 1 4000 1 0 1300
+box -3 -3 303 1000
+use PADOUT  memdata0
+timestamp 1084294529
+transform 0 -1 1000 1 0 1000
+box -6 -3 303 1000
+use PADFC  PADFC_2
+timestamp 949001400
+transform 0 -1 1000 1 0 0
+box 327 -3 1003 673
+use PADOUT  writedata0
+timestamp 1084294529
+transform -1 0 1300 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata1
+timestamp 1084294529
+transform -1 0 1600 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata2
+timestamp 1084294529
+transform -1 0 1900 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata3
+timestamp 1084294529
+transform -1 0 2200 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata4
+timestamp 1084294529
+transform -1 0 2500 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata5
+timestamp 1084294529
+transform -1 0 2800 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata6
+timestamp 1084294529
+transform -1 0 3100 0 -1 1000
+box -6 -3 303 1000
+use PADOUT  writedata7
+timestamp 1084294529
+transform -1 0 3400 0 -1 1000
+box -6 -3 303 1000
+use PADNC  PADNC_0
+timestamp 1084294400
+transform 1 0 3400 0 -1 1000
+box -3 -3 303 1000
+use PADNC  PADNC_1
+timestamp 1084294400
+transform 0 1 4000 1 0 1000
+box -3 -3 303 1000
+use PADFC  PADFC_1
+timestamp 949001400
+transform -1 0 4998 0 -1 1000
+box 327 -3 1003 673
+use PADNC  PADNC_2
+timestamp 1084294400
+transform 1 0 3700 0 -1 1000
+box -3 -3 303 1000
+<< end >>
